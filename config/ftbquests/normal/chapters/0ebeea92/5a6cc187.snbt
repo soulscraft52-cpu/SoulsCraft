@@ -1,0 +1,32 @@
+{
+	x: 7.5d,
+	y: 6.5d,
+	text: [
+		"Данный вид планшета, тот же что и зачарованный, но работает по площади. То есть рядом стоящие игроки тоже получит бафы."
+	],
+	dependencies: [
+		"fb949bb3"
+	],
+	tasks: [{
+		uid: "842944b5",
+		type: "item",
+		items: [{
+			id: "tombstone:tablet_of_home",
+			tag: {
+				ancient: 1b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1c231286",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	title: "Ну и нафига я его сердце отдал?",
+	icon: "minecraft:end_crystal",
+	x: -7.5d,
+	y: 0.5d,
+	text: [
+		"Чтобы воскресить дракона, нужно поставить 4 кристалла Энда по краям портала из Энда в обычный мир."
+	],
+	dependencies: [
+		"501f9d5f"
+	],
+	tasks: [{
+		uid: "68257f2e",
+		type: "item",
+		items: [{
+			item: "minecraft:end_crystal 4"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "b7653ac6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

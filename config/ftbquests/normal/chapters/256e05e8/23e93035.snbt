@@ -1,0 +1,30 @@
+{
+	x: -1.5d,
+	y: -2.0d,
+	text: [
+		"Элементарные 90 EF/t"
+	],
+	dependencies: [
+		"1d2981a2",
+		"90a70208"
+	],
+	tasks: [{
+		uid: "9efe7b24",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:reactorprotonsimple"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6fb2639e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

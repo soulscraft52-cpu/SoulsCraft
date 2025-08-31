@@ -1,0 +1,45 @@
+{
+	title: "Место для твоих пчёл",
+	icon: "forestry:bee_chest",
+	x: -15.5d,
+	y: -4.0d,
+	text: [
+		"Тут ты можешь хрантить своих пчёл, используется в крафтах"
+	],
+	dependencies: [
+		"6e5f5628"
+	],
+	tasks: [{
+		uid: "9f471c76",
+		type: "item",
+		items: [{
+			item: "forestry:bee_chest"
+		}]
+	}],
+	rewards: [{
+		uid: "2ff4fde3",
+		type: "item",
+		item: "forestry:bee_combs",
+		count: 8
+	},
+	{
+		uid: "c7281ac6",
+		type: "item",
+		item: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyVariant: "neon",
+				TrophyColorGreen: 128,
+				TrophyShowsTooltip: 1b,
+				TrophyItem: {
+					id: "forestry:bee_combs",
+					Count: 1b,
+					Damage: 0s
+				},
+				TrophyColorBlue: 128,
+				TrophyName: "Зу зу зу",
+				TrophyColorRed: 128
+			}
+		}
+	}]
+}

@@ -1,0 +1,51 @@
+{
+	title: "Посох всевластия",
+	icon: {
+		ForgeCaps: {
+			Parent: {
+				Size: 27,
+				Items: []
+			}
+		},
+		id: "draconicevolution:draconic_staff_of_power",
+		Damage: 32767s
+	},
+	x: -0.5d,
+	y: -4.0d,
+	text: [
+		"С этим посох для вас нет границ..."
+	],
+	dependencies: [
+		"2cd6063d",
+		"d488a3f4",
+		"e5f52750",
+		"b09b292d",
+		"17d1fbb6"
+	],
+	tasks: [{
+		uid: "fa8181ba",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					Size: 27,
+					Items: []
+				}
+			},
+			id: "draconicevolution:draconic_staff_of_power"
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "ebc434e6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 2,
+		random_bonus: 1
+	}]
+}

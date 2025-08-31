@@ -1,0 +1,28 @@
+{
+	title: "Розетка малого напряжения",
+	x: -1.5d,
+	y: -18.0d,
+	text: [
+		"Стоит её прокачать"
+	],
+	dependencies: [
+		"69141585"
+	],
+	tasks: [{
+		uid: "556bfc1f",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockenergyinputhatch 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "af6114fe",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

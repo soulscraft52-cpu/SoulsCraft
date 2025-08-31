@@ -1,0 +1,30 @@
+{
+	title: "Всем привет, с вами мистер Анфайни",
+	icon: "extrautils2:itembuilderswand",
+	x: -9.5d,
+	y: -5.0d,
+	text: [
+		"Палочка-выручалочка"
+	],
+	dependencies: [
+		"0beed00c"
+	],
+	tasks: [{
+		uid: "9b7c028a",
+		type: "item",
+		items: [{
+			item: "extrautils2:itembuilderswand"
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "58356a60",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

@@ -1,0 +1,33 @@
+{
+	x: -22.0d,
+	y: -16.0d,
+	dependencies: [
+		"cfcd8915"
+	],
+	tasks: [{
+		uid: "c5cce96b",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:water_neutron",
+			tag: {
+				damage: 27648000,
+				hasID: 1b,
+				canupgrade: 1b,
+				maxDamage: 27648000,
+				ID_Item: 21
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5faee56f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	title: "Самый, самый",
+	icon: "galacticraftcore:machine4",
+	x: -9.5d,
+	y: -3.5d,
+	text: [
+		"Для ваших же пластин"
+	],
+	dependencies: [
+		"5453bff3",
+		"08c445d9"
+	],
+	tasks: [{
+		uid: "171d9b18",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:machine4"
+		}]
+	}],
+	rewards: [{
+		uid: "3936988a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		}
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	x: -1.5d,
+	y: -1.0d,
+	text: [
+		"Актиноидовые 90 EF/t"
+	],
+	dependencies: [
+		"1d2981a2"
+	],
+	tasks: [{
+		uid: "678964ab",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:reactorcuriumsimple"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8583a52b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

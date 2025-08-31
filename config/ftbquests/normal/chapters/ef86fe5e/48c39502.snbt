@@ -1,0 +1,62 @@
+{
+	title: "Халявный булыжник",
+	icon: {
+		id: "thermalexpansion:machine",
+		tag: {
+			RSControl: 0b,
+			Facing: 3b,
+			Energy: 0,
+			SideCache: [B;
+				1b,
+				1b,
+				2b,
+				2b,
+				2b,
+				2b
+			],
+			Level: 0b
+		},
+		Damage: 15s
+	},
+	x: -21.0d,
+	y: -13.0d,
+	text: [
+		"Наконец-то можно делать сжатый булыжник"
+	],
+	dependencies: [
+		"44652a06"
+	],
+	tasks: [{
+		uid: "64615ef6",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					1b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 15s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e4de9277",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

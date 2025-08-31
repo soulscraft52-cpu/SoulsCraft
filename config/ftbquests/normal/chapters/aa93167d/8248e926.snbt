@@ -1,0 +1,36 @@
+{
+	title: "Новый источник саннариума",
+	icon: "industrialupgrade:se_gen",
+	x: -6.5d,
+	y: -3.0d,
+	text: [
+		"Даже энергии не требует!"
+	],
+	dependencies: [
+		"eaa746ec"
+	],
+	tasks: [{
+		uid: "86170db0",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:se_gen"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "026e31a9",
+		type: "item",
+		item: "industrialupgrade:itemsunnarium 1 4",
+		count: 8
+	},
+	{
+		uid: "a739029e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

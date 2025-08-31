@@ -1,0 +1,37 @@
+{
+	icon: "industrialupgrade:crafting_elements 1 444",
+	x: -8.0d,
+	y: -9.5d,
+	text: [
+		"Эта нить подозрительно светится"
+	],
+	dependencies: [
+		"6e9d71af"
+	],
+	tasks: [{
+		uid: "78a2a9c4",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:crafting_elements 1 444"
+		}],
+		count: 8L
+	},
+	{
+		uid: "0d0aca94",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:crafting_elements"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "a54ce694",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

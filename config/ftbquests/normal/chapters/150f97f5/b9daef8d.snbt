@@ -1,0 +1,31 @@
+{
+	title: "Да блин, я не могу так!!!",
+	x: -6.0d,
+	y: -6.5d,
+	text: [
+		"Так СТОП ты пообещал мне что это последний корпус!",
+		"Так это последнее обещание которое я тебе дал",
+		"ОК?"
+	],
+	dependencies: [
+		"a037cf8b",
+		"b8bc6b32"
+	],
+	tasks: [{
+		uid: "77c8c575",
+		type: "item",
+		items: [{
+			item: "contenttweaker:transmutation_casing"
+		}]
+	}],
+	rewards: [{
+		uid: "ab2de8a8",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		}
+	}]
+}

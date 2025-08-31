@@ -1,0 +1,58 @@
+{
+	title: "Эдемова броня",
+	icon: "divinerpg:eden_chestplate",
+	x: -6.0d,
+	y: -3.5d,
+	text: [
+		"Используй на свой страх и риск"
+	],
+	dependencies: [
+		"ab98f1cb"
+	],
+	tasks: [{
+		uid: "bae70235",
+		type: "item",
+		items: [{
+			item: "divinerpg:eden_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ebe03bd2",
+		type: "item",
+		items: [{
+			item: "divinerpg:eden_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "75405e1b",
+		type: "item",
+		items: [{
+			item: "divinerpg:eden_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "75f15cc2",
+		type: "item",
+		items: [{
+			item: "divinerpg:eden_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f12ca60d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	x: 8.5d,
+	y: -11.5d,
+	text: [
+		"Эх Зестиал ты такой идиот раз потерял свой пояс "
+	],
+	dependencies: [
+		"97058304",
+		"425ead85"
+	],
+	tasks: [{
+		uid: "cacce7df",
+		type: "item",
+		items: [{
+			item: "contenttweaker:zestial_belt"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "72a4f489",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "5"
+			}
+		},
+		count: 2
+	}]
+}

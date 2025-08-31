@@ -1,0 +1,38 @@
+{
+	title: "Дерево",
+	icon: "minecraft:log",
+	x: -22.0d,
+	y: -8.5d,
+	text: [
+		"Теперь уже будет проще..."
+	],
+	dependencies: [
+		"0fd17697"
+	],
+	tasks: [{
+		uid: "a5148549",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "logWood",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any logWood"
+				}
+			}
+		}],
+		count: 8L,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "456bf7de",
+		type: "item",
+		item: "minecraft:log",
+		count: 32
+	}]
+}

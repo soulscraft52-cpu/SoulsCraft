@@ -1,0 +1,40 @@
+{
+	title: "Дрянь какая",
+	x: -6.0d,
+	y: -10.5d,
+	text: [
+		"Попробуйте продержаться всё действие этого эликсира и не умереть)"
+	],
+	dependencies: [
+		"cdbfae3d"
+	],
+	tasks: [{
+		uid: "a9d958be",
+		type: "item",
+		items: [{
+			id: "minecraft:potion",
+			tag: {
+				Potion: "soulscraft:corruptedsunbloompotion"
+			}
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "d576f2c3",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		},
+		random_bonus: 1
+	},
+	{
+		uid: "a193db42",
+		type: "item",
+		item: "soulscraft:deadofnight"
+	}]
+}

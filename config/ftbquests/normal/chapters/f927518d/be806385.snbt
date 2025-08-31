@@ -1,0 +1,25 @@
+{
+	x: 2.5d,
+	y: -0.5d,
+	dependencies: [
+		"869d318d",
+		"af5c6fe7"
+	],
+	tasks: [{
+		uid: "84091967",
+		type: "item",
+		items: [{
+			item: "thaumadditions:vis_seeds/aversio"
+		}]
+	}],
+	rewards: [{
+		uid: "1ae95888",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		}
+	}]
+}

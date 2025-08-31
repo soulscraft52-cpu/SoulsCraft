@@ -1,0 +1,30 @@
+{
+	title: "Круто",
+	x: -2.5d,
+	y: -21.0d,
+	shape: "square",
+	text: [
+		"Что тут ещё можно сказать?"
+	],
+	dependencies: [
+		"e0a63c50"
+	],
+	tasks: [{
+		uid: "099fcf99",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockfluidoutputhatch 1 7"
+		}]
+	}],
+	rewards: [{
+		uid: "de74bd48",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 2
+	}]
+}

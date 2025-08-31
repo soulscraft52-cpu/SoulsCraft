@@ -1,0 +1,32 @@
+{
+	title: "Булыга",
+	icon: "minecraft:cobblestone",
+	x: -19.5d,
+	y: -7.0d,
+	text: [
+		"Это всё что тебе нужно"
+	],
+	dependencies: [
+		"da026fb5"
+	],
+	tasks: [{
+		uid: "b7b940e2",
+		type: "item",
+		items: [{
+			item: "minecraft:cobblestone 64"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "afe996e6",
+		type: "item",
+		item: "minecraft:cobblestone",
+		count: 32
+	},
+	{
+		uid: "d294a397",
+		type: "item",
+		item: "minecraft:stone",
+		count: 32
+	}]
+}

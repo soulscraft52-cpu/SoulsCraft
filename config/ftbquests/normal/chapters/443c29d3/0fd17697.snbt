@@ -1,0 +1,27 @@
+{
+	title: "Простой топорик",
+	icon: "notreepunching:axe/flint",
+	x: -20.0d,
+	y: -10.0d,
+	text: [
+		"Ваш базовый топор для добычи дерева"
+	],
+	dependencies: [
+		"2ea1455f",
+		"ad8d0716"
+	],
+	tasks: [{
+		uid: "d3095e6a",
+		type: "item",
+		items: [{
+			item: "notreepunching:axe/flint"
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "d3df78ec",
+		type: "item",
+		item: "harvestcraft:roastpotatoesitem",
+		count: 4
+	}]
+}

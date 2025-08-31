@@ -1,0 +1,30 @@
+{
+	title: "Служит своим целям",
+	icon: "industrialupgrade:double_transformer",
+	x: -8.0d,
+	y: 0.0d,
+	text: [
+		"Поможет в прокачке вашей брони и панелей"
+	],
+	dependencies: [
+		"7bf10f6e"
+	],
+	tasks: [{
+		uid: "9a55057a",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:double_transformer"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "fd597e5e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

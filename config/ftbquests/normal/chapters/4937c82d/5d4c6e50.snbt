@@ -1,0 +1,27 @@
+{
+	x: -10.5d,
+	y: -18.0d,
+	text: [
+		"Простой блок без функций"
+	],
+	dependencies: [
+		"50d0e596"
+	],
+	tasks: [{
+		uid: "08352bd6",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "e95123c1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

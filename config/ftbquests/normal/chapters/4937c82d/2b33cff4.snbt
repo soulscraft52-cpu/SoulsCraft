@@ -1,0 +1,29 @@
+{
+	title: "О ну тут я соглашусь",
+	x: -2.5d,
+	y: -19.0d,
+	text: [
+		"С чем?"
+	],
+	dependencies: [
+		"197150bb"
+	],
+	tasks: [{
+		uid: "c560c228",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockfluidoutputhatch 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "cd98d9ea",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		},
+		count: 2
+	}]
+}

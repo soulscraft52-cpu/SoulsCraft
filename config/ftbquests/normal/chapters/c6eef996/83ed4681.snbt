@@ -1,0 +1,28 @@
+{
+	x: -18.5d,
+	y: 2.0d,
+	text: [
+		"Можно получить из Трудолюбивой матки"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"6d4fdd0a"
+	],
+	tasks: [{
+		uid: "40b4430d",
+		type: "item",
+		items: [{
+			item: "forestry:pollen"
+		}]
+	}],
+	rewards: [{
+		uid: "22e40c6c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

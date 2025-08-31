@@ -1,0 +1,30 @@
+{
+	x: -1.5d,
+	y: -8.0d,
+	text: [
+		"Долгожданные первые 8 EF/t"
+	],
+	dependencies: [
+		"036ed621",
+		"1d2981a2"
+	],
+	tasks: [{
+		uid: "3f9133e3",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:uranium_fuel_rod"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "07a87dec",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

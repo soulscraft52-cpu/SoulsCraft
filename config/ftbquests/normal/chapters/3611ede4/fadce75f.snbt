@@ -1,0 +1,29 @@
+{
+	title: "Так просто?",
+	x: -1.5d,
+	y: -7.5d,
+	text: [
+		"Работает на УРА"
+	],
+	dependencies: [
+		"4bcd859d"
+	],
+	tasks: [{
+		uid: "90c91145",
+		type: "item",
+		items: [{
+			item: "contenttweaker:mining_module1"
+		}]
+	}],
+	rewards: [{
+		uid: "1d1a4385",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		},
+		count: 6
+	}]
+}

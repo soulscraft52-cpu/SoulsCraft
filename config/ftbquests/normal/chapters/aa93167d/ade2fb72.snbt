@@ -1,0 +1,31 @@
+{
+	title: "Кто-то их крафтит?",
+	icon: "industrialupgrade:machines 1 10",
+	x: 9.0d,
+	y: -2.0d,
+	text: [
+		"Хватит, чтобы запитать майнинг ферму"
+	],
+	dependencies: [
+		"6f814e76"
+	],
+	tasks: [{
+		uid: "6ba50eeb",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:machines 1 10"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "cb670919",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 8
+	}]
+}

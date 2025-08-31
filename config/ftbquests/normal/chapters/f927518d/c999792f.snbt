@@ -1,0 +1,31 @@
+{
+	title: "Эндер кристалльчики",
+	x: -11.5d,
+	y: 3.5d,
+	text: [
+		"Соберите 64 и отдайте мне.",
+		"§7Подробнее о них вы можете почитать в описании в JEI."
+	],
+	dependencies: [
+		"f3ad0dd7"
+	],
+	tasks: [{
+		uid: "9244624b",
+		type: "item",
+		items: [{
+			item: "thaumictinkerer:kamiresource"
+		}],
+		count: 64L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "aca16866",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

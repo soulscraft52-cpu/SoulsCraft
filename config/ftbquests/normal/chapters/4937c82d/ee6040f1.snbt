@@ -1,0 +1,64 @@
+{
+	x: 6.0d,
+	y: -10.5d,
+	text: [
+		"Боль это о не просто чувства это жизнь"
+	],
+	dependencies: [
+		"6758224d"
+	],
+	tasks: [{
+		uid: "79e12660",
+		type: "item",
+		items: [{
+			id: "thaumcraft:crimson_blade",
+			tag: {
+				ench: [{
+					lvl: 25s,
+					id: 16s
+				},
+				{
+					lvl: 5s,
+					id: 20s
+				},
+				{
+					lvl: 10s,
+					id: 102s
+				},
+				{
+					lvl: 10s,
+					id: 75s
+				},
+				{
+					lvl: 5s,
+					id: 46s
+				},
+				{
+					lvl: 5s,
+					id: 42s
+				},
+				{
+					lvl: 10s,
+					id: 86s
+				}],
+				RepairCost: 127,
+				display: {
+					Name: "Клинок Боли"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e5210d62",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "5"
+			}
+		},
+		count: 2
+	}]
+}

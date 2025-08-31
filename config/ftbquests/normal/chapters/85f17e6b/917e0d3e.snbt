@@ -1,0 +1,29 @@
+{
+	title: "Это база",
+	x: -10.0d,
+	y: -1.5d,
+	text: [
+		"Курочка по семечку, точно!"
+	],
+	dependencies: [
+		"e2ef3a17",
+		"ed1ea190"
+	],
+	tasks: [{
+		uid: "c48baa9f",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:crafting 1 16"
+		}]
+	}],
+	rewards: [{
+		uid: "170517bf",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

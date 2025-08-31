@@ -1,0 +1,30 @@
+{
+	title: "Авто Верстак 9x9",
+	x: -15.5d,
+	y: -3.5d,
+	text: [
+		"Теперь жизнь стала легче"
+	],
+	dependencies: [
+		"bbbe3fa2",
+		"43f59cd7"
+	],
+	tasks: [{
+		uid: "e6fa5f6c",
+		type: "item",
+		items: [{
+			item: "packagedavaritia:extreme_crafter"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "82839d99",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		}
+	}]
+}

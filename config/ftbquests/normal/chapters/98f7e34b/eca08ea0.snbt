@@ -1,0 +1,19 @@
+{
+	title: "Единственый предмет который может сам себя дюпать",
+	x: 3.5d,
+	y: 7.5d,
+	text: [
+		"Будьте хитрее"
+	],
+	dependencies: [
+		"9f4f32d5"
+	],
+	tasks: [{
+		uid: "b9cf76f5",
+		type: "item",
+		items: [{
+			item: "storagedrawers:upgrade_creative 1 1"
+		}],
+		ignore_nbt: 1b
+	}]
+}

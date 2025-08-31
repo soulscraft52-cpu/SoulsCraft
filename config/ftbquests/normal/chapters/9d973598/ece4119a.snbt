@@ -1,0 +1,32 @@
+{
+	title: "Дикий лес",
+	icon: "divinerpg:eden_block",
+	x: -2.5d,
+	y: -6.0d,
+	text: [
+		"Постройте следующий портал"
+	],
+	dependencies: [
+		"ab98f1cb"
+	],
+	tasks: [{
+		uid: "572186f2",
+		type: "item",
+		items: [{
+			item: "divinerpg:eden_block 10"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "e85a85a9",
+		type: "item",
+		item: "divinerpg:eden_chunk",
+		count: 4
+	},
+	{
+		uid: "701f9422",
+		type: "item",
+		item: "harvestcraft:bltitem",
+		count: 16
+	}]
+}

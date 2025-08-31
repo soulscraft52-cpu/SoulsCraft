@@ -1,0 +1,140 @@
+itemGroup.projectex=Project EX
+
+tile.projectex.energy_link.name=Базовый Энергетический EMC Линк
+tile.projectex.energy_link.tooltip=Вы можете использовать этот блок для добавления EMC в вашу таблицу трансмутации с помощью коллекторов.
+tile.projectex.personal_link.name=Персональный EMC Линк
+tile.projectex.personal_link.tooltip=То же, что и базовый Энергетический EMC Линк, но также позволяет импортировать и экспортировать товары.
+tile.projectex.refined_link.name=Прочный EMC Линк
+tile.projectex.refined_link.tooltip=То же, что и Персональный EMC Линк, но имеет 1 входной слот и 9 выходных слотов. Разработан для использования с усовершенствованными системами хранения данных. Он также извлекает элементы из входных слотов.
+tile.projectex.compressed_refined_link.name=Сжатый Прочный EMC Линк
+tile.projectex.compressed_refined_link.tooltip=Такой же как Прочный EMC Линк, но имеет 54 выходных слота.
+
+tile.projectex.collector.basic.name=Базовый Сборщик [MK1]
+tile.projectex.collector.dark.name=Сборщик из Темной Материи [MK2]
+tile.projectex.collector.red.name=Сборщик из Красной Материи [MK3]
+tile.projectex.collector.magenta.name=Сборщик из Малиновой Материи [MK4]
+tile.projectex.collector.pink.name=Сборщик из Розовой Материи [MK5]
+tile.projectex.collector.purple.name=Сборщик из Пурпурной Материи [MK6]
+tile.projectex.collector.violet.name=Сборщик из Фиолетовой Материи [MK7]
+tile.projectex.collector.blue.name=Сборщик из Синей Материи [MK8]
+tile.projectex.collector.cyan.name=Сборщик из Голубой Материи [MK9]
+tile.projectex.collector.green.name=Сборщик из Зеленой Материи [MK10]
+tile.projectex.collector.lime.name=Сборщик из Лаймовой Материи [MK11]
+tile.projectex.collector.yellow.name=Сборщик из Желтой Материи [MK12]
+tile.projectex.collector.orange.name=Сборщик из Оранжевой Материи [MK13]
+tile.projectex.collector.white.name=Сборщик из Белой Материи [MK14]
+tile.projectex.collector.fading.name=Сборщик из Затухающей Материи [MK15]
+
+tile.projectex.collector.final.name=Последний Сборщик
+tile.projectex.collector.tooltip=Дружественный к TPS сервер. Генерирует EMC только один раз в секунду.
+tile.projectex.collector.emc_produced=Производит EMC: %s/s
+tile.projectex.collector.compressed=Сжатый, Материал для Крафтов
+
+tile.projectex.relay.basic.name=Базовый Реле [MK1]
+tile.projectex.relay.dark.name=Реле из Темной Материи [MK2]
+tile.projectex.relay.red.name=Реле из Красной Материи [MK3]
+tile.projectex.relay.magenta.name=Реле из Малиновой Материи [MK4]
+tile.projectex.relay.pink.name=Реле из Розовой Материи [MK5]
+tile.projectex.relay.purple.name=Реле из Пурпурной Материи [MK6]
+tile.projectex.relay.violet.name=Реле из Фиолетовой Материи [MK7]
+tile.projectex.relay.blue.name=Реле из Синей Материи [MK8]
+tile.projectex.relay.cyan.name=Реле из Голубой Материи [MK9]
+tile.projectex.relay.green.name=Реле из Зеленой Материи [MK10]
+tile.projectex.relay.lime.name=Реле из Лаймовой Материи [MK11]
+tile.projectex.relay.yellow.name=Реле из Желтой Материи [MK12]
+tile.projectex.relay.orange.name=Реле из Оранжевой Материи [MK13]
+tile.projectex.relay.white.name=Реле из Белой Материи [MK14]
+tile.projectex.relay.fading.name=Реле из Затухающей Материи [MK15]
+
+tile.projectex.relay.final.name=Последнее Реле
+tile.projectex.relay.tooltip=Дружественный к TPS сервер. Передает EMC только один раз в секунду.
+tile.projectex.relay.max_transfer=Максимальное Перемещение EMC: %s/s
+tile.projectex.relay.relay_bonus=Бонус Реле: %s/s
+
+tile.projectex.power_flower.basic.name=Базовый Power Flower Bonsai Pot [MK1]
+tile.projectex.power_flower.dark.name=Мощный Цветочный Горшок Для Бонсай из Темной Материи[MK2]
+tile.projectex.power_flower.red.name=Мощный Цветочный Горшок Для Бонсай из Красной Материи[MK3]
+tile.projectex.power_flower.magenta.name=Мощный Цветочный Горшок Для Бонсай из Малиновой Материи[MK4]
+tile.projectex.power_flower.pink.name=Мощный Цветочный Горшок Для Бонсай из Розовой Материи[MK5]
+tile.projectex.power_flower.purple.name=Мощный Цветочный Горшок Для Бонсай из Пурпурной Материи[MK6]
+tile.projectex.power_flower.violet.name=Мощный Цветочный Горшок Для Бонсай из Фиолетовой Материи[MK7]
+tile.projectex.power_flower.blue.name=Мощный Цветочный Горшок Для Бонсай из Синей Материи[MK8]
+tile.projectex.power_flower.cyan.name=Мощный Цветочный Горшок Для Бонсай из Голубой Материи[MK9]
+tile.projectex.power_flower.green.name=Мощный Цветочный Горшок Для Бонсай из Зеленой Материи[MK10]
+tile.projectex.power_flower.lime.name=Мощный Цветочный Горшок Для Бонсай из Лаймовой Материи[MK11]
+tile.projectex.power_flower.yellow.name=Мощный Цветочный Горшок Для Бонсай из Желтой Материи[MK12]
+tile.projectex.power_flower.orange.name=Мощный Цветочный Горшок Для Бонсай из Оранжевой Материи[MK13]
+tile.projectex.power_flower.white.name= Мощный Цветочный Горшок Для Бонсай из Белой Материи[MK14]
+tile.projectex.power_flower.fading.name=Мощный Цветочный Горшок Для Бонсай из Затухающей Материи[MK15]
+
+tile.projectex.power_flower.final.name=Последний Мощный Цветочный Горшок Для Бонсай
+
+tile.projectex.stone_table.name=Каменный Стол Трансмутации
+tile.projectex.stone_table.learn=Учить
+tile.projectex.stone_table.unlearn=Отучаться
+tile.projectex.alchemy_table.name=Алхимический Стол
+
+item.projectex.magnum_star_ein.name=Магнум Звезда Ein
+item.projectex.magnum_star_zwei.name=Магнум Звезда Zwei
+item.projectex.magnum_star_drei.name=Магнум Звезда Drei
+item.projectex.magnum_star_vier.name=Магнум Звезда Vier
+item.projectex.magnum_star_sphere.name=Магнум Звезда Сфера
+item.projectex.magnum_star_omega.name=Магнум Звезда Омега
+item.projectex.colossal_star_ein.name=Колоссальная Звезда Ein
+item.projectex.colossal_star_zwei.name=Колоссальная Звезда Zwei
+item.projectex.colossal_star_drei.name=Колоссальная Звезда Drei
+item.projectex.colossal_star_vier.name=Колоссальная Звезда Vier
+item.projectex.colossal_star_sphere.name=Колоссальная Звезда Sphere
+item.projectex.colossal_star_omega.name=Колоссальная Звезда Омега
+item.projectex.matter.magenta.name=Малиновая Материя
+item.projectex.matter.pink.name=Розовая Материя
+item.projectex.matter.purple.name=Пурпурная Материя
+item.projectex.matter.violet.name=Фиолетовая Материя
+item.projectex.matter.blue.name=Синия Материя
+item.projectex.matter.cyan.name=Бирюзовая Материя
+item.projectex.matter.green.name=Зеленая Материя
+item.projectex.matter.lime.name=Лаймовая Материя
+item.projectex.matter.yellow.name=Желтая Материя
+item.projectex.matter.orange.name=Оранжевая Материя
+item.projectex.matter.white.name=Белая Материя
+item.projectex.matter.gray.name=Серая Материя
+item.projectex.matter.fading.name=Затухающая Материя
+item.projectex.matter.clay.name=Глиняная Материя
+item.projectex.final_star_shard.name=§5§lПоследний Осколок Звезды
+item.projectex.final_star.name=§5§lПоследняя Звезда
+item.projectex.final_star.tooltip=Поставьте сундук рядом с пьедесталом и положите на него предмет, чтобы клонировать его бесконечно.
+item.projectex.knowledge_sharing_book.name=Том Стартовых Знаний
+item.projectex.arcane_tablet.name=Таинственный Планшет Трансмутаций
+
+projectex=Project EX Common
+projectex.general.enable_stone_table_whitelist=Включить каменный стол в белый список
+projectex.general.stone_table_whitelist=Белый список каменных столов
+projectex.general.override_emc_formatter=Переопределить форматировщик EMC
+projectex.general.blacklist_power_flower_from_watch=Черный список Power Flower от Watch
+projectex.general.final_star_copy_any_item=Последняя Звезда Может скопировать любой элемент
+projectex.general.final_star_copy_nbt=Последняя звезда может скопировать NBT
+projectex.general.emc_link_max_out=EMC Линк Максимальный Вход Предметов
+
+projectex.tiers.collector_output=Выход Сборщиков
+projectex.tiers.relay_bonus=Бонус Реле
+projectex.tiers.relay_transfer=Перемещение Реле
+
+projectex.items=Предметы
+projectex.items.stars=Звезды
+projectex.items.collectors=Сборщики
+projectex.items.relays=Реле
+projectex.items.power_flowers=Power Flowers
+projectex.items.tome=Рецепт Тома
+
+projectex_client=Project EX Client
+projectex.general.emc_screen_position=EMC Screen Position
+projectex.general.search_type=Search Type
+projectex.general.search_type.normal=Normal
+projectex.general.search_type.autoselected=Auto-selected
+projectex.general.search_type.normal_jei_sync=Normal (JEI Sync)
+projectex.general.search_type.autoselected_jei_sync=Auto-selected (JEI Sync)
+
+gui.stone_table.cant_use=Нельзя использовать этот предмет в Каменном Столе!
+gui.arcane_tablet.rotate=Вращать
+gui.arcane_tablet.balance=Баланс / Распространение
+gui.arcane_tablet.clear=Четкий

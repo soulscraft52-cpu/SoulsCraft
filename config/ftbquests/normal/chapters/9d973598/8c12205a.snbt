@@ -1,0 +1,76 @@
+{
+	title: "И ещё один наборчик мобов",
+	icon: {
+		id: "draconicevolution:mob_soul",
+		tag: {
+			EntityName: "divinerpg:soul_stealer"
+		},
+		Damage: 1s
+	},
+	x: 8.5d,
+	y: -8.5d,
+	text: [
+		"Тёмные мобы"
+	],
+	dependencies: [
+		"126fb96e"
+	],
+	tasks: [{
+		uid: "d17e8af3",
+		type: "kill",
+		entity: "divinerpg:basilisk",
+		value: 1L
+	},
+	{
+		uid: "750ee26c",
+		type: "kill",
+		entity: "divinerpg:demon_of_darkness",
+		value: 1L
+	},
+	{
+		uid: "add77d7d",
+		type: "kill",
+		entity: "divinerpg:angry_bunny",
+		value: 1L
+	},
+	{
+		uid: "7e6b45bc",
+		type: "kill",
+		entity: "divinerpg:sorcerer",
+		value: 1L
+	},
+	{
+		uid: "7f7d8576",
+		type: "kill",
+		entity: "divinerpg:soul_stealer",
+		value: 1L
+	},
+	{
+		uid: "dc88b970",
+		type: "kill",
+		entity: "divinerpg:twilight_archer",
+		value: 1L
+	},
+	{
+		uid: "d400170c",
+		type: "kill",
+		entity: "divinerpg:mortum_cadillion",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "a40878a2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	},
+	{
+		uid: "97c8ea4d",
+		type: "item",
+		item: "divinerpg:mortum_chunk",
+		count: 4
+	}]
+}

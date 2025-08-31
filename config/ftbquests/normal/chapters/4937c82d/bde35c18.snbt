@@ -1,0 +1,87 @@
+{
+	title: "Хммм Такая маленькая но так много функций",
+	icon: "modularmachinery:mystical_farm_controller",
+	x: -5.5d,
+	y: -8.5d,
+	text: [
+		"Цена правда кусается"
+	],
+	dependencies: [
+		"fb5acef0"
+	],
+	tasks: [{
+		uid: "a50f0daa",
+		type: "item",
+		items: [{
+			item: "modularmachinery:mystical_farm_controller"
+		}]
+	},
+	{
+		uid: "dc48eec9",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing 1 5"
+		}]
+	},
+	{
+		uid: "2a2ae031",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockinputbus 1 2"
+		}]
+	},
+	{
+		uid: "bd7a7cdf",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockfluidinputhatch 1 2"
+		}]
+	},
+	{
+		uid: "59468518",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockenergyinputhatch 1 3"
+		}]
+	},
+	{
+		uid: "e68cb6b0",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockoutputbus 1 2"
+		}]
+	},
+	{
+		uid: "341f1a02",
+		type: "item",
+		items: [{
+			item: "contenttweaker:casing_mystical_farm"
+		}],
+		count: 8L
+	},
+	{
+		uid: "22982ca4",
+		type: "item",
+		items: [{
+			item: "galaxyspace:futureglass 1 10"
+		}],
+		count: 8L
+	},
+	{
+		uid: "0f8ea4b6",
+		type: "item",
+		items: [{
+			item: "contenttweaker:core_mystical_farm"
+		}]
+	}],
+	rewards: [{
+		uid: "f8cc43e3",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		}
+	}]
+}

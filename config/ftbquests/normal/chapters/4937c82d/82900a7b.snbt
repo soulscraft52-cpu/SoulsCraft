@@ -1,0 +1,29 @@
+{
+	title: "Ещё плюс 3",
+	x: -4.5d,
+	y: -20.0d,
+	text: [
+		"Имеет 12 слотов"
+	],
+	dependencies: [
+		"7023699a"
+	],
+	tasks: [{
+		uid: "50f7a15d",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockinputbus 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "108eea2c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		},
+		count: 4
+	}]
+}

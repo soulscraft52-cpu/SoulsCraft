@@ -1,0 +1,58 @@
+{
+	title: "Шахтёрская форма",
+	icon: "divinerpg:terran_chestplate",
+	x: -13.5d,
+	y: 1.0d,
+	text: [
+		"Ну только, если ты копатель."
+	],
+	dependencies: [
+		"c75a694c"
+	],
+	tasks: [{
+		uid: "d223dfe9",
+		type: "item",
+		items: [{
+			item: "divinerpg:terran_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "eb3ccd59",
+		type: "item",
+		items: [{
+			item: "divinerpg:terran_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0ab6bcbb",
+		type: "item",
+		items: [{
+			item: "divinerpg:terran_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ed2296aa",
+		type: "item",
+		items: [{
+			item: "divinerpg:terran_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ee58d7e9",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

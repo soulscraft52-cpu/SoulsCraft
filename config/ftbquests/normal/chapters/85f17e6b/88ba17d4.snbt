@@ -1,0 +1,63 @@
+{
+	title: "Ресурсовые семена ур.1",
+	x: -8.0d,
+	y: 0.5d,
+	text: [
+		"Ухты, мы сможем фармить ресурсы из ничего, просто выращивая растения! Немыслимо!"
+	],
+	dependencies: [
+		"44b1b0bd"
+	],
+	tasks: [{
+		uid: "934817f7",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:stone_seeds"
+		}]
+	},
+	{
+		uid: "1bc95525",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:dirt_seeds"
+		}]
+	},
+	{
+		uid: "83fe8bd0",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:nature_seeds"
+		}]
+	},
+	{
+		uid: "cf010511",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:wood_seeds"
+		}]
+	},
+	{
+		uid: "a89e5c16",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:water_seeds"
+		}]
+	},
+	{
+		uid: "3517f703",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:ice_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "df8d7f65",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		}
+	}]
+}

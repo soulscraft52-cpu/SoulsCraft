@@ -1,0 +1,14 @@
+{
+	x: -11.5d,
+	y: 4.0d,
+	dependencies: [
+		"687474cb"
+	],
+	tasks: [{
+		uid: "ef75b95c",
+		type: "item",
+		items: [{
+			item: "crazyae:crafting_storage_16mb"
+		}]
+	}]
+}

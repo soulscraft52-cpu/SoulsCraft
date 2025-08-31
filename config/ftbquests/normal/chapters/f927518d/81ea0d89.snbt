@@ -1,0 +1,26 @@
+{
+	x: -12.5d,
+	y: 3.0d,
+	dependencies: [
+		"f3ad0dd7"
+	],
+	tasks: [{
+		uid: "8a613da4",
+		type: "item",
+		items: [{
+			id: "thaumictinkerer:block_talisman",
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1b18106b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		}
+	}]
+}

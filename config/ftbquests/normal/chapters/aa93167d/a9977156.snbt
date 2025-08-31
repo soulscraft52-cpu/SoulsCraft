@@ -1,0 +1,30 @@
+{
+	title: "С чем комбинировать собрались?",
+	x: -5.5d,
+	y: -8.0d,
+	text: [
+		"Надеюсь это тебе поможет, иначе зачем?"
+	],
+	dependencies: [
+		"c870ece3"
+	],
+	tasks: [{
+		uid: "d0ff6400",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:moremachine1 1 3"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "009a7730",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		},
+		random_bonus: 1
+	}]
+}

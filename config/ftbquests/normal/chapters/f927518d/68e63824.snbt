@@ -1,0 +1,25 @@
+{
+	x: 2.5d,
+	y: 1.5d,
+	dependencies: [
+		"869d318d",
+		"ef880a83"
+	],
+	tasks: [{
+		uid: "c512d938",
+		type: "item",
+		items: [{
+			item: "thaumadditions:vis_seeds/praemunio"
+		}]
+	}],
+	rewards: [{
+		uid: "c848d2d2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		}
+	}]
+}

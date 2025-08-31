@@ -1,0 +1,217 @@
+{
+	title: "Необычный",
+	loot_size: 1,
+	rewards: [{
+		item: "thermalfoundation:material 1 160",
+		count: 16,
+		random_bonus: 8,
+		weight: 35
+	},
+	{
+		item: "railcraft:fuel_coke",
+		count: 32,
+		random_bonus: 16,
+		weight: 35
+	},
+	{
+		item: "minecraft:gold_ingot",
+		count: 16,
+		random_bonus: 8,
+		weight: 35
+	},
+	{
+		item: "minecraft:diamond",
+		count: 6,
+		random_bonus: 2,
+		weight: 35
+	},
+	{
+		item: "minecraft:emerald",
+		count: 4,
+		random_bonus: 2,
+		weight: 35
+	},
+	{
+		item: "thermalexpansion:frame",
+		weight: 35
+	},
+	{
+		item: "thermalexpansion:frame 1 64",
+		weight: 35
+	},
+	{
+		item: "enderio:item_material 1 20",
+		count: 6,
+		random_bonus: 2,
+		weight: 35
+	},
+	{
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:wolf"
+				}
+			}
+		},
+		weight: 35
+	},
+	{
+		item: {
+			id: "cfm:present",
+			tag: {
+				RepairCost: 0,
+				display: {
+					Name: "Набор кольчужной брони"
+				},
+				Author: "SoulsCraft",
+				Present: {
+					Items: [{
+						Slot: 0b,
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "minecraft:chainmail_helmet",
+						Count: 1b,
+						Damage: 0s
+					},
+					{
+						Slot: 1b,
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "minecraft:chainmail_chestplate",
+						Count: 1b,
+						Damage: 0s
+					},
+					{
+						Slot: 2b,
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "minecraft:chainmail_leggings",
+						Count: 1b,
+						Damage: 0s
+					},
+					{
+						Slot: 3b,
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "minecraft:chainmail_boots",
+						Count: 1b,
+						Damage: 0s
+					}]
+				}
+			},
+			Damage: 8s
+		},
+		weight: 35
+	},
+	{
+		item: "minecraft:quartz",
+		count: 32,
+		random_bonus: 16,
+		weight: 35
+	},
+	{
+		item: {
+			id: "cyclicmagic:tool_auto_torch",
+			tag: {}
+		},
+		weight: 35
+	},
+	{
+		item: "thaumcraft:ingot",
+		count: 8,
+		random_bonus: 4,
+		weight: 35
+	},
+	{
+		item: "thaumcraft:mechanism_simple",
+		count: 2,
+		random_bonus: 2,
+		weight: 35
+	},
+	{
+		item: "thaumcraft:mechanism_complex",
+		random_bonus: 1,
+		weight: 35
+	},
+	{
+		item: "cyclicmagic:glowing_chorus",
+		count: 2,
+		random_bonus: 4,
+		weight: 35
+	},
+	{
+		item: "extrautils2:ingredients 1 2",
+		weight: 35
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "3"
+			}
+		},
+		weight: 20
+	},
+	{
+		item: {
+			id: "cfm:item_package_signed",
+			tag: {
+				Author: "SoulsCraft",
+				Package: {
+					Items: [{
+						Slot: 0b,
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "minecraft:chainmail_helmet",
+						Count: 1b,
+						Damage: 0s
+					},
+					{
+						Slot: 1b,
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "minecraft:chainmail_boots",
+						Count: 1b,
+						Damage: 0s
+					},
+					{
+						Slot: 2b,
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "minecraft:chainmail_chestplate",
+						Count: 1b,
+						Damage: 0s
+					},
+					{
+						Slot: 4b,
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "minecraft:chainmail_leggings",
+						Count: 1b,
+						Damage: 0s
+					}]
+				}
+			}
+		},
+		weight: 35
+	}],
+	loot_crate: {
+		string_id: "2",
+		item_name: "Uncommon Crate",
+		color: 6591981,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

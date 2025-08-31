@@ -1,0 +1,29 @@
+{
+	x: -8.5d,
+	y: 5.0d,
+	text: [
+		"Ещё один полётик, который нужно сочетать с щитовым сапогами."
+	],
+	dependencies: [
+		"f3758cfd"
+	],
+	tasks: [{
+		uid: "7fbf31b7",
+		type: "item",
+		items: [{
+			item: "thaumictinkerer:kami_chest"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "00cc8e1c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		}
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	title: "Галактический компрессор",
+	icon: "galacticraftcore:machine 1 12",
+	x: -12.5d,
+	y: 1.0d,
+	text: [
+		"Создаёт материалы для сверхпрочного покрытия"
+	],
+	dependencies: [
+		"33652cd1",
+		"d93dd3b1"
+	],
+	tasks: [{
+		uid: "b5fa35f2",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:machine 1 12"
+		}]
+	}],
+	rewards: [{
+		uid: "ac74b955",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

@@ -1,0 +1,13 @@
+{
+	title: "зеленая материя",
+	loot_size: 1,
+	rewards: [{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 2
+	}]
+}

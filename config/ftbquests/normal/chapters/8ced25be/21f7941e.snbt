@@ -1,0 +1,31 @@
+{
+	title: "Монстр-Франкенштейн",
+	x: -12.5d,
+	y: -2.0d,
+	text: [
+		"Непонятно как и где, но он даёт §cэнергию."
+	],
+	dependencies: [
+		"d2c3dcfb"
+	],
+	tasks: [{
+		uid: "beb65191",
+		type: "item",
+		items: [{
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_redstone"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "732682f0",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	title: "Боги Олимпа создали",
+	x: -1.5d,
+	y: 0.5d,
+	text: [
+		"Кратос: -_-"
+	],
+	dependencies: [
+		"bb45b79f"
+	],
+	tasks: [{
+		uid: "ba695414",
+		type: "item",
+		items: [{
+			item: "fluxnetworks:gargantuanfluxstorage"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "01f25b3b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		},
+		count: 12
+	}]
+}

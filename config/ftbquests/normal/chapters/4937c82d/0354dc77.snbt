@@ -1,0 +1,82 @@
+{
+	title: "Первый мультиблок для автоматизации из таумкрафта",
+	icon: "modularmachinery:advanced_thaumatorium_controller",
+	x: -7.5d,
+	y: -11.5d,
+	text: [
+		"Ура...."
+	],
+	dependencies: [
+		"a0b238cb"
+	],
+	tasks: [{
+		uid: "c708d9b8",
+		type: "item",
+		items: [{
+			item: "modularmachinery:advanced_thaumatorium_controller"
+		}]
+	},
+	{
+		uid: "70b6fb29",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockaspectproviderinput"
+		}],
+		count: 8L
+	},
+	{
+		uid: "fd456713",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockinputbus 1 2"
+		}]
+	},
+	{
+		uid: "e9676311",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockenergyinputhatch 1 2"
+		}]
+	},
+	{
+		uid: "315320b5",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockoutputbus 1 2"
+		}]
+	},
+	{
+		uid: "e392a1d6",
+		type: "item",
+		items: [{
+			item: "thaumcraft:stone_arcane"
+		}],
+		count: 20L
+	},
+	{
+		uid: "e8c831ef",
+		type: "item",
+		items: [{
+			item: "thaumcraft:metal_alchemical_advanced"
+		}],
+		count: 4L
+	},
+	{
+		uid: "bd82e362",
+		type: "item",
+		items: [{
+			item: "thaumcraft:metal_void"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "35ad366e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

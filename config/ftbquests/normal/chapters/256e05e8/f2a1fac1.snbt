@@ -1,0 +1,28 @@
+{
+	x: 0.5d,
+	y: -8.0d,
+	dependencies: [
+		"d2c3fa0c"
+	],
+	tasks: [{
+		uid: "65023238",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:quad_uranium_fuel_rod"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ac9fdeb6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		},
+		count: 4
+	}]
+}

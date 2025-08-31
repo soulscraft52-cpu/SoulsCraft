@@ -1,0 +1,29 @@
+{
+	title: "Факт #4",
+	x: -10.0d,
+	y: -6.0d,
+	text: [
+		"Самая трудно излечимая фобия – боязнь страха."
+	],
+	dependencies: [
+		"93c0cf63"
+	],
+	tasks: [{
+		uid: "57c1f7ac",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:moremachine2 1 11"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "48a8039f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

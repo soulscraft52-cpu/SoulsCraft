@@ -1,0 +1,48 @@
+{
+	x: 10.5d,
+	y: -7.0d,
+	text: [
+		"Алмаз весом как Золото"
+	],
+	dependencies: [
+		"116747e0"
+	],
+	tasks: [{
+		uid: "d96f106d",
+		type: "item",
+		items: [{
+			id: "variedcommodities:diamond_mace",
+			tag: {
+				ench: [{
+					lvl: 15s,
+					id: 186s
+				},
+				{
+					lvl: 20s,
+					id: 146s
+				},
+				{
+					lvl: 10s,
+					id: 154s
+				}],
+				RepairCost: 18,
+				display: {
+					Name: "Застроеная Большая Алмазная Булава "
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8846a0bd",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 2
+	}]
+}

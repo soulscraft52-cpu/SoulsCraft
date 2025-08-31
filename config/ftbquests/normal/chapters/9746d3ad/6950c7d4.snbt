@@ -1,0 +1,30 @@
+{
+	title: "Автокрафтер",
+	icon: "enderio:block_simple_crafter",
+	x: -13.5d,
+	y: -4.0d,
+	text: [
+		"Простой автокрафт, не грейдится"
+	],
+	dependencies: [
+		"cf247961"
+	],
+	tasks: [{
+		uid: "111511b4",
+		type: "item",
+		items: [{
+			item: "enderio:block_simple_crafter"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8504bffe",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

@@ -1,0 +1,15 @@
+{
+	title: "Убивца визеров",
+	loot_size: 1,
+	rewards: [{
+		item: "minecraft:beacon"
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

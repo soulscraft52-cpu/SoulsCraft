@@ -1,0 +1,27 @@
+{
+	title: "Красный от слово Красивый",
+	x: -2.0d,
+	y: -6.5d,
+	dependencies: [
+		"e74f5089"
+	],
+	tasks: [{
+		uid: "06c8f61e",
+		type: "item",
+		items: [{
+			item: "extrautils2:ingredients 1 4"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a4bca41a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

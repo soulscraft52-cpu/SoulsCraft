@@ -1,0 +1,25 @@
+{
+	x: 2.5d,
+	y: -2.5d,
+	dependencies: [
+		"869d318d",
+		"5f840cf7"
+	],
+	tasks: [{
+		uid: "4d66b267",
+		type: "item",
+		items: [{
+			item: "thaumadditions:vis_seeds/desiderium"
+		}]
+	}],
+	rewards: [{
+		uid: "52fd2d89",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		}
+	}]
+}

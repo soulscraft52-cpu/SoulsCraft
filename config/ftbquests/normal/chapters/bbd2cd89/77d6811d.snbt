@@ -1,0 +1,30 @@
+{
+	title: "Дробитель и печь в одном",
+	icon: "galacticraftcore:machine_tiered 1 12",
+	x: -9.5d,
+	y: -0.5d,
+	text: [
+		"Руды 1к2, но сразу"
+	],
+	dependencies: [
+		"90a36340"
+	],
+	tasks: [{
+		uid: "2c32a503",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:machine_tiered 1 12"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "503fc008",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

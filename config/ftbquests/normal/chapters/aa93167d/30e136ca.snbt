@@ -1,0 +1,29 @@
+{
+	title: "Теперь продвинули",
+	x: -11.0d,
+	y: -9.0d,
+	text: [
+		"Дальше - больше?"
+	],
+	dependencies: [
+		"d1ba8473"
+	],
+	tasks: [{
+		uid: "b0e99353",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:moremachine2 1 6"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f980baf1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

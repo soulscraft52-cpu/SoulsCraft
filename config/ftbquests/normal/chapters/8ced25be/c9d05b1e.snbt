@@ -1,0 +1,28 @@
+{
+	title: "Укрёплённый барабашка?",
+	x: -9.5d,
+	y: -3.5d,
+	text: [
+		"4096, это вам не шутки! Лавой из него можно несколько дней питать ваши генераторы."
+	],
+	dependencies: [
+		"fae8feff"
+	],
+	tasks: [{
+		uid: "3e62c76f",
+		type: "item",
+		items: [{
+			item: "extrautils2:drum 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "bf68583f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

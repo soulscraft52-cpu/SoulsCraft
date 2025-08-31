@@ -1,0 +1,36 @@
+{
+	title: "Какой-то там мифриллиум",
+	icon: "thaumadditions:mithrillium_ingot",
+	x: -13.0d,
+	y: -3.5d,
+	text: [
+		"А у вас уже есть мифрилловые монетки?!"
+	],
+	dependencies: [
+		"d11b3741"
+	],
+	tasks: [{
+		uid: "62adc877",
+		type: "item",
+		items: [{
+			item: "thaumadditions:mithrillium_ingot 8"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "02933f8c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	},
+	{
+		uid: "edf4e28a",
+		type: "item",
+		item: "thaumcraft:ingot 1 1",
+		count: 8
+	}]
+}

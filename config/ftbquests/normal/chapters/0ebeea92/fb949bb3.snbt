@@ -1,0 +1,30 @@
+{
+	title: "Планшет возвращения",
+	x: 6.0d,
+	y: 6.5d,
+	text: [
+		"Телепортирует к точке респауна."
+	],
+	dependencies: [
+		"56066b51"
+	],
+	tasks: [{
+		uid: "ef46267a",
+		type: "item",
+		items: [{
+			item: "tombstone:tablet_of_home"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b102d807",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

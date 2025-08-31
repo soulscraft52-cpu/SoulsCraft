@@ -1,0 +1,28 @@
+{
+	x: -1.0d,
+	y: -3.0d,
+	text: [
+		"Компактное место для ваших панелей."
+	],
+	dependencies: [
+		"a3a926ce"
+	],
+	tasks: [{
+		uid: "48570fd4",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:sintezator"
+		}]
+	}],
+	rewards: [{
+		uid: "f37adb2a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 2
+	}]
+}

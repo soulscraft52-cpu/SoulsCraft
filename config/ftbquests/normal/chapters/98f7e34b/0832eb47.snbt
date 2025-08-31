@@ -1,0 +1,31 @@
+{
+	title: "Один из бесконечных источников энергии",
+	icon: "extrautils2:creativeenergy",
+	x: 0.5d,
+	y: 1.5d,
+	text: [
+		"Ты его всё равно не сделаешь..."
+	],
+	dependencies: [
+		"257f84b3"
+	],
+	tasks: [{
+		uid: "7a67f933",
+		type: "item",
+		items: [{
+			item: "extrautils2:creativeenergy"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "866a63ed",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "6"
+			}
+		},
+		count: 16
+	}]
+}

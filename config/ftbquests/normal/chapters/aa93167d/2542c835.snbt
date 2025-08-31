@@ -1,0 +1,29 @@
+{
+	title: "Генератор материи",
+	icon: "industrialupgrade:simplemachine 1 6",
+	x: -1.5d,
+	y: -7.5d,
+	text: [
+		"Медленно и нудно создаёт жидкую материю"
+	],
+	dependencies: [
+		"880c85ef"
+	],
+	tasks: [{
+		uid: "f49a8df6",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:simplemachine 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "8cbd89df",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

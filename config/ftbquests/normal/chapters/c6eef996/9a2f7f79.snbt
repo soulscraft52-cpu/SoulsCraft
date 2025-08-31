@@ -1,0 +1,83 @@
+{
+	title: "Мультиферма",
+	icon: {
+		id: "forestry:ffarm",
+		tag: {
+			FarmBlock: 0
+		}
+	},
+	x: -9.5d,
+	y: -6.0d,
+	text: [
+		"Выращиваем резину, а иначе зачем она тебе?"
+	],
+	dependencies: [
+		"3af30cc5"
+	],
+	tasks: [{
+		uid: "ce661817",
+		type: "item",
+		items: [{
+			id: "forestry:ffarm",
+			Count: 32,
+			tag: {
+				FarmBlock: 0
+			}
+		}],
+		count: 32L
+	},
+	{
+		uid: "6f925d66",
+		type: "item",
+		items: [{
+			id: "forestry:ffarm",
+			tag: {
+				FarmBlock: 0
+			},
+			Damage: 2s
+		}]
+	},
+	{
+		uid: "e60f39bc",
+		type: "item",
+		items: [{
+			id: "forestry:ffarm",
+			tag: {
+				FarmBlock: 0
+			},
+			Damage: 3s
+		}]
+	},
+	{
+		uid: "e738767b",
+		type: "item",
+		items: [{
+			id: "forestry:ffarm",
+			tag: {
+				FarmBlock: 0
+			},
+			Damage: 4s
+		}]
+	},
+	{
+		uid: "180dd070",
+		type: "item",
+		items: [{
+			id: "forestry:ffarm",
+			tag: {
+				FarmBlock: 0
+			},
+			Damage: 5s
+		}]
+	}],
+	rewards: [{
+		uid: "21728bbf",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

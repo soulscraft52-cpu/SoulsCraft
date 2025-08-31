@@ -1,0 +1,52 @@
+{
+	title: "Снаряга для полётов",
+	icon: "galacticraftcore:oxygen_mask",
+	x: -11.0d,
+	y: -0.5d,
+	text: [
+		"Вся экипировка, что необходима для полёта на луну"
+	],
+	dependencies: [
+		"a1f4ef96"
+	],
+	tasks: [{
+		uid: "8afff9fd",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:oxygen_mask"
+		}]
+	},
+	{
+		uid: "a3f9a537",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:oxygen_gear"
+		}]
+	},
+	{
+		uid: "26ae8a58",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:oxygen_tank_heavy_full 2 32767"
+		}],
+		count: 2L,
+		ignore_damage: true
+	},
+	{
+		uid: "f707213a",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:parachute"
+		}]
+	}],
+	rewards: [{
+		uid: "22f6df1d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	title: "Лучшая печка",
+	icon: "industrialupgrade:moremachine 1 8",
+	x: -10.0d,
+	y: -11.0d,
+	text: [
+		"Она точно лучше других"
+	],
+	dependencies: [
+		"f3c048eb"
+	],
+	tasks: [{
+		uid: "f47244fb",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:moremachine 1 8"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b0ab3370",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

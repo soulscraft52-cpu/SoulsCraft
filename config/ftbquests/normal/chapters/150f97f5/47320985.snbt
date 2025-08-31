@@ -1,0 +1,29 @@
+{
+	title: "Анти-Жизнь",
+	x: -7.5d,
+	y: -9.5d,
+	text: [
+		"Жалко, однако, букашек"
+	],
+	dependencies: [
+		"7cd61c0d"
+	],
+	tasks: [{
+		uid: "d52892ed",
+		type: "item",
+		items: [{
+			item: "contenttweaker:liquid_substrate"
+		}]
+	}],
+	rewards: [{
+		uid: "f1070de5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		},
+		count: 2
+	}]
+}

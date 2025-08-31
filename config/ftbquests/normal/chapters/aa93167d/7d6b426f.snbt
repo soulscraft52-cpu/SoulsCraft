@@ -1,0 +1,31 @@
+{
+	title: "Без ускорителей работает со скоростью черепахи",
+	icon: "industrialupgrade:simplemachine",
+	x: -13.0d,
+	y: -13.0d,
+	text: [
+		"Дробит ваши ресурсы, умножая их количество"
+	],
+	dependencies: [
+		"bc12893b",
+		"4f1a4228"
+	],
+	tasks: [{
+		uid: "2e67527d",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:simplemachine"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "74d781f6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

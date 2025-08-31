@@ -1,0 +1,29 @@
+{
+	title: "Дискохранилище",
+	icon: "appliedenergistics2:drive",
+	x: -8.0d,
+	y: -3.5d,
+	text: [
+		"Хранилище для ваших SSD и HDD"
+	],
+	dependencies: [
+		"29e3cda4"
+	],
+	tasks: [{
+		uid: "2a8ae889",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:drive"
+		}]
+	}],
+	rewards: [{
+		uid: "2872fd2a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

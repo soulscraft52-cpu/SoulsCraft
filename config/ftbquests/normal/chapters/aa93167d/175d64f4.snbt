@@ -1,0 +1,37 @@
+{
+	title: "Последнее из нужных",
+	icon: {
+		id: "industrialupgrade:wiring_storage",
+		tag: {},
+		Damage: 6s
+	},
+	x: 1.5d,
+	y: 2.5d,
+	text: [
+		"Последующие в крафтах не нужны, делайте их для души))"
+	],
+	dependencies: [
+		"66e35cbf"
+	],
+	tasks: [{
+		uid: "0c3be82e",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:wiring_storage",
+			tag: {},
+			Damage: 6s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "85faecd5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		random_bonus: 1
+	}]
+}

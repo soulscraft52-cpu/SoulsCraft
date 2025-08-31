@@ -1,0 +1,24 @@
+{
+	title: "Убивца визеров",
+	icon: "minecraft:nether_star",
+	x: -9.5d,
+	y: -7.0d,
+	text: [
+		"Добудьте эту адскую звезду"
+	],
+	dependencies: [
+		"cc9e1e36"
+	],
+	tasks: [{
+		uid: "1ecd572d",
+		type: "item",
+		items: [{
+			item: "minecraft:nether_star"
+		}]
+	}],
+	rewards: [{
+		uid: "29c138de",
+		type: "choice",
+		table: 6
+	}]
+}

@@ -1,0 +1,278 @@
+{
+	title: "Обычный",
+	loot_size: 1,
+	rewards: [{
+		item: "minecraft:stone",
+		count: 64,
+		random_bonus: 32,
+		weight: 35
+	},
+	{
+		item: "minecraft:cobblestone",
+		count: 64,
+		random_bonus: 32,
+		weight: 35
+	},
+	{
+		item: "minecraft:melon_seeds",
+		count: 8,
+		random_bonus: 2,
+		weight: 35
+	},
+	{
+		item: "minecraft:pumpkin_seeds",
+		count: 8,
+		random_bonus: 2,
+		weight: 35
+	},
+	{
+		title: "INVENTORY BOMB!!!",
+		item: {
+			id: "minecraft:deadbush",
+			tag: {
+				display: {
+					Name: "INVENTORY BOMB!!!"
+				}
+			}
+		},
+		count: 2000,
+		random_bonus: 1000,
+		weight: 35
+	},
+	{
+		title: "Мы любим иглобрюхов!",
+		item: {
+			id: "minecraft:fish",
+			tag: {
+				display: {
+					Name: "Мы любим иглобрюхов!"
+				}
+			},
+			Damage: 3s
+		},
+		random_bonus: 4,
+		weight: 35
+	},
+	{
+		item: "minecraft:water_bucket",
+		weight: 35
+	},
+	{
+		item: "minecraft:lava_bucket",
+		weight: 35
+	},
+	{
+		item: "ceramics:clay_bucket",
+		count: 2,
+		random_bonus: 2,
+		weight: 35
+	},
+	{
+		title: "Кирпичи Хайка",
+		item: {
+			id: "tconstruct:materials",
+			tag: {
+				display: {
+					Name: "Кирпичи Хайка"
+				}
+			}
+		},
+		count: 16,
+		random_bonus: 16,
+		weight: 35
+	},
+	{
+		item: "minecraft:coal",
+		count: 32,
+		random_bonus: 16,
+		weight: 35
+	},
+	{
+		item: "minecraft:coal 1 1",
+		count: 32,
+		random_bonus: 16,
+		weight: 35
+	},
+	{
+		item: "minecraft:iron_ingot",
+		count: 8,
+		random_bonus: 4,
+		weight: 35
+	},
+	{
+		item: "tconstruct:clear_glass",
+		count: 8,
+		random_bonus: 8,
+		weight: 35
+	},
+	{
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "aer"
+				}]
+			}
+		},
+		count: 32,
+		random_bonus: 32,
+		weight: 35
+	},
+	{
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "terra"
+				}]
+			}
+		},
+		count: 32,
+		random_bonus: 32,
+		weight: 35
+	},
+	{
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "ignis"
+				}]
+			}
+		},
+		count: 32,
+		random_bonus: 32,
+		weight: 35
+	},
+	{
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "aqua"
+				}]
+			}
+		},
+		count: 32,
+		random_bonus: 32,
+		weight: 35
+	},
+	{
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "ordo"
+				}]
+			}
+		},
+		count: 32,
+		random_bonus: 32,
+		weight: 35
+	},
+	{
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "perditio"
+				}]
+			}
+		},
+		count: 32,
+		random_bonus: 32,
+		weight: 35
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "2"
+			}
+		},
+		weight: 20
+	},
+	{
+		item: {
+			id: "cfm:item_package_signed",
+			tag: {
+				Author: "SoulsCraft",
+				Package: {
+					Items: [{
+						Slot: 0b,
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "minecraft:leather_helmet",
+						Count: 1b,
+						tag: {
+							display: {
+								color: 13061821
+							}
+						},
+						Damage: 0s
+					},
+					{
+						Slot: 1b,
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "minecraft:leather_boots",
+						Count: 1b,
+						tag: {
+							display: {
+								color: 16383998
+							}
+						},
+						Damage: 0s
+					},
+					{
+						Slot: 2b,
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "minecraft:leather_chestplate",
+						Count: 1b,
+						tag: {
+							display: {
+								color: 3949738
+							}
+						},
+						Damage: 0s
+					},
+					{
+						Slot: 4b,
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "minecraft:leather_leggings",
+						Count: 1b,
+						tag: {
+							display: {
+								color: 16351261
+							}
+						},
+						Damage: 0s
+					}]
+				}
+			}
+		},
+		weight: 35
+	}],
+	loot_crate: {
+		string_id: "1",
+		item_name: "Common Crate",
+		color: 11584734,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

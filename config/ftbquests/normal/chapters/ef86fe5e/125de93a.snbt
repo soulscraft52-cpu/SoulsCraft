@@ -1,0 +1,33 @@
+{
+	title: "Редстоун=Энергия",
+	x: -32.5d,
+	y: -18.5d,
+	dependencies: [
+		"d2c3dcfb"
+	],
+	tasks: [{
+		uid: "80b5c9a8",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:dynamo",
+			tag: {
+				RSControl: 0b,
+				Facing: 1b,
+				Energy: 0,
+				Level: 0b
+			},
+			Damage: 4s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1d27b122",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

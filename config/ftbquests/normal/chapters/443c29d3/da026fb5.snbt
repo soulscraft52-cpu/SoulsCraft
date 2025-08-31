@@ -1,0 +1,113 @@
+{
+	title: "Самая первая кирка",
+	icon: {
+		id: "tconstruct:pickaxe",
+		tag: {
+			StatsOriginal: {
+				AttackSpeedMultiplier: 1.0f,
+				MiningSpeed: 4.0f,
+				FreeModifiers: 3,
+				Durability: 160,
+				HarvestLevel: 1,
+				Attack: 3.0f
+			},
+			Stats: {
+				AttackSpeedMultiplier: 1.0f,
+				MiningSpeed: 4.0f,
+				FreeModifiers: 0,
+				Durability: 128,
+				HarvestLevel: 1,
+				Attack: 3.0f
+			},
+			Special: {
+				Categories: [
+					"aoe",
+					"tool",
+					"harvest"
+				]
+			},
+			TinkerData: {
+				Materials: [
+					"wood",
+					"stone",
+					"wood"
+				],
+				Modifiers: [
+					"toolleveling"
+				]
+			},
+			Modifiers: [{
+				identifier: "ecological",
+				color: -7444965,
+				level: 1
+			},
+			{
+				identifier: "cheapskate",
+				color: -6710887,
+				level: 1
+			},
+			{
+				identifier: "toolleveling",
+				color: 16777215,
+				level: 1
+			}],
+			Traits: [
+				"ecological",
+				"cheapskate",
+				"toolleveling"
+			]
+		}
+	},
+	x: -20.5d,
+	y: -7.0d,
+	text: [
+		"Твоя первая каменная кирка.",
+		"Чтоб получить кирку, данные детали сложи в Инженерной станции, предварительно выбрав схему кирки.",
+		"",
+		"- Не выбрасывай, её можно будет обновить на более новую.",
+		"- Она постепенно будет набирать уровень, чем больеш копаешь, тем больше уровень. За каждый уровень ты получишь свободный модификтор, чтоб улучшить свою кирку."
+	],
+	dependencies: [
+		"4802f77d"
+	],
+	tasks: [{
+		uid: "dd6449df",
+		type: "item",
+		items: [{
+			id: "tconstruct:pick_head",
+			tag: {
+				Material: "stone"
+			}
+		}]
+	},
+	{
+		uid: "466b0514",
+		type: "item",
+		items: [{
+			id: "tconstruct:binding",
+			tag: {
+				Material: "wood"
+			}
+		}]
+	},
+	{
+		uid: "33d37605",
+		type: "item",
+		items: [{
+			id: "tconstruct:tool_rod",
+			tag: {
+				Material: "wood"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "baabbd7b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	title: "Как восьмикратный булыжник, только круче",
+	icon: "avaritia:block_resource",
+	x: -10.5d,
+	y: -5.5d,
+	text: [
+		"Это был долгий и тернистый путь, но всё же вы..."
+	],
+	dependencies: [
+		"b00e4843"
+	],
+	tasks: [{
+		uid: "e2ca2800",
+		type: "item",
+		items: [{
+			item: "avaritia:block_resource"
+		}]
+	}],
+	rewards: [{
+		uid: "ce65f3f4",
+		type: "item",
+		item: "avaritia:resource 1 4",
+		count: 2
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	title: "Ух ты какая панель",
+	icon: "industrialupgrade:machines 1 5",
+	x: 4.0d,
+	y: -2.0d,
+	text: [
+		"Ну неплохо, неплохо..."
+	],
+	dependencies: [
+		"54c481e8"
+	],
+	tasks: [{
+		uid: "5402f050",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:machines 1 5"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d0f70f7f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 3
+	}]
+}

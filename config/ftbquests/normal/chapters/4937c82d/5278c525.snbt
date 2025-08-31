@@ -1,0 +1,45 @@
+{
+	x: 14.5d,
+	y: -7.0d,
+	text: [
+		"Самые вкусные стейки наризаються этим топором"
+	],
+	dependencies: [
+		"116747e0"
+	],
+	tasks: [{
+		uid: "4c368c7f",
+		type: "item",
+		items: [{
+			id: "variedcommodities:cleaver",
+			tag: {
+				ench: [{
+					lvl: 50s,
+					id: 57s
+				},
+				{
+					lvl: 15s,
+					id: 82s
+				},
+				{
+					lvl: 15s,
+					id: 200s
+				}],
+				RepairCost: 7
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6055988c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 2
+	}]
+}

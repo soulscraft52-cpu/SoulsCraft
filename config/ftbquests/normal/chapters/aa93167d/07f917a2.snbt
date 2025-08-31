@@ -1,0 +1,30 @@
+{
+	title: "1eu/t тоже энергия",
+	icon: "industrialupgrade:basemachine3 1 81",
+	x: -17.0d,
+	y: -7.0d,
+	text: [
+		"Самая начальная панель, вырабатывает... Да ничерта она не вырабатывает."
+	],
+	dependencies: [
+		"7e76fbd6"
+	],
+	tasks: [{
+		uid: "7adf47c4",
+		type: "item",
+		icon: "industrialupgrade:basemachine3 1 81",
+		items: [{
+			item: "industrialupgrade:basemachine3 1 81"
+		}]
+	}],
+	rewards: [{
+		uid: "7ed8fc1e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

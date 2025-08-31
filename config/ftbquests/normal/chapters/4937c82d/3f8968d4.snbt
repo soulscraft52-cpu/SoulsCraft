@@ -1,0 +1,101 @@
+{
+	title: "Последняя в твой жизни",
+	icon: "modularmachinery:the_last_smeltery_controller",
+	x: 5.0d,
+	y: -13.0d,
+	shape: "rsquare",
+	text: [
+		"Я про плавильню"
+	],
+	dependencies: [
+		"c2744a0c"
+	],
+	tasks: [{
+		uid: "39bbee7e",
+		type: "item",
+		items: [{
+			item: "modularmachinery:the_last_smeltery_controller"
+		}]
+	},
+	{
+		uid: "ccf3460d",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockinputbus 1 2"
+		}],
+		count: 24L
+	},
+	{
+		uid: "cd6f4872",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockenergyinputhatch 1 2"
+		}],
+		count: 24L
+	},
+	{
+		uid: "3960af31",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockfluidinputhatch 1 2"
+		}],
+		count: 9L
+	},
+	{
+		uid: "53960b7b",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockoutputbus 1 2"
+		}]
+	},
+	{
+		uid: "3d3fbe7f",
+		type: "item",
+		items: [{
+			item: "contenttweaker:heater_of_the_last_smeltery"
+		}],
+		count: 27L
+	},
+	{
+		uid: "4c1a81e5",
+		type: "item",
+		items: [{
+			item: "contenttweaker:ventilation_of_the_last_smeltery"
+		}]
+	},
+	{
+		uid: "33c59286",
+		type: "item",
+		items: [{
+			item: "contenttweaker:glass_of_the_last_smeltery"
+		}],
+		count: 9L
+	},
+	{
+		uid: "3cc6738e",
+		type: "item",
+		items: [{
+			item: "contenttweaker:pc_device_of_the_last_smeltery"
+		}],
+		count: 4L
+	},
+	{
+		uid: "b69e3cc5",
+		type: "item",
+		items: [{
+			item: "contenttweaker:last_casing"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "acddc96d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 4
+	}]
+}

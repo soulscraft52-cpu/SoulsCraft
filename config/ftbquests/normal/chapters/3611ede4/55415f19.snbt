@@ -1,0 +1,29 @@
+{
+	title: "Возвращает чарки обратно в книжки",
+	icon: "cyclicmagic:block_disenchanter",
+	x: -9.5d,
+	y: -1.5d,
+	text: [
+		"Путём чёрной магии вернёт удачу с железной кирки"
+	],
+	dependencies: [
+		"60eec98c"
+	],
+	tasks: [{
+		uid: "6bbcf331",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:block_disenchanter"
+		}]
+	}],
+	rewards: [{
+		uid: "106b55c1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	title: "Бесконечное хранилище... Уууууу",
+	icon: "storagedrawers:upgrade_creative",
+	x: 4.5d,
+	y: 1.5d,
+	text: [
+		"Это хотя бы скрафтить можно"
+	],
+	dependencies: [
+		"257f84b3"
+	],
+	tasks: [{
+		uid: "c6367376",
+		type: "item",
+		items: [{
+			item: "storagedrawers:upgrade_creative"
+		}]
+	}],
+	rewards: [{
+		uid: "f106d41a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "6"
+			}
+		},
+		count: 16
+	}]
+}

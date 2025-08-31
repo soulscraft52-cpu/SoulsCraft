@@ -1,0 +1,31 @@
+{
+	title: "Планшет воспоминаний",
+	x: 6.5d,
+	y: 5.5d,
+	text: [
+		"Телепортирует к вашей декоративной магиле."
+	],
+	dependencies: [
+		"56066b51"
+	],
+	tasks: [{
+		uid: "6fc9736a",
+		type: "item",
+		items: [{
+			id: "tombstone:tablet_of_recall",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "81cf48a3",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

@@ -1,0 +1,33 @@
+{
+	x: -21.0d,
+	y: -15.0d,
+	dependencies: [
+		"f5fbfe2d"
+	],
+	tasks: [{
+		uid: "128ebb14",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:photon",
+			tag: {
+				damage: 691200,
+				hasID: 1b,
+				canupgrade: 1b,
+				maxDamage: 691200,
+				ID_Item: 19
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c60b2244",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: -12.0d,
+	y: -2.5d,
+	dependencies: [
+		"a24622b9"
+	],
+	tasks: [{
+		uid: "b488e872",
+		type: "item",
+		items: [{
+			item: "crazyae:perfect_interface"
+		}]
+	}]
+}

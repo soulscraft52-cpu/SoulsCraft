@@ -1,0 +1,31 @@
+{
+	title: "Незер кристалльчики",
+	x: -10.5d,
+	y: 3.5d,
+	text: [
+		"Соберите 64 и отдайте их мне.",
+		"§7Подробнее о них вы можете почитать в описании в JEI."
+	],
+	dependencies: [
+		"f3ad0dd7"
+	],
+	tasks: [{
+		uid: "12ff966f",
+		type: "item",
+		items: [{
+			item: "thaumictinkerer:kamiresource 1 1"
+		}],
+		count: 64L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "c42f2aa5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

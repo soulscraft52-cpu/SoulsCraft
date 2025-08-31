@@ -1,0 +1,31 @@
+{
+	title: "Летучее вещество",
+	icon: "thermalfoundation:material 1 1026",
+	x: -29.0d,
+	y: -12.0d,
+	text: [
+		"Нужен для виадуков и ещё чего-то"
+	],
+	dependencies: [
+		"6e399922"
+	],
+	tasks: [{
+		uid: "b8b0d59e",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 32 1026"
+		}],
+		count: 32L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "e8448cfb",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

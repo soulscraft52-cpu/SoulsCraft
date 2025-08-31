@@ -1,0 +1,28 @@
+{
+	x: -17.0d,
+	y: -5.5d,
+	text: [
+		"Нет блин ",
+		"Радиоктивный Ихор"
+	],
+	dependencies: [
+		"928cde4f"
+	],
+	tasks: [{
+		uid: "df8618b3",
+		type: "item",
+		items: [{
+			item: "threng:material"
+		}]
+	}],
+	rewards: [{
+		uid: "678e923c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

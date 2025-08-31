@@ -1,0 +1,30 @@
+{
+	title: "Всё дальше и дальше",
+	icon: "industrialupgrade:moremachine 1 7",
+	x: -11.0d,
+	y: -11.0d,
+	text: [
+		"Она точно лучше других?"
+	],
+	dependencies: [
+		"0c2e17c9"
+	],
+	tasks: [{
+		uid: "053a687c",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:moremachine 1 7"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f3a460fa",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

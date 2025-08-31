@@ -1,0 +1,25 @@
+{
+	x: 1.5d,
+	y: 2.5d,
+	dependencies: [
+		"f9250e96",
+		"af5c6fe7"
+	],
+	tasks: [{
+		uid: "6805925a",
+		type: "item",
+		items: [{
+			item: "thaumadditions:vis_seeds/praecantatio"
+		}]
+	}],
+	rewards: [{
+		uid: "8b4a1e43",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

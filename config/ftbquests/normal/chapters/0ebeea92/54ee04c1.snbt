@@ -1,0 +1,30 @@
+{
+	title: "Планшет алчности",
+	x: 7.0d,
+	y: 4.5d,
+	text: [
+		"Телепортирует к данж сундукам."
+	],
+	dependencies: [
+		"56066b51"
+	],
+	tasks: [{
+		uid: "293c415a",
+		type: "item",
+		items: [{
+			item: "tombstone:tablet_of_cupidity"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b747efbe",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

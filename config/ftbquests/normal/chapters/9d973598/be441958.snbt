@@ -1,0 +1,58 @@
+{
+	title: "Инеем покрылась",
+	icon: "divinerpg:frozen_chestplate",
+	x: -15.0d,
+	y: -0.5d,
+	text: [
+		"Холоднова-то в ней..."
+	],
+	dependencies: [
+		"c75a694c"
+	],
+	tasks: [{
+		uid: "143aa5d2",
+		type: "item",
+		items: [{
+			item: "divinerpg:frozen_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4d8662a4",
+		type: "item",
+		items: [{
+			item: "divinerpg:frozen_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2d5f68b8",
+		type: "item",
+		items: [{
+			item: "divinerpg:frozen_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "64296c90",
+		type: "item",
+		items: [{
+			item: "divinerpg:frozen_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "38baf01e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

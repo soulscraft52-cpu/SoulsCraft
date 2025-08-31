@@ -1,0 +1,33 @@
+{
+	title: "Авто трансмутация",
+	x: -9.5d,
+	y: -5.5d,
+	text: [
+		"Хммм...",
+		"Оно того стоит, поверьте мне"
+	],
+	dependencies: [
+		"e77bcac9"
+	],
+	tasks: [{
+		uid: "23fb68e5",
+		type: "item",
+		items: [{
+			id: "extrautils2:machine",
+			tag: {
+				Type: "crafttweaker:philosophical_converter"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "48349abb",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		},
+		count: 3
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	title: "Выбери награду за цианит",
+	icon: "bigreactors:blockcyanite",
+	loot_size: 1,
+	rewards: [{
+		item: "bigreactors:blockcyanite"
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		},
+		count: 2
+	}]
+}

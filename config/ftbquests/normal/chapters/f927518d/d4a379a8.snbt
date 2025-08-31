@@ -1,0 +1,30 @@
+{
+	title: "Фиолетовенький ихорчик",
+	x: -12.5d,
+	y: 1.0d,
+	text: [
+		"Как обычный, но только §5фиолетовый"
+	],
+	dependencies: [
+		"dc1ba81d"
+	],
+	tasks: [{
+		uid: "40a65bf9",
+		type: "item",
+		items: [{
+			item: "contenttweaker:dragon_ichor"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "a452b46b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		},
+		count: 2
+	}]
+}

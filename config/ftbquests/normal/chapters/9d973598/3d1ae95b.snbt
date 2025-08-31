@@ -1,0 +1,49 @@
+{
+	title: "Хотя 10 мало... Давайте 32",
+	icon: "divinerpg:divine_shards",
+	x: -10.0d,
+	y: -10.5d,
+	text: [
+		"Отдайте нам 32 статуи"
+	],
+	dependencies: [
+		"6f650ffe"
+	],
+	tasks: [{
+		uid: "4dd492d2",
+		type: "item",
+		items: [{
+			item: "divinerpg:ancient_entity_statue 32"
+		}],
+		count: 32L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "a1e03cd6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		}
+	},
+	{
+		uid: "99caf692",
+		type: "item",
+		item: "divinerpg:halite_blade"
+	},
+	{
+		uid: "3bbdb880",
+		type: "item",
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 5s,
+					id: 11s
+				}]
+			}
+		}
+	}]
+}

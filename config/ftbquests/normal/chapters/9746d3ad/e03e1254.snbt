@@ -1,0 +1,64 @@
+{
+	title: "Обелиски, но не магические",
+	icon: "enderio:block_experience_obelisk",
+	x: 0.5d,
+	y: -6.0d,
+	text: [
+		"Пользуйтесь ими, как хотите"
+	],
+	dependencies: [
+		"e4631db0"
+	],
+	tasks: [{
+		uid: "b2dacb8d",
+		type: "item",
+		items: [{
+			item: "enderio:block_weather_obelisk"
+		}]
+	},
+	{
+		uid: "0e458c24",
+		type: "item",
+		items: [{
+			item: "enderio:block_experience_obelisk"
+		}]
+	},
+	{
+		uid: "f1c75447",
+		type: "item",
+		items: [{
+			item: "enderio:block_attractor_obelisk"
+		}]
+	},
+	{
+		uid: "1077b557",
+		type: "item",
+		items: [{
+			item: "enderio:block_relocator_obelisk"
+		}]
+	},
+	{
+		uid: "c30ac4bc",
+		type: "item",
+		items: [{
+			item: "enderio:block_inhibitor_obelisk"
+		}]
+	},
+	{
+		uid: "d4025b50",
+		type: "item",
+		items: [{
+			item: "enderio:block_aversion_obelisk"
+		}]
+	}],
+	rewards: [{
+		uid: "3622e425",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	title: "Продвинутый карьерчик",
+	icon: "industrialupgrade:basemachine 1 14",
+	x: -4.5d,
+	y: -7.0d,
+	text: [
+		"Карьерище!!!"
+	],
+	dependencies: [
+		"1add3a31"
+	],
+	tasks: [{
+		uid: "b06eb37f",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:basemachine 1 14"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ef0ebe12",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 7,
+		random_bonus: 2
+	}]
+}

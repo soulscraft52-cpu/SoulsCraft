@@ -1,0 +1,27 @@
+{
+	title: "Метеорит",
+	icon: "galacticraftcore:item_basic_moon",
+	x: -5.5d,
+	y: -1.5d,
+	text: [
+		"Добудьте метеоритное железо с упавших метеоритов на луне.",
+		"Нужен для быстрого крафта стали."
+	],
+	dependencies: [
+		"17f66729"
+	],
+	tasks: [{
+		uid: "df60d43f",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:item_basic_moon 18"
+		}],
+		count: 18L
+	}],
+	rewards: [{
+		uid: "fb40c609",
+		type: "item",
+		item: "galacticraftcore:heavy_plating",
+		count: 8
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	title: "Продолжаем сжимать",
+	icon: "extrautils2:compressedcobblestone 1 1",
+	x: -18.5d,
+	y: -5.5d,
+	text: [
+		"Кажется что много?"
+	],
+	dependencies: [
+		"fd752be6"
+	],
+	tasks: [{
+		uid: "9e9d444d",
+		type: "item",
+		items: [{
+			item: "extrautils2:compressedcobblestone 32 1"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "857826f7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

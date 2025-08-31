@@ -1,0 +1,30 @@
+{
+	title: "Ножиком можно аккуратно вырезать саженец.",
+	x: -10.0d,
+	y: 0.5d,
+	text: [
+		"Ломайте листву дерева этим ножом чтобы получить с повышенным шансом саженец."
+	],
+	dependencies: [
+		"8d2ffc97"
+	],
+	tasks: [{
+		uid: "c82f194f",
+		type: "item",
+		items: [{
+			item: "forestry:grafter"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ed0d8910",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "2"
+			}
+		}
+	}]
+}

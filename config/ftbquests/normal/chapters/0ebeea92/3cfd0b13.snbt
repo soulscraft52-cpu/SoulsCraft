@@ -1,0 +1,27 @@
+{
+	x: 0.5d,
+	y: 6.0d,
+	text: [
+		"Выпадает из визера с маленьким шансом. Нажмите ПКМ по могиле чтобы освободить душу и получить знания смерти."
+	],
+	dependencies: [
+		"24782bb6"
+	],
+	tasks: [{
+		uid: "fa16a949",
+		type: "item",
+		items: [{
+			item: "tombstone:soul_receptacle"
+		}]
+	}],
+	rewards: [{
+		uid: "94811ce7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		}
+	}]
+}

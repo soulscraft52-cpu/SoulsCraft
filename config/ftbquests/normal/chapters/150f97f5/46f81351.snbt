@@ -1,0 +1,34 @@
+{
+	title: "Теневой убийца",
+	icon: {
+		id: "projecte:item.pe_dm_sword",
+		tag: {}
+	},
+	x: -5.5d,
+	y: -3.5d,
+	text: [
+		"Меч из тени"
+	],
+	dependencies: [
+		"a037cf8b"
+	],
+	tasks: [{
+		uid: "b206ff5c",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_dm_sword",
+			tag: {}
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "4ce6683a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		}
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	title: "И скелет не пробьёт!",
+	loot_size: 1,
+	rewards: [{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	},
+	{
+		item: "divinerpg:aquatic_ingot",
+		count: 4,
+		random_bonus: 4
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	title: "МолекулярОЧКА",
+	icon: "industrialupgrade:molecular",
+	x: -8.0d,
+	y: -2.0d,
+	text: [
+		"Ваш личный создатель иридия"
+	],
+	dependencies: [
+		"6a6c703c",
+		"3ec36555",
+		"eaa746ec"
+	],
+	tasks: [{
+		uid: "247aad47",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:molecular"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "64429372",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

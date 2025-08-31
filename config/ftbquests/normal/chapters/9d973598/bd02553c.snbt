@@ -1,0 +1,44 @@
+{
+	title: "Всевидящее око",
+	icon: "divinerpg:the_watcher_statue",
+	x: 5.0d,
+	y: -11.5d,
+	text: [
+		"Убейте этот фейк"
+	],
+	dependencies: [
+		"440a6d33"
+	],
+	tasks: [{
+		uid: "54972980",
+		type: "item",
+		items: [{
+			item: "divinerpg:call_of_the_watcher"
+		}],
+		ignore_damage: true
+	},
+	{
+		uid: "c6e4ddfc",
+		type: "item",
+		items: [{
+			item: "divinerpg:the_watcher_statue"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "9b5eb92e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	},
+	{
+		uid: "abed627a",
+		type: "item",
+		team_reward: false,
+		item: "thaumadditions:dna_sample"
+	}]
+}

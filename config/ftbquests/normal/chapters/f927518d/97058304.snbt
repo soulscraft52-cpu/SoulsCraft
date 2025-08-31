@@ -1,0 +1,45 @@
+{
+	title: "Матрица наполнения...",
+	icon: "thaumcraft:infusion_matrix",
+	x: -6.0d,
+	y: -3.5d,
+	text: [
+		"Создавайте предметы на матрице."
+	],
+	dependencies: [
+		"257787e7"
+	],
+	tasks: [{
+		uid: "37de2a5e",
+		type: "item",
+		items: [{
+			item: "thaumcraft:infusion_matrix"
+		}]
+	},
+	{
+		uid: "6f3c4c2b",
+		type: "item",
+		items: [{
+			item: "thaumcraft:pedestal_arcane"
+		}],
+		count: 12L
+	},
+	{
+		uid: "24504e8a",
+		type: "item",
+		items: [{
+			item: "thaumcraft:stone_arcane 8"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "2fd325d0",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

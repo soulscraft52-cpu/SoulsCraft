@@ -1,0 +1,36 @@
+{
+	title: "Катар, страна такая",
+	icon: {
+		id: "projecte:item.pe_rm_katar",
+		tag: {}
+	},
+	x: -2.0d,
+	y: -3.5d,
+	text: [
+		"Но это не страна..."
+	],
+	dependencies: [
+		"6d6a55e0"
+	],
+	tasks: [{
+		uid: "5433d03c",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_rm_katar",
+			tag: {}
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "68dd1145",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 2,
+		random_bonus: 1
+	}]
+}

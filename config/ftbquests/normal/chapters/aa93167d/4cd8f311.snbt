@@ -1,0 +1,31 @@
+{
+	title: "Грави тонна?",
+	icon: "industrialupgrade:machines 1 12",
+	x: 11.0d,
+	y: -2.0d,
+	text: [
+		"Раздавит тебе голову"
+	],
+	dependencies: [
+		"d4502a95"
+	],
+	tasks: [{
+		uid: "caa4bd5b",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:machines 1 12"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1c1a350a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 10
+	}]
+}

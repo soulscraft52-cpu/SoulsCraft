@@ -1,0 +1,68 @@
+{
+	title: "Реакторище",
+	icon: "bigreactors:reactorcasing",
+	x: -13.5d,
+	y: -4.5d,
+	text: [
+		"Знакомьтесь - это ваш реактор, вырабатывать 105.000 RF/t",
+		"§cНе забудьте про ваш генератор материи)",
+		"Кстати в сборке сила реакторов была увеличина в 400 раз"
+	],
+	dependencies: [
+		"3a97936e",
+		"ff209eee"
+	],
+	tasks: [{
+		uid: "be29bb3a",
+		type: "item",
+		items: [{
+			item: "bigreactors:reactorcasing 22"
+		}],
+		count: 22L
+	},
+	{
+		uid: "6f3c64de",
+		type: "item",
+		items: [{
+			item: "bigreactors:reactorcontrolrod"
+		}]
+	},
+	{
+		uid: "9e141252",
+		type: "item",
+		items: [{
+			item: "bigreactors:reactorcontroller"
+		}]
+	},
+	{
+		uid: "c39875db",
+		type: "item",
+		items: [{
+			item: "bigreactors:reactoraccessport"
+		}]
+	},
+	{
+		uid: "9c8d9688",
+		type: "item",
+		items: [{
+			item: "bigreactors:reactorpowertaprf"
+		}]
+	},
+	{
+		uid: "16cef774",
+		type: "item",
+		items: [{
+			item: "bigreactors:reactorfuelrod"
+		}]
+	}],
+	rewards: [{
+		uid: "4f88275d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		}
+	}]
+}

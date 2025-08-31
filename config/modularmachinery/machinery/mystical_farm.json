@@ -1,0 +1,262 @@
+  {
+  "registryname": "mystical_farm",
+    "localizedname": "Мистическая Ферма",
+    "color": "d46d19",
+    "modifiers": [
+        {
+             "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements":     "contenttweaker:basic_accelerator@0",
+            "description": "5x speed ",
+            "modifiers": [
+            {
+                "io": "input",
+                "target": "duration",
+                "operation": 1,
+                "multiplier": 0.50
+            }         
+            ]
+        },
+         {
+             "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements":     "contenttweaker:improved_accelerator@0",
+            "description": "10x speed ",
+            "modifiers": [
+            {
+                "io": "input",
+                "target": "duration",
+                "operation": 1,
+                "multiplier": 0.25
+            }         
+            ]
+        },
+         {
+                "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements":     "contenttweaker:charged_accelerator@0",
+            "description": "25x speed ",
+            "modifiers": [
+            {
+                "io": "input",
+                "target": "duration",
+                "operation": 1,
+                "multiplier": 0.10
+            }         
+            ]
+        },
+         {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements":     "contenttweaker:speed_improvement@0",
+            "description": "MAX speed ",
+            "modifiers": [
+            {
+                "io": "input",
+                "target": "duration",
+                "operation": 1,
+                "multiplier": 0.001
+            }         
+            ]
+        },
+         {
+                  "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements":     "contenttweaker:fertilizer_improvements@0",
+             "description": " 2.5x item output",
+            "modifier": {
+                "io": "output",
+                "target": "item",
+                "operation": 1,
+                "multiplier": 2.5
+            }
+        }
+    ],   
+     "parts": [
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "galaxyspace:futureglass@10"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+          
+            "elements": [
+                "generalized_input_fluid"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "galaxyspace:futureglass@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+        
+            "elements": [
+                "blockparallelcontroller_g"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:core_mystical_farm@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:casing_mystical_farm@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:casing_mystical_farm@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:casing_mystical_farm@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+           
+            "elements": [
+                "generalized_input_item"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+  
+            "elements": [
+                "modularmachinery:blockenergyinputhatch"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "galaxyspace:futureglass@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "galaxyspace:futureglass@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 1,
+       
+            "elements": [
+                "generalized_output_item"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:casing_mystical_farm@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:casing_mystical_farm@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "galaxyspace:futureglass@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "galaxyspace:futureglass@10"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "galaxyspace:futureglass@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:casing_mystical_farm@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:casing_mystical_farm@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:casing_mystical_farm@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "galaxyspace:futureglass@10"
+            ]
+        }
+    ]}

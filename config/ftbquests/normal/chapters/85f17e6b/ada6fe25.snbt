@@ -1,0 +1,30 @@
+{
+	title: "Стоп я беру свои слова обратно",
+	x: -4.0d,
+	y: 1.5d,
+	text: [
+		"И не дам их"
+	],
+	dependencies: [
+		"2693a9c7",
+		"a81e7da0"
+	],
+	tasks: [{
+		uid: "0ff0063e",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:crafting 1 34"
+		}]
+	}],
+	rewards: [{
+		uid: "346c1b15",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		},
+		random_bonus: 3
+	}]
+}

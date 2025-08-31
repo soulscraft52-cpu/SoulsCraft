@@ -1,0 +1,30 @@
+{
+	title: "Хранилище шаблонов",
+	icon: "industrialupgrade:basemachine3 1 77",
+	x: -1.5d,
+	y: -4.5d,
+	text: [
+		"Хранит шаблоны для репликатора"
+	],
+	dependencies: [
+		"880c85ef"
+	],
+	tasks: [{
+		uid: "3d41c455",
+		type: "item",
+		icon: "industrialupgrade:basemachine3 1 77",
+		items: [{
+			item: "industrialupgrade:basemachine3 1 77"
+		}]
+	}],
+	rewards: [{
+		uid: "7b189b7d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

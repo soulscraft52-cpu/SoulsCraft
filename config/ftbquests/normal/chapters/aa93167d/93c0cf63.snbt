@@ -1,0 +1,30 @@
+{
+	title: "Факт #3",
+	x: -11.0d,
+	y: -6.0d,
+	text: [
+		"До 17 века термометры заполняли коньяком."
+	],
+	dependencies: [
+		"9ed22e6b"
+	],
+	tasks: [{
+		uid: "470eab5a",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:moremachine2 1 10"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0d04e6e7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		},
+		random_bonus: 1
+	}]
+}

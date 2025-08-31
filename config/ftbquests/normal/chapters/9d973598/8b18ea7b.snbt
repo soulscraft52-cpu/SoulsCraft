@@ -1,0 +1,74 @@
+{
+	title: "Гонщик нелегальный",
+	icon: "divinerpg:shadow_chestplate",
+	x: -18.0d,
+	y: -2.5d,
+	text: [
+		"X3 SPEED"
+	],
+	dependencies: [
+		"e136ff61"
+	],
+	tasks: [{
+		uid: "705ffe81",
+		type: "item",
+		items: [{
+			item: "divinerpg:shadow_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e803ff54",
+		type: "item",
+		items: [{
+			item: "divinerpg:shadow_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "37ab37f6",
+		type: "item",
+		items: [{
+			item: "divinerpg:shadow_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1a0577ea",
+		type: "item",
+		items: [{
+			item: "divinerpg:shadow_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8b15cc99",
+		type: "item",
+		item: {
+			id: "minecraft:potion",
+			tag: {
+				Potion: "minecraft:long_swiftness"
+			}
+		}
+	},
+	{
+		uid: "0acf2779",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	},
+	{
+		uid: "5035d1f3",
+		type: "item",
+		item: "minecraft:diamond",
+		count: 8
+	}]
+}

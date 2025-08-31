@@ -1,0 +1,25 @@
+{
+	x: 0.5d,
+	y: -2.0d,
+	dependencies: [
+		"79e9385d",
+		"f2097bf5"
+	],
+	tasks: [{
+		uid: "672d42a1",
+		type: "item",
+		items: [{
+			item: "thaumadditions:vis_seeds/permutatio"
+		}]
+	}],
+	rewards: [{
+		uid: "0916eb7f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

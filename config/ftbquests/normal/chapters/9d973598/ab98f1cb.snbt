@@ -1,0 +1,32 @@
+{
+	title: "Портал в Эдем",
+	icon: "divinerpg:divine_rock",
+	x: -6.0d,
+	y: -6.0d,
+	text: [
+		"Постройте портал из §e§0§f§f§eБожественной породы §f§0и зажгите его §3Сумеречными часами."
+	],
+	dependencies: [
+		"a3a0f328"
+	],
+	tasks: [{
+		uid: "1d20a351",
+		type: "item",
+		items: [{
+			item: "divinerpg:divine_rock 10"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "1d25bf21",
+		type: "item",
+		item: "harvestcraft:applecideritem",
+		count: 16
+	},
+	{
+		uid: "1b0b8de4",
+		type: "item",
+		item: "harvestcraft:frenchtoastitem",
+		count: 8
+	}]
+}

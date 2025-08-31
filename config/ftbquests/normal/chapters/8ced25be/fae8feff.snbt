@@ -1,0 +1,28 @@
+{
+	title: "Железный барабашка",
+	x: -12.0d,
+	y: -3.5d,
+	text: [
+		"А вот этот уже на 256."
+	],
+	dependencies: [
+		"312776f9"
+	],
+	tasks: [{
+		uid: "cfc5c655",
+		type: "item",
+		items: [{
+			item: "extrautils2:drum 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "58190f79",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

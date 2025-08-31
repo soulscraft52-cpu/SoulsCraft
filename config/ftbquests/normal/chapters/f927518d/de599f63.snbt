@@ -1,0 +1,30 @@
+{
+	title: "Магическая линза",
+	icon: "thaumcraft:thaumometer",
+	x: -5.0d,
+	y: -7.0d,
+	text: [
+		"Таумометр, сканируй всё"
+	],
+	dependencies: [
+		"257787e7"
+	],
+	tasks: [{
+		uid: "33e9b2e3",
+		type: "item",
+		items: [{
+			item: "thaumcraft:thaumometer"
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "30ff3a19",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

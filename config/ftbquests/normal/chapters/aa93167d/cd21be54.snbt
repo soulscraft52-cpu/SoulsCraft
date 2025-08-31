@@ -1,0 +1,30 @@
+{
+	title: "И дальше хотите улучшать?",
+	x: 0.5d,
+	y: -5.5d,
+	text: [
+		"Ну это уже пустая трата ресурсов..."
+	],
+	dependencies: [
+		"dd7a7534"
+	],
+	tasks: [{
+		uid: "589874a1",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:basemachine3 1 51"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "203b27ce",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		random_bonus: 1
+	}]
+}

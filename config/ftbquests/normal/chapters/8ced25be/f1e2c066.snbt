@@ -1,0 +1,31 @@
+{
+	title: "Всем §d\"Ня\"",
+	x: -9.5d,
+	y: -2.0d,
+	text: [
+		"Самый §dняшный §fгенератор!"
+	],
+	dependencies: [
+		"d2c3dcfb"
+	],
+	tasks: [{
+		uid: "efb8f3cf",
+		type: "item",
+		items: [{
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_pink"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "c9750d6b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

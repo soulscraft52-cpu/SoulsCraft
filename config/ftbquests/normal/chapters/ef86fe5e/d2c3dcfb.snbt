@@ -1,0 +1,39 @@
+{
+	title: "Улучшенный генератор",
+	icon: {
+		id: "extrautils2:machine",
+		tag: {
+			Type: "extrautils2:generator"
+		}
+	},
+	x: -31.0d,
+	y: -17.0d,
+	text: [
+		"Улучшите генератор выжившего до обычного генератора.",
+		"§cЧтобы запитать §4Резонатор§c используйте §n§9§nПростую мельницу§c.",
+		"§8С §4Резонатором §8вы сможете скрафтить другие источники §dGP."
+	],
+	dependencies: [
+		"c37008b8"
+	],
+	tasks: [{
+		uid: "954ac9ce",
+		type: "item",
+		items: [{
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "b6fced39",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

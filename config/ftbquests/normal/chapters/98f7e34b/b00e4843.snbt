@@ -1,0 +1,30 @@
+{
+	title: "Темнее тёмной материи",
+	icon: "avaritia:resource 1 4",
+	x: -10.5d,
+	y: -4.5d,
+	text: [
+		"Повторяем тоже действие, только с самородками"
+	],
+	dependencies: [
+		"0ace8e29"
+	],
+	tasks: [{
+		uid: "60932aa2",
+		type: "item",
+		items: [{
+			item: "avaritia:resource 1 4"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "fe106c11",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

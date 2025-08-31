@@ -1,0 +1,38 @@
+{
+	title: "Андрюша",
+	icon: {
+		id: "industrialupgrade:wiring_storage",
+		tag: {},
+		Damage: 8s
+	},
+	x: 3.5d,
+	y: 2.5d,
+	text: [
+		"Андрей, boy"
+	],
+	dependencies: [
+		"579e94ff"
+	],
+	tasks: [{
+		uid: "dc743d25",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:wiring_storage",
+			tag: {},
+			Damage: 8s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8aa37cec",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 2,
+		random_bonus: 2
+	}]
+}

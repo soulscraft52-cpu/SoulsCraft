@@ -1,0 +1,34 @@
+{
+	title: "Стригут быстрее обычных, наверное...",
+	icon: {
+		id: "projecte:item.pe_dm_shears",
+		tag: {}
+	},
+	x: -5.5d,
+	y: -2.0d,
+	text: [
+		"Стригите овец, но не убивайте!"
+	],
+	dependencies: [
+		"a037cf8b"
+	],
+	tasks: [{
+		uid: "31ad058b",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_dm_shears",
+			tag: {}
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "9f998506",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		}
+	}]
+}

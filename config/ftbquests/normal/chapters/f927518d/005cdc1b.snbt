@@ -1,0 +1,29 @@
+{
+	title: "Плавильня tier 2",
+	icon: "thaumcraft:smelter_thaumium",
+	x: -9.0d,
+	y: -9.0d,
+	text: [
+		"Плавит лучше, меньше выбросов"
+	],
+	dependencies: [
+		"df3dc169"
+	],
+	tasks: [{
+		uid: "72d37a68",
+		type: "item",
+		items: [{
+			item: "thaumcraft:smelter_thaumium"
+		}]
+	}],
+	rewards: [{
+		uid: "882e12d2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

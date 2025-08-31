@@ -1,0 +1,30 @@
+{
+	title: "Оптимус Прайм",
+	icon: "industrialupgrade:transformer_iu 1 9",
+	x: -10.5d,
+	y: 1.0d,
+	text: [
+		"Для перехода с 3 на 4 энергоуровень и с 3 на 2."
+	],
+	dependencies: [
+		"04d62131"
+	],
+	tasks: [{
+		uid: "8ae9f4c8",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:transformer_iu 1 9"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "693c0a25",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

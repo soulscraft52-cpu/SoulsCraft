@@ -1,0 +1,25 @@
+{
+	x: 0.5d,
+	y: 1.0d,
+	dependencies: [
+		"79e9385d",
+		"d3ddafb0"
+	],
+	tasks: [{
+		uid: "2d3d1aea",
+		type: "item",
+		items: [{
+			item: "thaumadditions:vis_seeds/gelum"
+		}]
+	}],
+	rewards: [{
+		uid: "f103b670",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

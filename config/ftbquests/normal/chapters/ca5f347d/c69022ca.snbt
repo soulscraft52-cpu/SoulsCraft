@@ -1,0 +1,36 @@
+{
+	title: "Лук ВИ-ВИ",
+	icon: {
+		id: "draconicevolution:wyvern_bow",
+		tag: {},
+		Damage: 32767s
+	},
+	x: -5.0d,
+	y: -2.5d,
+	text: [
+		"Для игры в войнушку со своими друзьями"
+	],
+	dependencies: [
+		"501f9d5f"
+	],
+	tasks: [{
+		uid: "f2d98780",
+		type: "item",
+		items: [{
+			id: "draconicevolution:wyvern_bow",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "90b991be",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

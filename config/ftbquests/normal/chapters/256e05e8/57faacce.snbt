@@ -1,0 +1,30 @@
+{
+	x: -1.5d,
+	y: 0.0d,
+	text: [
+		"Заподно-тихоокеанские 270 EF/t"
+	],
+	dependencies: [
+		"1d2981a2",
+		"ab0e63a1"
+	],
+	tasks: [{
+		uid: "81547d4d",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:reactorcaliforniasimple"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2e088b57",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

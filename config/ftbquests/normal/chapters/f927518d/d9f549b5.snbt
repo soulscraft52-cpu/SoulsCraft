@@ -1,0 +1,25 @@
+{
+	x: 3.5d,
+	y: -2.5d,
+	dependencies: [
+		"d85e1296",
+		"50b2ff73"
+	],
+	tasks: [{
+		uid: "a74a34c2",
+		type: "item",
+		items: [{
+			item: "thaumadditions:vis_seeds/caeles"
+		}]
+	}],
+	rewards: [{
+		uid: "739bad49",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		}
+	}]
+}

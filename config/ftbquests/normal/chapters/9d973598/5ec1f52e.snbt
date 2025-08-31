@@ -1,0 +1,58 @@
+{
+	title: "Опа инструменты",
+	icon: "divinerpg:rupee_pickaxe",
+	x: -15.5d,
+	y: -7.0d,
+	text: [
+		"Лучше чем арлемитовые инструменты"
+	],
+	dependencies: [
+		"70bac546"
+	],
+	tasks: [{
+		uid: "969ad052",
+		type: "item",
+		items: [{
+			item: "divinerpg:rupee_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "46976e30",
+		type: "item",
+		items: [{
+			item: "divinerpg:rupee_axe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b8ef58b0",
+		type: "item",
+		items: [{
+			item: "divinerpg:rupee_shovel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "cb30aeb0",
+		type: "item",
+		items: [{
+			item: "divinerpg:rupee_hoe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "224ff390",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

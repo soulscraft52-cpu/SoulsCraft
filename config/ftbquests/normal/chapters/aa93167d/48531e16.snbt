@@ -1,0 +1,31 @@
+{
+	title: "А может лучше сделать совершенный?",
+	x: 0.5d,
+	y: -8.5d,
+	text: [
+		"Не делай комбинированный, сделай совершенный!"
+	],
+	dependencies: [
+		"483403e7"
+	],
+	tasks: [{
+		uid: "a0d4d5c8",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:basemachine2"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ef487faf",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 3,
+		random_bonus: 3
+	}]
+}

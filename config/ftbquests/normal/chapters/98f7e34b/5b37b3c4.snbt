@@ -1,0 +1,29 @@
+{
+	title: "Более Плотный",
+	x: -13.0d,
+	y: -3.5d,
+	text: [
+		"Вырабатывает:Слиток"
+	],
+	dependencies: [
+		"b04663a8"
+	],
+	tasks: [{
+		uid: "f568076d",
+		type: "item",
+		items: [{
+			item: "denseneutroncollectors:double_compressed_neutron_collector"
+		}]
+	}],
+	rewards: [{
+		uid: "63aa4c33",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		},
+		count: 12
+	}]
+}

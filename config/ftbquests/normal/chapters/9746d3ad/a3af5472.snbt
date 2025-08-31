@@ -1,0 +1,29 @@
+{
+	title: "Киллер Джо",
+	icon: "enderio:block_killer_joe",
+	x: -5.5d,
+	y: -7.5d,
+	text: [
+		"Главный убийца на диком западе"
+	],
+	dependencies: [
+		"55ea927b"
+	],
+	tasks: [{
+		uid: "d1954cac",
+		type: "item",
+		items: [{
+			item: "enderio:block_killer_joe"
+		}]
+	}],
+	rewards: [{
+		uid: "f5e9e19b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

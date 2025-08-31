@@ -1,0 +1,38 @@
+{
+	title: "Конденсатор и... стоп, что это за пыль?",
+	icon: "enderio:item_basic_capacitor",
+	x: -12.5d,
+	y: -6.0d,
+	text: [
+		"Для получения этой пыли нажмите зажигалкой пкм по бедроку и надейтесь на удачу"
+	],
+	dependencies: [
+		"3af30cc5"
+	],
+	tasks: [{
+		uid: "7f586144",
+		type: "item",
+		items: [{
+			item: "enderio:item_material 8 20"
+		}],
+		count: 8L
+	},
+	{
+		uid: "56e1a4ff",
+		type: "item",
+		items: [{
+			item: "enderio:item_basic_capacitor 4"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "30b7e2b3",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

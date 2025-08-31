@@ -1,0 +1,32 @@
+{
+	title: "Тёмный мир",
+	icon: "divinerpg:skythern_block",
+	x: 8.5d,
+	y: -6.0d,
+	text: [
+		"Предпоследнее измерение"
+	],
+	dependencies: [
+		"4bcc4fd3"
+	],
+	tasks: [{
+		uid: "74393a6b",
+		type: "item",
+		items: [{
+			item: "divinerpg:skythern_block 10"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "e0456d49",
+		type: "item",
+		item: "divinerpg:skythern_chunk",
+		count: 4
+	},
+	{
+		uid: "9bd3f69e",
+		type: "item",
+		item: "harvestcraft:pizzasoupitem",
+		count: 16
+	}]
+}

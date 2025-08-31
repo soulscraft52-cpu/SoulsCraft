@@ -1,0 +1,30 @@
+{
+	title: "Это только начало...",
+	icon: "projecte:collector_mk3",
+	x: -3.0d,
+	y: -7.5d,
+	text: [
+		"Это даже не цветочки..."
+	],
+	dependencies: [
+		"3f3b52c3",
+		"6d6a55e0"
+	],
+	tasks: [{
+		uid: "4ce6fbcc",
+		type: "item",
+		items: [{
+			item: "projecte:collector_mk3"
+		}]
+	}],
+	rewards: [{
+		uid: "39699714",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		}
+	}]
+}

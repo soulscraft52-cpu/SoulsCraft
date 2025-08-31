@@ -1,0 +1,30 @@
+{
+	title: "Первая серьёзная энергия",
+	x: -6.5d,
+	y: -4.5d,
+	text: [
+		"Для работы необходим ПАР"
+	],
+	dependencies: [
+		"cf393fd5",
+		"23086adf"
+	],
+	tasks: [{
+		uid: "cfc307ad",
+		type: "item",
+		items: [{
+			item: "railcraft:steam_turbine"
+		}],
+		count: 12L
+	}],
+	rewards: [{
+		uid: "51895236",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		}
+	}]
+}

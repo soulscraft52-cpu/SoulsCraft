@@ -1,0 +1,31 @@
+{
+	title: "На крафт даже страшно смотреть",
+	x: 1.5d,
+	y: -6.5d,
+	text: [
+		"Подумайте, оно того действительно стоит?"
+	],
+	dependencies: [
+		"d47ade52"
+	],
+	tasks: [{
+		uid: "bbaca41f",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:basemachine3 1 56"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c5c204c8",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 4,
+		random_bonus: 4
+	}]
+}

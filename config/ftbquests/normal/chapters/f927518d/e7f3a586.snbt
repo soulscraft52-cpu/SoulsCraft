@@ -1,0 +1,30 @@
+{
+	title: "Дорого и бесполезно",
+	x: -14.0d,
+	y: 5.0d,
+	text: [
+		"Видимо, только для крафта, иначе вы псих."
+	],
+	dependencies: [
+		"d3274f9b"
+	],
+	tasks: [{
+		uid: "7383e6f8",
+		type: "item",
+		items: [{
+			item: "thaumictinkerer:ichorium_axe_adv"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8b7115cd",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		}
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	title: "Моя гордость",
+	x: 0.0d,
+	y: -7.5d,
+	dependencies: [
+		"8ab9e0ef"
+	],
+	tasks: [{
+		uid: "01f97ef5",
+		type: "item",
+		items: [{
+			item: "extrautils2:opinium 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "182c2f67",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		}
+	}]
+}

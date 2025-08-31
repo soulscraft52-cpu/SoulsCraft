@@ -1,0 +1,30 @@
+{
+	title: "БУЛЫЖНИК",
+	x: 11.5d,
+	y: 1.5d,
+	text: [
+		"Зачем?",
+		"Хотя, это гораздо лучше чем улучшение из тинкера!"
+	],
+	dependencies: [
+		"257f84b3"
+	],
+	tasks: [{
+		uid: "2ad5776d",
+		type: "item",
+		items: [{
+			item: "compacter:cobbler"
+		}]
+	}],
+	rewards: [{
+		uid: "b1da8e11",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "6"
+			}
+		},
+		count: 2
+	}]
+}

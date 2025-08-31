@@ -1,0 +1,28 @@
+{
+	title: "Шлюз для выхода жидкостей",
+	x: -2.5d,
+	y: -16.0d,
+	text: [
+		"Хранит мало"
+	],
+	dependencies: [
+		"c83bc188"
+	],
+	tasks: [{
+		uid: "1e2dffb2",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockfluidoutputhatch 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "604f9d2f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

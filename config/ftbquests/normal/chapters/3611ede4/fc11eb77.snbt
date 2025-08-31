@@ -1,0 +1,52 @@
+{
+	title: "ЭКСКАЛИБУР!!!!",
+	x: -1.5d,
+	y: -5.5d,
+	text: [
+		"-Я не смог его вытащить, но он выглядит круто",
+		"                                                   \"Верзила Джек\""
+	],
+	dependencies: [
+		"9518705f"
+	],
+	tasks: [{
+		uid: "131f84be",
+		type: "item",
+		items: [{
+			item: "questmodsoulscraft:excalibur"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "9664c272",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		},
+		count: 32
+	},
+	{
+		uid: "d8fafe7e",
+		type: "item",
+		item: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyVariant: "neon",
+				TrophyColorGreen: 128,
+				TrophyShowsTooltip: 1b,
+				TrophyItem: {
+					id: "questmodsoulscraft:excalibur",
+					Count: 1b,
+					Damage: 0s
+				},
+				TrophyColorBlue: 128,
+				TrophyName: "Владелец ЭКСКАЛИБУРА",
+				TrophyColorRed: 128
+			}
+		}
+	}]
+}

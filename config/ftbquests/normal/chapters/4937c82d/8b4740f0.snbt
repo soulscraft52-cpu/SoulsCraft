@@ -1,0 +1,31 @@
+{
+	x: 10.5d,
+	y: -11.5d,
+	text: [
+		"Хаос не из-за материла а из-за количество и хаотичность кристаллов "
+	],
+	dependencies: [
+		"97058304",
+		"425ead85"
+	],
+	tasks: [{
+		uid: "4755de95",
+		type: "item",
+		items: [{
+			item: "contenttweaker:chaos_diamond"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "344b7aaa",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "5"
+			}
+		},
+		count: 2
+	}]
+}

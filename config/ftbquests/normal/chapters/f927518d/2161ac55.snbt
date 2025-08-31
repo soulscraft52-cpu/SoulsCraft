@@ -1,0 +1,25 @@
+{
+	x: 3.5d,
+	y: -4.5d,
+	dependencies: [
+		"1962062b",
+		"0bf1642c"
+	],
+	tasks: [{
+		uid: "d086f0cb",
+		type: "item",
+		items: [{
+			item: "thaumadditions:vis_seeds/imperium"
+		}]
+	}],
+	rewards: [{
+		uid: "13826429",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		}
+	}]
+}

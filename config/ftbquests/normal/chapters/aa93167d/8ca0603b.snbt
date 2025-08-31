@@ -1,0 +1,31 @@
+{
+	title: "Генератор нейтрония",
+	icon: "industrialupgrade:basemachine 1 5",
+	x: 1.5d,
+	y: -8.5d,
+	text: [
+		"Нейтроний, но не из Аваритии"
+	],
+	dependencies: [
+		"90d1dcd6"
+	],
+	tasks: [{
+		uid: "b92f3610",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:basemachine 1 5"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8b8c4f53",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 6
+	}]
+}

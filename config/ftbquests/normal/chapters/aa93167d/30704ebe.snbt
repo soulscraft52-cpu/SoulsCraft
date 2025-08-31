@@ -1,0 +1,29 @@
+{
+	title: "Совершененько",
+	x: -19.5d,
+	y: -4.5d,
+	text: [
+		"Супер роторы, миллионы и миллиарды энергии!"
+	],
+	dependencies: [
+		"d6a43b0d"
+	],
+	tasks: [{
+		uid: "553a4aca",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:basemachine3 1 31"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "445e95ab",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		}
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	title: "Авто-Хаос-Слияние",
+	x: -7.5d,
+	y: 2.5d,
+	text: [
+		"&l&4Данный энжектор нужно поставить как обычный энжектор"
+	],
+	dependencies: [
+		"f4516e40"
+	],
+	tasks: [{
+		uid: "b695ecd4",
+		type: "item",
+		items: [{
+			item: "packageddraconic:marked_chaotic_injector"
+		}]
+	}],
+	rewards: [{
+		uid: "de298602",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 2
+	}]
+}

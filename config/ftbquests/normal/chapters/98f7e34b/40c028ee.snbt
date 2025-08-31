@@ -1,0 +1,31 @@
+{
+	title: "Супер губка",
+	icon: "thaumcraft:creative_flux_sponge",
+	x: -0.5d,
+	y: 1.5d,
+	text: [
+		"Да, да, очень нужна..."
+	],
+	dependencies: [
+		"257f84b3"
+	],
+	tasks: [{
+		uid: "316cc75c",
+		type: "item",
+		items: [{
+			item: "thaumcraft:creative_flux_sponge"
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "cd758690",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "6"
+			}
+		},
+		count: 2
+	}]
+}

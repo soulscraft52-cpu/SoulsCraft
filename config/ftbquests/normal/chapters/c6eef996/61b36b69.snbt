@@ -1,0 +1,28 @@
+{
+	x: -16.5d,
+	y: 1.0d,
+	text: [
+		"Можно получить из Имперской матки"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"6d4fdd0a"
+	],
+	tasks: [{
+		uid: "004f329c",
+		type: "item",
+		items: [{
+			item: "forestry:royal_jelly"
+		}]
+	}],
+	rewards: [{
+		uid: "4459a4cb",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	title: "Думаю время для того чтобы отдохнуть не стоит того",
+	x: -1.5d,
+	y: -17.0d,
+	text: [
+		"Пора двигаться"
+	],
+	dependencies: [
+		"3278accc"
+	],
+	tasks: [{
+		uid: "5ab15614",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockenergyinputhatch 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "ce579fa7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

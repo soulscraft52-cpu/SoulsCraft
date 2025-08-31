@@ -1,0 +1,15 @@
+{
+	title: "Бронирован до зубов",
+	loot_size: 1,
+	rewards: [{
+		item: "minecraft:bedrock"
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

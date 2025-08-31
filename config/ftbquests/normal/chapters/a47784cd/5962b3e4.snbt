@@ -1,0 +1,22 @@
+{
+	title: "Укреплённый Корпус",
+	icon: "forestry:hardened_machine",
+	x: 1.0d,
+	y: -6.5d,
+	can_repeat: true,
+	dependencies: [
+		"6d4fdd0a"
+	],
+	tasks: [{
+		uid: "2d794da2",
+		type: "item",
+		items: [{
+			item: "contenttweaker:coin_tier1"
+		}]
+	}],
+	rewards: [{
+		uid: "ae935a5e",
+		type: "item",
+		item: "forestry:hardened_machine"
+	}]
+}

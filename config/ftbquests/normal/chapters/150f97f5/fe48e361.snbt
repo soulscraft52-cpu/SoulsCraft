@@ -1,0 +1,31 @@
+{
+	title: "Ещё какая-то материя",
+	icon: "projectex:matter 1 11",
+	x: 10.5d,
+	y: -5.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"3d91fe7e"
+	],
+	tasks: [{
+		uid: "3bba49dd",
+		type: "item",
+		items: [{
+			item: "projectex:matter 1 11"
+		}]
+	}],
+	rewards: [{
+		uid: "faf19045",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 12,
+		random_bonus: 1
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	title: "Фермы, не знаю чего, но фермы",
+	icon: "enderio:block_farm_station",
+	x: -1.5d,
+	y: -7.0d,
+	text: [
+		"Так ли они нужны здесь?"
+	],
+	dependencies: [
+		"e4631db0"
+	],
+	tasks: [{
+		uid: "af331a8d",
+		type: "item",
+		items: [{
+			item: "enderio:block_farm_station"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "dbbdbc13",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

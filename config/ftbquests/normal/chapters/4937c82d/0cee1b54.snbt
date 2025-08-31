@@ -1,0 +1,28 @@
+{
+	title: "Космический Слиток",
+	x: 5.0d,
+	y: -14.5d,
+	text: [
+		"У тебя есть мультиблок, который симулирует запуск ракет?"
+	],
+	dependencies: [
+		"3f8968d4"
+	],
+	tasks: [{
+		uid: "df180aba",
+		type: "item",
+		items: [{
+			item: "contenttweaker:cosminium_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "93782797",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		}
+	}]
+}

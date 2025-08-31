@@ -1,0 +1,30 @@
+{
+	title: "Простой генератор",
+	icon: "enderio:block_simple_stirling_generator",
+	x: -12.5d,
+	y: -2.0d,
+	text: [
+		"Вряд ли вы им будете добывать энергию"
+	],
+	dependencies: [
+		"cf247961"
+	],
+	tasks: [{
+		uid: "34c042e6",
+		type: "item",
+		items: [{
+			item: "enderio:block_simple_stirling_generator"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "87a23ad6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

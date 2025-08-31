@@ -1,0 +1,27 @@
+{
+	x: -5.5d,
+	y: -10.0d,
+	dependencies: [
+		"2531a680"
+	],
+	tasks: [{
+		uid: "17da685b",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:moremachine3",
+			tag: {},
+			Damage: 1s
+		}]
+	}],
+	rewards: [{
+		uid: "d015e378",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		},
+		count: 2
+	}]
+}

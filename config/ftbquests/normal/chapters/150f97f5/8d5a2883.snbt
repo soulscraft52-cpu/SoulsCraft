@@ -1,0 +1,31 @@
+{
+	title: "Жёлтенькая",
+	icon: "projectex:matter 1 8",
+	x: 7.5d,
+	y: -5.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"7b382a0c"
+	],
+	tasks: [{
+		uid: "a2136384",
+		type: "item",
+		items: [{
+			item: "projectex:matter 1 8"
+		}]
+	}],
+	rewards: [{
+		uid: "b31af916",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 9,
+		random_bonus: 1
+	}]
+}

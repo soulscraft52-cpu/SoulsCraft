@@ -1,0 +1,69 @@
+{
+	title: "Ого так быстро!!!",
+	icon: "contenttweaker:wither_skeleton_core",
+	x: 7.5d,
+	y: -20.0d,
+	text: [
+		"Самое дорогое - это ЯДРО"
+	],
+	dependencies: [
+		"4bcd859d"
+	],
+	tasks: [{
+		uid: "96e0a99e",
+		type: "item",
+		items: [{
+			item: "modularmachinery:automated_killer_wither_skeleton_controller"
+		}]
+	},
+	{
+		uid: "5ad8d0f8",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing 1 4"
+		}],
+		count: 65L
+	},
+	{
+		uid: "394cccbf",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockoutputbus 1 2"
+		}],
+		count: 5L
+	},
+	{
+		uid: "dffceb16",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockenergyinputhatch 1 4"
+		}],
+		count: 2L
+	},
+	{
+		uid: "6926b90b",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing 1 5"
+		}]
+	},
+	{
+		uid: "13672ad5",
+		type: "item",
+		items: [{
+			item: "railcraft:post_metal 1 15"
+		}],
+		count: 36L
+	}],
+	rewards: [{
+		uid: "ce2f7dff",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "6"
+			}
+		},
+		count: 2
+	}]
+}

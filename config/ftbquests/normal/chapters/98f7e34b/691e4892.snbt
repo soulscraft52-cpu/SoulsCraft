@@ -1,0 +1,25 @@
+{
+	x: -8.5d,
+	y: -0.5d,
+	dependencies: [
+		"481da75e",
+		"46c8fdad",
+		"f32703ef",
+		"5a93db7a",
+		"82d2f9ef",
+		"f31c4f71",
+		"3fa88bb5"
+	],
+	tasks: [{
+		uid: "25854a89",
+		type: "item",
+		items: [{
+			item: "singularities:singularity 1 45"
+		}]
+	}],
+	rewards: [{
+		uid: "a588b881",
+		type: "item",
+		item: "singularities:singularity 1 45"
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	title: "Всё инеем покроется",
+	icon: "thermalfoundation:material 1 1025",
+	x: -27.0d,
+	y: -12.0d,
+	text: [
+		"Брррр, холодный порошок"
+	],
+	dependencies: [
+		"f94bad98"
+	],
+	tasks: [{
+		uid: "eec4b6dc",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 32 1025"
+		}],
+		count: 32L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "bb940f88",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

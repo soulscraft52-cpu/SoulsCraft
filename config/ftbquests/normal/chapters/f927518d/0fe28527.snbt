@@ -1,0 +1,24 @@
+{
+	x: -7.0d,
+	y: -10.0d,
+	dependencies: [
+		"5ede7f3d"
+	],
+	tasks: [{
+		uid: "e20fa8e8",
+		type: "item",
+		items: [{
+			item: "thaumicenergistics:arcane_terminal"
+		}]
+	}],
+	rewards: [{
+		uid: "ea725872",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

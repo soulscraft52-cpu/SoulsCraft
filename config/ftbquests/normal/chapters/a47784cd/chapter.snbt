@@ -1,0 +1,10 @@
+{
+	title: " ",
+	icon: "contenttweaker:coin_tier7",
+	description: [
+		"Магазин"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

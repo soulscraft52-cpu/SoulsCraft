@@ -1,0 +1,27 @@
+{
+	x: -0.5d,
+	y: 0.0d,
+	dependencies: [
+		"57faacce"
+	],
+	tasks: [{
+		uid: "c9c3e181",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:reactorcaliforniadual"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "57e97905",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		},
+		count: 2
+	}]
+}

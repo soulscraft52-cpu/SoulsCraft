@@ -1,0 +1,35 @@
+{
+	x: -7.5d,
+	y: -5.5d,
+	text: [
+		"Очень быстрый карьер с шёлковым касанием. Можно установить помпу, чтобы он одновременно работал как карьер и помпа. Опустошим весь Ад и океаны!"
+	],
+	dependencies: [
+		"23cbe8d4"
+	],
+	tasks: [{
+		uid: "7c0d7df2",
+		type: "item",
+		items: [{
+			id: "quarryplus:quarry",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 33s
+				}],
+				RepairCost: 1
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "97395bd0",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 5
+	}]
+}

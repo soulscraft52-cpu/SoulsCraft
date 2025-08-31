@@ -1,0 +1,31 @@
+{
+	title: "Зарядник x3?",
+	icon: "enderio:block_enhanced_wired_charger",
+	x: -6.5d,
+	y: 0.0d,
+	text: [
+		"Всё те же функции, но быстрее"
+	],
+	dependencies: [
+		"348c740b",
+		"45aab795"
+	],
+	tasks: [{
+		uid: "8826bc65",
+		type: "item",
+		items: [{
+			item: "enderio:block_enhanced_wired_charger"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7f4e7b59",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

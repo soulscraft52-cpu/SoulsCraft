@@ -1,0 +1,28 @@
+{
+	x: -2.5d,
+	y: -5.0d,
+	text: [
+		"Что-то начало светится"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"6e9d71af"
+	],
+	tasks: [{
+		uid: "85950f90",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:radiationresources 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "b327d29b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

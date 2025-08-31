@@ -1,0 +1,30 @@
+{
+	title: "Ваши балоны не останутся без кислорода",
+	icon: "galacticraftcore:oxygen_compressor",
+	x: -12.5d,
+	y: -0.5d,
+	text: [
+		"Заполняет ваши балоны кислородом"
+	],
+	dependencies: [
+		"a1f4ef96"
+	],
+	tasks: [{
+		uid: "b7e89857",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:oxygen_compressor"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e2545420",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

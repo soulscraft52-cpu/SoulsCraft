@@ -1,0 +1,31 @@
+{
+	x: -3.5d,
+	y: 8.5d,
+	text: [
+		"Почуствуйте себя цыганом) дает такие же загрибущие руки)"
+	],
+	dependencies: [
+		"43fad645"
+	],
+	tasks: [{
+		uid: "4899d1f5",
+		type: "item",
+		items: [{
+			id: "tombstone:scroll_buff",
+			tag: {
+				enchant: 1b
+			},
+			Damage: 5s
+		}]
+	}],
+	rewards: [{
+		uid: "1d5f1bd9",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "2"
+			}
+		}
+	}]
+}

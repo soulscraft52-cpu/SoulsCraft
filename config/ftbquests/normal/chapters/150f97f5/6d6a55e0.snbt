@@ -1,0 +1,29 @@
+{
+	title: "Красненькая",
+	icon: "projecte:item.pe_matter 1 1",
+	x: -3.0d,
+	y: -5.5d,
+	text: [
+		"Один из видов материи..."
+	],
+	dependencies: [
+		"a037cf8b"
+	],
+	tasks: [{
+		uid: "827269f4",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_matter 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "60d28012",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		}
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	title: "Почти самый дорогой слиток в сборке!",
+	x: 10.0d,
+	y: 1.5d,
+	text: [
+		"Но не самый дорогой"
+	],
+	dependencies: [
+		"bc5bf070",
+		"7db7b718"
+	],
+	tasks: [{
+		uid: "eb506bfa",
+		type: "item",
+		items: [{
+			item: "mysticalagradditions:insanium 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "470d0dee",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		},
+		random_bonus: 3
+	}]
+}

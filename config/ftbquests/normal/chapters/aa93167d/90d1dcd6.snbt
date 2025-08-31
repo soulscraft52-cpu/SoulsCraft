@@ -1,0 +1,31 @@
+{
+	title: "А может лучше сделать комбинированный?",
+	x: 1.5d,
+	y: -7.5d,
+	text: [
+		"Сделай комбинированный, не делай совершенный!"
+	],
+	dependencies: [
+		"483403e7"
+	],
+	tasks: [{
+		uid: "0c6a8f12",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:basemachine 1 3"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "38376764",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 4,
+		random_bonus: 4
+	}]
+}

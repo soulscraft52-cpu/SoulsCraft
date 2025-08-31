@@ -1,0 +1,28 @@
+{
+	title: "Вроде бы и адский, а вроде как и в космосе...",
+	icon: "galaxyspace:treasure_t5",
+	x: 0.5d,
+	y: -12.5d,
+	text: [
+		"Убейте эту орущую нечисть"
+	],
+	dependencies: [
+		"5bd90929"
+	],
+	tasks: [{
+		uid: "7fd8cdf8",
+		type: "kill",
+		entity: "galacticraftcore:evolved_boss_ghast",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "7700fac6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

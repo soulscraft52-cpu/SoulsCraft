@@ -1,0 +1,21 @@
+{
+	title: " ",
+	icon: "extrautils2:unstableingots",
+	description: [
+		"Лямбда | Extra Utilities"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "",
+	images: [{
+		x: -10.5d,
+		y: -0.5d,
+		width: 27.0d,
+		height: 8.0d,
+		rotation: 0.0d,
+		image: "ftbquests:textures/gui/isl17.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

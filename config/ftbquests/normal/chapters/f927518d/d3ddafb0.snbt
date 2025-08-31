@@ -1,0 +1,24 @@
+{
+	x: -0.5d,
+	y: -3.0d,
+	dependencies: [
+		"6095e708"
+	],
+	tasks: [{
+		uid: "b92cb9ca",
+		type: "item",
+		items: [{
+			item: "thaumadditions:vis_seeds/ignis"
+		}]
+	}],
+	rewards: [{
+		uid: "0dc48ba0",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

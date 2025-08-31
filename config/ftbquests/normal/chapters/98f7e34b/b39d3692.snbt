@@ -1,0 +1,29 @@
+{
+	title: "Самый Плотный",
+	x: -13.0d,
+	y: -2.5d,
+	text: [
+		"Вырабатывает:Блок"
+	],
+	dependencies: [
+		"5b37b3c4"
+	],
+	tasks: [{
+		uid: "d791eb3b",
+		type: "item",
+		items: [{
+			item: "denseneutroncollectors:triple_compressed_neutron_collector"
+		}]
+	}],
+	rewards: [{
+		uid: "d692e5f2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 2
+	}]
+}

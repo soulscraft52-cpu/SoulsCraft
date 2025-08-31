@@ -1,0 +1,29 @@
+{
+	title: "Быстрее некуда",
+	x: -10.0d,
+	y: -9.0d,
+	text: [
+		"Разве что с ускорителями..."
+	],
+	dependencies: [
+		"30e136ca"
+	],
+	tasks: [{
+		uid: "cba9adb1",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:moremachine2 1 7"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "802c3627",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	title: "Ну улучшили и улучшили, чё бубнеть то?",
+	x: -12.0d,
+	y: -9.0d,
+	text: [
+		"Теперь быстрее"
+	],
+	dependencies: [
+		"177640be"
+	],
+	tasks: [{
+		uid: "4f4c638c",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:moremachine2 1 5"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ef0aa1a2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		},
+		random_bonus: 1
+	}]
+}

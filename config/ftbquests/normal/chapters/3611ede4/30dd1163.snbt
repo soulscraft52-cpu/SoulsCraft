@@ -1,0 +1,34 @@
+{
+	title: "Ещё более лучший телепортер",
+	icon: {
+		id: "draconicevolution:dislocator_advanced",
+		tag: {}
+	},
+	x: 2.5d,
+	y: 0.5d,
+	text: [
+		"Почти читы"
+	],
+	dependencies: [
+		"3cf26441"
+	],
+	tasks: [{
+		uid: "b6fb3ed7",
+		type: "item",
+		items: [{
+			id: "draconicevolution:dislocator_advanced",
+			tag: {}
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "63b8a57d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

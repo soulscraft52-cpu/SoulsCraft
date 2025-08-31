@@ -1,0 +1,49 @@
+{
+	title: "Ядрышко",
+	icon: "draconicevolution:draconic_core",
+	x: -7.5d,
+	y: -5.5d,
+	text: [
+		"Просто ядро дракона"
+	],
+	dependencies: [
+		"e4631db0"
+	],
+	tasks: [{
+		uid: "a5aec3e9",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconic_core"
+		}]
+	}],
+	rewards: [{
+		uid: "e42627dd",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	},
+	{
+		uid: "8061e220",
+		type: "item",
+		item: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyVariant: "neon",
+				TrophyColorGreen: 128,
+				TrophyShowsTooltip: 1b,
+				TrophyItem: {
+					id: "draconicevolution:draconic_core",
+					Count: 1b,
+					Damage: 0s
+				},
+				TrophyColorBlue: 128,
+				TrophyName: "Начало в эволюции",
+				TrophyColorRed: 128
+			}
+		}
+	}]
+}

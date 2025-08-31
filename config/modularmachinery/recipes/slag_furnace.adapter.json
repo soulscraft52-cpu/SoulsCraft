@@ -1,0 +1,18 @@
+{
+    "machine": "slag_furnace",
+    "adapter": "minecraft:furnace",
+    "modifiers": [
+        {
+            "target": "modularmachinery:item",
+            "io": "output",
+            "operation": 1,
+            "multiplier": 2.0
+        },
+        {
+            "target": "modularmachinery:item",
+            "io": "input",
+            "operation": 1,
+            "multiplier": 2.0
+        }
+    ]
+}

@@ -1,0 +1,75 @@
+{
+	title: "Армированная нано броня",
+	icon: {
+		id: "industrialupgrade:adv_nano_chestplate",
+		tag: {
+			ID_Item: 2147483647
+		}
+	},
+	x: -5.5d,
+	y: 0.0d,
+	text: [
+		"Улучший свой сет до армированной брони"
+	],
+	dependencies: [
+		"b2642ec2"
+	],
+	tasks: [{
+		uid: "544d8922",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:adv_nano_helmet",
+			tag: {
+				ID_Item: 2147483647
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "27adc168",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:adv_nano_chestplate",
+			tag: {
+				ID_Item: 2147483647
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "beb5bcad",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:adv_nano_leggings",
+			tag: {
+				ID_Item: 2147483647
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "be8da0bc",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:adv_nano_boots",
+			tag: {
+				ID_Item: 2147483647
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "58356f2e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		}
+	}]
+}

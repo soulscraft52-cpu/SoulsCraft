@@ -1,0 +1,24 @@
+{
+	title: "Торт от Лорда Геватикуса",
+	icon: "contenttweaker:cake_from_lord_gevaticus",
+	x: -8.5d,
+	y: 0.0d,
+	can_repeat: true,
+	dependencies: [
+		"9f4f32d5"
+	],
+	tasks: [{
+		uid: "8e2e49f4",
+		type: "item",
+		items: [{
+			item: "contenttweaker:pulsating_black_hole"
+		}],
+		count: 2L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "0002c485",
+		type: "item",
+		item: "contenttweaker:cake_from_lord_gevaticus"
+	}]
+}

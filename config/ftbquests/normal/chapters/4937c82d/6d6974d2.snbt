@@ -1,0 +1,29 @@
+{
+	title: " ",
+	x: 14.5d,
+	y: -19.05d,
+	text: [
+		"Не факт что нас много))",
+		"by Andrey"
+	],
+	size: 0.1d,
+	tasks: [{
+		uid: "83859527",
+		type: "item",
+		items: [{
+			item: "minecraft:cobblestone"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "d1fd99f3",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "5"
+			}
+		},
+		count: 20
+	}]
+}

@@ -1,0 +1,50 @@
+# === Minecraft runtime / мусор ===
+logs/
+crash-reports/
+debug.log
+*.log
+# миры и локальные данные
+asm/
+assets/
+backups/
+dumps/
+libraries/
+resourcepacks/
+screenshots/
+server-resource-packs/
+snapshots-server/
+tv-cache/
+versions/
+shaderpacks/
+saves/
+local/
+journeymap/
+xaero-waypoints/
+# лаунчеры и кеш
+.minecraft/
+libraries/
+# скриншоты и экспорт
+screenshots/
+*.mrpack
+*.zip
+pack.zip
+
+# === Серверные миры ===
+world/
+world_nether/
+world_the_end/
+plugins/      # если Paper/Spigot
+
+# === Иде/ОС мусор ===
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+crafttweaker.log
+hei_bookmarks.ini
+servers.dat
+servers.dat.bak
+usercache.json
+usernamecache.json
+# === Packwiz и прочее ===
+.packwiz/

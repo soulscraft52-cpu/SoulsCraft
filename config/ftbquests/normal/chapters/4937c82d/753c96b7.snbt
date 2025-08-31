@@ -1,0 +1,29 @@
+{
+	title: "Мы всегда с чего-то начнем",
+	x: -4.5d,
+	y: -16.0d,
+	text: [
+		"И так всегда",
+		"Имеет 1 слот"
+	],
+	dependencies: [
+		"c83bc188"
+	],
+	tasks: [{
+		uid: "b00ed35a",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockinputbus"
+		}]
+	}],
+	rewards: [{
+		uid: "b19429dd",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

@@ -1,0 +1,34 @@
+{
+	title: "Ваш личный ускоритель генератора материи",
+	icon: {
+		id: "industrialupgrade:simplemachine",
+		tag: {},
+		Damage: 5s
+	},
+	x: -13.0d,
+	y: -8.0d,
+	text: [
+		"Можете сделать из утильсырья коробка и открывать кейсы"
+	],
+	dependencies: [
+		"4f1a4228"
+	],
+	tasks: [{
+		uid: "b29d76d9",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:simplemachine 1 5"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9d13c04e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	title: "Энциклопедия для начинающих чернокнижников",
+	loot_size: 1,
+	rewards: [{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	},
+	{
+		item: "thaumcraft:salis_mundus",
+		count: 8,
+		random_bonus: 8
+	}]
+}

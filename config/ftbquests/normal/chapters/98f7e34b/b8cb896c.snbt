@@ -1,0 +1,36 @@
+{
+	title: "Мы против вырубки деревьев!",
+	icon: "avaritia:infinity_axe",
+	x: -3.0d,
+	y: -0.5d,
+	text: [
+		"Скрафтить и сжечь!!!"
+	],
+	dependencies: [
+		"257f84b3"
+	],
+	tasks: [{
+		uid: "80da9396",
+		type: "item",
+		items: [{
+			item: "avaritia:infinity_axe"
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "28e6fa59",
+		type: "item",
+		item: "minecraft:flint_and_steel"
+	},
+	{
+		uid: "429bfc04",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "6"
+			}
+		},
+		count: 16
+	}]
+}

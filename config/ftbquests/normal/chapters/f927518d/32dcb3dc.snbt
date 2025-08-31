@@ -1,0 +1,25 @@
+{
+	x: 1.5d,
+	y: -1.5d,
+	dependencies: [
+		"5fecbfd4",
+		"6d77e723"
+	],
+	tasks: [{
+		uid: "9ffeedf6",
+		type: "item",
+		items: [{
+			item: "thaumadditions:vis_seeds/exanimis"
+		}]
+	}],
+	rewards: [{
+		uid: "50195722",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

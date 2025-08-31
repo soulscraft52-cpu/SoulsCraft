@@ -1,0 +1,30 @@
+{
+	title: "Хотя это не так сложно",
+	x: -7.5d,
+	y: 1.5d,
+	text: [
+		"На данный момент "
+	],
+	dependencies: [
+		"44b1b0bd",
+		"249c17b1"
+	],
+	tasks: [{
+		uid: "b74838d2",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:crafting 1 33"
+		}]
+	}],
+	rewards: [{
+		uid: "5cab8277",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		},
+		random_bonus: 3
+	}]
+}

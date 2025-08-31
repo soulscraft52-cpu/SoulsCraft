@@ -1,0 +1,29 @@
+{
+	title: "Сделайте мне смузи",
+	icon: "forestry:squeezer",
+	x: -17.5d,
+	y: -1.0d,
+	text: [
+		"Выжимает сок"
+	],
+	dependencies: [
+		"6d4fdd0a"
+	],
+	tasks: [{
+		uid: "adfd8508",
+		type: "item",
+		items: [{
+			item: "forestry:squeezer"
+		}]
+	}],
+	rewards: [{
+		uid: "db406d72",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

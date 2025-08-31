@@ -1,0 +1,62 @@
+{
+	title: "Броня ВИ-ВИ",
+	icon: "draconicevolution:wyvern_chest",
+	x: -5.0d,
+	y: -1.0d,
+	text: [
+		"Делается из кванта... А стоит оно того?"
+	],
+	dependencies: [
+		"501f9d5f"
+	],
+	tasks: [{
+		uid: "489f6845",
+		type: "item",
+		icon: "draconicevolution:wyvern_helm",
+		items: [{
+			item: "draconicevolution:wyvern_helm 1 32767"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "fa73ea8f",
+		type: "item",
+		icon: "draconicevolution:wyvern_chest",
+		items: [{
+			item: "draconicevolution:wyvern_chest 1 32767"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "73b847f0",
+		type: "item",
+		icon: "draconicevolution:wyvern_legs",
+		items: [{
+			item: "draconicevolution:wyvern_legs 1 32767"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3875a2e3",
+		type: "item",
+		icon: "draconicevolution:wyvern_boots",
+		items: [{
+			item: "draconicevolution:wyvern_boots 1 32767"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "93eeddef",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		}
+	}]
+}

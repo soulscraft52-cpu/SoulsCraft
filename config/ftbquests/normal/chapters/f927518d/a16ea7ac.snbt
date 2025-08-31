@@ -1,0 +1,41 @@
+{
+	title: "Магическая карта",
+	icon: "soulscraft:magicmap",
+	x: -13.0d,
+	y: -2.0d,
+	text: [
+		"Наконец-то нормальные карта и миникарта."
+	],
+	dependencies: [
+		"15efcfb3",
+		"40dfdaa1",
+		"debc1f67"
+	],
+	tasks: [{
+		uid: "4ba9fb78",
+		type: "item",
+		items: [{
+			item: "soulscraft:magicmap"
+		}],
+		consume_items: true,
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "3fe371e7",
+		type: "item",
+		team_reward: false,
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		}
+	},
+	{
+		uid: "ec25189f",
+		type: "gamestage",
+		team_reward: false,
+		auto: "enabled",
+		stage: "map_stage"
+	}]
+}

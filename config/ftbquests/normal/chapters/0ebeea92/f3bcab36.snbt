@@ -1,0 +1,31 @@
+{
+	title: "Твоя личная могила",
+	icon: "tombstone:decorative_grave_simple",
+	x: 3.0d,
+	y: 2.0d,
+	text: [
+		"Здесь мирно покоятся ваши мечты.",
+		"- Привлекает неупокоенные души (на могиле через определенное время автоматически прилетают души).",
+		"Можно переименовать могильной доской."
+	],
+	dependencies: [
+		"24782bb6"
+	],
+	tasks: [{
+		uid: "3589356b",
+		type: "item",
+		items: [{
+			item: "tombstone:decorative_grave_simple"
+		}]
+	}],
+	rewards: [{
+		uid: "74e9a75f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

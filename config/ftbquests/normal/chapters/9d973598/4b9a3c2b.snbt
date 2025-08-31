@@ -1,0 +1,58 @@
+{
+	title: "И пускай ведьмы сами себя травят",
+	icon: "divinerpg:jungle_chestplate",
+	x: -18.0d,
+	y: 1.0d,
+	text: [
+		"Скажи отравлениям нет!"
+	],
+	dependencies: [
+		"c75a694c"
+	],
+	tasks: [{
+		uid: "4847d751",
+		type: "item",
+		items: [{
+			item: "divinerpg:jungle_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0abd55ac",
+		type: "item",
+		items: [{
+			item: "divinerpg:jungle_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4799d94b",
+		type: "item",
+		items: [{
+			item: "divinerpg:jungle_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "71b65d6b",
+		type: "item",
+		items: [{
+			item: "divinerpg:jungle_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a5dc7dd4",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

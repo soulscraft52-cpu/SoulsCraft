@@ -1,0 +1,34 @@
+{
+	title: "Не нужен он вам, говорю я",
+	icon: {
+		id: "projecte:item.pe_dm_axe",
+		tag: {}
+	},
+	x: -9.5d,
+	y: -0.5d,
+	text: [
+		"Не уничтожайте природу!"
+	],
+	dependencies: [
+		"a037cf8b"
+	],
+	tasks: [{
+		uid: "f79705e4",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_dm_axe",
+			tag: {}
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "276a4f27",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		}
+	}]
+}

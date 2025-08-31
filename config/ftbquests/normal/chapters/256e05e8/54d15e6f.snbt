@@ -1,0 +1,30 @@
+{
+	x: -1.5d,
+	y: -5.0d,
+	text: [
+		"Удивительно светящиеся 30 EF/t"
+	],
+	dependencies: [
+		"87963140",
+		"1d2981a2"
+	],
+	tasks: [{
+		uid: "9a0a5d02",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:reactortoriysimple"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "14d0c59b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

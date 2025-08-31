@@ -1,0 +1,28 @@
+{
+	title: "Входной шлюз для эсенции",
+	x: 0.5d,
+	y: -16.0d,
+	text: [
+		"Может хранить в себе 250 эссенции"
+	],
+	dependencies: [
+		"c83bc188"
+	],
+	tasks: [{
+		uid: "08ae205e",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockaspectproviderinput"
+		}]
+	}],
+	rewards: [{
+		uid: "9d1389a4",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

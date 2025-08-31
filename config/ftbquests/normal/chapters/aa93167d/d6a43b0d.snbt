@@ -1,0 +1,29 @@
+{
+	title: "Юхууу, с ветерком!",
+	x: -18.5d,
+	y: -4.5d,
+	text: [
+		"Продвинутый ветрогенератор для продвинутых роторов"
+	],
+	dependencies: [
+		"6d8900a6"
+	],
+	tasks: [{
+		uid: "ece8c4fa",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:basemachine3 1 30"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "50a3e06f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

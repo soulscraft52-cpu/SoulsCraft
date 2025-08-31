@@ -1,0 +1,65 @@
+{
+	title: "Рассеиватель",
+	icon: {
+		id: "thermalexpansion:device",
+		tag: {
+			RSControl: 0b,
+			Facing: 3b,
+			Energy: 0,
+			SideCache: [B;
+				0b,
+				1b,
+				1b,
+				1b,
+				1b,
+				1b
+			]
+		},
+		Damage: 9s
+	},
+	x: -19.0d,
+	y: -17.0d,
+	text: [
+		"Последний..."
+	],
+	dependencies: [
+		"1b62111a"
+	],
+	tasks: [{
+		uid: "f3a21f24",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:device",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					0b,
+					1b,
+					1b,
+					1b,
+					1b,
+					1b
+				]
+			},
+			Damage: 9s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9bb1b76b",
+		type: "item",
+		item: "soulscraft:thisiscall"
+	},
+	{
+		uid: "f8e48566",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		}
+	}]
+}

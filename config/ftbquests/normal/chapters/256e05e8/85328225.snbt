@@ -1,0 +1,28 @@
+{
+	x: 0.5d,
+	y: -2.0d,
+	dependencies: [
+		"4b0a9e1f"
+	],
+	tasks: [{
+		uid: "eaca32d0",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:reactorprotonquad"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f11646bd",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		},
+		count: 2
+	}]
+}

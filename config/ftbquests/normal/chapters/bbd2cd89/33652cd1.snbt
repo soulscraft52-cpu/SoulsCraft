@@ -1,0 +1,31 @@
+{
+	title: "Микросхемы, очередные...",
+	icon: "galacticraftcore:machine2 1 4",
+	x: -15.5d,
+	y: 1.0d,
+	text: [
+		"Полупроводники"
+	],
+	dependencies: [
+		"1f939323",
+		"cbfded13"
+	],
+	tasks: [{
+		uid: "9cdaa70f",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:machine2 1 4"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8ded5613",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

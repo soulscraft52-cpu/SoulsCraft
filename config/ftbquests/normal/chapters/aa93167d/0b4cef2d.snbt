@@ -1,0 +1,33 @@
+{
+	x: -22.0d,
+	y: -17.0d,
+	dependencies: [
+		"43cfe225"
+	],
+	tasks: [{
+		uid: "65708b1e",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:water_barionrotor",
+			tag: {
+				damage: 110592000,
+				hasID: 1b,
+				canupgrade: 1b,
+				maxDamage: 110592000,
+				ID_Item: 22
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8cb99589",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		}
+	}]
+}

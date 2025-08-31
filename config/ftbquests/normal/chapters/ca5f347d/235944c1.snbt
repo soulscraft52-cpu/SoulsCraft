@@ -1,0 +1,28 @@
+{
+	title: "И ещё ОДИН корпус!!!",
+	x: -7.5d,
+	y: -7.5d,
+	text: [
+		"Я надеюсь он последний?"
+	],
+	dependencies: [
+		"bda13b94"
+	],
+	tasks: [{
+		uid: "97b6ac03",
+		type: "item",
+		items: [{
+			item: "contenttweaker:dragon_machine_frame"
+		}]
+	}],
+	rewards: [{
+		uid: "c532a17e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

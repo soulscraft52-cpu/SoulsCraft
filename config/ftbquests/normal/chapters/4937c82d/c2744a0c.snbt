@@ -1,0 +1,49 @@
+{
+	title: "Прям последний",
+	x: -1.0d,
+	y: -13.0d,
+	text: [
+		"Что это за сплав в крафте?"
+	],
+	dependencies: [
+		"afe787ef"
+	],
+	tasks: [{
+		uid: "8a8194e8",
+		type: "item",
+		items: [{
+			item: "contenttweaker:last_casing"
+		}]
+	}],
+	rewards: [{
+		uid: "b902a2ca",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		},
+		count: 32
+	},
+	{
+		uid: "e93f1d65",
+		type: "item",
+		item: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyVariant: "neon",
+				TrophyColorGreen: 128,
+				TrophyShowsTooltip: 1b,
+				TrophyItem: {
+					id: "contenttweaker:casing_of_the_last_smeltery",
+					Count: 1b,
+					Damage: 0s
+				},
+				TrophyColorBlue: 128,
+				TrophyName: "Плавильня ждет!",
+				TrophyColorRed: 128
+			}
+		}
+	}]
+}

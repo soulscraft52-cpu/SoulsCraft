@@ -1,0 +1,84 @@
+{
+	title: "Авто Хаос Осколки",
+	icon: "contenttweaker:guardian_of_chaos_core",
+	x: 6.5d,
+	y: -23.0d,
+	text: [
+		"&5&k&mБессмысленый"
+	],
+	dependencies: [
+		"89122fe0"
+	],
+	tasks: [{
+		uid: "a352b6d3",
+		type: "item",
+		items: [{
+			item: "modularmachinery:automated_killer_guardian_of_chaos_controller"
+		}]
+	},
+	{
+		uid: "c7d2a18f",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing 1 4"
+		}],
+		count: 64L
+	},
+	{
+		uid: "0c7d2479",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockoutputbus 1 2"
+		}]
+	},
+	{
+		uid: "ad3f6be2",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockenergyinputhatch 1 4"
+		}],
+		count: 2L
+	},
+	{
+		uid: "68a0d76d",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing 1 5"
+		}]
+	},
+	{
+		uid: "f273c24f",
+		type: "item",
+		items: [{
+			item: "railcraft:post_metal 1 5"
+		}],
+		count: 20L
+	},
+	{
+		uid: "5937b46b",
+		type: "item",
+		items: [{
+			item: "railcraft:post_metal 1 14"
+		}],
+		count: 24L
+	},
+	{
+		uid: "03f0317e",
+		type: "item",
+		items: [{
+			item: "draconicevolution:infused_obsidian"
+		}],
+		count: 29L
+	}],
+	rewards: [{
+		uid: "1ea1e614",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "6"
+			}
+		},
+		count: 16
+	}]
+}

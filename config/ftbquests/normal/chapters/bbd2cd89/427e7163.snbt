@@ -1,0 +1,27 @@
+{
+	x: -9.5d,
+	y: -5.5d,
+	text: [
+		"Нужно для создания топливных баков и расширенных пластин."
+	],
+	dependencies: [
+		"7f99099d"
+	],
+	tasks: [{
+		uid: "f89242ec",
+		type: "item",
+		items: [{
+			item: "galaxyspace:assembly_machine"
+		}]
+	}],
+	rewards: [{
+		uid: "f1261354",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

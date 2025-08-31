@@ -1,0 +1,112 @@
+{
+	title: "Самый Мощный Среди Всех",
+	icon: "modularmachinery:nuclear_fusion_reactor_controller",
+	x: 5.5d,
+	y: -19.0d,
+	text: [
+		"Типо финал всех машин?",
+		"ШЕФ потратил около 1 трилиона на эту машину, вот почему он такой нерный."
+	],
+	dependencies: [
+		"ee8fd0cc"
+	],
+	tasks: [{
+		uid: "4f01fc57",
+		type: "item",
+		items: [{
+			item: "modularmachinery:nuclear_fusion_reactor_controller"
+		}]
+	},
+	{
+		uid: "ed56e9b2",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockenergyinputhatch 1 4"
+		}]
+	},
+	{
+		uid: "63de0a92",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockinputbus 1 2"
+		}],
+		count: 2L
+	},
+	{
+		uid: "1852f055",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockoutputbus 1 2"
+		}]
+	},
+	{
+		uid: "3cea0fd2",
+		type: "item",
+		items: [{
+			item: "contenttweaker:protective_coating"
+		}],
+		count: 20L
+	},
+	{
+		uid: "18925737",
+		type: "item",
+		items: [{
+			item: "contenttweaker:atomic_coil"
+		}],
+		count: 5L
+	},
+	{
+		uid: "b44e92d7",
+		type: "item",
+		items: [{
+			item: "galaxyspace:futureglass 1 10"
+		}],
+		count: 16L
+	},
+	{
+		uid: "faf7e3c3",
+		type: "item",
+		items: [{
+			item: "contenttweaker:nuclear_fusion_reactor_casing"
+		}],
+		count: 112L
+	},
+	{
+		uid: "5082f3fe",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "30498bfa",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "6"
+			}
+		},
+		count: 16
+	},
+	{
+		uid: "b80bcbff",
+		type: "item",
+		item: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyVariant: "neon",
+				TrophyColorGreen: 128,
+				TrophyShowsTooltip: 1b,
+				TrophyItem: {
+					id: "contenttweaker:atomic_coil",
+					Count: 1b,
+					Damage: 0s
+				},
+				TrophyColorBlue: 128,
+				TrophyName: "Реактор ждет!",
+				TrophyColorRed: 128
+			}
+		}
+	}]
+}

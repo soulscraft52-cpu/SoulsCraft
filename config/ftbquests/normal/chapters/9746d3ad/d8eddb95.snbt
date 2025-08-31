@@ -1,0 +1,29 @@
+{
+	title: "Стоп это не конец???",
+	x: -18.5d,
+	y: -8.0d,
+	text: [
+		"Ну я не против"
+	],
+	dependencies: [
+		"65564d5b",
+		"8cb6e595"
+	],
+	tasks: [{
+		uid: "32fc7a08",
+		type: "item",
+		items: [{
+			item: "enderio:block_solar_panel 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "8fa4871a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

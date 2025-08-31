@@ -1,0 +1,31 @@
+{
+	title: "Сияющий слиток",
+	icon: "avaritia:resource 1 1",
+	x: -14.5d,
+	y: -2.5d,
+	text: [
+		"Нужно вам, просто нужно..."
+	],
+	dependencies: [
+		"0b73e8d9"
+	],
+	tasks: [{
+		uid: "d437e6d2",
+		type: "item",
+		items: [{
+			item: "avaritia:resource 2 1"
+		}],
+		count: 2L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "b9834bfb",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		}
+	}]
+}

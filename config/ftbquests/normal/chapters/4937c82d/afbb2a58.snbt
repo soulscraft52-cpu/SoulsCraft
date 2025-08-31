@@ -1,0 +1,28 @@
+{
+	title: "И ещё плюс 3 ТАК стоп не 3 а 4",
+	x: -4.5d,
+	y: -21.0d,
+	text: [
+		"Имеет 16 слотов"
+	],
+	dependencies: [
+		"82900a7b"
+	],
+	tasks: [{
+		uid: "21265844",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockinputbus 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "ae40c4bc",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		}
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	title: "Голубенькая",
+	icon: "projectex:matter 1 4",
+	x: 3.5d,
+	y: -5.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"9ba3df82"
+	],
+	tasks: [{
+		uid: "2db105a5",
+		type: "item",
+		items: [{
+			item: "projectex:matter 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "2144c34b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 5,
+		random_bonus: 1
+	}]
+}

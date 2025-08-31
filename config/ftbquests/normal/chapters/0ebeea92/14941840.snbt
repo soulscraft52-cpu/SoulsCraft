@@ -1,0 +1,30 @@
+{
+	x: 3.5d,
+	y: 7.5d,
+	text: [
+		"Подержите его немного в инвентаре чтобы он начал указывать путь. Как только он поменяется, зачаруйте его на могиле душою, после зажмите ПКМ для телепортации к сокровищам."
+	],
+	dependencies: [
+		"55bbc6b2"
+	],
+	tasks: [{
+		uid: "6006b80c",
+		type: "item",
+		items: [{
+			id: "tombstone:lost_tablet",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1030710d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

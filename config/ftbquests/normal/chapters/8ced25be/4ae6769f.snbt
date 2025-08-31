@@ -1,0 +1,28 @@
+{
+	title: "Необычный Редстоун",
+	x: -3.0d,
+	y: -3.5d,
+	text: [
+		"Иногда может выпасть из руды Редстоуна"
+	],
+	dependencies: [
+		"cea31829"
+	],
+	tasks: [{
+		uid: "5df1bd4a",
+		type: "item",
+		items: [{
+			item: "extrautils2:ingredients"
+		}]
+	}],
+	rewards: [{
+		uid: "b4ff6767",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

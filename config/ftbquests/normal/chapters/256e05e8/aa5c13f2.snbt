@@ -1,0 +1,24 @@
+{
+	x: -6.5d,
+	y: -6.5d,
+	text: [
+		"Внутрь не употреблять!!!",
+		"Не нюхать, не есть и не пить!"
+	],
+	dependencies: [
+		"94450c57"
+	],
+	tasks: [{
+		uid: "2d168f8c",
+		type: "item",
+		items: [{
+			item: "bigreactors:ingotcyanite"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "b3b4ea8e",
+		type: "choice",
+		table: 18
+	}]
+}

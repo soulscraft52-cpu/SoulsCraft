@@ -1,0 +1,21 @@
+{
+	title: " ",
+	icon: "minecraft:log",
+	description: [
+		"Альфа | Начало"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "",
+	images: [{
+		x: -16.5d,
+		y: -8.0d,
+		width: 20.0d,
+		height: 15.0d,
+		rotation: 0.0d,
+		image: "ftbquests:textures/gui/isl16.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	title: "Драконик...",
+	icon: "draconicevolution:creative_rf_source",
+	x: 11.5d,
+	y: -1.5d,
+	text: [
+		"Ну и ещё один"
+	],
+	dependencies: [
+		"257f84b3"
+	],
+	tasks: [{
+		uid: "b78ff9ca",
+		type: "item",
+		items: [{
+			item: "draconicevolution:creative_rf_source"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e0def3d9",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "6"
+			}
+		},
+		count: 16
+	}]
+}

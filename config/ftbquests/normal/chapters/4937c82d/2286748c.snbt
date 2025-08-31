@@ -1,0 +1,91 @@
+{
+	title: "Быстрый КОКСОВЫЙ УГОЛЬ",
+	icon: "modularmachinery:fast_coke_oven_controller",
+	x: -9.5d,
+	y: -10.0d,
+	text: [
+		"Осуждаю"
+	],
+	dependencies: [
+		"b52c8b41"
+	],
+	tasks: [{
+		uid: "1ade985c",
+		type: "item",
+		items: [{
+			item: "modularmachinery:fast_coke_oven_controller"
+		}]
+	},
+	{
+		uid: "cea3c883",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockinputbus 1 2"
+		}]
+	},
+	{
+		uid: "4677cd8a",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockoutputbus 1 2"
+		}]
+	},
+	{
+		uid: "f72d04b0",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockenergyinputhatch 1 2"
+		}]
+	},
+	{
+		uid: "30dbd636",
+		type: "item",
+		items: [{
+			item: "railcraft:coke_oven"
+		}],
+		count: 29L
+	},
+	{
+		uid: "1c383f1a",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "creosote",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e0473b9f",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "creosote",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "7482f956",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockfluidoutputhatch 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "86b83c6b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

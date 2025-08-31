@@ -1,0 +1,25 @@
+{
+	title: "Простой автоматический магический верстак",
+	x: -7.0d,
+	y: -12.0d,
+	dependencies: [
+		"5ede7f3d"
+	],
+	tasks: [{
+		uid: "9d6464ae",
+		type: "item",
+		items: [{
+			item: "thaumicenergistics:arcane_assembler"
+		}]
+	}],
+	rewards: [{
+		uid: "a2264638",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

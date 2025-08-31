@@ -1,0 +1,31 @@
+{
+	title: "Сингулярная панелька",
+	icon: "industrialupgrade:machines 1 6",
+	x: 5.0d,
+	y: -2.0d,
+	text: [
+		"Если бы она ещё сингулярности делала"
+	],
+	dependencies: [
+		"3b12be29"
+	],
+	tasks: [{
+		uid: "3e7ec6d5",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:machines 1 6"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a879cb56",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 4
+	}]
+}

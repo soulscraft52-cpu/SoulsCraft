@@ -1,0 +1,28 @@
+{
+	title: "Входной шлюз для жидкостей",
+	x: -3.5d,
+	y: -16.0d,
+	text: [
+		"Что тут сказать"
+	],
+	dependencies: [
+		"c83bc188"
+	],
+	tasks: [{
+		uid: "1ff5064f",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockfluidinputhatch 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "acbf2118",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

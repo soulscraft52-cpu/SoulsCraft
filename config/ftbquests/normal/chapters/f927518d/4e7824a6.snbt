@@ -1,0 +1,153 @@
+{
+	title: "Стабилизация матрицы",
+	x: -5.0d,
+	y: -4.5d,
+	text: [
+		"Если поставить все свечи в радиусе 5 блоков от матрицы по 6 штук в каждой из 4 сторон, мы получим 5.32 стабильности.",
+		"",
+		"Ни один предмет не пропаден с матрицы, можно крафтить любые вещи не беспокоясь о чем либо.",
+		"",
+		"Самое начало. Допустим у нас есть свечи, не все виды, а хоть сколько нибудь. Нужно ставить их сразу на матрицу, будет лучше ставить заранее, максимум по 6 штук с одной из 4 сторон матрицы, это важно! Ограничим радиус матрицы, от колонн 5 блоков."
+	],
+	dependencies: [
+		"97058304"
+	],
+	tasks: [{
+		uid: "87297c23",
+		type: "item",
+		items: [{
+			item: "thaumcraft:candle_white"
+		}],
+		count: 24L
+	},
+	{
+		uid: "d968b94a",
+		type: "item",
+		items: [{
+			item: "thaumcraft:candle_orange"
+		}],
+		count: 24L
+	},
+	{
+		uid: "194d6132",
+		type: "item",
+		items: [{
+			item: "thaumcraft:candle_magenta"
+		}],
+		count: 24L
+	},
+	{
+		uid: "496905a9",
+		type: "item",
+		items: [{
+			item: "thaumcraft:candle_lightblue"
+		}],
+		count: 24L
+	},
+	{
+		uid: "bfc614f5",
+		type: "item",
+		items: [{
+			item: "thaumcraft:candle_yellow"
+		}],
+		count: 24L
+	},
+	{
+		uid: "e11498aa",
+		type: "item",
+		items: [{
+			item: "thaumcraft:candle_lime"
+		}],
+		count: 24L
+	},
+	{
+		uid: "dc344b42",
+		type: "item",
+		items: [{
+			item: "thaumcraft:candle_pink"
+		}],
+		count: 24L
+	},
+	{
+		uid: "1705900c",
+		type: "item",
+		items: [{
+			item: "thaumcraft:candle_gray"
+		}],
+		count: 24L
+	},
+	{
+		uid: "23c2ca45",
+		type: "item",
+		items: [{
+			item: "thaumcraft:candle_silver"
+		}],
+		count: 24L
+	},
+	{
+		uid: "cfb88499",
+		type: "item",
+		items: [{
+			item: "thaumcraft:candle_cyan"
+		}],
+		count: 24L
+	},
+	{
+		uid: "8eacc4a9",
+		type: "item",
+		items: [{
+			item: "thaumcraft:candle_purple"
+		}],
+		count: 24L
+	},
+	{
+		uid: "977e79fe",
+		type: "item",
+		items: [{
+			item: "thaumcraft:candle_blue"
+		}],
+		count: 24L
+	},
+	{
+		uid: "db6a654e",
+		type: "item",
+		items: [{
+			item: "thaumcraft:candle_brown"
+		}],
+		count: 24L
+	},
+	{
+		uid: "feb295a5",
+		type: "item",
+		items: [{
+			item: "thaumcraft:candle_green"
+		}],
+		count: 24L
+	},
+	{
+		uid: "d7d72fd3",
+		type: "item",
+		items: [{
+			item: "thaumcraft:candle_red"
+		}],
+		count: 24L
+	},
+	{
+		uid: "a0e2d24a",
+		type: "item",
+		items: [{
+			item: "thaumcraft:candle_black"
+		}],
+		count: 24L
+	}],
+	rewards: [{
+		uid: "3400fe7b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		}
+	}]
+}

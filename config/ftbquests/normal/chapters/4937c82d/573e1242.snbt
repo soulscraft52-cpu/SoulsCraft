@@ -1,0 +1,29 @@
+{
+	title: "Ну типа..... НЕТ на ещё!!!",
+	x: -1.5d,
+	y: -19.0d,
+	text: [
+		"Хотя на первое время хватит"
+	],
+	dependencies: [
+		"9a7fb586"
+	],
+	tasks: [{
+		uid: "7846fcbf",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockenergyinputhatch 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "d51a61dd",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		},
+		count: 2
+	}]
+}

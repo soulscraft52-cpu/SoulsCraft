@@ -1,0 +1,36 @@
+{
+	title: "Адамантит?",
+	icon: "thaumadditions:adaminite_ingot",
+	x: -15.0d,
+	y: -3.5d,
+	text: [
+		"А не, это адаминит... Ну и зачем он мне?"
+	],
+	dependencies: [
+		"40dfdaa1"
+	],
+	tasks: [{
+		uid: "b8b074f4",
+		type: "item",
+		items: [{
+			item: "thaumadditions:adaminite_ingot 4"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "3bfb1a1c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	},
+	{
+		uid: "db17f989",
+		type: "item",
+		item: "thaumadditions:mithrillium_ingot",
+		count: 4
+	}]
+}

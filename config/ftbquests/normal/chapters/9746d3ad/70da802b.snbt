@@ -1,0 +1,31 @@
+{
+	title: "Большой котелок",
+	icon: "enderio:block_enhanced_vat",
+	x: -6.5d,
+	y: 1.0d,
+	text: [
+		"Варите зомби ещё быстрее"
+	],
+	dependencies: [
+		"f3ced59b",
+		"45aab795"
+	],
+	tasks: [{
+		uid: "103323ae",
+		type: "item",
+		items: [{
+			item: "enderio:block_enhanced_vat"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "52a05267",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

@@ -1,0 +1,58 @@
+{
+	title: "В лаве плавать всё ещё не стоит",
+	icon: "divinerpg:netherite_chestplate",
+	x: -15.0d,
+	y: 1.0d,
+	text: [
+		"Вас не подожгут, я вам обещаю!"
+	],
+	dependencies: [
+		"c75a694c"
+	],
+	tasks: [{
+		uid: "d53de936",
+		type: "item",
+		items: [{
+			item: "divinerpg:netherite_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "bc900b09",
+		type: "item",
+		items: [{
+			item: "divinerpg:netherite_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b4942f7c",
+		type: "item",
+		items: [{
+			item: "divinerpg:netherite_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "03c123a3",
+		type: "item",
+		items: [{
+			item: "divinerpg:netherite_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2c64cbd3",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

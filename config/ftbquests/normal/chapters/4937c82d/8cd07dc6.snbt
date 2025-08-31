@@ -1,0 +1,28 @@
+{
+	title: "Новое поколение",
+	x: -5.5d,
+	y: -17.0d,
+	text: [
+		"Имеет 4 слотов"
+	],
+	dependencies: [
+		"072c3c9b"
+	],
+	tasks: [{
+		uid: "9568456a",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockoutputbus 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "14182e41",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

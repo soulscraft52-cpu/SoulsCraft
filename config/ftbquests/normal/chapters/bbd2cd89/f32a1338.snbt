@@ -1,0 +1,31 @@
+{
+	title: "Очередная печка",
+	icon: "galacticraftcore:machine_tiered 1 4",
+	x: -14.0d,
+	y: -0.5d,
+	text: [
+		"Нужна для крафта дуговой печи"
+	],
+	dependencies: [
+		"d78f98a3",
+		"a1f4ef96"
+	],
+	tasks: [{
+		uid: "37e56778",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:machine_tiered 1 4"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5ea37d43",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

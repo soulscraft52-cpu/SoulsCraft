@@ -1,0 +1,25 @@
+{
+	title: "Быстро,просто и самое главное без семян",
+	x: -18.5d,
+	y: -2.0d,
+	dependencies: [
+		"6f160f02"
+	],
+	tasks: [{
+		uid: "18293379",
+		type: "item",
+		items: [{
+			item: "threng:machine 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "fabeed69",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		}
+	}]
+}

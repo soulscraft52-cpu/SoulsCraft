@@ -1,0 +1,27 @@
+{
+	x: 4.5d,
+	y: -4.0d,
+	dependencies: [
+		"d9f549b5",
+		"ed1ea190"
+	],
+	tasks: [{
+		uid: "d555f3e4",
+		type: "item",
+		items: [{
+			item: "thaumadditions:vis_seeds/dominator"
+		}]
+	}],
+	rewards: [{
+		uid: "078a3790",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 2,
+		random_bonus: 1
+	}]
+}

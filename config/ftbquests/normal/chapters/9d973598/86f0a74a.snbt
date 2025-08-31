@@ -1,0 +1,14 @@
+{
+	x: 13.5d,
+	y: -4.0d,
+	dependencies: [
+		"07e89f24"
+	],
+	tasks: [{
+		uid: "6a5ea054",
+		type: "item",
+		items: [{
+			item: "divinerpg:heliosis_lump"
+		}]
+	}]
+}

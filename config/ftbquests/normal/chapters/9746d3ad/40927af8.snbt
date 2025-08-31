@@ -1,0 +1,29 @@
+{
+	title: "Улучшенная версия базовой",
+	icon: "enderio:block_solar_panel 1 1",
+	x: -12.5d,
+	y: -8.0d,
+	text: [
+		"Всё ещё мало?"
+	],
+	dependencies: [
+		"d1a17e61"
+	],
+	tasks: [{
+		uid: "894ccbb1",
+		type: "item",
+		items: [{
+			item: "enderio:block_solar_panel 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "da874e66",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	x: -0.5d,
+	y: -11.0d,
+	dependencies: [
+		"82a220be"
+	],
+	tasks: [{
+		uid: "43b870b0",
+		type: "item",
+		items: [{
+			item: "packagedthaumic:crucible_crafter"
+		}]
+	}],
+	rewards: [{
+		uid: "18157de1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		}
+	}]
+}

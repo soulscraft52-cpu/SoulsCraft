@@ -1,0 +1,370 @@
+itemGroup.thaumictinkerer=Thaumic Tinkerer
+itemGroup.thaumictinkererAspect=Thaumic Tinkerer Aspects
+
+item.thaumictinkerer:share_book.name=Tome of Knowledge Sharing
+item.thaumictinkerer:share_book.0=A Goldfish's Diary
+
+
+item.thaumictinkerer:black_quartz.name=Smokey Quartz
+item.thaumictinkerer:connector.name=Transvector Binder
+
+item.ichorium_fortress_helmet.name=Укрепленная ихориевая маска
+item.ichorium_fortress_chestplate.name=Укрепленный ихориевый нагрудник
+item.ichorium_fortress_leggings.name=Укрепленные ихориевые поножи
+
+tile.thaumictinkerer:chlorophyte_ore.name=Chlorophyte Ore
+
+item.thaumictinkerer:energetic_nitor.name=Energetic Nitor
+item.thaumictinkerer:form_revealer.name=Multiblock Guide
+item.thaumictinkerer:spellbinding_cloth.name=Spellbinding Cloth
+item.thaumictinkerer:soul_mould.name=Soul Mould
+item.thaumictinkerer:blood_sword.name=Cursed Spirit's Blade
+item.thaumictinkerer:mob_aspect.name=Mob Aspect
+item.thaumictinkerer:condensed_mob_aspect.name=Сжатый аспект существа
+
+item.thaumictinkerer:gas_shadow_item.name=Пузырёк теневого газа
+item.thaumictinkerer:gas_light_item.name=Пузырёк светящегося газа
+item.thaumictinkerer:gas_remover.name=Средство для удаления газа
+
+item.thaumictinkerer:cleaning_talisman.name=Очищающий амулет
+
+item.thaumictinkerer:kamiresource.0.name=Эндер кристалл
+item.thaumictinkerer:kamiresource.1.name=Незер кристалл
+item.thaumictinkerer:kamiresource.2.name=Ихор
+item.thaumictinkerer:kamiresource.3.name=Ихориевый слиток
+item.thaumictinkerer:kamiresource.4.name=Ихориевая ткань
+item.thaumictinkerer:kamiresource.5.name=Ихориевый самородок
+
+item.thaumictinkerer:block_talisman.name=Талисман Чёрной Дыры
+item.thaumictinkerer:cat_amulet.name=Кошачий амулет
+item.thaumictinkerer:placement_mirror.name=Worldshaper's Looking Glass
+item.thaumictinkerer:sky_pearl.name=Небесная жемчужина
+
+tile.warp_gate.name=Небесные врата
+
+tile.thaumictinkerer:funnel.name=Essentia Funnel
+tile.thaumictinkerer:funnel.0=Even Transfer
+
+tile.thaumictinkerer:dissimulation.name=Dissimulation Block
+
+tile.thaumictinkerer:transvector_interface.name=Transvector Interface
+tile.thaumictinkerer:transvector_dislocator.name=Transvector Dislocator
+
+tile.thaumictinkerer:repairer.name=Thaumic Restorer
+tile.thaumictinkerer:animation_tablet.name=Dynamism Tablet
+tile.thaumictinkerer:magnet.name=Kinetic Attractor
+tile.thaumictinkerer:mob_magnet.name=Corporeal Attractor
+tile.thaumictinkerer:osmotic_enchanter.name=Osmotic Enchanter
+tile.thaumictinkerer:enchantment_pillar.name=Enchanting Pillar
+tile.thaumictinkerer:black_quartz_block.name=Black Quartz Block
+tile.thaumictinkerer:example.name=Placeholder Block
+tile.thaumictinkerer:ichor_block.name=Ихориевый блок
+tile.thaumictinkerer:summoner.name=Скрижаль некромантии
+
+tile.bedrock_portal.name=Бедроковый портал
+
+item.ichorium_sword.name=Ихориевый мечь
+item.ichorium_pick.name=Ихориевая кирка
+item.ichorium_axe.name=Ихориевый топор
+item.ichorium_shovel.name=Ихориевая лопата
+
+item.ichor_pouch.name=Бездонная сумка
+
+item.ichor_helm.name=Ихориевый капюшён
+item.ichor_chest.name=Ихориевая роба
+item.ichor_legs.name=Ихориевые шаровары
+item.ichor_boots.name=Ихориевые сапоги
+
+item.kami_helm.name=Капюшён бездонных глубин
+item.kami_chest.name=Роба стратосферы
+item.kami_legs.name=Пылающие шаровары
+item.kami_boots.name=Сапоги горизонтального щита
+
+item.ichorium_pick_adv.name=Пробужденная ихориевая кирка
+item.ichorium_axe_adv.name=Пробужденный ихориевый топор
+item.ichorium_shovel_adv.name=Пробужденная ихориевая лопата
+item.ichorium_sword_adv.name=Пробужденный ихориевый мечь
+
+item.thaumictinkerer:proto_clay.name=Прото глина
+item.revealing_helm.name=Шлем раскрытия
+
+thaumictinkerer.TELEKENESIS.name=Telekenesis
+thaumictinkerer.dislocation.name=Dislocation
+thaumictinkerer.efreetflame.name=Efreet's Flame
+thaumictinkerer.TELEKENESIS.text=[WIP] Telekenesis
+thaumictinkerer.dislocation.text=[WIP] Dislocation
+thaumictinkerer.efreetflame.text=[WIP] Efreet's Flame
+thaumictinkerer.mobaspect.type=Aspect: %s
+thaumictinkerer.mobaspect.invalid=Invalid Aspect
+
+
+thaumictinkerer.config.title=Thaumic Tinkerer Config
+thaumictinkerer.config.talisman=Talisman of Remedium Uses
+
+
+thaumictinkerer.card.experience.name=Experience
+thaumictinkerer.card.experience.text=You notice that a lot of the Tinkering you are doing, is inspired by your experience in life. Gain 25 in Thaumic Tinkerer, At the cost of 4 levels of experience.
+
+ttmisc.mobmagnet.all=All
+ttmisc.mobmagnet.none=None
+ttmisc.mobmagnet.child=Child
+ttmisc.mobmagnet.adult=Adult
+ttmisc.mobmagnet.push=Push
+ttmisc.mobmagnet.pull=Pull
+ttmisc.animation_tablet.left=Left Click
+ttmisc.animation_tablet.right=Right Click
+ttmisc.enchanter.start=Start Enchanting!
+ttmisc.enchanter.notready=Can't Enchant!
+ttmisc.enchanter.incomplete=This construct is incomplete. The enchanter is unable to work.
+ttmisc.shareTome.write=Research Written!
+ttmisc.shareTome.noAssign=Not Assigned
+ttmisc.shareTome.playerName=Bound to %s's research.
+ttmisc.shareTome.sync=Research Acquired.
+ttmisc.shareTome.clear=Research Cleared.
+ttmisc.connector.complete=Binding Complete!
+ttmisc.connector.set=Location Set!
+ttmisc.connector.notinterf=Not a Transvector Block.
+ttmisc.connector.interffail=Can't bind a Transvector Interface to another.
+ttmisc.connector.dislfail=Can't bind a Transvector Dislocator to another.
+ttmisc.connector.notpresent=The Transvector Block isn't present.
+ttmisc.connector.toofar=The Transvector Block of origin is too far away.
+ttmisc.connector.clear=You have cleared the selected Transvector block
+ttmisc.soulMould.nonAssigned=No Pattern
+ttmisc.soulMould.pattern=Current Pattern: %s
+ttmisc.inactive=Неактивный
+ttmisc.active=Активный
+
+thaumictinkerer.enchanter.badmb=The Multiblock is not fully formed
+
+ttmisc.debug.redstone=Redstone Recieved: %s
+
+
+tc.research_category.THAUMIC_TINKERER=Thaumic Tinkerer
+research.!Ocelot.text=Scan an ocelot
+
+thaumictinkerer.research.share_tome.title=Tome of Knowledge Sharing
+thaumictinkerer.research.share_tome.lore=A Goldfish's Diary
+thaumictinkerer.research.share_tome.0=While exploring the magic of the Thaumonomicon one evening I started pondering about the knowledge within, and how it is all in this one, easilly lost, not shareable book.  It seems anyone I teach to make a Thaumonomicon makes either a blank one or, if they are a practioner, one which contains their own knowledge. After some minor experimentation, I found that if I write with special ink, I can make a tome that will transfer the completed knowledge of one Thaumonomicon to another practioners's Thaumonomicon. Uncompleted research seems to be resistant to this method of transfer.
+
+thaumictinkerer.research.funnel.title=Essentia Funnel
+thaumictinkerer.research.funnel.lore=Even Transfer
+thaumictinkerer.research.funnel.0=I grew tired of managing my jars with phials, and tubes seem to be a bit esoteric still for my tastes, although I will need to explore their use for later. If I use the thaumically conductive properties of Thaumium in some shaped stone I can make a cover for a hopper, allowing it to transfer essentia from one jar to another, as if they were chests.
+
+thaumictinkerer.research.black_quartz.title=Smokey Quartz
+thaumictinkerer.research.black_quartz.lore=Shadow of the Day
+thaumictinkerer.research.black_quartz.0=Quartz is a lovely material to work with, but I have found that it is just a tiny bit too bright for my liking. Can I make it more useful?
+thaumictinkerer.research.black_quartz.1=If I use some coal or charcoal and fuse it with quartz, I end up with a smokey quartz that can make all the regular quartz blocks, but looks much darker and satisfying to use, it also appears to have unlocked a few more thaumic uses as well. Part of me wonders if this would make a good hunting weapon if I attached a string
+
+
+thaumictinkerer.research.transvector_interface.title=Transvector Interface
+thaumictinkerer.research.transvector_interface.0=A man who’s name is only known as Direwolf20, once said “The thing is, there's only six sides to a block...”. This knowledge has been the Thaumaturge’s bane for many years, as there is never enough sides to attach everything we want to attach. If my new dissimulation blocks can look like a block, I wonder if they can act like it too, combined with the displacement effects of ender pearls I may be able to break this bane.
+thaumictinkerer.research.transvector_interface.1=A man who’s name is only known as Direwolf20, once said “The thing is, there's only six sides to a block...”. ... I think I can now say that myth is busted. I can bind this new interface to a nearby block, and it will effectively bind the two points in space.<BR>Although it may look seperate to the naked eye, pipes, wires, and other mechanics, both thaumic, and mundane, will interact with the interface block as if they were touching the linked block itself.<BR> I simply have to select the interface with my specially constructed beacon device, to link the two, then select the block I wish linked with the beacon, and then the two blocks are linked, until one or the other is removed. The interface even retains the camouflage ability of the dissimulation block.<BR> It's effects seem very much like the mirrors, I wonder what happens if I add the base glass?
+thaumictinkerer.research.transvector_interface.2=A man who’s name is only known as Direwolf20, once said “The thing is, there's only six sides to a block...”. ... I think I can now say that myth is busted. I can bind this new interface to a nearby block, and it will effectively bind the two points in space.<BR>Although it may look seperate to the naked eye, pipes, wires, and other mechanics, both thaumic, and mundane, will interact with the interface block as if they were touching the linked block itself.<BR> I simply have to select the interface with my specially constructed beacon device, to link the two, then select the block I wish linked with the beacon, and then the two blocks are linked, until one or the other is removed. The interface even retains the camouflage ability of the dissimulation block.<BR><BR> I now also have the Transvector Dislocator too. The addition of the magical mirror base seems to strengten the effect, letting me swap two points in space at command. All I have to do is bind a block to the Dislocator, then on a redstone signal it swaps it with the block in front of the dislocator.
+
+thaumictinkerer.research.form_revealer.title=Multiblock Guide
+thaumictinkerer.research.form_revealer.0=As I learn more about Thaumaturgy, I find that my workings no longer always fit inside one block, sometimes structures taller then myself even, are needed to be constructed to complete my tasks. If I take the basic memory provided from a zombie’s brain, and combine it with the phantasmal light of nitor, I may be able to make a wand that will remember where I need to place blocks, to complete a structure, and show me which block I need to provide in whichever places they need to go.
+
+thaumictinkerer.research.TT_TELEKENESIS.title=Focus Effect: Telekinesis
+thaumictinkerer.research.TT_TELEKENESIS.0=After watching how creatures and items alike drift in water I started to wonder, what if I had a stream of magical energy that could do so?
+thaumictinkerer.research.TT_TELEKENESIS.1=I have managed to create a focal pattern that creates a light stream of magic infused with vis,  if I add this pattern to a bolt and right click on the ground, all nearby items will float towards that point. Crouching will instead cause the items to flee from that point.
+
+thaumictinkerer.research.TT_DISLOCATE.title=Focus Effect: Dislocation
+thaumictinkerer.research.DISLOCATE.0=After so much work was put into discovering how to exchange blocks, I noticed sometimes there would be a delay before the block appears when being swapped. I wonder what would happen if I look into this more?
+thaumictinkerer.research.DISLOCATE.1=After so much work was put into discovering how to exchange blocks, I noticed sometimes there would be a delay before the block appears when being swapped. I wonder what would happen if I look into this more?<BR> Success! After some experimentation, many lost blocks of cobblestone, and an invasion of endermen or two, I substituted permutatio for desiderium, so the effect desired to hold on longer, and now I have a pattern that can temporarily store blocks to move them. <BR> Once applied to a focus, left click on a block to store it within the focus, then left click again to place the block.
+thaumictinkerer.research.EFREET_FLAME.title=Focus Effect: Efreet's Flame
+thaumictinkerer.research.EFREET_FLAME.0=[WIP]
+thaumictinkerer.research.EFREET_FLAME.1=[WIP]
+
+thaumictinkerer.research.prismarine.title=Aquatic Alchemy
+
+thaumictinkerer.research.spellbinding_cloth.title=Spellbinding Cloth
+thaumictinkerer.research.spellbinding_cloth.lore=The sad palmtop thaumaturge
+thaumictinkerer.research.spellbinding_cloth.0=While working with my enchanted axe one day, I accidentally dropped it in a cauldron of concentrated magic. The axe, of course, was lost, but I noticed the first thing to go was the enchantment glow, leaving it a plain metal axe before it dissolved. <BR> I wonder what would happen if I coated some Enchanted cloth in this mixture and just wiped a tool down with it?
+thaumictinkerer.research.spellbinding_cloth.1=While working with my enchanted axe one day, I accidentally dropped it in a cauldron of concentrated magic. The axe, of course, was lost, but I noticed the first thing to go was the enchantment glow, leaving it a plain metal axe before it dissolved. <BR> I wonder what would happen if I coated some Enchanted cloth in this mixture and just wiped a tool down with it? <BR> My experiments have born fruit, Enchanted fabric soaked in the mixture will wipe an enchantment off an item, leaving it pristine and ready for re-enchantment. It seems to damage the cloth slightly each time, however.
+
+thaumictinkerer.research.dissimulation.title=Dissimulation Block
+thaumictinkerer.research.dissimulation.0=This new substance called Prismarine seems to have some unusual optical properties. I wonder what I could do once I have fully investigated it.
+thaumictinkerer.research.dissimulation.1=After fully investigating Prismarine, I have found a way to make blocks that with a magical push, can look like any other block. <BR> All I have to do is place this Dissimulation block down, and then touch another block against it by right clicking. I wonder if I can use this apparent memory of another block in any other ways?
+
+thaumictinkerer.research.revealing_helm.title=Helmet of Revealing
+thaumictinkerer.research.revealing_helm.text==As it turns out, goggles don't offer much protection from attacking zombies. You think you have a fix for that though.
+thaumictinkerer.research.revealing_helm.complete.text==As it turns out, goggles don't offer much protection from attacking zombies. You think you have a fix for that though. By strapping goggles of revealing onto a thaumium helmet, you can get the benefits of both. Well, it turns out it is a bit more complicated than that. A bit of magic is required to avoid feedback loops, and a bit of magic to keep them from slipping off, but on the whole, it more or less works.
+
+thaumictinkerer.research.cleanser.title=Talisman of Remidium
+thaumictinkerer.research.cleanser.0=The undead practitioners of the other, older type of magic get annoying. Those poison potions they fling about don't seem to be the normal kind of magic. It starts to make you wonder though, what could you do if you got hold of one of theese, potions, and researched it?
+thaumictinkerer.research.cleanser.1=The undead practitioners of the other, older type of magic get annoying. Those poison potions they fling about don't seem to be the normal kind of magic. It starts to make you wonder though, what could you do if you got hold of one of theese, potions, and researched it? <BR> After a few days grueling work you come up with a new Talisman. While you couldn't yet reproduce the effects of the potions with true magic, you were able to create a talisman that wipes away the potion effects off of yourself at the cost of your durability.<BR> You just activate it, and place it upon yourself as an amulet, and everytime you come across a potion effect, it will clear it at the cost of itself. It seems to even work against some true magic effects, though at greater cost to itself.
+
+thaumictinkerer.research.summoning.title=Mob Summoning
+thaumictinkerer.research.summoning.0=You are able to use the souls gained from a Cursed spirits blade in order to summon mobs. Place three pedestals around a Tablet of Necromancy. On the pedestals, place three soul aspects. Different types of soul aspects give different types of mobs. Every mob has a different composition.
+thaumictinkerer.research.summoning.1=You are able to use the souls gained from a Cursed spirits blade in order to summon mobs. Place three pedestals around a Tablet of Necromancy. On the pedestals, place three soul aspects. Different types of soul aspects give different types of mobs. Every mob has a different composition. By creating Infused Soul Aspects, you are able to summon mobs without consuming Soul Aspects. Summoning using Infused Soul Aspects is much slower than normal.
+
+thaumictinkerer.research.gases.title=Gaseous
+thaumictinkerer.research.gases.0=You have studied life and the body and found that through the application of magic you can protect yourself from harmful outside influences by redirecting these effects to a construct.
+thaumictinkerer.research.gases.1=You have studied life and the body and found that through the application of magic you can protect yourself from harmful outside influences by redirecting these effects to a construct. This talisman will dispel most harmful effects on the holder and keep them on itself, taking damage. It will removed some effects stemming from warp, at an extreme durability cost.<BR><BR>To enable or disable this ability, one would shift-right click on it. As expected, it only works whilst enabled. It must be worn in your amulet slot to take effect.
+
+thaumictinkerer.research.gas_remover.title=Fume Dissipator
+thaumictinkerer.research.gas_remover.0=After knowing both the Gaseous Illuminae and Tenebrae, you are thinking it's becoming a hassle to get rid of it.
+thaumictinkerer.research.gas_remover.1=After knowing both the Gaseous Illuminae and Tenebrae, you are thinking it's becoming a hassle to get rid of it. With this item, by shift-right clicking on it, all the nearby gas will get dissipated.
+
+thaumictinkerer.research.repairer.title=Thaumic Restorer
+thaumictinkerer.research.repairer.0=After finding out one mixture of Essentia could disenchant, but damage tools, I started to wonder, could another fix them? <BR> Turns out it can. If I take my new Thaumic Restorer and put the tool in, then pump in the correct Essentia for the tool, it will let the tool regain it's natural durability. It's handy that the ever-useful goggles let me see which type is needed.
+
+thaumictinkerer.research.magnet.title=Thaumic Magnents
+thaumictinkerer.research.magnet.0=Putting a focus containing my new telekenesis effect into a framework of greatwood and iron ,I get a device that attracts or repels items dependent on the redstone signal. With some clever adjustment, I can also filter which items it should attract or repel. <BR> I get the feeling there is a way to magnify this pull, to effect more then just dropped items.
+thaumictinkerer.research.magnet.1=Putting a focus containing my new telekenesis effect into a framework of greatwood and iron ,I get a device that attracts or repels items dependent on the redstone signal. With some clever adjustment, I can also filter which items it should attract or repel. <BR> Substituting iron for thaumium, and adding more vis, seems to magnify the effect, not items now, but creatures will be attracted or repeled. I obviously can't place a creature in the device to filter it, but I can catch the essence of their soul using a modified ender pearl, and that seems to do just as well a filter.
+
+thaumictinkerer.research.enchanter.title=Osmotic Enchanter
+thaumictinkerer.research.enchanter.0=Infusion seems more familiar the more I look at it. Something about how it pulls in magic and infuses such a large amount into an object to give it new properties makes me think it could be related to enchantment of an item in some way. If I investigate infusion more I wonder if I can find the link?
+thaumictinkerer.research.enchanter.1=I have found the link between infusion and enchantment! Whereas infusing an object requires a massive amount of different essentia, enchantment, being a lower power infusing, doesnt need much more then the basic ambient magic. Working off of this theory, I can build an enchanting table that uses a similar setup to the infusion matrix, to instead add enchantment to a tool, while being able to select which magic settles on the tool, meaning I can select the enchantment. Building this structure, then triggering it by sprinkling some salis mundus should work
+
+thaumictinkerer.research.tablet.title=Dynamism Tablet
+thaumictinkerer.research.tablet.0=Golems are so very useful, watching them wandering here and there to do my bidding is quite amusing. However, sometimes I don't want a minion doing something for me. Sometimes, I just need a plain block that does one thing, but does it well. The way I built a magnet around a focus makes me wonder: can I build something around a seal? I must examine golems more.
+thaumictinkerer.research.tablet.1=It looks like I can build a block around a seal that leverages golemancy to use an item, without actually being a fully mobile golem. If I place this block down and give it an item, it will use the item on the block in front of it. That is, as long as it has a redstone signal. ` It can be told whether to mine or use a block. However, with no inventory, anything it does mine drops into the world - perhaps for its more mobile cousin to pick up.
+
+thaumictinkerer.research.energetic_nitor.title=Hyperenergetic Nitor
+thaumictinkerer.research.energetic_nitor.0=One cannot deny the Nitor is useful. However, having to place it down before I see anything is annoying. I wonder, could I somehow make it visible from my palm if I were to make it more energetic?
+thaumictinkerer.research.energetic_nitor.1=Adding in more Energy and Light Essentia seems to have done the trick. I have managed to create a more powerful nitor - this Hyperenergetic Nitor burns with a visible light from my hand, so much so that it will even leave a trail as I move.
+
+thaumictinkerer.research.ichorium_fortress.title=Ichorium Fortress Armor
+thaumictinkerer.research.ichorium_fortress.text=[WIP]
+thaumictinkerer.research.ichorium_fortress.complete.text=[WIP]
+
+thaumictinkerer.research.dimensionalshard.title=Dimensional Shards
+thaumictinkerer.research.dimensionalshard.text=Thaumaturges of the Fourth Age spoke of a mythical substance called "Ichor", able to forge some of the most powerful Tools and Armor available to any Thaumaturge who could manage to create it.<BR>I had thought this process was impossible to replicate, until i discovered that whatever Dimensional Shards were being described in the scraps of Research i found seem to still exist. Supposedly, they suddenly stopped coalescing for Thaumaturges late into the Fourth Age, and yet, somehow, they have returned in modern times...<BR>I should gather a sample of these Shards to see if Ichor can be replicated nowadays.
+thaumictinkerer.research.dimensionalshard.complete.text=The prospect of creating this mythical "Ichor" is promising and seems possible, but i am not sure how i can replicate it as of yet, such will require further Research.<BR>These Dimensional Shards may also have other applications, though there was nothing that the Fourth Age scraps described, Fourth Age Thaumaturges were likely too fixated on Ichor.
+
+thaumictinkerer.research.ichorpouch.title=Ichor Pouch
+thaumictinkerer.research.ichorpouch.text=The Focus Pouch is quite the amazing creation that I've made thus far, with its incredible utility to hold several foci at once, allowing me to switch my foci with a simple wrench of my wrist, it makes it all the more curious as to why I can't hold regular items inside this marvelous pouch. The best inference I have so far is that the bag is far too fragile with only using mundane leather. Instead of a sturdier material such as Enchanted Fabric, though I suppose fabric isn't the best material for a handbag either...<BR>Something I should research when looking into the creation of the bag is Vacuos. Chests, bags, and perhaps other containers should be looked into as well to see how they work, I should especially study the Ichor substance that I had previously created.
+thaumictinkerer.research.ichorpouch.complete.text=There we are! With a steady and careful crafting of this "God's Blood" substance, I've learned that Ichor doesn't just enhance normal tools and armor, but perhaps even utilities as well! I've created a bag that holds far more than just mere foci, I can hold tools, weapons, food, blocks... just about anything! A surely unique tool for my toolbelt, with its seemingly bottomless carrying capacity, it seems like this bag can even excel most other backpacks mere men have created without the art of miracle-working in mind! This bag holds a grand total of about 117 slots worth of items, and each can carry 64 of any stackable item within each of its slots. It also functions perfectly as a Focus Pouch too, so there's no need to make another Focus Pouch in conjunction, though it may be advantageous to make multiple of these pouches to extend my carrying capacity within my inventory.
+
+thaumictinkerer.research.ichor.title=The Lost Substance - Ichor
+thaumictinkerer.research.ichor.text=I am getting closer to a theoretical means of creating Ichor, but i am not quite there, i must determine what the various fields of Thaumaturgy have to do with Ichor, incase there are important links i am missing, then, i must try my theoretical infusion, and hope for the best.
+thaumictinkerer.research.ichor.complete.text=It worked! I have sucessfully replicated Ichor! Though it doesn't appear quite the same as in the scraps at first, but can be easily solved by ripping it into chunks. With this substance now in my hands, it is time to push forward to rediscovering this supposedly potent arsenal.
+
+thaumictinkerer.research.ichoriumtools.title=Ichorium Tools
+thaumictinkerer.research.ichoriumtools.text=Thaumaturges of the Fourth Age used an Alloy imbued with Ichor, called "Ichorium" as the basis for their powerful tools, i should create my own sample of this Alloy and investigate how to manipulate it.
+thaumictinkerer.research.ichoriumtools.complete.text=This Ichorium Alloy is quite simple, in theory, but quite costly to replicate in practice, regardless, Silverwood should be a sufficiently magical material to use as a Handle which conducts the power of Ichorium.<BR>Tools forged from this Alloy are practically undentable, and are very effective too, but is this really all they can offer...?
+
+thaumictinkerer.research.ichorium_sword_adv.title=Awakened Ichorium Sword
+thaumictinkerer.research.ichorium_sword_adv.text=Surely, there must be a way to get more out of these Tools, the scraps describe them as much more interesting than what i have created, perhaps i am missing something, i shall experiment with the Sword i have made.
+thaumictinkerer.research.ichorium_sword_adv.complete.text=It seems it is possible to empower the Sword, with this new power, it is capable of specialized "Modes" to make combat with many foes much easier.<BR>The default Mode, indicated by the Gems on the tool being Green, will act similar to most Swords. The "Multi" Mode, indicated by the Gems being Red, will harm all creatures near the one that is struck with equal force. The "Shield" Mode, indicated by the Gems being Blue, will reduce the Damage of the sword, but allow it to grant me extra resilience in the form of a Barrier, which can be recharged by striking creatures.
+
+thaumictinkerer.research.ichorium_pick_adv.title=Awakened Ichorium Pickaxe
+thaumictinkerer.research.ichorium_pick_adv.text=Surely, there must be a way to get more out of these Tools, the scraps describe them as much more interesting than what i have created, perhaps i am missing something, i shall experiment with the Pickaxe i have made.
+thaumictinkerer.research.ichorium_pick_adv.complete.text=It seems it is possible to empower the Pickaxe, with this new power, it is capable of clearing out much more at once when desired, by cycling through the available "Modes" it has.<BR>The default Mode, indicated by the Gems on the tool being Green, will act similar to most Pickaxes. The "Square" Mode, indicated by the Gems being Red, will be able to clear a 5x5 area by simply breaking the central block. And lastly, the "Line" Mode, indicated by the Gems being Blue, will clear out material towards where i mined, useful for creating small tunnels quickly.<BR>It also seems to be even more resilient than ever before, so resilient, it may match the toughness of Bedrock, i wonder what i can find beyond the Bedrock...
+
+thaumictinkerer.research.ichorium_axe_adv.title=Awakened Ichorium Axe
+thaumictinkerer.research.ichorium_axe_adv.text=Surely, there must be a way to get more out of these Tools, the scraps describe them as much more interesting than what i have created, perhaps i am missing something, i shall experiment with the Axe i have made.
+thaumictinkerer.research.ichorium_axe_adv.complete.text=It seems it is possible to empower the Axe, with this new power, it is capable of clearing out much more at once when desired, by cycling through the available "Modes" it has.<BR>The default Mode, indicated by the Gems on the tool being Green, will act similar to most Axes. The "Square" Mode, indicated by the Gems being Red, will clear out 5x5 areas of material by simply breaking the central block. And lastly, the "Fell" Mode, indicated by the Gems being Blue, will chop entire Trees, and cause their Leaves to decay rapidly.
+
+thaumictinkerer.research.ichorium_shovel_adv.title=Awakened Ichorium Shovel
+thaumictinkerer.research.ichorium_shovel_adv.text=Surely, there must be a way to get more out of these Tools, the scraps describe them as much more interesting than what i have created, perhaps i am missing something, i shall experiment with the Shovel i have made.
+thaumictinkerer.research.ichorium_shovel_adv.complete.text=It seems it is possible to empower the Shovel, with this new power, it is capable of clearing out much more at once when desired, by cycling through the available "Modes" it has.<BR>The default Mode, indicated by the Gems on the tool being Green, will act similar to most Shovels. The "Square" Mode, indicated by the Gems being Red, will be able to clear a 5x5 area by simply breaking the central block. And lastly, the "Line" Mode, indicated by the Gems being Blue, will clear out material towards where i mined, useful for creating small tunnels quickly.
+
+thaumictinkerer.research.ichorarmor.title=Ichorcloth Armor
+thaumictinkerer.research.ichorarmor.text=Infusing Enchanted Fabric with Ichor seems to be how Fourth Age Thaumaturges created Armor using Ichor. Clever.<BR>Replicating this Cloth myself should be a simple task.
+thaumictinkerer.research.ichorarmor.complete.text=It is indeed not a difficult process, just a costly one.<BR>It seems that the Enchanted Fabric is enough to support the magical energy of the Ichor, so i won't be needing any extra reagents, besides somes Diamonds to embellish the Fabric with.<BR>The Armor that can be forged out of this cloth is practically unable to be damaged, and offers great defenses, but is this really all it has to offer?
+
+thaumictinkerer.research.kamihelm.title=Cowl of the Abyssal Depths
+thaumictinkerer.research.kamihelm.text=Surely, there must be a way to get more out of this Armor, the scraps describe them as much more interesting than what i have created, perhaps i am missing something, i shall see what i can do with the Cowl.
+thaumictinkerer.research.kamihelm.complete.text=It seems to be possible to Infuse the Cowl with the aspect of Aqua, granting me the ability to breathe and see underwater, aswell as allowing me to recover my health at a steady pace regardless of how hungry i am.
+
+thaumictinkerer.research.kamichest.title=Robes of the Stratosphere
+thaumictinkerer.research.kamichest.text=Surely, there must be a way to get more out of this Armor, the scraps describe them as much more interesting than what i have created, perhaps i am missing something, i shall see what i can do with the Robes.
+thaumictinkerer.research.kamichest.complete.text=It seems to be possible to Infuse the Robe with the aspect of Aer, granting the power of Flight.
+
+thaumictinkerer.research.kamilegs.title=Leggings of the Mantle
+thaumictinkerer.research.kamilegs.text=Surely, there must be a way to get more out of this Armor, the scraps describe them as much more interesting than what i have created, perhaps i am missing something, i shall see what i can do with the Legwear.
+thaumictinkerer.research.kamilegs.complete.text=It seems to be possible to Infuse the Leggings with the aspect of Ignis, granting me immunity to Fire, and drawing on the power of it to help heal my wounds.
+
+thaumictinkerer.research.kamiboots.title=Boots of the Horizontal Shield
+thaumictinkerer.research.kamiboots.text=Surely, there must be a way to get more out of this Armor, the scraps describe them as much more interesting than what i have created, perhaps i am missing something, i shall see what i can do with the Boots.
+thaumictinkerer.research.kamiboots.complete.text=It seems to be possible to Infuse the Boots with the aspect of Terra, granting me improved speed and jumping, aswell as swifter Mining, and growing Grass atop any Dirt i walk on.
+
+thaumictinkerer.research.blackhole_ring.title=Black Hole Ring
+thaumictinkerer.research.blackhole_ring.text=[WIP]
+thaumictinkerer.research.blackhole_ring.complete.text=[WIP] This ring can be set to condense any block, by right clicking with it in world in the type of block you want to have it be set to, when enabled via right click will absorb any excess (over 1 stack) of that block in your inventory, and make sure at least one stack stays there. The contents can be stored in any inventory by right clicking it, or placed in world as if they were normal blocks.<BR><BR>It can store over 2 billion of the same block. Guess cobblestone clogging the space isn't an issue. If the ring is empty, it can be shift right clicked into another block to change its binding.
+
+thaumictinkerer.research.proto_clay.title=Proto Clay
+thaumictinkerer.research.proto_clay.text=You grew tired of having to constantly swap your tools.
+thaumictinkerer.research.proto_clay.complete.text=You grew tired of having to constantly swap your tools.<BR><BR>This mixture will, by melding with the Ichorium, switch any Awakened Ichorium tools being held by the one used for the block being pointed at, case one tries to break it with the wrong tool.<BR><BR>As an example, trying to break a dirt block with an Awakened Ichorium Pickaxe while a Shovel is present elsewhere in the inventory will swap the two, and allow for fast disposal of the dirt block.
+
+thaumictinkerer.research.cat_amulet.title=Feline Amulet
+thaumictinkerer.research.cat_amulet.text=It didn't take you long to come to the conclusion that you hated all those times a creeper snuck up on you.
+thaumictinkerer.research.cat_amulet.complete.text=It didn't take you long to come to the conclusion that you hated all those times a creeper snuck up on you.<BR><BR>To that end, using the knowledge you have that creepers run away from cats, you have devised an amulet that by simply being carried on you makes all creepers run in fear of your presence. Not only that, but they'll be petrified to the point of not gathering enough stoke to explode. Great. It must be worn in your amulet slot to take effect.
+
+thaumictinkerer.research.warp_series.title=Celestial Gateway
+thaumictinkerer.research.warp_series.text=You devised a complex mechanism that allows to displace your own position in the world. This block, when containing Celestial Pearls (see next page), will allow for teleportation to various spots in the world.<BR><BR>A grand total of 10 spots can be set. You can prevent other Gateways from connecting to this one by toggling it in the block's GUI (accessible by right click).<BR><BR>To acccess the list of possible destinations, sneak above the block.
+thaumictinkerer.research.warp_series.complete.text=You devised a complex mechanism that allows to displace your own position in the world. This block, when containing Celestial Pearls (see next page), will allow for teleportation to various spots in the world.<BR><BR>A grand total of 10 spots can be set. You can prevent other Gateways from connecting to this one by toggling it in the block's GUI (accessible by right click).<BR><BR>To acccess the list of possible destinations, sneak above the block.<PAGE>In order for locations to be set in the Gateway, they must be marked with Celestial Pearls. These items can be shift-right clicked into a Celestial Gateway to mark its location (note, shift-right click on air to clear the location).<BR><BR>Placing the pearls inside a Celestial Gateway opens access to teleport to the one it's bound to. This teleport is one way, and two pearls must be used for a 2 way transport.<BR><BR>Naming these pearls with use of an Anvil will make the names appear in the Gateway's GUI, for easy labeling.
+
+thaumictinkerer.research.placement_mirror.title=Worldshaper's Looking Glass
+thaumictinkerer.research.placement_mirror.text=Through studying the world, you constructed a glass that allows you place a large array of blocks in the world using the power of your mind.
+thaumictinkerer.research.placement_mirror.complete.text=Through studying the world, you constructed a glass that allows you place a large array of blocks in the world using the power of your mind.<BR><BR>To set a block to place, one would shift-right click this glass in that block. Shift-right clicking the item in the air changes the amount of blocks it'll place.<BR><BR>When placing blocks in the world, a phantom visualization of how the blocks will appear is shown. On right click, the blocks will be consumed and placed, either from the inventory, or any Black Hole Rings that contain the required block.
+
+thaumictinkerer.research.auromancy.title=Advanced Auromancy
+
+tip.awakenarmor.name0=Пробуждено
+tip.awakenarmor.name1=Отключено
+
+tip.awakenpick.name0=Режим: Блок
+tip.awakenpick.name1=Режим: Площать
+tip.awakenpick.name2=Режим: Линия
+
+tip.awakenshovel.name0=Режим: Блок
+tip.awakenshovel.name1=Режим: Площать
+tip.awakenshovel.name2=Режим: Линия
+
+tip.awakenaxe.name0=Режим: Блок
+tip.awakenaxe.name1=Режим: Площать
+tip.awakenaxe.name2=Режим: Дерево
+
+tip.awakensword.name0=Режим: Одиночный
+tip.awakensword.name1=Режим: Площадь
+tip.awakensword.name2=Режим: Душа
+
+enchantment.ascentboost=Подъем вверх
+enchantment.shockwave=Ударная волна
+enchantment.slowfall=Медленное падение
+enchantment.pounce=Поунс
+enchantment.finalstrike=Последний удар
+enchantment.valiance=Валианс
+enchantment.vampirsim=Вампиризм
+enchantment.desintegrate=Дезинтеграция
+enchantment.dispersedstrikes=Разрозненные удары
+enchantment.focusedstrikes=Сфокусированный удар
+enchantment.quickdraw=Быстрый рисунок
+enchantment.shatter=Шаттер
+enchantment.tunnel=Туннель
+enchantment.autosmelt=Авто плавка
+
+item.ichorium_fortress.upgrade.0=§bAqua
+item.ichorium_fortress.upgrade.1=§eAer
+item.ichorium_fortress.upgrade.2=§gIgnis
+item.ichorium_fortress.upgrade.3=§aTerra
+item.ichorium_fortress.upgrade.4=§fOrdo
+item.ichorium_fortress.upgrade.5=§hPerditio
+#Misc
+
+ttmisc.differentDim=Different Dimension
+ttmisc.distance=Distance
+ttmisc.lockedGate=Allow incoming teleports
+ttmisc.destination=Unnamed Destination
+ttmisc.entrancePoint=Entrance Point
+ttmisc.numberKeys=Use the number keys to quickly jump between destinations.
+ttmisc.spaceToReset=Press SPACE to return to Entrance Point.
+ttmisc.destinationInd=(Destination %s)
+ttmisc.clickToTeleport=Shift + Left Click to Teleport
+ttmisc.destinations=Destinations:
+ttmisc.noDest=There's no Celestial Gateway in the destination.
+ttmisc.noTeleport=The Celestial Gateway in the destination does not accept incoming teleports.
+
+#Tinkers Compat
+modifier.instantbreak.name=Geocentric Disintegration
+modifier.instantbreak.desc=§oSabotage Maniacs !§r\nDigger made of this material can dig regardless of the hardness of the block.
+modifier.writableadv.name=World of Artisanship
+modifier.writableadv.desc=§oArtisanship !§r\nYou get 2 extra Modifiers!
+modifier.aurastrike.name=Aura Strike
+modifier.aurastrike.desc=§oThe Wrath of Aura !§r\nAttack to release vis, when vis is high enough, absorb vis to traumatize the target and form a shield.
+
+material.ichorium.name=Ихорий
+fluid.molten_ichorium=Расплавленный ихорий

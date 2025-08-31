@@ -1,0 +1,49 @@
+{
+	title: "Моб семена ур.4",
+	x: 3.5d,
+	y: 0.5d,
+	text: [
+		"Мы можем фармить эссенцию животных и монсров просто из растений - из которых потом можно сделать их дроп, это же просто немыслимо!"
+	],
+	dependencies: [
+		"b66a6848"
+	],
+	tasks: [{
+		uid: "01c859ad",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:experience_seeds"
+		}]
+	},
+	{
+		uid: "ae32ce51",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:blaze_seeds"
+		}]
+	},
+	{
+		uid: "0c28a264",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:ghast_seeds"
+		}]
+	},
+	{
+		uid: "2b129d8b",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:enderman_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "0fe001fa",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		}
+	}]
+}

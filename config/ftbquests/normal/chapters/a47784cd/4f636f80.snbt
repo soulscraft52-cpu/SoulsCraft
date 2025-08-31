@@ -1,0 +1,23 @@
+{
+	title: "Пыль Креотеума",
+	icon: "thermalfoundation:material 1 1025",
+	x: -12.5d,
+	y: -4.5d,
+	can_repeat: true,
+	dependencies: [
+		"6e399922"
+	],
+	tasks: [{
+		uid: "ad43fe91",
+		type: "item",
+		items: [{
+			item: "contenttweaker:coin_tier1"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "f4e67439",
+		type: "item",
+		item: "thermalfoundation:material 1 1025"
+	}]
+}

@@ -1,0 +1,95 @@
+{
+	title: "Самая большая печка",
+	icon: "tconstruct:smeltery_controller",
+	x: -15.0d,
+	y: -7.0d,
+	text: [
+		"Всем печкам печь, плавит всё, что в неё положишь, или почти всё..."
+	],
+	dependencies: [
+		"dce39d8e"
+	],
+	tasks: [{
+		uid: "bdd1e23f",
+		type: "item",
+		items: [{
+			item: "tconstruct:smeltery_controller"
+		}]
+	},
+	{
+		uid: "fd419c98",
+		type: "item",
+		items: [{
+			item: "tconstruct:seared_tank"
+		}]
+	},
+	{
+		uid: "b6961b1e",
+		type: "item",
+		items: [{
+			item: "tconstruct:casting"
+		}]
+	},
+	{
+		uid: "ecdca1ab",
+		type: "item",
+		items: [{
+			item: "tconstruct:casting 1 1"
+		}]
+	},
+	{
+		uid: "f958ca45",
+		type: "item",
+		items: [{
+			item: "tconstruct:smeltery_io 2"
+		}],
+		count: 2L
+	},
+	{
+		uid: "937e8a1a",
+		type: "item",
+		items: [{
+			item: "tconstruct:faucet 2"
+		}],
+		count: 2L
+	},
+	{
+		uid: "263cc084",
+		type: "item",
+		items: [{
+			item: "tconstruct:seared 18 3"
+		}],
+		count: 18L
+	}],
+	rewards: [{
+		uid: "3c97302e",
+		type: "item",
+		team_reward: false,
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	},
+	{
+		uid: "b46a23f0",
+		type: "item",
+		item: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyVariant: "neon",
+				TrophyColorGreen: 128,
+				TrophyShowsTooltip: 1b,
+				TrophyItem: {
+					id: "tconstruct:smeltery_controller",
+					Count: 1b,
+					Damage: 0s
+				},
+				TrophyColorBlue: 128,
+				TrophyName: "Привет Сплавы",
+				TrophyColorRed: 128
+			}
+		}
+	}]
+}

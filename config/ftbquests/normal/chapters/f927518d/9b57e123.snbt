@@ -1,0 +1,31 @@
+{
+	title: "Тот самый первобытный жемчуг",
+	x: -9.5d,
+	y: -2.0d,
+	description: "(Первобытная жемчужина)",
+	text: [
+		"Крутой, дорогой, имеет 10 использований, чинить нельзя. Вроде всё..."
+	],
+	dependencies: [
+		"e43cdfe0"
+	],
+	tasks: [{
+		uid: "fbc353d5",
+		type: "item",
+		items: [{
+			item: "thaumcraft:primordial_pearl"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "45553d38",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

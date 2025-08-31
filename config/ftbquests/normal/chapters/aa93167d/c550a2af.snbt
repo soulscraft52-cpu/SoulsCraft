@@ -1,0 +1,31 @@
+{
+	title: "СКОРОСТЬ!!!",
+	icon: "industrialupgrade:upgrades 1 8",
+	x: -13.0d,
+	y: -1.5d,
+	text: [
+		"Insane speed, лишь бы энергии хватило..."
+	],
+	dependencies: [
+		"764664bb"
+	],
+	tasks: [{
+		uid: "36bd975f",
+		type: "item",
+		icon: "industrialupgrade:upgrades 1 8",
+		items: [{
+			item: "industrialupgrade:upgrades 1 8"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "f6bdc6ef",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

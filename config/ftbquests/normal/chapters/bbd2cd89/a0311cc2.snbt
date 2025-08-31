@@ -1,0 +1,31 @@
+{
+	title: "Межгалактический генератор",
+	icon: "galacticraftcore:machine",
+	x: -18.5d,
+	y: -1.0d,
+	text: [
+		"Простой и эффективный... Надеюсь..."
+	],
+	dependencies: [
+		"1f939323",
+		"900f23c9"
+	],
+	tasks: [{
+		uid: "693694f9",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:machine"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3764f974",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

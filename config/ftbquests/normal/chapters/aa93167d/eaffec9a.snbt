@@ -1,0 +1,37 @@
+{
+	title: "Сожми его в слиток",
+	icon: "industrialupgrade:itemingots 1 17",
+	x: -4.0d,
+	y: -1.0d,
+	text: [
+		"Используй верстак, сделай из промышленного иридия - кусочки иридия, а из них в сжимателе сделай слиток иридия."
+	],
+	dependencies: [
+		"f672bef8"
+	],
+	tasks: [{
+		uid: "0791b8bb",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:nugget 1 17"
+		}],
+		count: 9L
+	},
+	{
+		uid: "bb3a3532",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:itemingots 1 17"
+		}]
+	}],
+	rewards: [{
+		uid: "61dce25f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

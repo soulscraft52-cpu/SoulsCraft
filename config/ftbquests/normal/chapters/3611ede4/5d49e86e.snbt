@@ -1,0 +1,31 @@
+{
+	title: "Биомный компас",
+	icon: {
+		id: "naturescompass:naturescompass",
+		tag: {}
+	},
+	x: -3.5d,
+	y: -1.5d,
+	text: [
+		"Позволяет найти любой биом, пользуйтесь)"
+	],
+	dependencies: [
+		"774dd351"
+	],
+	tasks: [{
+		uid: "438d5f36",
+		type: "item",
+		items: [{
+			id: "naturescompass:naturescompass",
+			tag: {}
+		}],
+		consume_items: false,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b4ffdb45",
+		type: "item",
+		item: "harvestcraft:toastitem",
+		count: 16
+	}]
+}

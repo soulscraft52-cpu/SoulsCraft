@@ -1,0 +1,45 @@
+{
+	title: "Фиолетовые",
+	icon: "projectex:power_flower 1 6",
+	x: 2.5d,
+	y: -7.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"9ba3df82"
+	],
+	tasks: [{
+		uid: "9c0cadc8",
+		type: "item",
+		items: [{
+			item: "projectex:collector 1 6"
+		}]
+	},
+	{
+		uid: "1972da1a",
+		type: "item",
+		items: [{
+			item: "projectex:relay 1 6"
+		}]
+	},
+	{
+		uid: "a3038130",
+		type: "item",
+		items: [{
+			item: "projectex:power_flower 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "0145b05a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 4,
+		random_bonus: 1
+	}]
+}

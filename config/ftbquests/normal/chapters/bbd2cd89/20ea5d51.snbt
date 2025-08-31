@@ -1,0 +1,38 @@
+{
+	title: "Титаниум",
+	icon: "galacticraftplanets:asteroids_block 1 7",
+	x: -7.5d,
+	y: -8.5d,
+	text: [
+		"Титан, участвует в крафтах нестабильных слитков. Можно добыть на астероидах.",
+		"",
+		"§k§l"
+	],
+	dependencies: [
+		"030b67ab"
+	],
+	tasks: [{
+		uid: "5a3581c7",
+		type: "item",
+		items: [{
+			item: "galacticraftplanets:asteroids_block 64 7"
+		}],
+		count: 64L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "8258763e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		}
+	},
+	{
+		uid: "f0c96fcc",
+		type: "item",
+		item: "soulscraft:closeeeys"
+	}]
+}

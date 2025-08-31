@@ -1,0 +1,57 @@
+{
+	title: "Процессоры",
+	icon: "appliedenergistics2:material 1 22",
+	x: -11.0d,
+	y: -3.5d,
+	text: [
+		"На них работают ваши игры"
+	],
+	dependencies: [
+		"6e343aa7"
+	],
+	tasks: [{
+		uid: "cb9e3633",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 23"
+		}]
+	},
+	{
+		uid: "23105d2e",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 24"
+		}]
+	},
+	{
+		uid: "d0f2ca74",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 22"
+		}]
+	}],
+	rewards: [{
+		uid: "1ab561fe",
+		type: "item",
+		item: "appliedenergistics2:material 1 20",
+		count: 64
+	},
+	{
+		uid: "4e5d1cd3",
+		type: "item",
+		item: "appliedenergistics2:material 1 18",
+		count: 32
+	},
+	{
+		uid: "c304121c",
+		type: "item",
+		item: "appliedenergistics2:material 1 16",
+		count: 32
+	},
+	{
+		uid: "bcd75147",
+		type: "item",
+		item: "appliedenergistics2:material 1 17",
+		count: 32
+	}]
+}

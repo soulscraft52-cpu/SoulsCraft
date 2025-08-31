@@ -1,0 +1,30 @@
+{
+	title: "Мельница",
+	icon: "extrautils2:passivegenerator 1 8",
+	x: -7.0d,
+	y: -6.5d,
+	text: [
+		"Поставьте сверху яйцо дракона и наслаждайтесь результатом"
+	],
+	dependencies: [
+		"c1d793ff",
+		"f9fa2a59"
+	],
+	tasks: [{
+		uid: "f1c51586",
+		type: "item",
+		items: [{
+			item: "extrautils2:passivegenerator 1 8"
+		}]
+	}],
+	rewards: [{
+		uid: "bcc24f11",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

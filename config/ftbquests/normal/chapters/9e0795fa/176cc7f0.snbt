@@ -1,0 +1,24 @@
+{
+	x: -11.0d,
+	y: -6.5d,
+	dependencies: [
+		"b5489c7a"
+	],
+	tasks: [{
+		uid: "915109d4",
+		type: "item",
+		items: [{
+			item: "packagedauto:package_component"
+		}]
+	}],
+	rewards: [{
+		uid: "f80238cf",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

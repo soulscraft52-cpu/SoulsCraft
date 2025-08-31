@@ -1,0 +1,30 @@
+{
+	title: "Супер сапоги",
+	icon: "thaumcraft:traveller_boots",
+	x: -4.0d,
+	y: -2.0d,
+	text: [
+		"Сапоги с которыми для вас не будет препятствий"
+	],
+	dependencies: [
+		"0e34ab97"
+	],
+	tasks: [{
+		uid: "3c4fe6b1",
+		type: "item",
+		items: [{
+			item: "thaumcraft:traveller_boots"
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "69fc9fd6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

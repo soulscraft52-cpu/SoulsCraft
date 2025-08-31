@@ -1,0 +1,33 @@
+{
+	x: -21.0d,
+	y: -8.0d,
+	dependencies: [
+		"da27053e"
+	],
+	tasks: [{
+		uid: "82c411f0",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:rotor_iron",
+			tag: {
+				damage: 57600,
+				hasID: 1b,
+				canupgrade: 1b,
+				maxDamage: 57600,
+				ID_Item: 4
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f0db0670",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

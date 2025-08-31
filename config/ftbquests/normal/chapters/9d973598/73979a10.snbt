@@ -1,0 +1,32 @@
+{
+	title: "Фиолетовая планета",
+	icon: "divinerpg:wildwood_block",
+	x: 1.5d,
+	y: -6.0d,
+	text: [
+		"Тут без §9заснежья §rникуда!"
+	],
+	dependencies: [
+		"ece4119a"
+	],
+	tasks: [{
+		uid: "b771a776",
+		type: "item",
+		items: [{
+			item: "divinerpg:wildwood_block 10"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "17076e4a",
+		type: "item",
+		item: "divinerpg:wildwood_chunk",
+		count: 4
+	},
+	{
+		uid: "01dfa93f",
+		type: "item",
+		item: "harvestcraft:bbqchickenpizzaitem",
+		count: 16
+	}]
+}

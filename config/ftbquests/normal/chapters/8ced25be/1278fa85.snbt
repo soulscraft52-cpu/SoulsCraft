@@ -1,0 +1,28 @@
+{
+	title: "+1 блок механизма",
+	x: -14.5d,
+	y: -6.5d,
+	text: [
+		"Да, очередной блок механизма, а ты что думал, в сказку попал? Это §4SoulsCraft!"
+	],
+	dependencies: [
+		"b6ad7d59"
+	],
+	tasks: [{
+		uid: "109df23a",
+		type: "item",
+		items: [{
+			item: "extrautils2:machine"
+		}]
+	}],
+	rewards: [{
+		uid: "b1d72117",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

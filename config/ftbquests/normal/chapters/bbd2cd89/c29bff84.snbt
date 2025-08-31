@@ -1,0 +1,25 @@
+{
+	title: "Убить босса",
+	icon: "galacticraftcore:schematic 1 1",
+	x: -6.0d,
+	y: -2.5d,
+	text: [
+		"Убейте босса и найдите чертёж ракеты"
+	],
+	dependencies: [
+		"17f66729"
+	],
+	tasks: [{
+		uid: "2800f3d6",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:schematic 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "c7307ee6",
+		type: "item",
+		item: "galacticraftcore:heavy_plating",
+		count: 4
+	}]
+}

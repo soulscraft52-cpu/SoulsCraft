@@ -1,0 +1,41 @@
+{
+	x: 15.5d,
+	y: -9.0d,
+	text: [
+		"Хоть богом вы не станете но будите быстро копать"
+	],
+	dependencies: [
+		"116747e0"
+	],
+	tasks: [{
+		uid: "670bec4a",
+		type: "item",
+		items: [{
+			id: "divinerpg:divine_shickaxe",
+			tag: {
+				ench: [{
+					lvl: 20s,
+					id: 32s
+				},
+				{
+					lvl: 5s,
+					id: 35s
+				}],
+				RepairCost: 3
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5977bef4",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 2
+	}]
+}

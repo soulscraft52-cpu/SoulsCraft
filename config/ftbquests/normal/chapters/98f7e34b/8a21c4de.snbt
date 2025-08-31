@@ -1,0 +1,31 @@
+{
+	title: "Лопата для червей",
+	icon: "avaritia:infinity_shovel",
+	x: -3.0d,
+	y: -1.5d,
+	text: [
+		"С ней вы накопаете много червей для рыбалки"
+	],
+	dependencies: [
+		"257f84b3"
+	],
+	tasks: [{
+		uid: "83736682",
+		type: "item",
+		items: [{
+			item: "avaritia:infinity_shovel"
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "a7e9eb42",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "6"
+			}
+		},
+		count: 16
+	}]
+}

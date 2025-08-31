@@ -1,0 +1,38 @@
+{
+	title: "Энергокристалик",
+	icon: {
+		id: "industrialupgrade:energy_crystal",
+		tag: {}
+	},
+	x: -13.0d,
+	y: 1.0d,
+	text: [
+		"Нужен в крафтах, энергохранилище"
+	],
+	dependencies: [
+		"bd88f8c5"
+	],
+	tasks: [{
+		uid: "3990c849",
+		type: "item",
+		icon: {
+			id: "industrialupgrade:energy_crystal",
+			tag: {}
+		},
+		items: [{
+			id: "industrialupgrade:energy_crystal",
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d3fe2e0c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

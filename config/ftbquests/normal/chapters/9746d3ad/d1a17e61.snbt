@@ -1,0 +1,29 @@
+{
+	title: "Простая солнечная панелька",
+	icon: "enderio:block_solar_panel",
+	x: -11.0d,
+	y: -8.0d,
+	text: [
+		"Начните добывать зелёную энергию прямо сейчас!"
+	],
+	dependencies: [
+		"4303599d"
+	],
+	tasks: [{
+		uid: "76086646",
+		type: "item",
+		items: [{
+			item: "enderio:block_solar_panel"
+		}]
+	}],
+	rewards: [{
+		uid: "78a58824",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

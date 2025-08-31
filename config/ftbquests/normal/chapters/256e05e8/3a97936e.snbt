@@ -1,0 +1,29 @@
+{
+	x: -12.0d,
+	y: -4.5d,
+	text: [
+		"Чудеса после блутония"
+	],
+	dependencies: [
+		"1508ae4d"
+	],
+	size: 1.2d,
+	tasks: [{
+		uid: "47e54a3e",
+		type: "item",
+		items: [{
+			item: "bigreactors:blockludicrite"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "5d135a9b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "4"
+			}
+		}
+	}]
+}

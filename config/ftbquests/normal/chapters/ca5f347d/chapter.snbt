@@ -1,0 +1,21 @@
+{
+	title: " ",
+	icon: "draconicevolution:dragon_heart",
+	description: [
+		"Ню | Draconic"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "",
+	images: [{
+		x: 0.5d,
+		y: -5.0d,
+		width: 15.0d,
+		height: 15.0d,
+		rotation: 0.0d,
+		image: "ftbquests:textures/gui/isl12.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

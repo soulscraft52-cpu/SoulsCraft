@@ -1,0 +1,29 @@
+{
+	x: -2.5d,
+	y: -2.0d,
+	text: [
+		"Всемогущая алхимия"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"49c3d4bf",
+		"7bf10f6e"
+	],
+	tasks: [{
+		uid: "534d428e",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:proton"
+		}]
+	}],
+	rewards: [{
+		uid: "68c4b3c8",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

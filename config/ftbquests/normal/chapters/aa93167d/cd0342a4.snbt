@@ -1,0 +1,33 @@
+{
+	x: -21.0d,
+	y: -11.0d,
+	dependencies: [
+		"9a8aea89"
+	],
+	tasks: [{
+		uid: "87687964",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:iridium",
+			tag: {
+				damage: 123428,
+				hasID: 1b,
+				canupgrade: 1b,
+				maxDamage: 123428,
+				ID_Item: 11
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0b278f28",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

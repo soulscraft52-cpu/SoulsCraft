@@ -1,0 +1,30 @@
+{
+	title: "Улучшенный корпус машины",
+	icon: "industrialupgrade:blockresource 1 9",
+	x: -8.0d,
+	y: -5.0d,
+	text: [
+		"Нужен для крафта супер-машин"
+	],
+	dependencies: [
+		"4f1a4228"
+	],
+	tasks: [{
+		uid: "bdd08f83",
+		type: "item",
+		icon: "industrialupgrade:blockresource 1 9",
+		items: [{
+			item: "industrialupgrade:blockresource 1 9"
+		}]
+	}],
+	rewards: [{
+		uid: "81c75687",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

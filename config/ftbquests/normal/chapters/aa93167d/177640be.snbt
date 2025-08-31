@@ -1,0 +1,29 @@
+{
+	title: "Ну экструдер и экструдер",
+	x: -13.0d,
+	y: -9.0d,
+	text: [
+		"Выдавливает слитки и пластины во что-то продолговатое"
+	],
+	dependencies: [
+		"4f1a4228"
+	],
+	tasks: [{
+		uid: "252a7888",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:moremachine2 1 4"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "fc8da2d3",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

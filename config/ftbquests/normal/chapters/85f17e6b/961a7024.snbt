@@ -1,0 +1,30 @@
+{
+	title: "Что тут писать?",
+	x: 3.0d,
+	y: 1.5d,
+	text: [
+		"И так понятно что скоро финал"
+	],
+	dependencies: [
+		"69483766",
+		"b66a6848"
+	],
+	tasks: [{
+		uid: "b4af85c9",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:crafting 1 36"
+		}]
+	}],
+	rewards: [{
+		uid: "c8f905ed",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		},
+		random_bonus: 3
+	}]
+}

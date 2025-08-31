@@ -1,0 +1,203 @@
+{
+	title: "Полностью экипирован",
+	icon: {
+		id: "galaxyspace:space_suit_chest",
+		tag: {},
+		Damage: 200s
+	},
+	x: -11.0d,
+	y: -2.0d,
+	text: [
+		"Соберите всю экипировку для полёта на другие планеты"
+	],
+	dependencies: [
+		"10fa7f54"
+	],
+	tasks: [{
+		uid: "7acadce4",
+		type: "item",
+		items: [{
+			item: "galacticraftplanets:thermal_padding 1 2"
+		}]
+	},
+	{
+		uid: "bdd375b9",
+		type: "item",
+		items: [{
+			id: "galaxyspace:space_suit_head",
+			tag: {
+				electricity: 0.0f,
+				modification_count: 2,
+				helmet_button: 0b
+			},
+			Damage: 200s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "015b4872",
+		type: "item",
+		items: [{
+			item: "galacticraftplanets:thermal_padding_t2 1 3"
+		}]
+	},
+	{
+		uid: "42b2552e",
+		type: "item",
+		items: [{
+			item: "galaxyspace:thermal_padding_t3 1 1"
+		}]
+	},
+	{
+		uid: "0384c387",
+		type: "item",
+		items: [{
+			item: "galaxyspace:thermal_padding_t4"
+		}]
+	},
+	{
+		uid: "779a843a",
+		type: "item",
+		items: [{
+			item: "galaxyspace:thermal_padding_t4 1 1"
+		}]
+	},
+	{
+		uid: "07aac945",
+		type: "item",
+		items: [{
+			item: "galaxyspace:thermal_padding_t3 1 3"
+		}]
+	},
+	{
+		uid: "fc9b25c5",
+		type: "item",
+		items: [{
+			id: "galaxyspace:space_suit_chest",
+			tag: {
+				electricity: 0.0f,
+				modification_count: 2,
+				chest_button: 0b
+			},
+			Damage: 200s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "18eb9959",
+		type: "item",
+		items: [{
+			id: "galaxyspace:space_suit_legs",
+			tag: {
+				electricity: 0.0f,
+				legs_button: 0b,
+				modification_count: 2
+			},
+			Damage: 200s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a6035e5a",
+		type: "item",
+		items: [{
+			item: "galaxyspace:thermal_padding_t4 1 2"
+		}]
+	},
+	{
+		uid: "e9a30cee",
+		type: "item",
+		items: [{
+			id: "galaxyspace:space_suit_feet",
+			tag: {
+				electricity: 0.0f,
+				modification_count: 2,
+				boots_button: 0b
+			},
+			Damage: 200s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d1faae52",
+		type: "item",
+		items: [{
+			item: "galacticraftplanets:thermal_padding"
+		}]
+	},
+	{
+		uid: "2221539f",
+		type: "item",
+		items: [{
+			item: "galacticraftplanets:thermal_padding 1 1"
+		}]
+	},
+	{
+		uid: "f18ffa7d",
+		type: "item",
+		items: [{
+			item: "galaxyspace:thermal_padding_t3 1 2"
+		}]
+	},
+	{
+		uid: "8c1be2cd",
+		type: "item",
+		items: [{
+			item: "galacticraftplanets:thermal_padding 1 3"
+		}]
+	},
+	{
+		uid: "dd266174",
+		type: "item",
+		items: [{
+			item: "galacticraftplanets:thermal_padding_t2"
+		}]
+	},
+	{
+		uid: "c7d52c10",
+		type: "item",
+		items: [{
+			item: "galacticraftplanets:thermal_padding_t2 1 1"
+		}]
+	},
+	{
+		uid: "443a192c",
+		type: "item",
+		items: [{
+			item: "galacticraftplanets:thermal_padding_t2 1 2"
+		}]
+	},
+	{
+		uid: "3b62a39a",
+		type: "item",
+		items: [{
+			item: "galaxyspace:thermal_padding_t3"
+		}]
+	},
+	{
+		uid: "bf730f92",
+		type: "item",
+		items: [{
+			item: "galaxyspace:thermal_padding_t4 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "18e14dbb",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		}
+	},
+	{
+		uid: "241aba2a",
+		type: "item",
+		item: "galacticraftcore:infinite_oxygen"
+	}]
+}

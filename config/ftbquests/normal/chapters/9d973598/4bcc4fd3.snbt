@@ -1,0 +1,32 @@
+{
+	title: "Бесцветные земли",
+	icon: "divinerpg:apalachia_block",
+	x: 5.5d,
+	y: -6.0d,
+	text: [
+		"Попадите в адский рай!"
+	],
+	dependencies: [
+		"73979a10"
+	],
+	tasks: [{
+		uid: "688a1fb0",
+		type: "item",
+		items: [{
+			item: "divinerpg:apalachia_block 10"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "a0d66170",
+		type: "item",
+		item: "divinerpg:apalachia_chunk",
+		count: 4
+	},
+	{
+		uid: "45fe0d03",
+		type: "item",
+		item: "harvestcraft:montecristosandwichitem",
+		count: 8
+	}]
+}

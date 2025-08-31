@@ -1,0 +1,45 @@
+{
+	title: "Какие-то",
+	icon: "projectex:power_flower 1 14",
+	x: 10.5d,
+	y: -7.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"fe48e361"
+	],
+	tasks: [{
+		uid: "a39e8ed8",
+		type: "item",
+		items: [{
+			item: "projectex:collector 1 14"
+		}]
+	},
+	{
+		uid: "38afe654",
+		type: "item",
+		items: [{
+			item: "projectex:relay 1 14"
+		}]
+	},
+	{
+		uid: "e8e523a1",
+		type: "item",
+		items: [{
+			item: "projectex:power_flower 1 14"
+		}]
+	}],
+	rewards: [{
+		uid: "671b8626",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 12,
+		random_bonus: 1
+	}]
+}

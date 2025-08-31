@@ -1,0 +1,240 @@
+{
+	title: "Легендарный",
+	loot_size: 1,
+	rewards: [{
+		item: {
+			id: "appliedenergistics2:storage_cell_64k",
+			tag: {}
+		},
+		random_bonus: 1,
+		weight: 44
+	},
+	{
+		item: "extrautils2:itembuilderswand",
+		weight: 44
+	},
+	{
+		item: "avaritia:resource 1 1",
+		count: 2,
+		random_bonus: 2,
+		weight: 33
+	},
+	{
+		item: "industrialupgrade:machines 1 1",
+		random_bonus: 1,
+		weight: 22
+	},
+	{
+		item: "avaritia:endest_pearl",
+		count: 2,
+		random_bonus: 2,
+		weight: 44
+	},
+	{
+		item: "industrialupgrade:machines 1 2",
+		weight: 11
+	},
+	{
+		item: "draconicevolution:draconic_core",
+		count: 3,
+		random_bonus: 1,
+		weight: 44
+	},
+	{
+		item: "draconicevolution:wyvern_core",
+		random_bonus: 1,
+		weight: 44
+	},
+	{
+		item: {
+			id: "industrialupgrade:wiring_storage",
+			tag: {},
+			Damage: 4s
+		},
+		weight: 44
+	},
+	{
+		item: "thermalfoundation:upgrade 1 35",
+		weight: 44
+	},
+	{
+		item: "projecte:item.pe_matter",
+		count: 2,
+		random_bonus: 2,
+		weight: 44
+	},
+	{
+		icon: {
+			id: "industrialupgrade:quantum_boots",
+			tag: {
+				ID_Item: 2147483647
+			},
+			Damage: 27s
+		},
+		item: {
+			id: "industrialupgrade:quantum_boots",
+			tag: {
+				ID_Item: 2147483647
+			},
+			Damage: 27s
+		},
+		weight: 13
+	},
+	{
+		icon: {
+			id: "industrialupgrade:quantum_leggings",
+			tag: {
+				ID_Item: 2147483647
+			},
+			Damage: 27s
+		},
+		item: {
+			id: "industrialupgrade:quantum_leggings",
+			tag: {
+				ID_Item: 2147483647
+			},
+			Damage: 27s
+		},
+		weight: 13
+	},
+	{
+		icon: {
+			id: "industrialupgrade:quantum_chestplate",
+			tag: {
+				ID_Item: 2147483647
+			},
+			Damage: 27s
+		},
+		item: {
+			id: "industrialupgrade:quantum_chestplate",
+			tag: {
+				ID_Item: 2147483647
+			},
+			Damage: 27s
+		},
+		weight: 13
+	},
+	{
+		icon: {
+			id: "industrialupgrade:quantum_helmet",
+			tag: {
+				ID_Item: 2147483647
+			},
+			Damage: 27s
+		},
+		item: {
+			id: "industrialupgrade:quantum_helmet",
+			tag: {
+				ID_Item: 2147483647
+			},
+			Damage: 27s
+		},
+		weight: 13
+	},
+	{
+		item: "thermaldynamics:duct_0 1 5",
+		count: 8,
+		random_bonus: 4,
+		weight: 44
+	},
+	{
+		item: "thermalfoundation:storage_alloy 1 7",
+		count: 16,
+		random_bonus: 16,
+		weight: 44
+	},
+	{
+		item: "thermalfoundation:storage_alloy 1 6",
+		count: 16,
+		random_bonus: 16,
+		weight: 44
+	},
+	{
+		item: "thermalfoundation:storage_alloy 1 5",
+		count: 16,
+		random_bonus: 16,
+		weight: 44
+	},
+	{
+		item: {
+			id: "industrialupgrade:magnet",
+			tag: {}
+		},
+		weight: 44
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "6"
+			}
+		},
+		weight: 22
+	},
+	{
+		item: "industrialupgrade:quarrymodules 1 1",
+		weight: 44
+	},
+	{
+		item: {
+			id: "quarryplus:laserplus",
+			tag: {
+				ench: [{
+					lvl: 2s,
+					id: 32s
+				}]
+			}
+		},
+		count: 2,
+		random_bonus: 1,
+		weight: 44
+	},
+	{
+		item: "thermalfoundation:material 1 1028",
+		count: 2,
+		random_bonus: 2,
+		weight: 22
+	},
+	{
+		item: "industrialupgrade:circuit 1 10",
+		weight: 22
+	},
+	{
+		item: "divinerpg:divine_shards",
+		random_bonus: 4,
+		weight: 22
+	},
+	{
+		item: "avaritia:ultimate_stew",
+		random_bonus: 7,
+		weight: 22
+	},
+	{
+		item: "thaumcraft:mirror",
+		random_bonus: 1,
+		weight: 23
+	},
+	{
+		item: "thermalfoundation:upgrade 1 34",
+		weight: 22
+	},
+	{
+		item: "contenttweaker:coin_tier5",
+		weight: 22
+	},
+	{
+		item: "contenttweaker:coin_tier4",
+		weight: 22
+	}],
+	loot_crate: {
+		string_id: "5",
+		item_name: "Legendary Crate",
+		color: 14423100,
+		glow: true,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

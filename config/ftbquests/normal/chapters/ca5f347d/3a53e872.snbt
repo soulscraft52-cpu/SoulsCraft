@@ -1,0 +1,32 @@
+{
+	title: "Да зачем оно нужно, лол?",
+	icon: "draconicevolution:dragon_heart",
+	x: -7.5d,
+	y: -9.5d,
+	shape: "heart",
+	text: [
+		"Отдайте нам это сердце"
+	],
+	dependencies: [
+		"ba677a1e"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "7d87e44d",
+		type: "item",
+		items: [{
+			item: "draconicevolution:dragon_heart"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "25fcd24e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

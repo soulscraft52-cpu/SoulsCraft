@@ -1,0 +1,33 @@
+{
+	title: "Укреплённый камешек",
+	icon: "industrialupgrade:blockresource 1 7",
+	x: -4.0d,
+	y: -5.0d,
+	text: [
+		"Камень который переживёт апокалипсис!",
+		"§b§eСоздаётся при помощи разлива строительной пены потом нужно будет подождать"
+	],
+	dependencies: [
+		"c215dab4"
+	],
+	tasks: [{
+		uid: "dac3b500",
+		type: "item",
+		icon: "industrialupgrade:blockresource 1 7",
+		items: [{
+			item: "industrialupgrade:blockresource 1 7"
+		}],
+		count: 5L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "3ed950cb",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

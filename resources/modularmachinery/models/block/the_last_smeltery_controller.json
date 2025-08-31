@@ -1,0 +1,12 @@
+{
+    "parent": "modularmachinery:block/blockmodel_overlay_orientable_all",
+    "textures": {
+                "bg_all": "modularmachinery:blocks/casing_of_the_last_smeltery",
+        "ov_top": "modularmachinery:blocks/casing_of_the_last_smeltery",
+        "ov_side": "modularmachinery:blocks/casing_of_the_last_smeltery",
+        "ov_front": "modularmachinery:blocks/l_of_the_last_smeltery"
+
+
+
+    }
+}

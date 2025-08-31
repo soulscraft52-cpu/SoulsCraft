@@ -1,0 +1,28 @@
+{
+	title: "Моб семена ур.5",
+	x: 7.5d,
+	y: 0.5d,
+	text: [
+		"Мы можем фармить эссенцию животных и монсров просто из растений - из которых потом можно сделать их дроп, это же просто немыслимо!"
+	],
+	dependencies: [
+		"5a46e373"
+	],
+	tasks: [{
+		uid: "37e9d65c",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:wither_skeleton_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "8bccd561",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

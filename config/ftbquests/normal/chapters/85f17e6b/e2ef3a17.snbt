@@ -1,0 +1,30 @@
+{
+	title: "Дорогое процветание",
+	x: -11.0d,
+	y: 0.5d,
+	text: [
+		"Курочка по осколочку... Ой, то есть зёрнышко по курочке... Нет, опять не так."
+	],
+	dependencies: [
+		"3d1ae95b",
+		"8c1f94b9"
+	],
+	tasks: [{
+		uid: "0daff160",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:crafting 1 5"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "f74dcdca",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		}
+	}]
+}

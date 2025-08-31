@@ -1,0 +1,30 @@
+{
+	title: "Эти очки просто БРУТАЛЬНЫ",
+	x: -1.5d,
+	y: -23.0d,
+	shape: "square",
+	text: [
+		"Я не настолько крут, чтобы надеть их"
+	],
+	dependencies: [
+		"90b7d806"
+	],
+	tasks: [{
+		uid: "47fef168",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockenergyinputhatch 1 7"
+		}]
+	}],
+	rewards: [{
+		uid: "8b4dec8a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 4
+	}]
+}

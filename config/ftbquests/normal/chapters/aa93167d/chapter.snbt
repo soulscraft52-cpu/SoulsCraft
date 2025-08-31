@@ -1,0 +1,26 @@
+{
+	title: " ",
+	icon: {
+		id: "industrialupgrade:gravitool",
+		tag: {
+			charge: 300000.0d
+		}
+	},
+	description: [
+		"Тета | Совершенная электроника"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "",
+	images: [{
+		x: 4.5d,
+		y: -7.5d,
+		width: 20.0d,
+		height: 15.0d,
+		rotation: 0.0d,
+		image: "ftbquests:textures/gui/isl11.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

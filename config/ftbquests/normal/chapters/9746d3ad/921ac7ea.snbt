@@ -1,0 +1,102 @@
+{
+	title: "ПРОВОДА",
+	icon: "enderio:item_item_conduit",
+	x: -11.5d,
+	y: -5.0d,
+	text: [
+		"Сделайте все провода из EnderIO"
+	],
+	dependencies: [
+		"4136cf9c"
+	],
+	tasks: [{
+		uid: "4ad8adb8",
+		type: "item",
+		items: [{
+			item: "enderio:item_item_conduit 4"
+		}],
+		count: 4L
+	},
+	{
+		uid: "153ace0a",
+		type: "item",
+		items: [{
+			item: "enderio:item_me_conduit 4"
+		}],
+		count: 4L
+	},
+	{
+		uid: "db671537",
+		type: "item",
+		items: [{
+			item: "enderio:item_me_conduit 4 1"
+		}],
+		count: 4L
+	},
+	{
+		uid: "39aca4d6",
+		type: "item",
+		items: [{
+			item: "enderio:item_redstone_conduit 4"
+		}],
+		count: 4L
+	},
+	{
+		uid: "4a0f0c40",
+		type: "item",
+		items: [{
+			item: "enderio:item_power_conduit 4"
+		}],
+		count: 4L
+	},
+	{
+		uid: "1d7c9287",
+		type: "item",
+		items: [{
+			item: "enderio:item_power_conduit 4 1"
+		}],
+		count: 4L
+	},
+	{
+		uid: "3bb15468",
+		type: "item",
+		items: [{
+			item: "enderio:item_power_conduit 4 2"
+		}],
+		count: 4L
+	},
+	{
+		uid: "fc3d3040",
+		type: "item",
+		items: [{
+			item: "enderio:item_liquid_conduit 4"
+		}],
+		count: 4L
+	},
+	{
+		uid: "a32a2a13",
+		type: "item",
+		items: [{
+			item: "enderio:item_liquid_conduit 4 1"
+		}],
+		count: 4L
+	},
+	{
+		uid: "79fce866",
+		type: "item",
+		items: [{
+			item: "enderio:item_liquid_conduit 4 2"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "e7689a44",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

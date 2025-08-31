@@ -1,0 +1,31 @@
+{
+	title: "Тяпка",
+	icon: "avaritia:infinity_hoe",
+	x: -3.0d,
+	y: -2.5d,
+	text: [
+		"Нафиг она нужна?"
+	],
+	dependencies: [
+		"257f84b3"
+	],
+	tasks: [{
+		uid: "08d30e16",
+		type: "item",
+		items: [{
+			item: "avaritia:infinity_hoe"
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "b58c7e3f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "6"
+			}
+		},
+		count: 16
+	}]
+}

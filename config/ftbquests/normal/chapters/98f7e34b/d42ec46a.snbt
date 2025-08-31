@@ -1,0 +1,30 @@
+{
+	title: "УРА БЕССКОНЕЧНАЯ КОКА КОЛА",
+	x: 11.5d,
+	y: -5.5d,
+	text: [
+		"ВСЕХ С 2015"
+	],
+	dependencies: [
+		"257f84b3"
+	],
+	tasks: [{
+		uid: "670130b0",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:reservoir 1 32000"
+		}],
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "c02d5676",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "6"
+			}
+		},
+		count: 16
+	}]
+}

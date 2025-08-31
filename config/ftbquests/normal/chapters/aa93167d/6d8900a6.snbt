@@ -1,0 +1,29 @@
+{
+	title: "Ну тут уже для крутых роторов",
+	x: -17.5d,
+	y: -4.5d,
+	text: [
+		"Сколько их там этих роторов???"
+	],
+	dependencies: [
+		"ba3a1a93"
+	],
+	tasks: [{
+		uid: "f9ddf2dc",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:basemachine3 1 29"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "76ab091f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

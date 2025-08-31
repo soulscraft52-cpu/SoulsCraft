@@ -1,0 +1,31 @@
+{
+	title: "Riko, §8kaboom?",
+	x: -7.5d,
+	y: -2.0d,
+	text: [
+		"§8Kaboom."
+	],
+	dependencies: [
+		"d2c3dcfb"
+	],
+	tasks: [{
+		uid: "4c89108d",
+		type: "item",
+		items: [{
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_tnt"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "591b5aa4",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

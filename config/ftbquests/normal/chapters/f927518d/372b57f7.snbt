@@ -1,0 +1,24 @@
+{
+	x: -0.5d,
+	y: -6.0d,
+	dependencies: [
+		"6095e708"
+	],
+	tasks: [{
+		uid: "bbdbb23b",
+		type: "item",
+		items: [{
+			item: "thaumadditions:vis_seeds/aqua"
+		}]
+	}],
+	rewards: [{
+		uid: "e33f33ab",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	title: "Вроде как топ, но нет",
+	icon: "enderio:block_solar_panel 1 2",
+	x: -14.5d,
+	y: -8.0d,
+	text: [
+		"Предпоследняя панелька из ЭндерИО"
+	],
+	dependencies: [
+		"189fa442",
+		"40927af8"
+	],
+	tasks: [{
+		uid: "a3330fcc",
+		type: "item",
+		items: [{
+			item: "enderio:block_solar_panel 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "dde3f178",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

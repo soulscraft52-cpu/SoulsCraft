@@ -1,0 +1,26 @@
+{
+	title: "Очень злые слитки железа",
+	icon: "extrautils2:ingredients 1 17",
+	x: -9.5d,
+	y: -6.5d,
+	text: [
+		"Нужны в крафтах"
+	],
+	dependencies: [
+		"0beed00c"
+	],
+	tasks: [{
+		uid: "6f0028bb",
+		type: "item",
+		items: [{
+			item: "extrautils2:ingredients 8 17"
+		}],
+		count: 8L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "5ccb8d6a",
+		type: "item",
+		item: "minecraft:nether_star"
+	}]
+}

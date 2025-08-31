@@ -1,0 +1,28 @@
+{
+	title: "Смайлик",
+	x: -1.5d,
+	y: -20.0d,
+	text: [
+		"Так стоп. Мы тут все серьёзные"
+	],
+	dependencies: [
+		"573e1242"
+	],
+	tasks: [{
+		uid: "d854c579",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockenergyinputhatch 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "277b8db5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: -16.0d,
+	y: 1.0d,
+	dependencies: [
+		"0e41c2ee"
+	],
+	tasks: [{
+		uid: "dc6218e2",
+		type: "item",
+		items: [{
+			item: "crazyae:quantum_cpu_host"
+		}]
+	}]
+}

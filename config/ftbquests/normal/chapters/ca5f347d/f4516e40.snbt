@@ -1,0 +1,28 @@
+{
+	title: "Авто-Драконевое-Слияние",
+	x: -5.5d,
+	y: 2.5d,
+	text: [
+		"&l&4Данный энжектор нужно поставить как обычный энжектор"
+	],
+	dependencies: [
+		"b34bec84"
+	],
+	tasks: [{
+		uid: "354c4488",
+		type: "item",
+		items: [{
+			item: "packageddraconic:marked_draconic_injector"
+		}]
+	}],
+	rewards: [{
+		uid: "c286bac1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		}
+	}]
+}

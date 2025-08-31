@@ -1,0 +1,43 @@
+{
+	title: "Ой, ну бесконечная энергия для вашего посоха",
+	icon: {
+		id: "draconicevolution:draconium_capacitor",
+		tag: {
+			Energy: 1073000000
+		},
+		Damage: 2s
+	},
+	x: 11.5d,
+	y: -0.5d,
+	text: [
+		"Чё бубнеть то? Сделайте это для финальной звезды!"
+	],
+	dependencies: [
+		"257f84b3",
+		"184a2f04",
+		"e0a83eab"
+	],
+	tasks: [{
+		uid: "2e9c156b",
+		type: "item",
+		items: [{
+			id: "draconicevolution:draconium_capacitor",
+			tag: {
+				Energy: 1073000000
+			},
+			Damage: 2s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ae1d1fbc",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "6"
+			}
+		},
+		count: 16
+	}]
+}

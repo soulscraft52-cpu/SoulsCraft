@@ -1,0 +1,29 @@
+{
+	title: "Инифинити тп",
+	icon: "draconicevolution:dislocator_pedestal",
+	x: 0.5d,
+	y: 0.5d,
+	text: [
+		"Пьедестал..."
+	],
+	dependencies: [
+		"30dd1163"
+	],
+	tasks: [{
+		uid: "3e6c609d",
+		type: "item",
+		items: [{
+			item: "draconicevolution:dislocator_pedestal"
+		}]
+	}],
+	rewards: [{
+		uid: "b1fdc5a6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		}
+	}]
+}

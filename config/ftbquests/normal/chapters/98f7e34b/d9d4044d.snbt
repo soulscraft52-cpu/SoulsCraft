@@ -1,0 +1,20 @@
+{
+	title: "Для читерных механизмов",
+	icon: "thermalfoundation:upgrade 1 256",
+	x: 4.5d,
+	y: 7.0d,
+	text: [
+		"Легчайший крафт"
+	],
+	dependencies: [
+		"9f4f32d5"
+	],
+	tasks: [{
+		uid: "5935bfac",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:upgrade 1 256"
+		}],
+		ignore_nbt: 1b
+	}]
+}

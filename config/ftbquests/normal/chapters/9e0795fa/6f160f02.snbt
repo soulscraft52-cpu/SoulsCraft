@@ -1,0 +1,25 @@
+{
+	title: "Нано-Единица",
+	x: -19.0d,
+	y: -4.0d,
+	dependencies: [
+		"15027f42"
+	],
+	tasks: [{
+		uid: "69a2146a",
+		type: "item",
+		items: [{
+			item: "threng:material 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "eb10fe8d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	title: "Мировой атлас",
+	icon: "antiqueatlas:empty_antique_atlas",
+	x: -4.0d,
+	y: -7.0d,
+	text: [
+		"Наконец-то, ваша §6первая карта§r!",
+		"§7§a§9Чтобы получить §aзапоминающий мох §9нажмите §2шаром мха §4ПКМ §9по §eкнижной полке§9.",
+		"§cP.S. Рекомендую использовать зачарование \"Печать души\"."
+	],
+	dependencies: [
+		"c992d5bd"
+	],
+	tasks: [{
+		uid: "513d2baf",
+		type: "item",
+		items: [{
+			item: "antiqueatlas:empty_antique_atlas"
+		}]
+	}],
+	rewards: [{
+		uid: "8b04cec5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

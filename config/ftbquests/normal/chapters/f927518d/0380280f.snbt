@@ -1,0 +1,25 @@
+{
+	x: 1.5d,
+	y: -7.5d,
+	dependencies: [
+		"3e8418cd",
+		"af5c6fe7"
+	],
+	tasks: [{
+		uid: "a4305b58",
+		type: "item",
+		items: [{
+			item: "thaumadditions:vis_seeds/auram"
+		}]
+	}],
+	rewards: [{
+		uid: "1c2f44c0",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

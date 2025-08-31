@@ -1,0 +1,33 @@
+{
+	x: -22.0d,
+	y: -12.0d,
+	dependencies: [
+		"e0ff8f53"
+	],
+	tasks: [{
+		uid: "279540ac",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:water_compressiridium",
+			tag: {
+				damage: 144000,
+				hasID: 1b,
+				canupgrade: 1b,
+				maxDamage: 144000,
+				ID_Item: 13
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "84754ae7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

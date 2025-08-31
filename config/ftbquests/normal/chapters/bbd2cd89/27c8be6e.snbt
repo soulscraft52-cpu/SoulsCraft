@@ -1,0 +1,508 @@
+{
+	title: "Коллекционер камушков",
+	icon: "galaxyspace:plutoblocks 1 5",
+	x: 4.0d,
+	y: -8.0d,
+	text: [
+		"Соберите все камни со всех планет и получите камень бесконечности, а, нет... булыжник..."
+	],
+	dependencies: [
+		"9d23851e"
+	],
+	tasks: [{
+		uid: "0fd77083",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:basic_block_moon 1 3"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "b5ffee17",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:basic_block_moon 1 5"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "f074ee4e",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:basic_block_moon 1 4"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "f17ee237",
+		type: "item",
+		items: [{
+			item: "galaxyspace:plutoblocks 1 2"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "2fe0555a",
+		type: "item",
+		items: [{
+			item: "galaxyspace:ioblocks"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "73149917",
+		type: "item",
+		items: [{
+			item: "galaxyspace:mirandablocks 1 11"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "13e20c8d",
+		type: "item",
+		items: [{
+			item: "galacticraftplanets:asteroids_block"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "2cf0e824",
+		type: "item",
+		items: [{
+			item: "galaxyspace:mirandablocks"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "dd44c5c0",
+		type: "item",
+		items: [{
+			item: "galaxyspace:mirandablocks 1 9"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "916f43c7",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:basic_block_moon 1 14"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "1df6ce16",
+		type: "item",
+		items: [{
+			item: "galaxyspace:ioblocks 1 1"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "b59cae94",
+		type: "item",
+		items: [{
+			item: "galaxyspace:plutoblocks 1 1"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "9d13a23d",
+		type: "item",
+		items: [{
+			item: "galaxyspace:callistoblocks"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "3e0ab54a",
+		type: "item",
+		items: [{
+			item: "galacticraftplanets:mars 1 9"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "2a3823f5",
+		type: "item",
+		items: [{
+			item: "galacticraftplanets:venus 1 5"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "389cace0",
+		type: "item",
+		items: [{
+			item: "galaxyspace:mercuryblocks 1 1"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "501fd084",
+		type: "item",
+		items: [{
+			item: "galaxyspace:ceresblocks 1 5"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "7b6edd3c",
+		type: "item",
+		items: [{
+			item: "galaxyspace:ceresblocks 1 4"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "449cc40c",
+		type: "item",
+		items: [{
+			item: "galaxyspace:europablocks 1 1"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "bd7dda40",
+		type: "item",
+		items: [{
+			item: "galaxyspace:tritonblocks 1 1"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "f42e3bd7",
+		type: "item",
+		items: [{
+			item: "galaxyspace:mirandablocks 1 10"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "cad0d64f",
+		type: "item",
+		items: [{
+			item: "galaxyspace:ceresblocks 1 1"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "e6ef3a15",
+		type: "item",
+		items: [{
+			item: "galaxyspace:plutoblocks 1 3"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "4bfa8480",
+		type: "item",
+		items: [{
+			item: "galaxyspace:ioblocks 1 10"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "1758f7a9",
+		type: "item",
+		items: [{
+			item: "galacticraftplanets:mars 1 6"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "8597fe16",
+		type: "item",
+		items: [{
+			item: "galacticraftplanets:mars 1 5"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "795184e8",
+		type: "item",
+		items: [{
+			item: "galacticraftplanets:mars 1 7"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "d5ff5df3",
+		type: "item",
+		items: [{
+			item: "galacticraftplanets:venus 1 4"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "7baf6884",
+		type: "item",
+		items: [{
+			item: "galaxyspace:haumeablocks 1 2"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "d77c3620",
+		type: "item",
+		items: [{
+			item: "galaxyspace:enceladusblocks 1 1"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "5606c3f9",
+		type: "item",
+		items: [{
+			item: "galaxyspace:haumeablocks"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "741ef6a7",
+		type: "item",
+		items: [{
+			item: "galaxyspace:callistoblocks 1 1"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "6735972c",
+		type: "item",
+		items: [{
+			item: "galacticraftplanets:venus"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "101ea249",
+		type: "item",
+		items: [{
+			item: "galaxyspace:titanblocks 1 1"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "0febb925",
+		type: "item",
+		items: [{
+			item: "galaxyspace:titanblocks 1 2"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "442714da",
+		type: "item",
+		items: [{
+			item: "galaxyspace:ganymedeblocks"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "b9e31205",
+		type: "item",
+		items: [{
+			item: "galaxyspace:mercuryblocks"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "7f3f784c",
+		type: "item",
+		items: [{
+			item: "galaxyspace:mercuryblocks 1 2"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "424f22ad",
+		type: "item",
+		items: [{
+			item: "galaxyspace:ioblocks 1 2"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "bccea0ab",
+		type: "item",
+		items: [{
+			item: "galaxyspace:phobosblocks"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "326400b1",
+		type: "item",
+		items: [{
+			item: "galaxyspace:plutoblocks"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "85c8b49b",
+		type: "item",
+		items: [{
+			item: "galaxyspace:ganymedeblocks 1 1"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "fc673182",
+		type: "item",
+		items: [{
+			item: "galaxyspace:ioblocks 1 8"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "f5aa1714",
+		type: "item",
+		items: [{
+			item: "galaxyspace:mirandablocks 1 1"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "41654dfd",
+		type: "item",
+		items: [{
+			item: "galaxyspace:phobosblocks 1 1"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "510ec872",
+		type: "item",
+		items: [{
+			item: "galaxyspace:mirandablocks 1 2"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "6ab19fc2",
+		type: "item",
+		items: [{
+			item: "galaxyspace:tritonblocks"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "52ffb817",
+		type: "item",
+		items: [{
+			item: "galacticraftplanets:asteroids_block 1 1"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "845f0bfd",
+		type: "item",
+		items: [{
+			item: "galacticraftplanets:asteroids_block 1 2"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "82259529",
+		type: "item",
+		items: [{
+			item: "galaxyspace:mirandablocks 1 12"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "f9602b82",
+		type: "item",
+		items: [{
+			item: "galaxyspace:mirandablocks 1 13"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "c8f3e437",
+		type: "item",
+		items: [{
+			item: "galaxyspace:plutoblocks 1 5"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "fa5e7674",
+		type: "item",
+		items: [{
+			item: "galaxyspace:mirandablocks 1 14"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "123948c9",
+		type: "item",
+		items: [{
+			item: "galacticraftplanets:venus 1 1"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "14cb79ce",
+		type: "item",
+		items: [{
+			item: "galaxyspace:titanblocks"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "c4195d29",
+		type: "item",
+		items: [{
+			item: "galaxyspace:haumeablocks 1 1"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "6183377a",
+		type: "item",
+		items: [{
+			item: "galaxyspace:ioblocks 1 9"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "2bbfefe2",
+		type: "item",
+		items: [{
+			item: "galaxyspace:ceresblocks"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "7402a5ed",
+		type: "item",
+		items: [{
+			item: "galaxyspace:plutoblocks 1 4"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "edf85dcb",
+		type: "item",
+		items: [{
+			item: "galacticraftplanets:venus 1 2"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "f0f9d258",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		random_bonus: 1
+	},
+	{
+		uid: "9851d09b",
+		type: "item",
+		item: "extrautils2:compressedcobblestone 1 7"
+	}]
+}

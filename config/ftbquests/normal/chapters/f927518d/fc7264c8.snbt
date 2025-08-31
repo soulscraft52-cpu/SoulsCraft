@@ -1,0 +1,25 @@
+{
+	x: 0.5d,
+	y: -1.0d,
+	dependencies: [
+		"d3ddafb0",
+		"af5c6fe7"
+	],
+	tasks: [{
+		uid: "a313e854",
+		type: "item",
+		items: [{
+			item: "thaumadditions:vis_seeds/lux"
+		}]
+	}],
+	rewards: [{
+		uid: "a4c17465",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

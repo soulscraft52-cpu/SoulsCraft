@@ -1,0 +1,80 @@
+{
+	title: "Ого он реально быстрый",
+	icon: "modularmachinery:super_fast_compressor_controller",
+	x: -7.5d,
+	y: -8.5d,
+	text: [
+		"И он может нормально быть автоматизированым"
+	],
+	dependencies: [
+		"a0b238cb"
+	],
+	tasks: [{
+		uid: "61d0a400",
+		type: "item",
+		items: [{
+			item: "modularmachinery:super_fast_compressor_controller"
+		}]
+	},
+	{
+		uid: "55839e47",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing 1 5"
+		}]
+	},
+	{
+		uid: "6942f1b5",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockinputbus"
+		}]
+	},
+	{
+		uid: "426b5e9e",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockoutputbus"
+		}]
+	},
+	{
+		uid: "70889e84",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockenergyinputhatch"
+		}]
+	},
+	{
+		uid: "2866a70f",
+		type: "item",
+		items: [{
+			item: "redstonearsenal:storage"
+		}]
+	},
+	{
+		uid: "2f5eb0a1",
+		type: "item",
+		items: [{
+			item: "galacticraftplanets:asteroids_block 1 7"
+		}],
+		count: 12L
+	},
+	{
+		uid: "f9ecd6fd",
+		type: "item",
+		items: [{
+			item: "galaxyspace:machineframes 1 2"
+		}],
+		count: 9L
+	}],
+	rewards: [{
+		uid: "7e34e630",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

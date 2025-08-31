@@ -1,0 +1,149 @@
+{
+    "images":
+    {
+		"modpack":
+		{
+            "image" : "menu:icon.png",
+                       "posX" : -130,
+            "posY" : 48,
+            "width" : 250,
+            "height" : 42,
+            "alignment" : "top_center"
+		}
+    },
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "menu.singleplayer",
+            "posX" : -100,
+            "posY" : 48,
+            "width" : 200,
+            "height" : 20,
+            "texture" : "menu:longbutton.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+        
+        "multiplayer":
+        {
+            "text" : "menu.multiplayer",
+            "posX" : -100,
+            "posY" : 72,
+            "width" : 200,
+            "height" : 20,
+             "texture" : "menu:longbutton.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+        
+        "mods":
+        {
+            "text" : "fml.menu.mods",
+            "posX" : -100,
+            "posY" : 96,
+            "width" : 200,
+            "height" : 20,
+            "texture" : "menu:longbutton.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+            
+        "options":
+        {
+            "text" : "menu.options",
+            "posX" : -100,
+            "posY" : 132,
+            "width" : 98,
+            "height" : 20,
+             "texture" : "menu:shortbutton.png",
+
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        
+        "quit":
+        {
+            "text" : "menu.quit",
+            "posX" : 2,
+            "posY" : 132,
+            "width" : 98,
+            "height" : 20,
+             "texture" : "menu:shortbutton.png",
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+        "discord":
+        {
+            "text" : "  ",
+            "posX" : 15,
+            "posY" : 10,
+            "width" : 20,
+            "height" : 20,
+			"alignment" : "bottom_left",
+			"texture" : "menu:discord.png",
+            "action" : 
+            {
+                "type" : "openLink",
+				"link" : "https://discord.gg/2wjszRDxpu"
+            }
+        }
+    },
+    
+    "labels":
+    {
+        "mojang":
+        {
+            "text" : "Soulscraft 1.8.4",
+            "hoverText" :  "Soulscraft 1.8.4",
+            "posX" : -72,
+            "posY" : -10,
+            "color" : -1,
+            "alignment" : "bottom_right",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "credits"
+            }
+        },
+        "creator":{
+			"text" : "Developers: Jack_Vorobey, Tihonya76, Lord_Chaos",
+            "posX" : 3,
+            "posY" : -10,
+            "color" : -1,
+			"hoverColor" : -1,
+            "alignment" : "bottom_left"
+		},
+        "fml":
+        {
+            "text" : "",
+            "posX" : -280,
+            "posY" : -15,
+            "color" : -1,
+            "alignment" : ""
+        }
+    },
+    
+    "other":
+    {
+		"background":
+		{
+			"image" :"menu:back.png"
+		}
+    }
+}

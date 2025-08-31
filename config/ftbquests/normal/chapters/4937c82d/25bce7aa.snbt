@@ -1,0 +1,29 @@
+{
+	title: "Много стали в одном слитке",
+	x: 6.5d,
+	y: -15.5d,
+	text: [
+		"Почему?"
+	],
+	dependencies: [
+		"3f8968d4"
+	],
+	tasks: [{
+		uid: "680e0317",
+		type: "item",
+		items: [{
+			item: "contenttweaker:enderio_alloy"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "23d458a2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		}
+	}]
+}

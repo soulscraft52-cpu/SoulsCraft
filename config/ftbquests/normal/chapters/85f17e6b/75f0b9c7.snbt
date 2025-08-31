@@ -1,0 +1,25 @@
+{
+	title: "База ур.4",
+	x: 3.0d,
+	y: -1.5d,
+	dependencies: [
+		"a20e6874"
+	],
+	tasks: [{
+		uid: "2f0725b1",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:crafting 1 20"
+		}]
+	}],
+	rewards: [{
+		uid: "c78dd309",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		}
+	}]
+}

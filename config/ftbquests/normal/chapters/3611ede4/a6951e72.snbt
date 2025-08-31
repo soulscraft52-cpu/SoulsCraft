@@ -1,0 +1,37 @@
+{
+	title: "Повелитель времени",
+	icon: {
+		id: "projecte:item.pe_time_watch",
+		tag: {}
+	},
+	x: -9.5d,
+	y: -3.5d,
+	text: [
+		"Станьте повелителем времени с этими часами"
+	],
+	dependencies: [
+		"a037cf8b",
+		"40641296"
+	],
+	tasks: [{
+		uid: "c478bfcf",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_time_watch",
+			tag: {}
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "cc694c5d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 2,
+		random_bonus: 1
+	}]
+}

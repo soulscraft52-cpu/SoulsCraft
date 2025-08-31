@@ -1,0 +1,30 @@
+{
+	x: -1.5d,
+	y: 1.0d,
+	text: [
+		"Активные 400 EF/t"
+	],
+	dependencies: [
+		"0f0157d0",
+		"1d2981a2"
+	],
+	tasks: [{
+		uid: "ace02c6a",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:reactorberkeliumsimple"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7b9249ed",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

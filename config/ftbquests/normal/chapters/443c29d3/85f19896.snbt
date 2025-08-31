@@ -1,0 +1,31 @@
+{
+	title: "Семикратка",
+	icon: "extrautils2:compressedcobblestone 1 6",
+	x: -18.5d,
+	y: -4.5d,
+	text: [
+		"А слабо без ProjectE?"
+	],
+	dependencies: [
+		"bd127252"
+	],
+	tasks: [{
+		uid: "406dc3e7",
+		type: "item",
+		items: [{
+			item: "extrautils2:compressedcobblestone 2 6"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "4071daa9",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		},
+		random_bonus: 1
+	}]
+}

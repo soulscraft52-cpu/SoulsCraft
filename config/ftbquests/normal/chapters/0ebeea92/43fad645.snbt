@@ -1,0 +1,28 @@
+{
+	title: "Основа для заклинаний",
+	x: -1.0d,
+	y: 5.5d,
+	text: [
+		"Кликни заготовкой по могильной душе, чтобы зачаровать"
+	],
+	dependencies: [
+		"24782bb6"
+	],
+	tasks: [{
+		uid: "cf52cebe",
+		type: "item",
+		items: [{
+			item: "tombstone:crafting_ingredient"
+		}]
+	}],
+	rewards: [{
+		uid: "9ecabf75",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

@@ -1,0 +1,36 @@
+{
+	title: "Ваше первое зернохранилище, ой, не то...",
+	icon: {
+		id: "industrialupgrade:wiring_storage",
+		tag: {},
+		Damage: 3s
+	},
+	x: -12.0d,
+	y: 2.5d,
+	text: [
+		"Многофункциональный энергохранитель"
+	],
+	dependencies: [
+		"2b7a5d78"
+	],
+	tasks: [{
+		uid: "4c94748e",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:wiring_storage",
+			tag: {},
+			Damage: 3s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2b3d634f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

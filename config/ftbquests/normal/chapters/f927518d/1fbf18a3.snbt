@@ -1,0 +1,25 @@
+{
+	x: 2.5d,
+	y: 3.5d,
+	dependencies: [
+		"7397101a",
+		"cb9f5175"
+	],
+	tasks: [{
+		uid: "5c9cde3a",
+		type: "item",
+		items: [{
+			item: "thaumadditions:vis_seeds/fabrico"
+		}]
+	}],
+	rewards: [{
+		uid: "ebe0dae5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		}
+	}]
+}

@@ -1,0 +1,58 @@
+{
+	title: "Ура, полёт!",
+	icon: "divinerpg:angelic_chestplate",
+	x: -11.5d,
+	y: -0.5d,
+	text: [
+		"Вспорхните, как ангел"
+	],
+	dependencies: [
+		"9a8f999c"
+	],
+	tasks: [{
+		uid: "5bd032c6",
+		type: "item",
+		items: [{
+			item: "divinerpg:angelic_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a237bc22",
+		type: "item",
+		items: [{
+			item: "divinerpg:angelic_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6454a3b7",
+		type: "item",
+		items: [{
+			item: "divinerpg:angelic_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "99a4b7e1",
+		type: "item",
+		items: [{
+			item: "divinerpg:angelic_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "df5538f7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

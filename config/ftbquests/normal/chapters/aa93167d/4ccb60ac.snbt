@@ -1,0 +1,29 @@
+{
+	x: -12.0d,
+	y: -2.5d,
+	text: [
+		"Создай улучшенную версию рудопромывочного механизма и приведи свое промывку руд на новый уровень!"
+	],
+	dependencies: [
+		"810ff2bf"
+	],
+	tasks: [{
+		uid: "950ab32a",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:moremachine3 1 9"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e769428e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		},
+		random_bonus: 1
+	}]
+}

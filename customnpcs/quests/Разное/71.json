@@ -1,0 +1,42 @@
+{
+    "CompleterNpc": "Скар",
+    "NextQuestId": 73,
+    "QuestLocation3": "",
+    "RandomReward": 0b,
+    "QuestLocation2": "",
+    "QuestRepeat": 0,
+    "QuestCompletion": 1,
+    "Title": "Найти повозку",
+    "Text": "Артур взвалил на меня заботу о его посылках. Всё в качестве компенсации за \"моральный ущерб\"... И стоило мне лезть в его вещи? Уже не важно, теперь мне нужно найти эту повозку, хорошо хоть компас дал.",
+    "QuestFactionPoints": {
+        "DecreaseFaction1Points": 0b,
+        "OptionFaction2Points": 100,
+        "OptionFactions1": -1,
+        "OptionFactions2": -1,
+        "OptionFaction1Points": 100,
+        "DecreaseFaction2Points": 0b
+    },
+    "RewardExp": 0,
+    "QuestCommand": "",
+    "ModRev": 18,
+    "Type": 3,
+    "QuestMail": {
+        "Sender": "",
+        "BeenRead": 0b,
+        "Message": {
+        },
+        "MailItems": [
+        ],
+        "MailQuest": -1,
+        "TimePast": 1657663374503L,
+        "Time": 0L,
+        "Subject": ""
+    },
+    "Rewards": {
+        "NpcMiscInv": [
+        ]
+    },
+    "CompleteText": "",
+    "NextQuestTitle": "Осмотреться в поисках посылки Артура",
+    "QuestLocation": "Повозка Артура"
+}

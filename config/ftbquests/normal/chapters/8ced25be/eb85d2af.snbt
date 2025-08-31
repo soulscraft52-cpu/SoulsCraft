@@ -1,0 +1,27 @@
+{
+	x: -3.0d,
+	y: -9.5d,
+	text: [
+		"1 ведро = 10 прочности"
+	],
+	dependencies: [
+		"917a8f36"
+	],
+	tasks: [{
+		uid: "a12beeb3",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:block_anvil_magma"
+		}]
+	}],
+	rewards: [{
+		uid: "e1b9ce18",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

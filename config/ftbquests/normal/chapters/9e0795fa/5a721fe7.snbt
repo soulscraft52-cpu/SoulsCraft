@@ -1,0 +1,24 @@
+{
+	x: -21.0d,
+	y: -4.5d,
+	dependencies: [
+		"6f160f02"
+	],
+	tasks: [{
+		uid: "b666f875",
+		type: "item",
+		items: [{
+			item: "threng:machine 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "be201c11",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	title: "ЭТО ТЕССЕРАКТ!!!",
+	icon: "enderio:block_transceiver",
+	x: 0.5d,
+	y: -4.0d,
+	text: [
+		"Аналог тессеракта из Thermal Expansion, повзволяет передавать энергию  и ресурсы  на расстоянии."
+	],
+	dependencies: [
+		"7bf10f6e",
+		"e4631db0"
+	],
+	tasks: [{
+		uid: "f9d9e4bf",
+		type: "item",
+		items: [{
+			item: "enderio:block_transceiver"
+		}],
+		count: 2L,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c47793ec",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		}
+	}]
+}

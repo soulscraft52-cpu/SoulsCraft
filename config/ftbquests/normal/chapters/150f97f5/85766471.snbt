@@ -1,0 +1,29 @@
+{
+	title: "Коллектор #1",
+	icon: "projecte:collector_mk1",
+	x: -6.0d,
+	y: -7.5d,
+	text: [
+		"Собирает EMC..."
+	],
+	dependencies: [
+		"b9daef8d"
+	],
+	tasks: [{
+		uid: "4f850c6f",
+		type: "item",
+		items: [{
+			item: "projecte:collector_mk1"
+		}]
+	}],
+	rewards: [{
+		uid: "7d826e2c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		}
+	}]
+}

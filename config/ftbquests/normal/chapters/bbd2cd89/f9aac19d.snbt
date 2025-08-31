@@ -1,0 +1,31 @@
+{
+	title: "Переработка нефти в топливо",
+	icon: "galacticraftcore:refinery",
+	x: -15.5d,
+	y: -0.5d,
+	text: [
+		"Топливо для ракеты"
+	],
+	dependencies: [
+		"4d8b5dae",
+		"a1f4ef96"
+	],
+	tasks: [{
+		uid: "ff0dcbad",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:refinery"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e6e055c5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

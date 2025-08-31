@@ -1,0 +1,29 @@
+{
+	title: "Я думал и обычный хорошо справлялся",
+	x: -0.5d,
+	y: -5.5d,
+	text: [
+		"Но если хотите, то улучшайте. Вам никто не мешает!"
+	],
+	dependencies: [
+		"94357dae"
+	],
+	tasks: [{
+		uid: "7d767739",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:basemachine3 1 50"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "83e4be93",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		}
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	title: "Больше не делает сталь((",
+	x: -5.5d,
+	y: -11.0d,
+	text: [
+		"Зато делает другие нужные сплавы"
+	],
+	dependencies: [
+		"a91d30d5"
+	],
+	tasks: [{
+		uid: "288f3e7e",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:basemachine1 1 3"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0f44f8ce",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

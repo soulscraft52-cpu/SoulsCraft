@@ -1,0 +1,35 @@
+{
+	title: "Улучшенное хранилище улучшенного хранилища",
+	icon: {
+		id: "industrialupgrade:wiring_storage",
+		tag: {}
+	},
+	x: -0.5d,
+	y: 2.5d,
+	text: [
+		"100кк eu"
+	],
+	dependencies: [
+		"420b4453"
+	],
+	tasks: [{
+		uid: "397ff8d7",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:wiring_storage",
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "743dc720",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		},
+		random_bonus: 1
+	}]
+}

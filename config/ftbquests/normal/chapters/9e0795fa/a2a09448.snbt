@@ -1,0 +1,29 @@
+{
+	title: "Сердешко вашего автокрафта",
+	icon: "appliedenergistics2:crafting_unit",
+	x: -13.0d,
+	y: 2.5d,
+	text: [
+		"Корпус вашего автокрафта"
+	],
+	dependencies: [
+		"0bd796d4"
+	],
+	tasks: [{
+		uid: "dc871996",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:crafting_unit"
+		}]
+	}],
+	rewards: [{
+		uid: "93038bc8",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

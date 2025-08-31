@@ -1,0 +1,565 @@
+{
+  "entries": [
+    {
+      "item": "projecte:item.pe_philosophers_stone|0",
+      "emc": 0
+    },
+    {
+      "item": "draconicevolution:draconium_ingot|0",
+      "emc": 8192
+    },
+    {
+      "item": "thermalfoundation:material|160",
+      "emc": 1024
+    },
+    {
+      "item": "thermalfoundation:material|164",
+      "emc": 2048
+    },
+    {
+      "item": "enderio:item_alloy_ingot|9",
+      "emc": 2048
+    },
+    {
+      "item": "bigreactors:ingotcyanite|0",
+      "emc": 0
+    },
+    {
+      "item": "extrautils2:machine|0",
+      "emc": 0
+    },
+    {
+      "item": "thermalfoundation:storage|0",
+      "emc": 1152
+    },
+    {
+      "item": "thermalfoundation:storage|1",
+      "emc": 2304
+    },
+    {
+      "item": "minecraft:emerald_block|0",
+      "emc": 147456
+    },
+    {
+      "item": "thermalfoundation:storage|4",
+      "emc": 1152
+    },
+    {
+      "item": "thermalfoundation:storage_alloy|1",
+      "emc": 23040
+    },
+    {
+      "item": "thermalfoundation:storage_alloy|2",
+      "emc": 13824
+    },
+    {
+      "item": "thermalfoundation:storage_alloy|4",
+      "emc": 10368
+    },
+    {
+      "item": "thermalfoundation:storage_alloy|5",
+      "emc": 9792
+    },
+    {
+      "item": "thermalfoundation:storage|5",
+      "emc": 9216
+    },
+    {
+      "item": "thermalfoundation:storage_alloy|6",
+      "emc": 12672
+    },
+    {
+      "item": "minecraft:gold_block|0",
+      "emc": 18432
+    },
+    {
+      "item": "minecraft:iron_block|0",
+      "emc": 2304
+    },
+    {
+    //Слиток таумиума
+      "item": "thaumcraft:ingot|0",
+      "emc": 1024
+    },
+    {
+    //Слиток пустотного металла
+      "item": "thaumcraft:ingot|1",
+      "emc": 6912
+    },
+    {
+    //Ардитовый слиток
+      "item": "tconstruct:ingots|1",
+      "emc": 0
+    },
+    {
+    //Маньюлиновый слиток
+      "item": "tconstruct:ingots|2",
+      "emc": 8192
+    },
+    {
+    //Кобальдовый слиток из тинкера
+      "item": "tconstruct:ingots|0",
+      "emc": 0
+    },
+    {
+      "item": "galaxyspace:ingots|0",
+      "emc": 0
+    },
+    {
+      "item": "divinerpg:arcanium|0",
+      "emc": 0
+    },
+    {
+    //Иридий из термала
+      "item": "thermalfoundation:material|135",
+      "emc": 524288
+    },
+    {
+    //Иридиевый блок из термала
+      "item": "thermalfoundation:storage|7",
+      "emc": 4718592
+    },
+    {
+    //Полированная палка
+      "item": "forestry:oak_stick|0",
+      "emc": 256
+    },
+    {
+    //Случайный вис-кристалл
+      "item": "thaumcraft:crystal_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "ic2:dust|6",
+      "emc": 9372
+    },
+    {
+      "item": "ic2:energy_crystal|26",
+      "emc": 84348
+    },
+    {
+    //Слиток темной стали
+      "item": "enderio:item_alloy_ingot|6",
+      "emc": 3168
+    },
+    {
+      "item": "enderio:block_alloy|5",
+      "emc": 11520
+    },
+    {
+      "item": "enderio:block_alloy|0",
+      "emc": 2880
+    },
+    {
+      "item": "enderio:block_alloy|7",
+      "emc": 18873
+    },
+    {
+      "item": "enderio:block_alloy|3",
+      "emc": 864
+    },
+    {
+    //Стальной слиток края
+      "item": "enderio:item_alloy_ingot|8",
+      "emc": 834
+    },
+    {
+      "item": "enderio:block_alloy|8",
+      "emc": 7506
+    },
+    {
+      "item": "enderio:block_alloy|1",
+      "emc": 22464
+    },
+    {
+      "item": "enderio:block_alloy|2",
+      "emc": 31680
+    },
+    {
+      "item": "enderio:block_alloy|6",
+      "emc": 28512
+    },
+    {
+      "item": "enderio:block_alloy|4",
+      "emc": 2880
+    },
+    {
+    //Блок маньюлина
+      "item": "tconstruct:metal|2",
+      "emc": 73728
+    },
+    {
+      "item": "tconstruct:metal|1",
+      "emc": 36864
+    },
+    {
+    //Кобальдовый слиток из индастриала
+      "item": "industrialupgrade:itemingots|6",
+      "emc": 4096
+    },
+    {
+      "item": "industrialupgrade:baseblockingot|6",
+      "emc": 36864
+    },
+    {
+    //Блок кобальда из тинкера
+      "item": "tconstruct:metal|0",
+      "emc": 36864
+    },
+    {
+      "item": "ic2:cable|0",
+      "emc": 64
+    },
+    {
+    //Графитовый слиток
+      "item": "bigreactors:ingotgraphite|0",
+      "emc": 8192
+    },
+    {
+    //Блок стали из термала
+      "item": "thermalfoundation:storage_alloy|0",
+      "emc": 9216
+    },
+    {
+    //Аллюминиевая пластина из термала
+      "item": "thermalfoundation:material|324",
+      "emc": 0
+    },
+    {
+    //Огненный порошок
+      "item": "minecraft:blaze_powder|0",
+      "emc": 0
+    },
+    {
+      "item": "tconstruct:ingots|3",
+      "emc": 0
+    },
+    {
+    //Блок слизестали
+      "item": "tconstruct:metal|3",
+      "emc": 4608
+    },
+    {
+    //Простой мистический механизм
+      "item": "thaumcraft:mechanism_simple|0",
+      "emc": 10964
+    },
+    {
+    //Сложный мистический механизм
+      "item": "thaumcraft:mechanism_complex|0",
+      "emc": 40972
+    },
+    {
+    //Золотая шестреря из термала
+      "item": "thermalfoundation:material|25",
+      "emc": 0
+    },
+    {
+      "item": "extrautils2:ingredients|2",
+      "emc": 262144
+    },
+    {
+      "item": "quarryplus:laserplus|0",
+      "emc": 0
+    },
+    {
+    //Атомная пицца
+      "item": "contenttweaker:pizza|0",
+      "emc": 0
+    },
+    {
+      "item": "contenttweaker:burger|0",
+      "emc": 0
+    },
+    {
+      "item": "contenttweaker:taco|0",
+      "emc": 0
+    },
+    {
+    //Атомная сосиска в тесте
+      "item": "contenttweaker:sausage_roll|0",
+      "emc": 0
+    },
+    {
+    //Зерна бесконечности
+      "item": "enderio:item_material|20",
+      "emc": 128
+    },
+    {
+    //Блок эндериума
+      "item": "thermalfoundation:storage_alloy|7",
+      "emc": 25368
+    },
+    {
+    //Salis mundus
+      "item": "thaumcraft:salis_mundus|0",
+      "emc": 452
+    },
+    {
+    //Слиток свиностали
+      "item": "tconstruct:ingots|4",
+      "emc": 600
+    },
+    {
+    //Лунный сапфир
+      "item": "galacticraftcore:item_basic_moon|2",
+      "emc": 0
+    },
+    {
+      "item": "industrialupgrade:itemcore|0",
+      "emc": 3000
+    },
+    {
+      "item": "industrialupgrade:itemcore|1",
+      "emc": 15000
+    },
+    {
+      "item": "industrialupgrade:itemcore|2",
+      "emc": 75000
+    },
+    {
+      "item": "industrialupgrade:itemcore|3",
+      "emc": 400000
+    },
+    {
+      "item": "industrialupgrade:itemcore|4",
+      "emc": 25000000
+    },
+    {
+      "item": "industrialupgrade:itemcore|5",
+      "emc": 125000000
+    },
+    {
+      "item": "industrialupgrade:itemcore|6",
+      "emc": 725000000
+    },
+    {
+      "item": "industrialupgrade:itemcore|7",
+      "emc": 4525000000
+    },
+    {
+      "item": "industrialupgrade:itemcore|8",
+      "emc": 56525000000
+    },
+    {
+      "item": "industrialupgrade:itemcore|9",
+      "emc": 787225000000
+    },
+    {
+      "item": "industrialupgrade:itemcore|10",
+      "emc": 3525525000000
+    },
+    {
+      "item": "industrialupgrade:itemcore|11",
+      "emc": 15426525000000
+    },
+    {
+      "item": "industrialupgrade:itemcore|13",
+      "emc": 915426525000000
+    },
+    {
+      "item": "industrialupgrade:itemcore|12",
+      "emc": 115426525000000
+    },
+    {
+    //Алюминиевый провод из галактик-крафта
+      "item": "galacticraftcore:aluminum_wire|0",
+      "emc": 0
+    },
+    {
+    //Слиток иридия из индастриала
+      "item": "industrialupgrade:itemingots|17",
+      "emc": 524000
+    },
+    {
+    //Бронзовая шестерня из термала
+      "item": "thermalfoundation:material|291",
+      "emc": 0
+    },
+    {
+    //Инваровая шестерня из термала
+      "item": "thermalfoundation:material|290",
+      "emc": 0
+    },
+    {
+    //Стальная шестерня из термала
+      "item": "thermalfoundation:material|288",
+      "emc": 0
+    },
+    {
+    //Алмазная шестерня из термала
+      "item": "thermalfoundation:material|26",
+      "emc": 0
+    },
+    {
+    //Каменная шестерня из термала
+      "item": "thermalfoundation:material|23",
+      "emc": 0
+    },
+    {
+    //Деревянная шестерня из термала
+      "item": "thermalfoundation:material|22",
+      "emc": 0
+    },
+    {
+    //Рубиновый блок
+      "item": "industrialupgrade:blockprecious|0",
+      "emc": 36864
+    },
+    {
+    //Сапфировый блок
+      "item": "industrialupgrade:blockprecious|1",
+      "emc": 18432
+    },
+    {
+    //Топазовый блок
+      "item": "industrialupgrade:blockprecious|2",
+      "emc": 18432
+    },
+    {
+    //Осколок промышленного иридия
+      "item": "industrialupgrade:crafting_elements|291",
+      "emc": 0
+    },
+    {
+    //Редстоун блок
+      "item": "minecraft:redstone_block|0",
+      "emc": 576
+    },
+    {
+    //Сжатый редстоун блок
+      "item": "contenttweaker:compressed_redstone_block_x1|0",
+      "emc": 5184
+    },
+    {
+    //Дважды сжатый редстоун блок
+      "item": "contenttweaker:compressed_redstone_block_x2|0",
+      "emc": 46656
+    },
+    {
+    //Трижды сжатый редстоун блок
+      "item": "contenttweaker:compressed_redstone_block_x3|0",
+      "emc": 419904
+    },
+    {
+    //Четырежды сжатый редстоун блок
+      "item": "contenttweaker:compressed_redstone_block_x4|0",
+      "emc": 3779136
+    },
+    {
+    //Пятикратный сжатый редстоун блок
+      "item": "contenttweaker:compressed_redstone_block_x5|0",
+      "emc": 34012224
+    },
+    {
+    //Шестикратный сжатый редстоун блок
+      "item": "contenttweaker:compressed_redstone_block_x6|0",
+      "emc": 306110016
+    },
+    {
+    //Семикратный сжатый редстоун блок
+      "item": "contenttweaker:compressed_redstone_block_x7|0",
+      "emc": 2754990144
+    },
+    {
+    //Восьмикратный сжатый редстоун блок
+      "item": "contenttweaker:compressed_redstone_block_x8|0",
+      "emc": 24794911296
+    },
+    {
+    //Том знаний
+      "item": "projecte:item.pe_tome|0",
+      "emc": 15000
+    },
+    {
+    //Осмиевый блок
+      "item": "industrialupgrade:baseblockingot1|3",
+      "emc": 4608
+    },
+    {
+    //Бронзовый блок
+      "item": "thermalfoundation:storage_alloy|3",
+      "emc": 1440
+    },
+    {
+    //Серебряный блок
+      "item": "thermalfoundation:storage|2",
+      "emc": 4608
+    },
+    {
+    //Алюминиевый слиток галактика (не нужен)
+      "item": "galacticraftcore:basic_item|5",
+      "emc": 0
+    },
+/*    {
+    //Пыль петротеума
+      "item": "thermalfoundation:material|1027",
+      "emc": 2048
+    },
+    {
+    //Пыль креотеума
+      "item": "thermalfoundation:material|1025",
+      "emc": 2048
+    },
+    {
+    //Пыль аэротеума
+      "item": "thermalfoundation:material|1026",
+      "emc": 2048
+    },
+    {
+    //Пыль пиротеума
+      "item": "thermalfoundation:material|1024",
+      "emc": 2048
+    },*/
+    {
+    //Флаксовый электрумовый блок
+      "item": "redstonearsenal:storage|0",
+      "emc": 36864
+    },
+    {
+    //Дракониевый блок
+      "item": "draconicevolution:draconium_block|0",
+      "emc": 73728
+    },
+    {
+    //Блок таумиума
+      "item": "thaumcraft:metal_thaumium|0",
+      "emc": 9216
+    },
+    {
+    //Латунный блок
+      "item": "thaumcraft:metal_brass|0",
+      "emc": 3456
+    },
+
+    {
+    //Янтарный блок
+      "item": "thaumcraft:amber_block|0",
+      "emc": 512
+    },
+    {
+    //Шёлковый блок
+      "item": "tconstruct:metal|6",
+      "emc": 221184
+    },
+    {
+    //Блок алюминиевой латуни
+      "item": "tconstruct:metal|5",
+      "emc": 4608
+    },
+    {
+      "item": "extrautils2:lawsword|0",
+      "emc": 1000000
+    },
+    {
+    //Кикоку
+      "item": "extrautils2:compoundbow|0",
+      "emc": 1000000000
+    },
+    {
+    //Пожарный топор
+      "item": "extrautils2:fireaxe|0",
+      "emc": 10000000
+    }
+  ]
+}

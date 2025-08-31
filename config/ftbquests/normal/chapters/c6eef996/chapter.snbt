@@ -1,0 +1,21 @@
+{
+	title: " ",
+	icon: "forestry:beehives 1 1",
+	description: [
+		"Дзета | Forestry"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "",
+	images: [{
+		x: -16.0d,
+		y: 3.0d,
+		width: 11.0d,
+		height: 8.0d,
+		rotation: 0.0d,
+		image: "ftbquests:textures/gui/isl13.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

@@ -1,0 +1,60 @@
+{
+	title: "Жидкостный буфер",
+	icon: {
+		id: "thermalexpansion:device",
+		tag: {
+			RSControl: 0b,
+			Facing: 3b,
+			Energy: 0,
+			SideCache: [B;
+				2b,
+				1b,
+				1b,
+				1b,
+				1b,
+				1b
+			]
+		},
+		Damage: 6s
+	},
+	x: -22.0d,
+	y: -17.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"0f5d6eeb"
+	],
+	tasks: [{
+		uid: "a49cbe64",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:device",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					2b,
+					1b,
+					1b,
+					1b,
+					1b,
+					1b
+				]
+			},
+			Damage: 6s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4787a890",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	title: "Малый Кислородный Баллон",
+	icon: "galacticraftcore:oxygen_tank_light_full 1 900",
+	x: -1.0d,
+	y: -3.0d,
+	can_repeat: true,
+	dependencies: [
+		"10fa7f54"
+	],
+	tasks: [{
+		uid: "deb8ff1a",
+		type: "item",
+		items: [{
+			item: "contenttweaker:coin_tier3"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "82e10da6",
+		type: "item",
+		item: "galacticraftcore:oxygen_tank_light_full 1 900"
+	}]
+}

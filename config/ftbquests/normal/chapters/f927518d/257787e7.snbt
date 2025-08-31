@@ -1,0 +1,25 @@
+{
+	title: "Энциклопедия для начинающих чернокнижников",
+	icon: "thaumcraft:thaumonomicon",
+	x: -6.0d,
+	y: -5.5d,
+	text: [
+		"Вы сами узнаете, как его получить..."
+	],
+	dependencies: [
+		"6f816114",
+		"4df5c63b"
+	],
+	tasks: [{
+		uid: "308e1277",
+		type: "item",
+		items: [{
+			item: "thaumcraft:thaumonomicon"
+		}]
+	}],
+	rewards: [{
+		uid: "b01d0d0c",
+		type: "choice",
+		table: 1
+	}]
+}

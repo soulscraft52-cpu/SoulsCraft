@@ -1,0 +1,30 @@
+{
+	title: "Триждысжатый",
+	icon: "extrautils2:compressedcobblestone 1 2",
+	x: -17.5d,
+	y: -5.5d,
+	text: [
+		"Ты знаешь, что будет дальше"
+	],
+	dependencies: [
+		"eb360884"
+	],
+	tasks: [{
+		uid: "cfa80ecd",
+		type: "item",
+		items: [{
+			item: "extrautils2:compressedcobblestone 24 2"
+		}],
+		count: 24L
+	}],
+	rewards: [{
+		uid: "dc2c4d24",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

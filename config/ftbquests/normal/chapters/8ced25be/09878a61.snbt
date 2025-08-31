@@ -1,0 +1,31 @@
+{
+	title: "Мы против!",
+	x: -10.5d,
+	y: 1.0d,
+	text: [
+		"У общества §aGreenslime §fк вам будут вопросы."
+	],
+	dependencies: [
+		"d2c3dcfb"
+	],
+	tasks: [{
+		uid: "b190001a",
+		type: "item",
+		items: [{
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_slime"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "5b9f88ee",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

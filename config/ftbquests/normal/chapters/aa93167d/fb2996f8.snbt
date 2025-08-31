@@ -1,0 +1,30 @@
+{
+	title: "И ещё, и ещё, и ещё больше",
+	icon: "industrialupgrade:imp_se_gen",
+	x: -4.5d,
+	y: -3.0d,
+	text: [
+		"Саннариум это наше всё!"
+	],
+	dependencies: [
+		"9d60ac13"
+	],
+	tasks: [{
+		uid: "6ae24eb3",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:imp_se_gen"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "72ae9871",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

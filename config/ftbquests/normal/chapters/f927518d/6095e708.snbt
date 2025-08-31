@@ -1,0 +1,25 @@
+{
+	title: "Непонятные Семечки",
+	x: -2.0d,
+	y: -3.5d,
+	dependencies: [
+		"c992d5bd"
+	],
+	tasks: [{
+		uid: "1f6a4474",
+		type: "item",
+		items: [{
+			item: "soulscraft:magicseed"
+		}]
+	}],
+	rewards: [{
+		uid: "8b9465ab",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

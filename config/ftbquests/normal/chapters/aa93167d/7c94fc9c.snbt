@@ -1,0 +1,31 @@
+{
+	title: "Улучши в совершенство",
+	x: 1.5d,
+	y: -5.5d,
+	text: [
+		"Дорого богато"
+	],
+	dependencies: [
+		"cd21be54"
+	],
+	tasks: [{
+		uid: "b747f807",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:basemachine3 1 52"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f36d64b5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 2,
+		random_bonus: 1
+	}]
+}

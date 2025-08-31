@@ -1,0 +1,31 @@
+{
+	title: "Ульта",
+	icon: "industrialupgrade:machines 1 2",
+	x: 1.0d,
+	y: -2.0d,
+	text: [
+		"Ульта? Чья ульта?",
+		"Уже ничья, переименовали."
+	],
+	dependencies: [
+		"c355e25e"
+	],
+	tasks: [{
+		uid: "88fd5a08",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:machines 1 2"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "634fd0b1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		}
+	}]
+}

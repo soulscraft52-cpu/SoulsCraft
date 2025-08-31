@@ -1,0 +1,30 @@
+{
+	title: "Утраивание???",
+	icon: "industrialupgrade:moremachine1 1 6",
+	x: -13.0d,
+	y: -12.0d,
+	text: [
+		"Руды x3!"
+	],
+	dependencies: [
+		"ee6bc100"
+	],
+	tasks: [{
+		uid: "e490458a",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:moremachine1 1 6"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e179cba7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

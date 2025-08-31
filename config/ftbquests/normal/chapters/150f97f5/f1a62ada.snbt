@@ -1,0 +1,45 @@
+{
+	title: "Оранжевые",
+	icon: "projectex:power_flower 1 12",
+	x: 8.5d,
+	y: -7.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"578b6eea"
+	],
+	tasks: [{
+		uid: "0b492711",
+		type: "item",
+		items: [{
+			item: "projectex:collector 1 12"
+		}]
+	},
+	{
+		uid: "95db72ec",
+		type: "item",
+		items: [{
+			item: "projectex:relay 1 12"
+		}]
+	},
+	{
+		uid: "7cc42acf",
+		type: "item",
+		items: [{
+			item: "projectex:power_flower 1 12"
+		}]
+	}],
+	rewards: [{
+		uid: "48a97373",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 10,
+		random_bonus: 1
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	title: "Эссенции ур.3",
+	x: -0.5d,
+	y: -0.5d,
+	dependencies: [
+		"a20e6874"
+	],
+	tasks: [{
+		uid: "396c57b6",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:crafting 1 2"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "94a6ad7a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		}
+	}]
+}

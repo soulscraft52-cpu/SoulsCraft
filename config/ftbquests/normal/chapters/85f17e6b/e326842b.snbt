@@ -1,0 +1,182 @@
+{
+	title: "Ресурсовые семена ур.4",
+	x: 2.5d,
+	y: 0.5d,
+	text: [
+		"Ухты, мы сможем фармить ресурсы из ничего, просто выращивая растения! Немыслимо!"
+	],
+	dependencies: [
+		"b66a6848"
+	],
+	tasks: [{
+		uid: "06870095",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:gold_seeds"
+		}]
+	},
+	{
+		uid: "affc947b",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:lapis_lazuli_seeds"
+		}]
+	},
+	{
+		uid: "e728a50f",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:end_seeds"
+		}]
+	},
+	{
+		uid: "cd430b5b",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:steel_seeds"
+		}]
+	},
+	{
+		uid: "ec4aa5fa",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:nickel_seeds"
+		}]
+	},
+	{
+		uid: "83773463",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:constantan_seeds"
+		}]
+	},
+	{
+		uid: "7965d3f2",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:electrum_seeds"
+		}]
+	},
+	{
+		uid: "375a4b08",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:invar_seeds"
+		}]
+	},
+	{
+		uid: "4897cb38",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:mithril_seeds"
+		}]
+	},
+	{
+		uid: "6950b0a4",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:ruby_seeds"
+		}]
+	},
+	{
+		uid: "d57fe5c1",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:sapphire_seeds"
+		}]
+	},
+	{
+		uid: "c831bfbe",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:amber_seeds"
+		}]
+	},
+	{
+		uid: "b71cbdb9",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:signalum_seeds"
+		}]
+	},
+	{
+		uid: "bb425feb",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:lumium_seeds"
+		}]
+	},
+	{
+		uid: "638bf3c5",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:fluxed_electrum_seeds"
+		}]
+	},
+	{
+		uid: "a29e3f1e",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:cobalt_seeds"
+		}]
+	},
+	{
+		uid: "831d1fd0",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:soularium_seeds"
+		}]
+	},
+	{
+		uid: "5ed9a39e",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:dark_steel_seeds"
+		}]
+	},
+	{
+		uid: "c20a645c",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:pulsating_iron_seeds"
+		}]
+	},
+	{
+		uid: "b5302207",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:energetic_alloy_seeds"
+		}]
+	},
+	{
+		uid: "255a2fae",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:void_metal_seeds"
+		}]
+	},
+	{
+		uid: "81c534f9",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:meteoric_iron_seeds"
+		}]
+	},
+	{
+		uid: "bb4f1b55",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:fluix_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "3256a80e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		}
+	}]
+}

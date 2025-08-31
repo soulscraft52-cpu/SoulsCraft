@@ -1,0 +1,28 @@
+{
+	x: -2.5d,
+	y: -6.0d,
+	text: [
+		"Сотворили ядерную революцию"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"49c3d4bf"
+	],
+	tasks: [{
+		uid: "8db27598",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:nuclearresource 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "a8aa5a3f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

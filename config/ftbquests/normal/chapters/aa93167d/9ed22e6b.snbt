@@ -1,0 +1,29 @@
+{
+	title: "Факт #2",
+	x: -12.0d,
+	y: -6.0d,
+	text: [
+		"Лимон содержит больше сахара, чем клубника."
+	],
+	dependencies: [
+		"f5bfe657"
+	],
+	tasks: [{
+		uid: "522f9396",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:moremachine2 1 9"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f1cd2c60",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

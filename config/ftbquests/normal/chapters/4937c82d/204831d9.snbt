@@ -1,0 +1,124 @@
+{
+	title: "И вот после....",
+	icon: "modularmachinery:the_last_forge_controller",
+	x: -1.0d,
+	y: -11.5d,
+	text: [
+		"Неужели мы можем улучшать наше оружие в несколько раз лучше чем они были ",
+		"...",
+		"Это фантастика"
+	],
+	dependencies: [
+		"c2744a0c"
+	],
+	tasks: [{
+		uid: "f1f1edaf",
+		type: "item",
+		items: [{
+			item: "modularmachinery:the_last_forge_controller"
+		}]
+	},
+	{
+		uid: "d4778089",
+		type: "item",
+		items: [{
+			item: "contenttweaker:last_casing"
+		}],
+		count: 40L
+	},
+	{
+		uid: "ef36a99b",
+		type: "item",
+		items: [{
+			item: "contenttweaker:trophy_of_the_last_forge"
+		}],
+		count: 4L
+	},
+	{
+		uid: "c1869539",
+		type: "item",
+		items: [{
+			item: "contenttweaker:transformer_of_the_last_forge"
+		}],
+		count: 4L
+	},
+	{
+		uid: "9642d029",
+		type: "item",
+		items: [{
+			item: "contenttweaker:frame_of_the_last_forge"
+		}],
+		count: 8L
+	},
+	{
+		uid: "b617fdad",
+		type: "item",
+		items: [{
+			item: "contenttweaker:stabilizer_of_the_last_forge"
+		}],
+		count: 8L
+	},
+	{
+		uid: "5e6ac777",
+		type: "item",
+		items: [{
+			item: "contenttweaker:injector_of_the_last_forge"
+		}],
+		count: 4L
+	},
+	{
+		uid: "e8c9bfc5",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockaspectproviderinput"
+		}],
+		count: 9L
+	},
+	{
+		uid: "a542a4f1",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockoutputbus 1 2"
+		}]
+	},
+	{
+		uid: "ae110b7a",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockenergyinputhatch 1 2"
+		}]
+	},
+	{
+		uid: "4384ea24",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockfluidinputhatch 1 2"
+		}],
+		count: 4L
+	},
+	{
+		uid: "4636b2da",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockinputbus 1 2"
+		}]
+	},
+	{
+		uid: "3b83b5bd",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockgridproviderinput"
+		}]
+	}],
+	rewards: [{
+		uid: "71868eb2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 6
+	}]
+}

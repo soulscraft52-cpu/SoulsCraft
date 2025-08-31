@@ -1,0 +1,41 @@
+{
+	title: "Молот",
+	icon: {
+		id: "projecte:item.pe_dm_hammer",
+		tag: {}
+	},
+	x: -7.5d,
+	y: -2.0d,
+	text: [
+		"Для быстрой добычи ресурсов"
+	],
+	dependencies: [
+		"3d305c01",
+		"46f81351",
+		"5e16cc55",
+		"ecd551c1",
+		"f2f7d2cb",
+		"f0188cfe"
+	],
+	tasks: [{
+		uid: "ccddc87c",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_dm_hammer",
+			tag: {}
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "906942d5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 2,
+		random_bonus: 1
+	}]
+}

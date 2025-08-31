@@ -1,0 +1,33 @@
+{
+	title: "Сам Танос обзавидуется",
+	icon: "avaritia:resource 1 6",
+	x: -1.0d,
+	y: -5.5d,
+	text: [
+		"Слиток ценой во вселенную"
+	],
+	dependencies: [
+		"8a432292",
+		"ee8fd0cc"
+	],
+	tasks: [{
+		uid: "02fe6fab",
+		type: "item",
+		items: [{
+			item: "avaritia:resource 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "0afa5058",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			Count: 16,
+			tag: {
+				type: "6"
+			}
+		},
+		count: 4,
+		random_bonus: 4
+	}]
+}

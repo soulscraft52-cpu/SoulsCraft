@@ -1,0 +1,34 @@
+{
+	title: "Кирка пропитанная тьмой",
+	icon: {
+		id: "projecte:item.pe_dm_pick",
+		tag: {}
+	},
+	x: -9.5d,
+	y: -3.5d,
+	text: [
+		"Прямиком из пустоты"
+	],
+	dependencies: [
+		"a037cf8b"
+	],
+	tasks: [{
+		uid: "37f872ed",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_dm_pick",
+			tag: {}
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "76eb4eda",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		}
+	}]
+}

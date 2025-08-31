@@ -1,0 +1,25 @@
+{
+	x: -3.0d,
+	y: -5.0d,
+	dependencies: [
+		"4ae6769f",
+		"dc297a07"
+	],
+	tasks: [{
+		uid: "927a7901",
+		type: "item",
+		items: [{
+			item: "extrautils2:resonator"
+		}]
+	}],
+	rewards: [{
+		uid: "e3647e8b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

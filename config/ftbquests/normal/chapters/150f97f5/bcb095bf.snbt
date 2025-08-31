@@ -1,0 +1,31 @@
+{
+	title: "Какое же оно мерзкое, фу....",
+	x: -4.5d,
+	y: -9.5d,
+	text: [
+		"Липкий, вонючий, скользкий",
+		"и...",
+		"§2зеленый"
+	],
+	dependencies: [
+		"c7b2af5b"
+	],
+	tasks: [{
+		uid: "cd6b415e",
+		type: "item",
+		items: [{
+			item: "contenttweaker:parasite"
+		}]
+	}],
+	rewards: [{
+		uid: "2919246d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		},
+		count: 4
+	}]
+}

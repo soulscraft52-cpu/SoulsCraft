@@ -1,0 +1,29 @@
+{
+	title: "Продалжай в том же духе",
+	x: -4.5d,
+	y: -17.0d,
+	text: [
+		"....",
+		"Имеет 4слотов"
+	],
+	dependencies: [
+		"753c96b7"
+	],
+	tasks: [{
+		uid: "e4869ae2",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockinputbus 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "0b733faf",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

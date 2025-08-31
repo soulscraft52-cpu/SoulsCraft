@@ -1,0 +1,33 @@
+{
+	x: -21.0d,
+	y: -19.0d,
+	dependencies: [
+		"a3e8e473"
+	],
+	tasks: [{
+		uid: "6643a470",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:ultramarinerotor",
+			tag: {
+				damage: 1769472000,
+				hasID: 1b,
+				canupgrade: 1b,
+				maxDamage: 1769472000,
+				ID_Item: 27
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "bff7cf0a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		}
+	}]
+}

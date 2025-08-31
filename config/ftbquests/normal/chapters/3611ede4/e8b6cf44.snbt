@@ -1,0 +1,28 @@
+{
+	x: -9.5d,
+	y: -7.5d,
+	text: [
+		"Копает под собой до бедрока.",
+		"ps. до воды (первой преграды)"
+	],
+	dependencies: [
+		"b6107593"
+	],
+	tasks: [{
+		uid: "6a0ab6bb",
+		type: "item",
+		items: [{
+			item: "buildcraftfactory:mining_well"
+		}]
+	}],
+	rewards: [{
+		uid: "c2520f5d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		}
+	}]
+}

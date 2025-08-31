@@ -1,0 +1,31 @@
+{
+	title: "Доступ ко всем ресурсам вселенной",
+	icon: "projecte:transmutation_table",
+	x: -9.5d,
+	y: -7.5d,
+	text: [
+		"8к булыжника за 1 алмаз, законно?))"
+	],
+	dependencies: [
+		"e77bcac9"
+	],
+	tasks: [{
+		uid: "0f574823",
+		type: "item",
+		items: [{
+			item: "projecte:transmutation_table"
+		}]
+	}],
+	rewards: [{
+		uid: "8d8722b9",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 2,
+		random_bonus: 2
+	}]
+}

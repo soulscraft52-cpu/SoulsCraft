@@ -1,0 +1,28 @@
+{
+	title: "Другое дело",
+	x: -1.5d,
+	y: -22.0d,
+	text: [
+		"Вот это я понимаю"
+	],
+	dependencies: [
+		"e81dce0f"
+	],
+	tasks: [{
+		uid: "21df8142",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockenergyinputhatch 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "2a7389a7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		}
+	}]
+}

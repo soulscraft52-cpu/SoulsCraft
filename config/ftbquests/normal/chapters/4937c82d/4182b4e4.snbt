@@ -1,0 +1,76 @@
+{
+	title: "Что-то полезное",
+	icon: "contenttweaker:wither_core",
+	x: 0.5d,
+	y: -19.5d,
+	text: [
+		"И очень дорогое"
+	],
+	dependencies: [
+		"f2381c80"
+	],
+	tasks: [{
+		uid: "2985eaa4",
+		type: "item",
+		items: [{
+			item: "modularmachinery:automated_killer_wither_controller"
+		}]
+	},
+	{
+		uid: "8e0a673f",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing 1 4"
+		}],
+		count: 128L
+	},
+	{
+		uid: "a697d401",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockinputbus 1 2"
+		}],
+		count: 2L
+	},
+	{
+		uid: "abb38d6a",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockoutputbus 1 2"
+		}],
+		count: 5L
+	},
+	{
+		uid: "6508a2f2",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockenergyinputhatch 1 4"
+		}]
+	},
+	{
+		uid: "b404f508",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing 1 5"
+		}]
+	},
+	{
+		uid: "cda9628d",
+		type: "item",
+		items: [{
+			item: "railcraft:post_metal 1 12"
+		}],
+		count: 48L
+	}],
+	rewards: [{
+		uid: "91b74767",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "6"
+			}
+		},
+		count: 4
+	}]
+}

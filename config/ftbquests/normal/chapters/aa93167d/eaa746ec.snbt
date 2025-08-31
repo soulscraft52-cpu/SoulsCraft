@@ -1,0 +1,44 @@
+{
+	title: "Обогатитель",
+	icon: "industrialupgrade:basemachine1 1 10",
+	x: -8.0d,
+	y: -3.0d,
+	text: [
+		"Обогащает вас радиацией и светом."
+	],
+	dependencies: [
+		"c215dab4",
+		"764664bb",
+		"cfbca079"
+	],
+	tasks: [{
+		uid: "4714add4",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:basemachine1 1 10"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4f4b2306",
+		type: "item",
+		item: "minecraft:glowstone_dust",
+		count: 64
+	},
+	{
+		uid: "5aa6c429",
+		type: "item",
+		item: "industrialupgrade:itemiucrafring 1 2",
+		count: 32
+	},
+	{
+		uid: "735552de",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

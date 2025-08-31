@@ -1,0 +1,30 @@
+{
+	title: "Последний уровень",
+	icon: "thaumadditions:mithminite_smelter",
+	x: -18.0d,
+	y: -9.0d,
+	text: [
+		"Максимальный tier печеньки"
+	],
+	dependencies: [
+		"2f631a9f",
+		"f7b39dc8"
+	],
+	tasks: [{
+		uid: "90073707",
+		type: "item",
+		items: [{
+			item: "thaumadditions:mithminite_smelter"
+		}]
+	}],
+	rewards: [{
+		uid: "af889832",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		}
+	}]
+}

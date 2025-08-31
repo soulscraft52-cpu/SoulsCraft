@@ -1,0 +1,29 @@
+{
+	x: -14.5d,
+	y: -3.5d,
+	text: [
+		"Вкусовую добавку поставляем промышленным способом"
+	],
+	dependencies: [
+		"fe3aa487"
+	],
+	tasks: [{
+		uid: "fca12860",
+		type: "item",
+		items: [{
+			item: "bigreactors:ingotcyanite"
+		}],
+		count: 64L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "46078e6c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		}
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	title: "4k MSSD",
+	x: -3.0d,
+	y: -8.5d,
+	dependencies: [
+		"bb1db578"
+	],
+	tasks: [{
+		uid: "bcc882c1",
+		type: "item",
+		items: [{
+			id: "thaumicenergistics:essentia_cell_4k",
+			tag: {
+				filter: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "bc7dc977",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

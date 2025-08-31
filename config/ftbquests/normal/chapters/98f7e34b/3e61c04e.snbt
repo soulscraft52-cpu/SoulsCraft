@@ -1,0 +1,20 @@
+{
+	x: -12.5d,
+	y: 5.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"b1e19587"
+	],
+	tasks: [{
+		uid: "6bcacf43",
+		type: "item",
+		items: [{
+			item: "singularities:singularity 1 53"
+		}]
+	}],
+	rewards: [{
+		uid: "a7f9632c",
+		type: "item",
+		item: "singularities:singularity 1 53"
+	}]
+}

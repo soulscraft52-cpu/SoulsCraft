@@ -1,0 +1,30 @@
+{
+	title: "Основа жизни",
+	icon: "contenttweaker:plasma_cell",
+	x: -6.0d,
+	y: -9.5d,
+	text: [
+		"Оно живое"
+	],
+	dependencies: [
+		"47320985"
+	],
+	tasks: [{
+		uid: "512f0932",
+		type: "item",
+		items: [{
+			item: "contenttweaker:plasma_cell"
+		}]
+	}],
+	rewards: [{
+		uid: "7f818e0c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		},
+		count: 3
+	}]
+}

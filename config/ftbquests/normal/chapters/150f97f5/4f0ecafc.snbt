@@ -1,0 +1,44 @@
+{
+	title: "Маджентовые",
+	icon: "projectex:power_flower 1 3",
+	x: -0.5d,
+	y: -7.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"122e7209"
+	],
+	tasks: [{
+		uid: "55f8ee3c",
+		type: "item",
+		items: [{
+			item: "projectex:collector 1 3"
+		}]
+	},
+	{
+		uid: "f2a808ac",
+		type: "item",
+		items: [{
+			item: "projectex:relay 1 3"
+		}]
+	},
+	{
+		uid: "6a246b19",
+		type: "item",
+		items: [{
+			item: "projectex:power_flower 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "9a0b5875",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		random_bonus: 1
+	}]
+}

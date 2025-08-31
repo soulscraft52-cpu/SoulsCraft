@@ -1,0 +1,31 @@
+{
+	title: "Вам точно её нужно улучшать?",
+	icon: "industrialupgrade:moremachine 1 6",
+	x: -12.0d,
+	y: -11.0d,
+	text: [
+		"Неужели печек лучше нет?"
+	],
+	dependencies: [
+		"d78f98a3"
+	],
+	tasks: [{
+		uid: "82c82a27",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:moremachine 1 6"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ff3e606d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		},
+		random_bonus: 1
+	}]
+}

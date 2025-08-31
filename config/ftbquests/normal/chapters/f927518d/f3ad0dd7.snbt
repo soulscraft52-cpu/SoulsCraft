@@ -1,0 +1,32 @@
+{
+	title: "И вот он, вернулся!",
+	x: -11.0d,
+	y: 2.0d,
+	text: [
+		"Узрите могущество §6крови богов!",
+		"§7P.S. Запрещено употреблять диабетикам, людям с повышенной раздражимостью, беременным детям, маленьким женщинам, людям старше 5 лет, а так же всем смертным."
+	],
+	dependencies: [
+		"d11b3741"
+	],
+	tasks: [{
+		uid: "4a478abc",
+		type: "item",
+		items: [{
+			item: "thaumictinkerer:kamiresource 1 2"
+		}],
+		count: 6L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "859274f8",
+		type: "item",
+		team_reward: false,
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		}
+	}]
+}

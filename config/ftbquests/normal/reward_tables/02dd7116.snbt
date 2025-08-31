@@ -1,0 +1,16 @@
+{
+	title: "Вроде бы обычная печка",
+	loot_size: 1,
+	rewards: [{
+		item: "minecraft:fire_charge",
+		count: 3
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

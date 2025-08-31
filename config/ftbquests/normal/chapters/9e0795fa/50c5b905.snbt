@@ -1,0 +1,29 @@
+{
+	title: "Сердце на 4к",
+	icon: "appliedenergistics2:crafting_storage_4k",
+	x: -13.0d,
+	y: 5.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"ab4f7c69"
+	],
+	tasks: [{
+		uid: "0af6f400",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:crafting_storage_4k"
+		}]
+	}],
+	rewards: [{
+		uid: "58603145",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

@@ -1,0 +1,45 @@
+{
+	title: "Лаймовые",
+	icon: "projectex:power_flower 1 10",
+	x: 6.5d,
+	y: -7.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"7b382a0c"
+	],
+	tasks: [{
+		uid: "4f8e326a",
+		type: "item",
+		items: [{
+			item: "projectex:collector 1 10"
+		}]
+	},
+	{
+		uid: "48247e2b",
+		type: "item",
+		items: [{
+			item: "projectex:relay 1 10"
+		}]
+	},
+	{
+		uid: "91f68e4e",
+		type: "item",
+		items: [{
+			item: "projectex:power_flower 1 10"
+		}]
+	}],
+	rewards: [{
+		uid: "9e00e33c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 8,
+		random_bonus: 1
+	}]
+}

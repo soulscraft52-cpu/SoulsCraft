@@ -1,0 +1,47 @@
+{
+	title: "Только для посоха, не губи природу мгхазь!",
+	icon: {
+		ForgeCaps: {
+			Parent: {
+				Size: 18,
+				Items: []
+			}
+		},
+		id: "draconicevolution:draconic_axe",
+		Damage: 32767s
+	},
+	x: 2.0d,
+	y: -4.0d,
+	text: [
+		"Почещите им себе затылок"
+	],
+	dependencies: [
+		"d488a3f4"
+	],
+	tasks: [{
+		uid: "d5f04aad",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					Size: 18,
+					Items: []
+				}
+			},
+			id: "draconicevolution:draconic_axe",
+			Damage: 32767s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1b95d56a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		}
+	}]
+}

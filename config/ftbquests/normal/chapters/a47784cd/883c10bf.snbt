@@ -1,0 +1,22 @@
+{
+	title: "Ядро Виверны",
+	icon: "draconicevolution:wyvern_core",
+	x: 0.0d,
+	y: -1.5d,
+	can_repeat: true,
+	dependencies: [
+		"501f9d5f"
+	],
+	tasks: [{
+		uid: "ff17a607",
+		type: "item",
+		items: [{
+			item: "contenttweaker:coin_tier5"
+		}]
+	}],
+	rewards: [{
+		uid: "8f69f772",
+		type: "item",
+		item: "draconicevolution:wyvern_core"
+	}]
+}

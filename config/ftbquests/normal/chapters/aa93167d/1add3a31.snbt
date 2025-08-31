@@ -1,0 +1,32 @@
+{
+	title: "Улучшенный карьер",
+	icon: "industrialupgrade:basemachine 1 13",
+	x: -5.5d,
+	y: -7.0d,
+	text: [
+		"Этот, по крайней мере, можно улучшать"
+	],
+	dependencies: [
+		"935acd54"
+	],
+	tasks: [{
+		uid: "d9936d91",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:basemachine 1 13"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "df0925bd",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 5,
+		random_bonus: 2
+	}]
+}

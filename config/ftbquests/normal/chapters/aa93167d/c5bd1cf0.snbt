@@ -1,0 +1,30 @@
+{
+	title: "А этот за лопасти отвечает",
+	x: -22.0d,
+	y: -4.5d,
+	text: [
+		"Да, да. Для этого теперь отдельный механизм!"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"4f1a4228"
+	],
+	tasks: [{
+		uid: "2fc30220",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:basemachine3 1 21"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f25071fe",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

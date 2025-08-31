@@ -1,0 +1,27 @@
+{
+	title: "Серединка",
+	x: -0.5d,
+	y: 1.5d,
+	dependencies: [
+		"a449ac47",
+		"ada6fe25"
+	],
+	tasks: [{
+		uid: "7244f669",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:crafting 1 35"
+		}]
+	}],
+	rewards: [{
+		uid: "5d7c95f8",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		},
+		random_bonus: 3
+	}]
+}

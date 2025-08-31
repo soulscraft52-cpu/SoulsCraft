@@ -1,0 +1,29 @@
+{
+	x: -10.0d,
+	y: 5.0d,
+	text: [
+		"Супер шапка, всем шапкам шапка!"
+	],
+	dependencies: [
+		"f3758cfd"
+	],
+	tasks: [{
+		uid: "44b074d5",
+		type: "item",
+		items: [{
+			item: "thaumictinkerer:kami_helm"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1e248e71",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		}
+	}]
+}

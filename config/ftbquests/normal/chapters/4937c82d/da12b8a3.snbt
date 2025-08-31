@@ -1,0 +1,104 @@
+{
+	title: "Теперь лампочки будут делаться быстрее",
+	icon: "modularmachinery:automated_fabricator_controller",
+	x: -9.5d,
+	y: -8.5d,
+	text: [
+		"Я сам не знаю на сколько быстрее"
+	],
+	dependencies: [
+		"b52c8b41"
+	],
+	tasks: [{
+		uid: "5461e6be",
+		type: "item",
+		items: [{
+			item: "modularmachinery:automated_fabricator_controller"
+		}]
+	},
+	{
+		uid: "7c537b2d",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockinputbus 1 2"
+		}]
+	},
+	{
+		uid: "504cf0a3",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockenergyinputhatch 1 2"
+		}]
+	},
+	{
+		uid: "93158eb3",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockoutputbus 1 2"
+		}]
+	},
+	{
+		uid: "84225100",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing"
+		}],
+		count: 40L
+	},
+	{
+		uid: "c2f85104",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockfluidinputhatch 1 2"
+		}]
+	},
+	{
+		uid: "d8cc8bb7",
+		type: "item",
+		items: [{
+			item: "contenttweaker:fabricator"
+		}]
+	},
+	{
+		uid: "f6b6e0cb",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing 1 5"
+		}]
+	},
+	{
+		uid: "339e2b19",
+		type: "item",
+		items: [{
+			item: "railcraft:post_metal 1 11"
+		}],
+		count: 12L
+	},
+	{
+		uid: "16748d04",
+		type: "item",
+		items: [{
+			item: "galaxyspace:futureglass 1 4"
+		}],
+		count: 40L
+	},
+	{
+		uid: "e8d7d39d",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing 1 3"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "db599c83",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		},
+		count: 2
+	}]
+}

@@ -1,0 +1,56 @@
+{
+	x: -21.5d,
+	y: -4.5d,
+	dependencies: [
+		"98b5ddc1",
+		"ad70def0"
+	],
+	tasks: [{
+		uid: "dbd03b7f",
+		type: "item",
+		title: "Скрафти один из ящиков 1x1",
+		items: [{
+			id: "storagedrawers:basicdrawers",
+			tag: {
+				material: "oak"
+			}
+		},
+		{
+			id: "storagedrawers:basicdrawers",
+			tag: {
+				material: "spruce"
+			}
+		},
+		{
+			id: "storagedrawers:basicdrawers",
+			tag: {
+				material: "birch"
+			}
+		},
+		{
+			id: "storagedrawers:basicdrawers",
+			tag: {
+				material: "jungle"
+			}
+		},
+		{
+			id: "storagedrawers:basicdrawers",
+			tag: {
+				material: "acacia"
+			}
+		},
+		{
+			id: "storagedrawers:basicdrawers",
+			tag: {
+				material: "dark_oak"
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b52fc422",
+		type: "item",
+		item: "minecraft:planks",
+		count: 16
+	}]
+}

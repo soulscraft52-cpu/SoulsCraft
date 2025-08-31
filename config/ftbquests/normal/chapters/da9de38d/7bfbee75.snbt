@@ -1,0 +1,30 @@
+{
+	title: "NO LIMIT",
+	x: 4.0d,
+	y: 0.0d,
+	text: [
+		"Уровень первый"
+	],
+	dependencies: [
+		"26057c91"
+	],
+	tasks: [{
+		uid: "6f6a76e4",
+		type: "item",
+		items: [{
+			item: "fluxnetworks:fluxstorage"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "99c3aa10",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		},
+		count: 2
+	}]
+}

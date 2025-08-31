@@ -1,0 +1,35 @@
+{
+	title: "Супер терминал",
+	icon: {
+		id: "appliedenergistics2:wireless_terminal",
+		tag: {}
+	},
+	x: -11.0d,
+	y: 1.0d,
+	text: [
+		"Терминал работающий везде"
+	],
+	dependencies: [
+		"53d0f623"
+	],
+	tasks: [{
+		uid: "661cde59",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:wireless_terminal",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9b71a7a3",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		}
+	}]
+}

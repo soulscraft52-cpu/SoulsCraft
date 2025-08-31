@@ -1,0 +1,296 @@
+{
+	title: "Эпический",
+	loot_size: 1,
+	rewards: [{
+		item: "thermalfoundation:upgrade 1 2",
+		count: 2,
+		weight: 30
+	},
+	{
+		icon: {
+			id: "industrialupgrade:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "iufluidcoolant",
+					Amount: 1000
+				}
+			}
+		},
+		item: {
+			id: "industrialupgrade:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "iufluidcoolant",
+					Amount: 1000
+				}
+			}
+		},
+		count: 4,
+		random_bonus: 3,
+		weight: 30
+	},
+	{
+		item: "enderio:item_me_conduit",
+		count: 32,
+		random_bonus: 16,
+		weight: 30
+	},
+	{
+		item: "enderio:item_item_conduit",
+		count: 16,
+		random_bonus: 8,
+		weight: 30
+	},
+	{
+		item: "enderio:item_liquid_conduit 1 2",
+		count: 16,
+		random_bonus: 8,
+		weight: 30
+	},
+	{
+		item: "enderio:item_power_conduit 1 2",
+		count: 16,
+		random_bonus: 8,
+		weight: 30
+	},
+	{
+		item: "bigreactors:blockludicrite",
+		random_bonus: 1,
+		weight: 30
+	},
+	{
+		item: "scalinghealth:difficultychanger",
+		count: 2,
+		random_bonus: 1,
+		weight: 30
+	},
+	{
+		item: "minecraft:enchanting_table",
+		weight: 30
+	},
+	{
+		item: {
+			id: "appliedenergistics2:storage_cell_16k",
+			tag: {}
+		},
+		random_bonus: 1,
+		weight: 30
+	},
+	{
+		item: "industrialupgrade:itemsunnarium 1 3",
+		count: 8,
+		random_bonus: 4,
+		weight: 30
+	},
+	{
+		item: "cyclicmagic:crafting_food",
+		weight: 30
+	},
+	{
+		item: "thaumcraft:ingot 1 1",
+		count: 8,
+		random_bonus: 8,
+		weight: 30
+	},
+	{
+		item: {
+			id: "cfm:item_package_signed",
+			tag: {
+				Author: "SoulsCraft",
+				Package: {
+					Items: [{
+						Slot: 0b,
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "thaumcraft:elemental_sword",
+						Count: 1b,
+						tag: {
+							infench: [{
+								lvl: 2s,
+								id: 5s
+							}]
+						},
+						Damage: 0s
+					},
+					{
+						Slot: 1b,
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "thaumcraft:elemental_shovel",
+						Count: 1b,
+						tag: {
+							infench: [{
+								lvl: 1s,
+								id: 1s
+							}]
+						},
+						Damage: 0s
+					},
+					{
+						Slot: 2b,
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "thaumcraft:elemental_axe",
+						Count: 1b,
+						tag: {
+							infench: [{
+								lvl: 1s,
+								id: 2s
+							},
+							{
+								lvl: 1s,
+								id: 0s
+							}]
+						},
+						Damage: 0s
+					},
+					{
+						Slot: 3b,
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "thaumcraft:elemental_hoe",
+						Count: 1b,
+						Damage: 0s
+					},
+					{
+						Slot: 4b,
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "thaumcraft:elemental_pick",
+						Count: 1b,
+						tag: {
+							infench: [{
+								lvl: 1s,
+								id: 4s
+							},
+							{
+								lvl: 2s,
+								id: 3s
+							}]
+						},
+						Damage: 0s
+					}]
+				}
+			}
+		},
+		weight: 30
+	},
+	{
+		item: {
+			id: "thermalexpansion:tank",
+			tag: {
+				RSControl: 0b,
+				Creative: 0b,
+				Fluid: {
+					FluidName: "ender",
+					Amount: 20000
+				},
+				Level: 0b,
+				Lock: 0b
+			}
+		},
+		weight: 30
+	},
+	{
+		item: "thermaldynamics:duct_0 1 5",
+		count: 4,
+		random_bonus: 2,
+		weight: 30
+	},
+	{
+		item: "divinerpg:collector",
+		count: 16,
+		random_bonus: 8,
+		weight: 30
+	},
+	{
+		item: "industrialupgrade:machines",
+		weight: 30
+	},
+	{
+		item: "industrialupgrade:machines 1 1",
+		weight: 15
+	},
+	{
+		item: "minecraft:nether_star",
+		count: 2,
+		random_bonus: 1,
+		weight: 30
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "5"
+			}
+		},
+		weight: 15
+	},
+	{
+		item: "divinerpg:arcanium",
+		count: 8,
+		random_bonus: 2,
+		weight: 30
+	},
+	{
+		item: {
+			id: "quarryplus:laserplus",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 32s
+				}]
+			}
+		},
+		random_bonus: 1,
+		weight: 30
+	},
+	{
+		item: {
+			id: "quarryplus:laserplus",
+			tag: {
+				ench: [{
+					lvl: 2s,
+					id: 32s
+				}]
+			}
+		},
+		weight: 15
+	},
+	{
+		item: "industrialupgrade:crafting_elements 1 272",
+		count: 2,
+		weight: 20
+	},
+	{
+		item: {
+			id: "thermalexpansion:reservoir",
+			tag: {}
+		},
+		weight: 27
+	},
+	{
+		item: "contenttweaker:coin_tier3",
+		weight: 27
+	},
+	{
+		item: "contenttweaker:coin_tier2",
+		weight: 27
+	}],
+	loot_crate: {
+		string_id: "4",
+		item_name: "Epic Crate",
+		color: 4915330,
+		glow: true,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

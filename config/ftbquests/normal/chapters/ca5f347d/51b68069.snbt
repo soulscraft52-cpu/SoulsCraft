@@ -1,0 +1,31 @@
+{
+	title: "Истиное ЯДРО для \"Психов\"",
+	x: -0.5d,
+	y: -9.5d,
+	shape: "gear",
+	text: [
+		"Сингулярность в ядре"
+	],
+	dependencies: [
+		"bc9e4eee"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "5a02c323",
+		type: "item",
+		items: [{
+			item: "contenttweaker:singularity_core"
+		}]
+	}],
+	rewards: [{
+		uid: "322ee067",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 4
+	}]
+}

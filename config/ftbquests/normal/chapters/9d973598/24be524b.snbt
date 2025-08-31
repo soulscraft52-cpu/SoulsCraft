@@ -1,0 +1,44 @@
+{
+	title: "Демон душ",
+	icon: "divinerpg:soul_fiend_crystal",
+	x: 2.5d,
+	y: -12.5d,
+	text: [
+		"Схватит душу и не отпустит."
+	],
+	dependencies: [
+		"440a6d33"
+	],
+	tasks: [{
+		uid: "00282b55",
+		type: "item",
+		items: [{
+			item: "divinerpg:soul_fiend_crystal"
+		}],
+		ignore_damage: true
+	},
+	{
+		uid: "f994c731",
+		type: "item",
+		items: [{
+			item: "divinerpg:soul_fiend_statue"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "77bd1dd3",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	},
+	{
+		uid: "da1c4af3",
+		type: "item",
+		team_reward: false,
+		item: "thaumadditions:dna_sample"
+	}]
+}

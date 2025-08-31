@@ -1,0 +1,31 @@
+{
+	title: "Лук-Лучок",
+	icon: "draconicevolution:draconic_bow 1 32767",
+	x: -3.0d,
+	y: -1.0d,
+	text: [
+		"Убивает всё, что движется"
+	],
+	dependencies: [
+		"d488a3f4"
+	],
+	tasks: [{
+		uid: "4a8a4331",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconic_bow"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f9aa9bfb",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		}
+	}]
+}

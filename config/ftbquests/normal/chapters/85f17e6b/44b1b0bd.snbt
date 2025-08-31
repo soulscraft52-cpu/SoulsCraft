@@ -1,0 +1,31 @@
+{
+	title: "Эссенции ур.1",
+	x: -7.5d,
+	y: -0.5d,
+	text: [
+		"Их надо много, действительно много."
+	],
+	dependencies: [
+		"8c1f94b9",
+		"c9035410"
+	],
+	tasks: [{
+		uid: "ad820a5d",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:crafting"
+		}],
+		count: 32L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "dde8f5b2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		}
+	}]
+}

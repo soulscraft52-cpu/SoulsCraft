@@ -1,0 +1,27 @@
+{
+	x: -7.0d,
+	y: -11.0d,
+	text: [
+		"Поставляет эссенцию для  матрицы и не только"
+	],
+	dependencies: [
+		"5ede7f3d"
+	],
+	tasks: [{
+		uid: "653c3165",
+		type: "item",
+		items: [{
+			item: "thaumicenergistics:infusion_provider"
+		}]
+	}],
+	rewards: [{
+		uid: "b97728a1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

@@ -1,0 +1,115 @@
+{
+	title: "Лампочки всех видов",
+	icon: "forestry:thermionic_tubes 1 12",
+	x: -12.0d,
+	y: -6.0d,
+	text: [
+		"Да будет свет сказал монтёр..."
+	],
+	dependencies: [
+		"741bd62f",
+		"ad2c3119",
+		"3af30cc5"
+	],
+	tasks: [{
+		uid: "5f1a413c",
+		type: "item",
+		items: [{
+			item: "forestry:thermionic_tubes 1 4"
+		}]
+	},
+	{
+		uid: "57b7e81e",
+		type: "item",
+		items: [{
+			item: "forestry:thermionic_tubes"
+		}]
+	},
+	{
+		uid: "f5f36fe5",
+		type: "item",
+		items: [{
+			item: "forestry:thermionic_tubes 1 1"
+		}]
+	},
+	{
+		uid: "b9bccabc",
+		type: "item",
+		items: [{
+			item: "forestry:thermionic_tubes 1 12"
+		}]
+	},
+	{
+		uid: "5a9e5cc7",
+		type: "item",
+		items: [{
+			item: "forestry:thermionic_tubes 1 2"
+		}]
+	},
+	{
+		uid: "22204e59",
+		type: "item",
+		items: [{
+			item: "forestry:thermionic_tubes 1 3"
+		}]
+	},
+	{
+		uid: "8545058c",
+		type: "item",
+		items: [{
+			item: "forestry:thermionic_tubes 1 5"
+		}]
+	},
+	{
+		uid: "85157932",
+		type: "item",
+		items: [{
+			item: "forestry:thermionic_tubes 1 6"
+		}]
+	},
+	{
+		uid: "42984b3a",
+		type: "item",
+		items: [{
+			item: "forestry:thermionic_tubes 1 11"
+		}]
+	},
+	{
+		uid: "9edface4",
+		type: "item",
+		items: [{
+			item: "forestry:thermionic_tubes 1 7"
+		}]
+	},
+	{
+		uid: "39896717",
+		type: "item",
+		items: [{
+			item: "forestry:thermionic_tubes 1 13"
+		}]
+	},
+	{
+		uid: "0a97bb0f",
+		type: "item",
+		items: [{
+			item: "forestry:thermionic_tubes 1 9"
+		}]
+	},
+	{
+		uid: "17fce876",
+		type: "item",
+		items: [{
+			item: "forestry:thermionic_tubes 1 10"
+		}]
+	}],
+	rewards: [{
+		uid: "8e6b5daa",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

@@ -1,0 +1,99 @@
+{
+	title: "Плавит отлично и без выбросов",
+	icon: "modularmachinery:essence_smelter_controller",
+	x: -7.5d,
+	y: -10.0d,
+	text: [
+		"Данная машина будет вам нужна только тогда, когда вы сделаете семена"
+	],
+	dependencies: [
+		"a0b238cb"
+	],
+	tasks: [{
+		uid: "43d44f39",
+		type: "item",
+		items: [{
+			item: "modularmachinery:essence_smelter_controller"
+		}]
+	},
+	{
+		uid: "97091bcc",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockaspectprovideroutput"
+		}],
+		count: 8L
+	},
+	{
+		uid: "34e638af",
+		type: "item",
+		items: [{
+			item: "thaumcraft:plank_greatwood"
+		}],
+		count: 8L
+	},
+	{
+		uid: "e2d55f0a",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockinputbus 1 2"
+		}],
+		count: 2L
+	},
+	{
+		uid: "fb029588",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockenergyinputhatch 1 2"
+		}]
+	},
+	{
+		uid: "a7c4e5a0",
+		type: "item",
+		items: [{
+			item: "thaumcraft:log_greatwood"
+		}],
+		count: 20L
+	},
+	{
+		uid: "2007a226",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing 1 5"
+		}]
+	},
+	{
+		uid: "192a89c1",
+		type: "item",
+		items: [{
+			item: "thaumcraft:metal_alchemical"
+		}],
+		count: 12L
+	},
+	{
+		uid: "e5c05c76",
+		type: "item",
+		items: [{
+			item: "thaumcraft:metal_thaumium"
+		}],
+		count: 3L
+	},
+	{
+		uid: "dff990fb",
+		type: "item",
+		items: [{
+			item: "thaumcraft:slab_greatwood"
+		}],
+		count: 9L
+	}],
+	rewards: [{
+		uid: "0ffca7e2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

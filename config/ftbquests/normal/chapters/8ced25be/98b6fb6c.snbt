@@ -1,0 +1,31 @@
+{
+	title: "Типа крутой пожиратель",
+	x: -8.5d,
+	y: -2.0d,
+	text: [
+		"Очень быстрый, очень шустрый... Очень дорогой и бесполезный."
+	],
+	dependencies: [
+		"d2c3dcfb"
+	],
+	tasks: [{
+		uid: "fd34378f",
+		type: "item",
+		items: [{
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_overclock"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "13e95489",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

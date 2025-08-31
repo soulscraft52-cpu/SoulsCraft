@@ -1,0 +1,30 @@
+{
+	title: "Бедроковый мир, я иду!",
+	x: -15.5d,
+	y: 5.0d,
+	text: [
+		"Да-да, с ней можно ломать бедрок и открывать портал в бедроковый мир."
+	],
+	dependencies: [
+		"d3274f9b"
+	],
+	tasks: [{
+		uid: "21330b96",
+		type: "item",
+		items: [{
+			item: "thaumictinkerer:ichorium_pick_adv"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "748ea52c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		}
+	}]
+}

@@ -1,0 +1,45 @@
+{
+	x: 1.5d,
+	y: -10.5d,
+	text: [
+		"жарко иногда бывает но не будем забывать где мы"
+	],
+	dependencies: [
+		"751f8455"
+	],
+	tasks: [{
+		uid: "11c3048a",
+		type: "item",
+		items: [{
+			id: "variedcommodities:demonic_battleaxe",
+			tag: {
+				ench: [{
+					lvl: 15s,
+					id: 87s
+				},
+				{
+					lvl: 5s,
+					id: 133s
+				},
+				{
+					lvl: 15s,
+					id: 179s
+				}],
+				RepairCost: 7
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b4c32c19",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "5"
+			}
+		},
+		count: 2
+	}]
+}

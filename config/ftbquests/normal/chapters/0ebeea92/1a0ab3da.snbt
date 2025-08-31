@@ -1,0 +1,31 @@
+{
+	x: -4.5d,
+	y: 6.0d,
+	text: [
+		"Почуствуйте себя пархающей курочкой!"
+	],
+	dependencies: [
+		"43fad645"
+	],
+	tasks: [{
+		uid: "362b8615",
+		type: "item",
+		items: [{
+			id: "tombstone:scroll_buff",
+			tag: {
+				enchant: 1b
+			},
+			Damage: 2s
+		}]
+	}],
+	rewards: [{
+		uid: "751dde8c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "2"
+			}
+		}
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	title: "9-ая панелька",
+	icon: "industrialupgrade:machines 1 8",
+	x: 7.0d,
+	y: -2.0d,
+	text: [
+		"Предпоследняя...",
+		"Да нет, конечно, ещё дофига."
+	],
+	dependencies: [
+		"0dc16bd6"
+	],
+	tasks: [{
+		uid: "d872ef0e",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:machines 1 8"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5ae98825",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 6
+	}]
+}

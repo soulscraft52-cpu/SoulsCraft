@@ -1,0 +1,30 @@
+{
+	title: "Продвинутая дробилка",
+	icon: "industrialupgrade:moremachine 1 1",
+	x: -11.0d,
+	y: -13.0d,
+	text: [
+		"Мацератор x3"
+	],
+	dependencies: [
+		"b8c06281"
+	],
+	tasks: [{
+		uid: "8cb80b0f",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:moremachine 1 1"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4763cb7d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

@@ -1,0 +1,98 @@
+{
+	title: "Коллекционер",
+	icon: "soulscraft:witcher",
+	x: -5.5d,
+	y: -3.5d,
+	text: [
+		"Соберите все уникальные музыкальные пластинки!"
+	],
+	dependencies: [
+		"4f1a4228"
+	],
+	tasks: [{
+		uid: "f9df0e57",
+		type: "item",
+		items: [{
+			item: "soulscraft:witcher"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9d01f936",
+		type: "item",
+		items: [{
+			item: "soulscraft:burnbutcherburn"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e3919949",
+		type: "item",
+		items: [{
+			item: "soulscraft:whereismymind"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4e4fb7a7",
+		type: "item",
+		items: [{
+			item: "soulscraft:deadanarchist"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "53293c50",
+		type: "item",
+		items: [{
+			item: "soulscraft:thisiscall"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "18adc763",
+		type: "item",
+		items: [{
+			item: "soulscraft:deadofnight"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "bed308cb",
+		type: "item",
+		items: [{
+			item: "soulscraft:bumblebee"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1992350b",
+		type: "item",
+		item: "cyclicmagic:sound_player"
+	},
+	{
+		uid: "a3bd3a06",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		}
+	},
+	{
+		uid: "57db4596",
+		type: "item",
+		team_reward: false,
+		item: "soulscraft:manafilledcursedgold",
+		count: 2,
+		random_bonus: 2
+	}]
+}

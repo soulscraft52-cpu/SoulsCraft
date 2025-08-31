@@ -1,0 +1,29 @@
+{
+	title: "Почему она тёмная?",
+	x: -20.5d,
+	y: -8.0d,
+	text: [
+		"Это кого-то волнует?"
+	],
+	dependencies: [
+		"d8eddb95",
+		"032ac71d"
+	],
+	tasks: [{
+		uid: "a9b862ba",
+		type: "item",
+		items: [{
+			item: "enderio:block_solar_panel 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "2c1c0d6f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		}
+	}]
+}

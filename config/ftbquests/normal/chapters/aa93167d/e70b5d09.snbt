@@ -1,0 +1,30 @@
+{
+	title: "Производитель пластин",
+	icon: "industrialupgrade:gen_sunnarium_plate",
+	x: -6.5d,
+	y: -2.0d,
+	text: [
+		"Только для саннариума!"
+	],
+	dependencies: [
+		"8248e926"
+	],
+	tasks: [{
+		uid: "d4137007",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:gen_sunnarium_plate"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a2e9322e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

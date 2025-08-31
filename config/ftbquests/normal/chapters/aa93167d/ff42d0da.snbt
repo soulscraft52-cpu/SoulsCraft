@@ -1,0 +1,31 @@
+{
+	title: "Резина быстрее",
+	icon: "industrialupgrade:moremachine 1 9",
+	x: -12.0d,
+	y: -10.0d,
+	text: [
+		"Всё то же самое, но быстрее"
+	],
+	dependencies: [
+		"c2371248"
+	],
+	tasks: [{
+		uid: "4f36d2c6",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:moremachine 1 9"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1d680de9",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		},
+		random_bonus: 1
+	}]
+}

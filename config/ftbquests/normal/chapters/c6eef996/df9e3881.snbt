@@ -1,0 +1,55 @@
+{
+	title: "Создай защитную одежду от пчел",
+	icon: "forestry:apiarist_chest",
+	x: -16.5d,
+	y: 5.0d,
+	dependencies: [
+		"a9955d65"
+	],
+	tasks: [{
+		uid: "869dd5ec",
+		type: "item",
+		items: [{
+			item: "forestry:apiarist_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2b89b6f4",
+		type: "item",
+		items: [{
+			item: "forestry:apiarist_chest"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "224f8fec",
+		type: "item",
+		items: [{
+			item: "forestry:apiarist_legs"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4f050c98",
+		type: "item",
+		items: [{
+			item: "forestry:apiarist_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "22bcb577",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		}
+	}]
+}

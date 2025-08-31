@@ -1,0 +1,25 @@
+{
+	x: 0.5d,
+	y: -3.0d,
+	dependencies: [
+		"f2097bf5",
+		"d3ddafb0"
+	],
+	tasks: [{
+		uid: "98484384",
+		type: "item",
+		items: [{
+			item: "thaumadditions:vis_seeds/potentia"
+		}]
+	}],
+	rewards: [{
+		uid: "0e1326b6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

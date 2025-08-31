@@ -1,0 +1,29 @@
+{
+	title: "Самый ВЫСОКОМЕРНЫЙ",
+	x: 4.5d,
+	y: -15.5d,
+	text: [
+		"Хмммм....",
+		"Что тут такого?"
+	],
+	dependencies: [
+		"3f8968d4"
+	],
+	tasks: [{
+		uid: "11f6b68e",
+		type: "item",
+		items: [{
+			item: "contenttweaker:alloy_awakened_draconium_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "3f277152",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		}
+	}]
+}

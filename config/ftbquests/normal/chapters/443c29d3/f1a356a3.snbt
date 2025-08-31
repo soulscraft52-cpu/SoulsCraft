@@ -1,0 +1,28 @@
+{
+	x: -14.5d,
+	y: -1.0d,
+	text: [
+		"Тот-же самый контроллер, но просто может принимать предметы через воронку или предметные трубы/узлы и т.п."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"97f044cb"
+	],
+	tasks: [{
+		uid: "9e54f452",
+		type: "item",
+		items: [{
+			item: "storagedrawers:controllerslave"
+		}]
+	}],
+	rewards: [{
+		uid: "7b611a64",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

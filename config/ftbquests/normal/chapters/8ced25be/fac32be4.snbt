@@ -1,0 +1,31 @@
+{
+	title: "Маст-хэв",
+	x: -11.5d,
+	y: -2.0d,
+	text: [
+		"Ваш лучший друг и источник энергии на первое время. Взрастите ваше потомство §3эндер жемчугов §fпри помощи мульифермы и скормите их ему!"
+	],
+	dependencies: [
+		"d2c3dcfb"
+	],
+	tasks: [{
+		uid: "05833904",
+		type: "item",
+		items: [{
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_ender"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "a8c7b699",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

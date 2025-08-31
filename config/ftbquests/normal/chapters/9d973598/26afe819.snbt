@@ -1,0 +1,44 @@
+{
+	title: "Сумеречный демон",
+	icon: "divinerpg:twilight_demon_crystal",
+	x: 6.5d,
+	y: -10.5d,
+	text: [
+		"Демон — собирательное название сверхъестественных существ или духов, занимающих низшее по сравнению с богами положение, которые могут играть как положительную, так и отрицательную роль."
+	],
+	dependencies: [
+		"440a6d33"
+	],
+	tasks: [{
+		uid: "02c0b674",
+		type: "item",
+		items: [{
+			item: "divinerpg:twilight_demon_crystal"
+		}],
+		ignore_damage: true
+	},
+	{
+		uid: "fbbe507b",
+		type: "item",
+		items: [{
+			item: "divinerpg:twilight_demon_statue"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "38cd1f68",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	},
+	{
+		uid: "9776eef5",
+		type: "item",
+		team_reward: false,
+		item: "thaumadditions:dna_sample"
+	}]
+}

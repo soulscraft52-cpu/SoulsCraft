@@ -1,0 +1,28 @@
+{
+	title: "Ну уже хоть что-то",
+	x: -3.5d,
+	y: -17.0d,
+	text: [
+		"Кого я обманываю?"
+	],
+	dependencies: [
+		"52883927"
+	],
+	tasks: [{
+		uid: "eba79964",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockfluidinputhatch 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "8813bab5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	title: "Первая рамка механизма",
+	icon: "thermalexpansion:frame",
+	x: -23.0d,
+	y: -14.0d,
+	text: [
+		"Начнём создавать механизмы"
+	],
+	dependencies: [
+		"774dd351"
+	],
+	tasks: [{
+		uid: "c41f4580",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:frame"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c678d7b8",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

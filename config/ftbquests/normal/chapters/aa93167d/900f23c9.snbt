@@ -1,0 +1,31 @@
+{
+	title: "EU GENERATOR",
+	icon: "industrialupgrade:basemachine3 1 78",
+	x: -16.5d,
+	y: -6.0d,
+	text: [
+		"Ваш первый EU генератор, поздравляю!"
+	],
+	dependencies: [
+		"7e76fbd6",
+		"b29259da"
+	],
+	tasks: [{
+		uid: "2cafe6de",
+		type: "item",
+		icon: "industrialupgrade:basemachine3 1 78",
+		items: [{
+			item: "industrialupgrade:basemachine3 1 78"
+		}]
+	}],
+	rewards: [{
+		uid: "c97dca31",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

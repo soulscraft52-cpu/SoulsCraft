@@ -1,0 +1,24 @@
+{
+	title: "Тебе еще не надоело умирать?",
+	x: -1.5d,
+	y: 0.5d,
+	text: [
+		"Про броню слышал?"
+	],
+	dependencies: [
+		"9d5b1136"
+	],
+	tasks: [{
+		uid: "182cd7a1",
+		type: "stat",
+		icon: "minecraft:skull 1 3",
+		stat: "stat.deaths",
+		value: 10
+	}],
+	rewards: [{
+		uid: "3f655515",
+		type: "item",
+		item: "tombstone:crafting_ingredient 1 3",
+		count: 8
+	}]
+}

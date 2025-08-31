@@ -1,0 +1,31 @@
+{
+	title: "Оранжевенькая",
+	icon: "projectex:matter 1 9",
+	x: 8.5d,
+	y: -5.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"8d5a2883"
+	],
+	tasks: [{
+		uid: "5574f2f3",
+		type: "item",
+		items: [{
+			item: "projectex:matter 1 9"
+		}]
+	}],
+	rewards: [{
+		uid: "8c142f59",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 10,
+		random_bonus: 1
+	}]
+}

@@ -1,0 +1,64 @@
+{
+	title: "Кристалики",
+	icon: "enderio:item_material 1 19",
+	x: -1.5d,
+	y: -6.0d,
+	text: [
+		"Кристаллы, нужны для многих крафтов"
+	],
+	dependencies: [
+		"a6658087"
+	],
+	tasks: [{
+		uid: "fdbed4ba",
+		type: "item",
+		items: [{
+			item: "enderio:item_material 1 15"
+		}]
+	},
+	{
+		uid: "7ce7ce29",
+		type: "item",
+		items: [{
+			item: "enderio:item_material 1 16"
+		}]
+	},
+	{
+		uid: "1933f3a3",
+		type: "item",
+		items: [{
+			item: "enderio:item_material 1 17"
+		}]
+	},
+	{
+		uid: "d0281c8b",
+		type: "item",
+		items: [{
+			item: "enderio:item_material 1 18"
+		}]
+	},
+	{
+		uid: "b6d5839c",
+		type: "item",
+		items: [{
+			item: "enderio:item_material 1 14"
+		}]
+	},
+	{
+		uid: "295104a9",
+		type: "item",
+		items: [{
+			item: "enderio:item_material 1 19"
+		}]
+	}],
+	rewards: [{
+		uid: "395e013d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

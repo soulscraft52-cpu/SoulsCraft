@@ -1,0 +1,30 @@
+{
+	x: -1.5d,
+	y: -6.0d,
+	text: [
+		"Супер классные 18 EF/t"
+	],
+	dependencies: [
+		"ce237d8c",
+		"1d2981a2"
+	],
+	tasks: [{
+		uid: "5f752dcb",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:mox_fuel_rod"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5dce8729",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

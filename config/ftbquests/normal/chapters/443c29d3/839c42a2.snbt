@@ -1,0 +1,26 @@
+{
+	title: "Для портала в Энд",
+	icon: "minecraft:ender_eye",
+	x: -13.0d,
+	y: -4.5d,
+	text: [
+		"12 глаз этих ...."
+	],
+	dependencies: [
+		"cc9e1e36"
+	],
+	tasks: [{
+		uid: "5e1dc381",
+		type: "item",
+		items: [{
+			item: "minecraft:ender_eye 12"
+		}],
+		count: 12L
+	}],
+	rewards: [{
+		uid: "8f518e2a",
+		type: "item",
+		item: "cyclicmagic:corrupted_chorus",
+		count: 8
+	}]
+}

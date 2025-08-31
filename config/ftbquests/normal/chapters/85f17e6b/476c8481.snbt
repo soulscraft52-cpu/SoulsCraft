@@ -1,0 +1,32 @@
+{
+	title: "Работяга по эссенциям и слиткам",
+	x: -12.0d,
+	y: -1.5d,
+	text: [
+		"Потратитьте ваш бесконечный философский камень на этот кристалл."
+	],
+	dependencies: [
+		"e2ef3a17",
+		"e77bcac9"
+	],
+	tasks: [{
+		uid: "790ff9f3",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:infusion_crystal"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b36e6d60",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 2
+	}]
+}

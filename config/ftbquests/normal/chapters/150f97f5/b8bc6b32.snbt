@@ -1,0 +1,29 @@
+{
+	title: "Эксперимент №587",
+	x: -3.0d,
+	y: -9.5d,
+	text: [
+		"Мда, для чего Лорду Геватикусу это понадобилось?"
+	],
+	dependencies: [
+		"bcb095bf"
+	],
+	tasks: [{
+		uid: "15facdb2",
+		type: "item",
+		items: [{
+			item: "contenttweaker:otherworldly_charging_element"
+		}]
+	}],
+	rewards: [{
+		uid: "af6e8aeb",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		},
+		count: 4
+	}]
+}

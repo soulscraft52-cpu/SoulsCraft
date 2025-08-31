@@ -1,0 +1,41 @@
+{
+	title: "Tier 3 Rocket",
+	icon: "galacticraftplanets:rocket_t3",
+	x: -4.5d,
+	y: -9.0d,
+	text: [
+		"Ракета 3-его уровня, чертёж для самой ракеты не нужен, только для составляющих",
+		"Создаётся в §3Ракетном Цеху"
+	],
+	dependencies: [
+		"08c445d9",
+		"163124e2"
+	],
+	tasks: [{
+		uid: "36d9822c",
+		type: "item",
+		title: "Скрафти ракету 3 уровня",
+		items: [{
+			item: "galacticraftplanets:rocket_t3"
+		},
+		{
+			item: "galacticraftplanets:rocket_t3 1 1"
+		},
+		{
+			item: "galacticraftplanets:rocket_t3 1 2"
+		},
+		{
+			item: "galacticraftplanets:rocket_t3 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "69f59644",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

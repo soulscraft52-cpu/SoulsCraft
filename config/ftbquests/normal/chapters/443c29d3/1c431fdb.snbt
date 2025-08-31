@@ -1,0 +1,28 @@
+{
+	x: -16.5d,
+	y: -1.0d,
+	text: [
+		"Делает авто-крафт предметов, например если положить булыжник, он скрафтит автоматически сжатый булужник а так-же дважды сжатый булыжник. И наоборот."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"97f044cb"
+	],
+	tasks: [{
+		uid: "72d99bba",
+		type: "item",
+		items: [{
+			item: "storagedrawers:compdrawers"
+		}]
+	}],
+	rewards: [{
+		uid: "0f1ed22d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

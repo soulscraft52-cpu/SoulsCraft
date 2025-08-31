@@ -1,0 +1,29 @@
+{
+	x: -10.0d,
+	y: -2.5d,
+	text: [
+		"Выведи свою промывку руд на финальный этап с СУПЕР-ДУПЕР РУДОПРОМЫВКОЙ 3000",
+		"P.S. Предудыщие описания сделал gpt бот)"
+	],
+	dependencies: [
+		"6316c464"
+	],
+	tasks: [{
+		uid: "ac2d2005",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:moremachine3 1 11"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7d3331b9",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

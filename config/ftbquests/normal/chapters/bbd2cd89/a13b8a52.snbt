@@ -1,0 +1,28 @@
+{
+	title: "Убейте бруду",
+	icon: "galacticraftplanets:treasure_t3",
+	x: -7.5d,
+	y: -9.5d,
+	text: [
+		"Из доты она сбежала на Венеру. Покончите с ней..."
+	],
+	dependencies: [
+		"030b67ab"
+	],
+	tasks: [{
+		uid: "98231026",
+		type: "kill",
+		entity: "galacticraftplanets:spider_queen",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "31b526dc",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

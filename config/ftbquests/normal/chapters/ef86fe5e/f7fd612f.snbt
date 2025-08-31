@@ -1,0 +1,30 @@
+{
+	title: "Рамка для девайсов",
+	icon: "thermalexpansion:frame 1 64",
+	x: -23.0d,
+	y: -16.0d,
+	text: [
+		"Чё-то новенькое"
+	],
+	dependencies: [
+		"51d964e5"
+	],
+	tasks: [{
+		uid: "5d960269",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:frame 1 64"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "00b5798b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

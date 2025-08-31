@@ -1,0 +1,23 @@
+{
+	title: "Кусок Эйштейния",
+	icon: "industrialupgrade:radiationresources 1 7",
+	x: -11.5d,
+	y: -3.5d,
+	can_repeat: true,
+	dependencies: [
+		"c215dab4"
+	],
+	tasks: [{
+		uid: "ad474e76",
+		type: "item",
+		items: [{
+			item: "contenttweaker:coin_tier3"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "3e1c9178",
+		type: "item",
+		item: "industrialupgrade:radiationresources 1 7"
+	}]
+}

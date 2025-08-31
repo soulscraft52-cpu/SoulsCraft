@@ -1,0 +1,31 @@
+{
+	title: "Превращает §bлёд §fв...",
+	x: -6.5d,
+	y: -0.5d,
+	text: [
+		"Энернию конечно, что же ещё."
+	],
+	dependencies: [
+		"d2c3dcfb"
+	],
+	tasks: [{
+		uid: "952e4c17",
+		type: "item",
+		items: [{
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_ice"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "8d7e9e0b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

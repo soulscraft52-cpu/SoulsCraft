@@ -1,0 +1,44 @@
+{
+	x: 15.5d,
+	y: -10.0d,
+	text: [
+		"Скорость ваш конек"
+	],
+	dependencies: [
+		"116747e0"
+	],
+	tasks: [{
+		uid: "4652d30e",
+		type: "item",
+		items: [{
+			id: "cyclicmagic:mattock",
+			tag: {
+				ench: [{
+					lvl: 5s,
+					id: 138s
+				},
+				{
+					lvl: 15s,
+					id: 32s
+				}],
+				RepairCost: 7,
+				display: {
+					Name: "Тайло"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a9b0aa3a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 2
+	}]
+}

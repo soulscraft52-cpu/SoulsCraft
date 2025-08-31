@@ -1,0 +1,27 @@
+{
+	x: -3.5d,
+	y: -7.5d,
+	text: [
+		"Позволяет зачаровывать топовые чары."
+	],
+	dependencies: [
+		"bbbe3fa2"
+	],
+	tasks: [{
+		uid: "8b047b9d",
+		type: "item",
+		items: [{
+			item: "enderio:block_enchanter"
+		}]
+	}],
+	rewards: [{
+		uid: "e332e928",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		}
+	}]
+}

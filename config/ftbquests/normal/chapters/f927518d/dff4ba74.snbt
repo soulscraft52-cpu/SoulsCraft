@@ -1,0 +1,24 @@
+{
+	x: -2.5d,
+	y: -12.0d,
+	dependencies: [
+		"e932f0b6"
+	],
+	tasks: [{
+		uid: "5897a84b",
+		type: "item",
+		items: [{
+			item: "packagedthaumic:clathrate_essence_materializer"
+		}]
+	}],
+	rewards: [{
+		uid: "3f8afb12",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

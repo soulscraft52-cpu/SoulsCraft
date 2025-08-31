@@ -1,0 +1,31 @@
+{
+	title: "Ну зачем-то он такой же нужен?",
+	icon: "enderio:block_enhanced_sag_mill",
+	x: -6.5d,
+	y: -1.0d,
+	text: [
+		"Производит кремний необходимый для процессоров"
+	],
+	dependencies: [
+		"bc12893b",
+		"45aab795"
+	],
+	tasks: [{
+		uid: "f4995ece",
+		type: "item",
+		items: [{
+			item: "enderio:block_enhanced_sag_mill"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "45a01432",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

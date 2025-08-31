@@ -1,0 +1,26 @@
+{
+	x: 0.5d,
+	y: 0.0d,
+	dependencies: [
+		"46c19ba8"
+	],
+	tasks: [{
+		uid: "9020bb58",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:reactorcaliforniaquad"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a6829681",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		}
+	}]
+}

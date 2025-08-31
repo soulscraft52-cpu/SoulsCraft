@@ -1,0 +1,33 @@
+{
+	x: -21.0d,
+	y: -16.0d,
+	dependencies: [
+		"f8abfc95"
+	],
+	tasks: [{
+		uid: "24befd30",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:neutron",
+			tag: {
+				damage: 27648000,
+				hasID: 1b,
+				canupgrade: 1b,
+				maxDamage: 27648000,
+				ID_Item: 21
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3cae986e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

@@ -1,0 +1,71 @@
+{
+    "CompleterNpc": "Ctimo",
+    "NextQuestId": 33,
+    "RandomReward": 0b,
+    "QuestRepeat": 0,
+    "QuestCompletion": 1,
+    "IgnoreNBT": 0b,
+    "Title": "Исследовать святилище",
+    "Text": "Святилище... Невероятно... Кто его построил, для чего, что в нём хранится? Нужно обязательно всё разузнать. Думаю, я смогу найти все ответы внутри.",
+    "QuestFactionPoints": {
+        "DecreaseFaction1Points": 0b,
+        "OptionFaction2Points": 100,
+        "OptionFactions1": -1,
+        "OptionFactions2": -1,
+        "OptionFaction1Points": 100,
+        "DecreaseFaction2Points": 0b
+    },
+    "RewardExp": 0,
+    "QuestCommand": "",
+    "ModRev": 18,
+    "Type": 0,
+    "QuestMail": {
+        "Sender": "",
+        "BeenRead": 0b,
+        "Message": {
+        },
+        "MailItems": [
+        ],
+        "MailQuest": -1,
+        "TimePast": 1655545816597L,
+        "Time": 0L,
+        "Subject": ""
+    },
+    "IgnoreDamage": 0b,
+    "Rewards": {
+        "NpcMiscInv": [
+        ]
+    },
+    "Items": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "minecraft:written_book",
+                "Count": 1b,
+                "tag": {
+                    "generation": 3,
+                    "pages": [
+                        "{\"extra\":[{\"text\":\"Кем бы ты ни был\\nОсторожно!\\nОсмотрись!\\nРёв слышен!\\nДостань меч\\nИз ножен, держи\\nНа готове\\n\"},{\"strikethrough\":true,\"text\":\"Ад впереди\"},{\"color\":\"reset\",\"text\":\"\\nТрудный путь ждёт\"}],\"text\":\"\"}",
+                        "{\"text\":\"Неважно, силён ты\\nАль нет\\nОпасайся монстров\\nБой дадут тебе\\nОни\\nРазорвут\\nТебя в клочья\"}"
+                    ],
+                    "author": "Неизвестный",
+                    "display": {
+                        "Lore": [
+                            "Старая записка, оставленная неизвестно кем"
+                        ]
+                    },
+                    "title": "Записка",
+                    "resolved": 1b
+                },
+                "Damage": 0s
+            }
+        ]
+    },
+    "LeaveItems": 1b,
+    "CompleteText": "Исследуйте все тайны этого святилища.",
+    "NextQuestTitle": "Следующее место"
+}

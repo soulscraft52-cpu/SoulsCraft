@@ -1,0 +1,75 @@
+{
+	title: "За Орду!",
+	icon: "divinerpg:horde_horn",
+	x: 6.0d,
+	y: -11.5d,
+	text: [
+		"Нет, блин, за Альянс."
+	],
+	dependencies: [
+		"440a6d33"
+	],
+	tasks: [{
+		uid: "3e4753bc",
+		type: "item",
+		items: [{
+			item: "divinerpg:horde_horn"
+		}],
+		ignore_damage: true
+	},
+	{
+		uid: "32e84503",
+		type: "item",
+		items: [{
+			item: "divinerpg:ayeraco_statue_blue"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "563f5e80",
+		type: "item",
+		items: [{
+			item: "divinerpg:ayeraco_statue_red"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "ca84236d",
+		type: "item",
+		items: [{
+			item: "divinerpg:ayeraco_statue_yellow"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "f1bdaa76",
+		type: "item",
+		items: [{
+			item: "divinerpg:ayeraco_statue_green"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "66f179e3",
+		type: "item",
+		items: [{
+			item: "divinerpg:ayeraco_statue_purple"
+		}]
+	}],
+	rewards: [{
+		uid: "7b554f4d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	},
+	{
+		uid: "574b4347",
+		type: "item",
+		team_reward: false,
+		item: "thaumadditions:dna_sample"
+	}]
+}

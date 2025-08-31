@@ -1,0 +1,30 @@
+{
+	x: -6.5d,
+	y: -11.0d,
+	text: [
+		"Перерабатывает радиактивные отходы в радиацию. Поставьте рядом обогатитель, чтобы он заряжался радиацией."
+	],
+	dependencies: [
+		"ed0f8d66"
+	],
+	tasks: [{
+		uid: "d0ec2022",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:basemachine3",
+			tag: {},
+			Damage: 101s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ac6b72b1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

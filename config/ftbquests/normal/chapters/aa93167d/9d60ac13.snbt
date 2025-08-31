@@ -1,0 +1,30 @@
+{
+	title: "Ещё больше саннариума",
+	icon: "industrialupgrade:adv_se_gen",
+	x: -5.5d,
+	y: -3.0d,
+	text: [
+		"Быстрее"
+	],
+	dependencies: [
+		"8248e926"
+	],
+	tasks: [{
+		uid: "82a9d036",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:adv_se_gen"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d190ede8",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

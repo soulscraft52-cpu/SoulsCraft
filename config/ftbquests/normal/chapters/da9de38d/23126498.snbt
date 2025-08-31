@@ -1,0 +1,30 @@
+{
+	title: "Теперь ФПС стал выше",
+	x: 3.0d,
+	y: -1.5d,
+	text: [
+		"Дороговато "
+	],
+	dependencies: [
+		"26057c91"
+	],
+	tasks: [{
+		uid: "4974d536",
+		type: "item",
+		items: [{
+			item: "fluxnetworks:fluxpoint"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3a4381a0",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		},
+		count: 2
+	}]
+}

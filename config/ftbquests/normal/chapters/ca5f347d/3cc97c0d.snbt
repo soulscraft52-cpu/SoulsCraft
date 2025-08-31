@@ -1,0 +1,28 @@
+{
+	title: "Авто Слияние",
+	x: -0.5d,
+	y: 2.5d,
+	text: [
+		"Так мало осталось до автоматического слияния"
+	],
+	dependencies: [
+		"d488a3f4"
+	],
+	tasks: [{
+		uid: "cff21e00",
+		type: "item",
+		items: [{
+			item: "packageddraconic:fusion_crafter"
+		}]
+	}],
+	rewards: [{
+		uid: "f0ff4c18",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		}
+	}]
+}

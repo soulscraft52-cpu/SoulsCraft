@@ -1,0 +1,29 @@
+{
+	title: "И ещё побыстрее",
+	x: -4.5d,
+	y: -6.0d,
+	text: [
+		"Ну надо, надо же, какой вы молодец. Улучшайте дальше!"
+	],
+	dependencies: [
+		"977c245e"
+	],
+	tasks: [{
+		uid: "4c161f7c",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:moremachine3 1 14"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4dd2f8e5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

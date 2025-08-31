@@ -1,0 +1,31 @@
+{
+	title: "Ядра чистый изумруд...",
+	icon: "draconicevolution:wyvern_core",
+	x: -7.5d,
+	y: -2.5d,
+	text: [
+		"Вроде виверна, а не летает..."
+	],
+	dependencies: [
+		"126fb96e",
+		"bda13b94",
+		"f7b39dc8"
+	],
+	tasks: [{
+		uid: "783e1a11",
+		type: "item",
+		items: [{
+			item: "draconicevolution:wyvern_core"
+		}]
+	}],
+	rewards: [{
+		uid: "3d7152c1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

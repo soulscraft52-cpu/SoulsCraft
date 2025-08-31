@@ -1,0 +1,23 @@
+{
+	title: "Обогатитель",
+	x: -6.5d,
+	y: -9.5d,
+	text: [
+		"Сделал ли ты обогатитель?"
+	],
+	dependencies: [
+		"308318e3",
+		"eaa746ec",
+		"dc2bf940",
+		"cfbca079"
+	],
+	tasks: [{
+		uid: "44436ed6",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "997a0594",
+		type: "item",
+		item: "industrialupgrade:radiationresources 1 2"
+	}]
+}

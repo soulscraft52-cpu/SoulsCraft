@@ -1,0 +1,58 @@
+{
+	title: "Последние приготовления",
+	icon: "buildcraftsilicon:redstone_chipset 1 4",
+	x: -24.5d,
+	y: -17.0d,
+	text: [
+		"Создайте все микросхемы"
+	],
+	dependencies: [
+		"774dd351"
+	],
+	tasks: [{
+		uid: "6004156c",
+		type: "item",
+		items: [{
+			item: "buildcraftsilicon:redstone_chipset"
+		}]
+	},
+	{
+		uid: "5580bc3c",
+		type: "item",
+		items: [{
+			item: "buildcraftsilicon:redstone_chipset 1 1"
+		}]
+	},
+	{
+		uid: "02e54f23",
+		type: "item",
+		items: [{
+			item: "buildcraftsilicon:redstone_chipset 1 2"
+		}]
+	},
+	{
+		uid: "abe4a650",
+		type: "item",
+		items: [{
+			item: "buildcraftsilicon:redstone_chipset 1 3"
+		}]
+	},
+	{
+		uid: "d4c937ed",
+		type: "item",
+		items: [{
+			item: "buildcraftsilicon:redstone_chipset 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "163252bc",
+		type: "item",
+		item: "minecraft:redstone",
+		count: 64
+	},
+	{
+		uid: "198413fb",
+		type: "item",
+		item: "extrautils2:ingredients 1 2"
+	}]
+}

@@ -1,0 +1,36 @@
+{
+	title: "Плавка эссенций",
+	icon: "thaumcraft:smelter_basic",
+	x: -9.0d,
+	y: -7.5d,
+	text: [
+		"Расплавь предметы на аспекты и заполни ими банки"
+	],
+	dependencies: [
+		"56d1bf6e"
+	],
+	tasks: [{
+		uid: "0fa76116",
+		type: "item",
+		items: [{
+			item: "thaumcraft:smelter_basic"
+		}]
+	},
+	{
+		uid: "e0f2ec54",
+		type: "item",
+		items: [{
+			item: "thaumcraft:alembic"
+		}]
+	}],
+	rewards: [{
+		uid: "3f04b467",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

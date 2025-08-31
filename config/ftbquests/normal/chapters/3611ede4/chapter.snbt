@@ -1,0 +1,10 @@
+{
+	title: " ",
+	icon: "cyclicmagic:battery_infinite",
+	description: [
+		"Полезные блоки и предметы"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

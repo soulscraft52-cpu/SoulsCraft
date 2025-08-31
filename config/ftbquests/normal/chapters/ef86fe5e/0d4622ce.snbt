@@ -1,0 +1,34 @@
+{
+	title: "Очередные грейды (tier 1)",
+	x: -26.0d,
+	y: -18.5d,
+	text: [
+		"§a32 MJ/t§f, это не шутки!"
+	],
+	dependencies: [
+		"53362fff"
+	],
+	tasks: [{
+		uid: "6c61ef1c",
+		type: "item",
+		items: [{
+			id: "quarryplus:laserplus",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 32s
+				}]
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "c69dcdef",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

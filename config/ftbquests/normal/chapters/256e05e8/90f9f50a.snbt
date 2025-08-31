@@ -1,0 +1,58 @@
+{
+	title: "Защитный костюм от термоядерного излучения",
+	icon: "industrialupgrade:hazmatchest",
+	x: -8.0d,
+	y: -8.0d,
+	text: [
+		"Ура! Я могу нырять в ядерный реактор"
+	],
+	dependencies: [
+		"a37bc600"
+	],
+	tasks: [{
+		uid: "617fa232",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:hazmathelmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "7a12f783",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:hazmatchest"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4e8ceea1",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:hazmatleggins"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c88fbf57",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:hazmatboosts"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e5ee0fb",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "4"
+			}
+		}
+	}]
+}

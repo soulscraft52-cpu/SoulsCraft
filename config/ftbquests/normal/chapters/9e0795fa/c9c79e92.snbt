@@ -1,0 +1,34 @@
+{
+	title: "64к HDD",
+	icon: {
+		id: "appliedenergistics2:storage_cell_64k",
+		tag: {}
+	},
+	x: -1.5d,
+	y: -1.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"7374dc66"
+	],
+	tasks: [{
+		uid: "9cf6cc11",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:storage_cell_64k",
+			tag: {}
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "8ce9d162",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

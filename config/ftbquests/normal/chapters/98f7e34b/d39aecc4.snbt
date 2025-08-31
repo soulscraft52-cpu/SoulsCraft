@@ -1,0 +1,31 @@
+{
+	title: "Кроссовики Соника",
+	icon: "avaritia:infinity_boots",
+	x: -4.5d,
+	y: 0.5d,
+	text: [
+		"В этих сапогах вы будете бегать как Соник"
+	],
+	dependencies: [
+		"257f84b3"
+	],
+	tasks: [{
+		uid: "c023380e",
+		type: "item",
+		items: [{
+			item: "avaritia:infinity_boots"
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "53e75513",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "6"
+			}
+		},
+		count: 16
+	}]
+}

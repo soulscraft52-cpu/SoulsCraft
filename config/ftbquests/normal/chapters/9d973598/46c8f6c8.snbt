@@ -1,0 +1,58 @@
+{
+	title: "Только для элиты",
+	icon: "divinerpg:elite_realmite_chestplate",
+	x: -13.5d,
+	y: -0.5d,
+	text: [
+		"Теперь и падать не страшно."
+	],
+	dependencies: [
+		"c75a694c"
+	],
+	tasks: [{
+		uid: "61522e49",
+		type: "item",
+		items: [{
+			item: "divinerpg:elite_realmite_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8370fe00",
+		type: "item",
+		items: [{
+			item: "divinerpg:elite_realmite_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "681f23d8",
+		type: "item",
+		items: [{
+			item: "divinerpg:elite_realmite_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "88fce5b0",
+		type: "item",
+		items: [{
+			item: "divinerpg:elite_realmite_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c09085dc",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

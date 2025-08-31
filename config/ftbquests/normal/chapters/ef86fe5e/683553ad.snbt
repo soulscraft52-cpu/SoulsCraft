@@ -1,0 +1,31 @@
+{
+	title: "Какая-то каменная смесь",
+	icon: "thermalfoundation:material 1 1027",
+	x: -31.0d,
+	y: -12.0d,
+	text: [
+		"Бей, убивай базальтов"
+	],
+	dependencies: [
+		"a5701b3d"
+	],
+	tasks: [{
+		uid: "e25335ae",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 32 1027"
+		}],
+		count: 32L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "3be7753e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

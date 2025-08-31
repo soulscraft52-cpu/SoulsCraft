@@ -1,0 +1,27 @@
+{
+	x: -3.5d,
+	y: -3.0d,
+	text: [
+		"Компактное место для ваших генераторов."
+	],
+	dependencies: [
+		"fb2996f8"
+	],
+	tasks: [{
+		uid: "f4d5ae4c",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:basemachine3 1 12"
+		}]
+	}],
+	rewards: [{
+		uid: "732d576b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		}
+	}]
+}

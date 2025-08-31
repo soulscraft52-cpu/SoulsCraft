@@ -1,0 +1,17 @@
+{
+	x: 0.0d,
+	y: -7.0d,
+	dependencies: [
+		"4f93d430"
+	],
+	tasks: [{
+		uid: "c3954cce",
+		type: "item",
+		items: [{
+			id: "crazyae:fluid_storage_cell_16mb",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

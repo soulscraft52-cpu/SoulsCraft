@@ -1,0 +1,41 @@
+{
+	title: "Наполняет ваши предметы магией воды",
+	icon: {
+		id: "industrialupgrade:basemachine3",
+		tag: {},
+		Damage: 89s
+	},
+	x: -15.5d,
+	y: -1.5d,
+	text: [
+		"Для создание ускорителей"
+	],
+	dependencies: [
+		"4f1a4228"
+	],
+	tasks: [{
+		uid: "d0e90073",
+		type: "item",
+		icon: {
+			id: "industrialupgrade:basemachine3",
+			tag: {},
+			Damage: 89s
+		},
+		items: [{
+			id: "industrialupgrade:basemachine3",
+			tag: {},
+			Damage: 89s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "959951eb",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	title: "Совершенная резина",
+	icon: "industrialupgrade:moremachine 1 11",
+	x: -10.0d,
+	y: -10.0d,
+	text: [
+		"Какой толк от такого механизма без мультифермы?"
+	],
+	dependencies: [
+		"b88c9d67"
+	],
+	tasks: [{
+		uid: "e775cb2c",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:moremachine 1 11"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a0b4035d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	x: -4.5d,
+	y: 4.0d,
+	text: [
+		"Сохраняет опыт и благотворное влияние на смерть"
+	],
+	dependencies: [
+		"43fad645"
+	],
+	tasks: [{
+		uid: "ac889648",
+		type: "item",
+		items: [{
+			id: "tombstone:scroll_buff",
+			tag: {
+				enchant: 1b
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "f25c3feb",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "2"
+			}
+		}
+	}]
+}

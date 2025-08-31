@@ -1,0 +1,28 @@
+{
+	title: "Я хотел сказать хватит но....",
+	x: -18.5d,
+	y: -4.0d,
+	text: [
+		"Это не конец"
+	],
+	dependencies: [
+		"54a6ce68"
+	],
+	tasks: [{
+		uid: "d6819d08",
+		type: "item",
+		items: [{
+			item: "enderio:item_capacitor_vivid"
+		}]
+	}],
+	rewards: [{
+		uid: "0139f973",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

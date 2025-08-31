@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<enderio:recipes xmlns:enderio="http://enderio.com/recipes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://enderio.com/recipes recipes.xsd ">
+ <recipe name="Alloy: Steel" disabled="true">
+ <alloying energy="10000" exp="0">
+ <input name="ingotIron"/>
+ <input name="minecraft:coal:0" amount="2"/>
+ <input name="dustCoal" amount="2"/>
+ <output name="ingotSteel"/>
+ </alloying>
+ </recipe>
+<recipe name="Alloy: Steel (Oredict)" required="false">
+ <alloying energy="10000" exp="0">
+ <input name="galacticraftcore:item_basic_moon"/>
+ <input name="fuelCoke"/>
+ <output name="ingotSteel" amount="2"/>
+ </alloying>
+ </recipe>
+
+<recipe name="Nether Ingot" required="false">
+ <alloying energy="10000" exp="0">
+ <input name="soulscraft:bloodgold" amount="4"/>
+ <input name="divinerpg:shadow_bar" amount="2"/>
+ <input name="divinerpg:netherite_chunk"/>
+ <output name="divinerpg:hellstone_ingot" amount="1"/>
+ </alloying>
+</recipe>
+<recipe name="Cursed Gold" required="false">
+ <alloying energy="100000" exp="0">
+ <input name="soulscraft:bloodgold" amount="8"/>
+ <input name="divinerpg:hellstone_ingot" amount="4"/>
+ <input name="soulscraft:evildrop"/>
+ <output name="soulscraft:cursedgold" amount="1"/>
+ </alloying>
+</recipe>
+<recipe name="Shadowbar Ingot" required="false">
+ <alloying energy="4000" exp="0">
+ <input name="divinerpg:arlemite_ingot" amount="1"/>
+ <input name="divinerpg:rupee_ingot" amount="1"/>
+ <input name="draconicevolution:draconium_ingot" amount="2"/>
+ <output name="divinerpg:shadow_bar" amount="2"/>
+ </alloying>
+</recipe>
+<recipe name="Dark Steel Upgrade" disabled="true">
+<alloying energy="30000">
+<input name="enderio:block_dark_iron_bars"/>
+<input name="oredict:itemClay"/>
+<input name="string" amount="4"/>
+<output name="enderio:item_dark_steel_upgrade:0"/>
+</alloying>
+</recipe>
+<recipe name="Modularium Ingot" required="false">
+ <alloying energy="32000" exp="0">
+ <input name="tconstruct:ingots:1" amount="1"/>
+ <input name="thermalfoundation:material:163" amount="4"/>
+ <input name="thermalfoundation:material:165" amount="2"/>
+ <output name="modularmachinery:itemmodularium" amount="6"/>
+ </alloying>
+</recipe>
+<recipe name="Tweak: Stick from Wood" disabled="true">
+<crafting>
+<grid size="1x2">
+<item name="logWood"/>
+<item name="logWood"/>
+</grid>
+<output name="minecraft:stick, stickWood" amount="16" />
+</crafting>
+</recipe>
+
+<recipe name="Tweak: Chest from Wood" disabled="true">
+<crafting>
+<grid>
+<item name="logWood"/><item name="logWood"/><item name="logWood"/>
+<item name="logWood"/><item/><item name="logWood"/>
+<item name="logWood"/><item name="logWood"/><item name="logWood"/>
+</grid>
+<output name="minecraft:chest, chestWood" amount="4" />
+</crafting>
+</recipe>
+
+<recipe name="Enchanter: cofhcore:vorpal" required="false" disabled="false">
+<enchanting>
+<input name="ZOMBIE_CONTROLLER" amount="32"/>
+<enchantment name="cofhcore:vorpal" costMultiplier="2"/>
+</enchanting>
+</recipe>
+
+<recipe name="Enchanter: cofhcore:multishot" required="false" disabled="false">
+<enchanting>
+<input name="SKELETAL_CONTRACTOR" amount="32"/>
+<enchantment name="cofhcore:multishot" costMultiplier="2"/>
+</enchanting>
+</recipe>
+
+
+<recipe name="Tweak: Wood Hopper" disabled="true">
+<crafting>
+<grid>
+<item name="IRON"/><item name="logWood"/><item name="IRON"/>
+<item name="IRON"/><item name="logWood"/><item name="IRON"/>
+<item/><item name="IRON"/><item/>
+</grid>
+<output name="minecraft:hopper, blockHopper" />
+</crafting>
+</recipe>
+</enderio:recipes>
+

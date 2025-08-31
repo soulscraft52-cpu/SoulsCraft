@@ -1,0 +1,30 @@
+{
+	title: "Сам собирает, сам разбирает, дайте ему только шаблон",
+	icon: "appliedenergistics2:molecular_assembler",
+	x: -13.0d,
+	y: 1.0d,
+	text: [
+		"Начало автокрафтов... Скоро сможем запустить"
+	],
+	dependencies: [
+		"38d4e641",
+		"ff5e776d"
+	],
+	tasks: [{
+		uid: "f158f3e1",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:molecular_assembler"
+		}]
+	}],
+	rewards: [{
+		uid: "e39b0d55",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	title: "Карьер",
+	icon: "buildcraftbuilders:quarry",
+	x: -7.5d,
+	y: -7.5d,
+	text: [
+		"Сам добывает ресурсы выкапывая  ямы!",
+		"Очень полезная вещь!"
+	],
+	dependencies: [
+		"bda13b94",
+		"e8b6cf44"
+	],
+	tasks: [{
+		uid: "fda37740",
+		type: "item",
+		items: [{
+			item: "buildcraftbuilders:quarry"
+		}]
+	}],
+	rewards: [{
+		uid: "db596277",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 2
+	}]
+}

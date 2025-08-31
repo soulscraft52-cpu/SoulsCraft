@@ -1,0 +1,29 @@
+{
+	title: "Седрце на 16к",
+	icon: "appliedenergistics2:crafting_storage_16k",
+	x: -13.0d,
+	y: 7.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"50c5b905"
+	],
+	tasks: [{
+		uid: "edb422c4",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:crafting_storage_16k"
+		}]
+	}],
+	rewards: [{
+		uid: "11b0823a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

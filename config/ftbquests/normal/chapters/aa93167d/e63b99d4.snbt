@@ -1,0 +1,30 @@
+{
+	title: "Центрифуга",
+	icon: "industrialupgrade:moremachine3 1 12",
+	x: -6.5d,
+	y: -6.0d,
+	text: [
+		"Супер-мега термалочка. И это только начальный тир механизма!"
+	],
+	dependencies: [
+		"c215dab4"
+	],
+	tasks: [{
+		uid: "f33a547b",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:moremachine3 1 12"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e20acb1f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

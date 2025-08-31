@@ -1,0 +1,30 @@
+{
+	x: -1.5d,
+	y: 2.0d,
+	text: [
+		"Языкастые 460 EF/t"
+	],
+	dependencies: [
+		"238b5bf6",
+		"1d2981a2"
+	],
+	tasks: [{
+		uid: "9e55d5be",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:reactoreinsteiniumsimple"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "95ac6179",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

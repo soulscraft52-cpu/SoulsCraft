@@ -1,0 +1,31 @@
+{
+	title: "Такой себе генератор",
+	icon: "enderio:block_stirling_generator",
+	x: -10.0d,
+	y: -2.0d,
+	text: [
+		"Используется в крафте генератора из IC2"
+	],
+	dependencies: [
+		"78b8914b",
+		"26f624bd"
+	],
+	tasks: [{
+		uid: "aa350632",
+		type: "item",
+		items: [{
+			item: "enderio:block_stirling_generator"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8cb75475",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

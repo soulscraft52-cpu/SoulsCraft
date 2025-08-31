@@ -1,0 +1,30 @@
+{
+	title: "Самая дорогая пыль в мире",
+	x: -9.5d,
+	y: 0.5d,
+	text: [
+		"Описание самой пыли ЛОЖЬ"
+	],
+	dependencies: [
+		"8c1f94b9"
+	],
+	tasks: [{
+		uid: "acc0f0a0",
+		type: "item",
+		items: [{
+			item: "fluxnetworks:flux"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "0f484460",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		},
+		count: 4
+	}]
+}

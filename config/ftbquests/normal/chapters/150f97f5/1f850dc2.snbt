@@ -1,0 +1,45 @@
+{
+	title: "Розовые",
+	icon: "projectex:power_flower 1 4",
+	x: 0.5d,
+	y: -7.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"aa8519e5"
+	],
+	tasks: [{
+		uid: "834c10ea",
+		type: "item",
+		items: [{
+			item: "projectex:collector 1 4"
+		}]
+	},
+	{
+		uid: "8be09e85",
+		type: "item",
+		items: [{
+			item: "projectex:relay 1 4"
+		}]
+	},
+	{
+		uid: "df4cb94b",
+		type: "item",
+		items: [{
+			item: "projectex:power_flower 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "1d1ab84b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 2,
+		random_bonus: 1
+	}]
+}

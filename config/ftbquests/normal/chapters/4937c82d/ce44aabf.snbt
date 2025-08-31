@@ -1,0 +1,28 @@
+{
+	title: "Более вмистительный",
+	x: -2.5d,
+	y: -17.0d,
+	text: [
+		"Наверно"
+	],
+	dependencies: [
+		"7ccd1959"
+	],
+	tasks: [{
+		uid: "b5bfb4c2",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockfluidoutputhatch 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "862b4850",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

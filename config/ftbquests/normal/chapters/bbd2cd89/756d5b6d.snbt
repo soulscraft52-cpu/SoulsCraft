@@ -1,0 +1,28 @@
+{
+	title: "Не такой уж он и горячий...",
+	icon: "galaxyspace:treasure_t4",
+	x: -4.5d,
+	y: -13.5d,
+	text: [
+		"Убейте босса Цереры"
+	],
+	dependencies: [
+		"269ba761"
+	],
+	tasks: [{
+		uid: "8e2e00e8",
+		type: "kill",
+		entity: "galacticraftcore:evolved_boss_blaze",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "e5dabd55",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

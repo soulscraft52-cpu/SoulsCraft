@@ -1,0 +1,38 @@
+{
+	title: "Проклятая земелька",
+	icon: "extrautils2:cursedearth",
+	x: -8.0d,
+	y: -7.0d,
+	text: [
+		"Увеличивает вероятность появления мобов там где расположена. ",
+		"После установки начинает заражать соседние блоки земли, превращая их в проклятую землю.",
+		"(&eБлок можно вернуть, если сломать его инструментом с зачарованием &bШёлковое касаниеe.)"
+	],
+	dependencies: [
+		"97058304",
+		"ae16608b"
+	],
+	tasks: [{
+		uid: "e4d0536b",
+		type: "item",
+		items: [{
+			item: "extrautils2:cursedearth"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "a4b3d095",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		}
+	},
+	{
+		uid: "456b3072",
+		type: "item",
+		item: "scalinghealth:difficultychanger"
+	}]
+}

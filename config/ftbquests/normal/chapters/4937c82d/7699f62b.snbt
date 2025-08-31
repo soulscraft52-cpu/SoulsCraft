@@ -1,0 +1,31 @@
+{
+	title: "Что ты такое?",
+	x: 7.0d,
+	y: -14.5d,
+	text: [
+		"ВНИМАНИЕ!!!",
+		"ДАННЫЙ ПРЕДМЕТ РАДИОКТИВЕН",
+		"ЕГО СТОИТ ПЕРЕМЕЩАТЬ ТОЛЬКО ПРЕДМЕТЫМИ ТРУБАМИ"
+	],
+	dependencies: [
+		"3f8968d4"
+	],
+	tasks: [{
+		uid: "d87bc1a2",
+		type: "item",
+		items: [{
+			item: "contenttweaker:tunshilinonim_ingot"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "15f72ee5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		}
+	}]
+}

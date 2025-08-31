@@ -1,0 +1,28 @@
+{
+	title: "Трёхголовое чудище",
+	icon: "galacticraftplanets:treasure_t2",
+	x: -7.5d,
+	y: -3.5d,
+	text: [
+		"Убейте зелёного змея-горыныча"
+	],
+	dependencies: [
+		"163124e2"
+	],
+	tasks: [{
+		uid: "cf190ff9",
+		type: "kill",
+		entity: "galacticraftplanets:creeper_boss",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "201201e7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

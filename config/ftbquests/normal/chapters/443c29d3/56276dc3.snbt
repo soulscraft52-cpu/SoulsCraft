@@ -1,0 +1,25 @@
+{
+	title: "Вроде бы обычная печка",
+	icon: "minecraft:furnace",
+	x: -18.0d,
+	y: -7.0d,
+	text: [
+		"Казалось бы, что тут сложного?"
+	],
+	dependencies: [
+		"98c94bc7"
+	],
+	tasks: [{
+		uid: "dc5c16d2",
+		type: "item",
+		items: [{
+			item: "minecraft:furnace"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "53b91119",
+		type: "choice",
+		table: 0
+	}]
+}

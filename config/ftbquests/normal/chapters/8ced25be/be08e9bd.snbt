@@ -1,0 +1,26 @@
+{
+	title: "Все Умы этого мира признали его",
+	x: 0.0d,
+	y: -8.5d,
+	dependencies: [
+		"5d958510"
+	],
+	tasks: [{
+		uid: "beb7355a",
+		type: "item",
+		items: [{
+			item: "extrautils2:opinium 1 7"
+		}]
+	}],
+	rewards: [{
+		uid: "9992174d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		},
+		random_bonus: 2
+	}]
+}

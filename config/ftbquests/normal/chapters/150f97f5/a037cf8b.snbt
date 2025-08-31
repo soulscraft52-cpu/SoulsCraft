@@ -1,0 +1,30 @@
+{
+	title: "И свет не пройдёт",
+	icon: "projecte:item.pe_matter",
+	x: -7.5d,
+	y: -5.5d,
+	text: [
+		"Не зря восьмикратку делал?"
+	],
+	dependencies: [
+		"e77bcac9"
+	],
+	tasks: [{
+		uid: "e87e8def",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_matter 4"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "de70cc70",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		}
+	}]
+}

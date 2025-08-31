@@ -1,0 +1,35 @@
+{
+	title: "Закрытие разломов",
+	icon: "thaumcraft:causality_collapser",
+	x: -9.5d,
+	y: -3.5d,
+	text: [
+		"Бросьте эту жемчужину в разлом, чтобы закрыть его."
+	],
+	dependencies: [
+		"97058304"
+	],
+	tasks: [{
+		uid: "e142ab0b",
+		type: "item",
+		items: [{
+			item: "thaumcraft:causality_collapser"
+		}]
+	}],
+	rewards: [{
+		uid: "389e49e6",
+		type: "item",
+		item: "thaumcraft:void_seed",
+		count: 2
+	},
+	{
+		uid: "1bb58e28",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

@@ -1,0 +1,75 @@
+{
+	title: "Нано броня",
+	icon: {
+		id: "industrialupgrade:nano_chestplate",
+		tag: {
+			ID_Item: 2147483647
+		}
+	},
+	x: -6.5d,
+	y: 0.0d,
+	text: [
+		"Скрафтить сет нано брони"
+	],
+	dependencies: [
+		"7bf10f6e"
+	],
+	tasks: [{
+		uid: "a77c2c88",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:nano_helmet",
+			tag: {
+				ID_Item: 2147483647
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "64b7469c",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:nano_chestplate",
+			tag: {
+				ID_Item: 2147483647
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "13da33b7",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:nano_leggings",
+			tag: {
+				ID_Item: 2147483647
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4ddfbd9d",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:nano_boots",
+			tag: {
+				ID_Item: 2147483647
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c33131af",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

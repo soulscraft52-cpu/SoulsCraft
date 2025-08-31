@@ -1,0 +1,31 @@
+{
+	title: "Адронный коллайдер?",
+	icon: "industrialupgrade:machines 1 11",
+	x: 10.0d,
+	y: -2.0d,
+	text: [
+		"Нет, это то, что его будет питать"
+	],
+	dependencies: [
+		"ade2fb72"
+	],
+	tasks: [{
+		uid: "6eaea11b",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:machines 1 11"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8958affc",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 9
+	}]
+}

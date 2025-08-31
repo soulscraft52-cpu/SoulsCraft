@@ -1,0 +1,44 @@
+{
+	title: "Автоматизируем добычу булыжника",
+	icon: "extrautils2:ingredients 1 8",
+	x: -7.5d,
+	y: -1.5d,
+	text: [
+		"Поможет в создании §7восьмикратно сжатого булыжника.",
+		"§aУстановите узел передачи к §7булыжнику §aсоздаваемому §eгенератором булыжника§a, и положите в него§9 улучшение взаимодействия с миром."
+	],
+	dependencies: [
+		"c37008b8"
+	],
+	tasks: [{
+		uid: "bd4d66b8",
+		type: "item",
+		items: [{
+			item: "extrautils2:grocket 16"
+		}],
+		count: 16L
+	},
+	{
+		uid: "0c445b1e",
+		type: "item",
+		items: [{
+			item: "extrautils2:ingredients 16 8"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "4214bfb2",
+		type: "item",
+		item: "extrautils2:compressedcobblestone 1 4"
+	},
+	{
+		uid: "29a0422d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

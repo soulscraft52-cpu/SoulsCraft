@@ -1,0 +1,29 @@
+{
+	title: "Вся мощь эндера в одном конденсаторе",
+	icon: "enderio:item_basic_capacitor 1 2",
+	x: -16.5d,
+	y: -6.0d,
+	text: [
+		"Участвует во многих крафтах"
+	],
+	dependencies: [
+		"189fa442"
+	],
+	tasks: [{
+		uid: "8655f2ed",
+		type: "item",
+		items: [{
+			item: "enderio:item_basic_capacitor 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "35f4b1cb",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

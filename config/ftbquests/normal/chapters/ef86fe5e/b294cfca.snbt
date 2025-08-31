@@ -1,0 +1,60 @@
+{
+	title: "Аннулятор",
+	icon: {
+		id: "thermalexpansion:device",
+		tag: {
+			RSControl: 0b,
+			Facing: 3b,
+			Energy: 0,
+			SideCache: [B;
+				0b,
+				1b,
+				1b,
+				1b,
+				1b,
+				1b
+			]
+		},
+		Damage: 1s
+	},
+	x: -23.0d,
+	y: -18.0d,
+	text: [
+		"Аннуляция описания отсюда"
+	],
+	dependencies: [
+		"bb85d2cd"
+	],
+	tasks: [{
+		uid: "2948628b",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:device",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					0b,
+					1b,
+					1b,
+					1b,
+					1b,
+					1b
+				]
+			},
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "06b94a19",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

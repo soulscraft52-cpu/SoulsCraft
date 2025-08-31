@@ -1,0 +1,28 @@
+{
+	title: "Оооооо ДА",
+	x: -3.5d,
+	y: -20.0d,
+	text: [
+		"Мне и этого достатоно"
+	],
+	dependencies: [
+		"46ded5a2"
+	],
+	tasks: [{
+		uid: "2ec582bb",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockfluidinputhatch 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "7fd05dcb",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		}
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	title: "Компик, уи!!!!",
+	icon: "cfm:computer",
+	x: -1.5d,
+	y: -1.5d,
+	text: [
+		"Закажите что-нибудь с AliExpress."
+	],
+	dependencies: [
+		"6002c4c4"
+	],
+	tasks: [{
+		uid: "329d83b0",
+		type: "item",
+		items: [{
+			item: "cfm:computer"
+		}]
+	}],
+	rewards: [{
+		uid: "c6a83674",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

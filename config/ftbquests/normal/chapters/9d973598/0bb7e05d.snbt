@@ -1,0 +1,38 @@
+{
+	title: "Измерение аркан",
+	icon: "divinerpg:arcana_portal_frame",
+	x: -7.0d,
+	y: -0.5d,
+	text: [
+		"Бесконечный лабиринт, смотри не потеряйся!",
+		"§cПортал размещается так же, как и портал в энд."
+	],
+	dependencies: [
+		"9a8f999c"
+	],
+	tasks: [{
+		uid: "430ce1ec",
+		type: "item",
+		items: [{
+			item: "divinerpg:arcana_portal_frame 12"
+		}],
+		count: 12L
+	}],
+	rewards: [{
+		uid: "92954f3d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	},
+	{
+		uid: "6816aeb2",
+		type: "item",
+		item: "divinerpg:collector",
+		count: 8,
+		random_bonus: 4
+	}]
+}

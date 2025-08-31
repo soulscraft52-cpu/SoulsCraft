@@ -1,0 +1,31 @@
+{
+	title: "Лаймовая",
+	icon: "projectex:matter 1 7",
+	x: 6.5d,
+	y: -5.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"4b5644de"
+	],
+	tasks: [{
+		uid: "e5b42fda",
+		type: "item",
+		items: [{
+			item: "projectex:matter 1 7"
+		}]
+	}],
+	rewards: [{
+		uid: "a06a2389",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 8,
+		random_bonus: 1
+	}]
+}

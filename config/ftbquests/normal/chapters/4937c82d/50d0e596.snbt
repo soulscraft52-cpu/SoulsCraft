@@ -1,0 +1,28 @@
+{
+	title: "Корпус для модулярок",
+	x: -9.5d,
+	y: -16.0d,
+	text: [
+		"Тебе потребуется не один такой"
+	],
+	dependencies: [
+		"364459ca"
+	],
+	tasks: [{
+		uid: "2f032ee4",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing"
+		}]
+	}],
+	rewards: [{
+		uid: "2d876a04",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

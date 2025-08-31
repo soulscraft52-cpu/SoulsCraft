@@ -1,0 +1,82 @@
+{
+	title: "Магические существа",
+	icon: {
+		id: "draconicevolution:mob_soul",
+		tag: {
+			EntityName: "divinerpg:death_hound"
+		}
+	},
+	x: -5.5d,
+	y: -1.5d,
+	text: [
+		"Поздемные"
+	],
+	dependencies: [
+		"0bb7e05d"
+	],
+	tasks: [{
+		uid: "300ed6c1",
+		type: "kill",
+		entity: "divinerpg:deathcryx",
+		value: 1L
+	},
+	{
+		uid: "95efa140",
+		type: "kill",
+		entity: "divinerpg:dungeon_demon",
+		value: 1L
+	},
+	{
+		uid: "abac0054",
+		type: "kill",
+		entity: "divinerpg:razorback",
+		value: 1L
+	},
+	{
+		uid: "fc5ceaee",
+		type: "kill",
+		entity: "divinerpg:death_hound",
+		value: 1L
+	},
+	{
+		uid: "f770a068",
+		type: "kill",
+		entity: "divinerpg:dungeon_prisoner",
+		value: 1L
+	},
+	{
+		uid: "5a3fbc08",
+		type: "kill",
+		entity: "divinerpg:roamer",
+		value: 1L
+	},
+	{
+		uid: "b185784f",
+		type: "kill",
+		entity: "divinerpg:dungeon_constructor",
+		value: 1L
+	},
+	{
+		uid: "4d84bf4b",
+		type: "kill",
+		entity: "divinerpg:living_statue",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "f78cae64",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	},
+	{
+		uid: "89ed5c54",
+		type: "item",
+		item: "divinerpg:collector",
+		count: 16,
+		random_bonus: 16
+	}]
+}

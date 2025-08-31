@@ -1,0 +1,29 @@
+{
+	x: -5.0d,
+	y: -0.5d,
+	text: [
+		"Улучшенная версия пояса путешественника"
+	],
+	dependencies: [
+		"6ffce18a"
+	],
+	tasks: [{
+		uid: "aab1ae99",
+		type: "item",
+		items: [{
+			item: "thaumadditions:striding_belt"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "755eade4",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

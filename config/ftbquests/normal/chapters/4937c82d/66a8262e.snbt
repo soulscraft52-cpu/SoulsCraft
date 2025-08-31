@@ -1,0 +1,83 @@
+{
+	title: "АВТО-ЛАЗЕР = Мечта каждого игрока",
+	icon: "modularmachinery:automated_laser_installation_controller",
+	x: -3.5d,
+	y: -10.0d,
+	text: [
+		"Плюс + 1000 ФПС"
+	],
+	dependencies: [
+		"afe787ef"
+	],
+	tasks: [{
+		uid: "46e3a573",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing 1 4"
+		}],
+		count: 48L
+	},
+	{
+		uid: "f398c106",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockoutputbus 1 2"
+		}]
+	},
+	{
+		uid: "e9e304fe",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockinputbus 1 2"
+		}],
+		count: 2L
+	},
+	{
+		uid: "72ac2bea",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockenergyinputhatch 1 2"
+		}]
+	},
+	{
+		uid: "37a9fae4",
+		type: "item",
+		items: [{
+			item: "contenttweaker:assembly"
+		}]
+	},
+	{
+		uid: "45050777",
+		type: "item",
+		items: [{
+			item: "contenttweaker:laser"
+		}],
+		count: 8L
+	},
+	{
+		uid: "5f2a1186",
+		type: "item",
+		items: [{
+			item: "modularmachinery:automated_laser_installation_factory_controller"
+		}]
+	},
+	{
+		uid: "d189de0e",
+		type: "item",
+		items: [{
+			item: "galaxyspace:futureglass 1 1"
+		}],
+		count: 21L
+	}],
+	rewards: [{
+		uid: "16a3f349",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		},
+		count: 6
+	}]
+}

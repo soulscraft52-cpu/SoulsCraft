@@ -1,0 +1,24 @@
+{
+	x: -23.0d,
+	y: -1.5d,
+	dependencies: [
+		"1cd25b48"
+	],
+	tasks: [{
+		uid: "cbb648f9",
+		type: "item",
+		items: [{
+			item: "ironchest:iron_chest 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "625898b0",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

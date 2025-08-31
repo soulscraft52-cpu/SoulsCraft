@@ -1,0 +1,40 @@
+{
+	title: "Какая-то башня из голов",
+	icon: {
+		id: "draconicevolution:mob_soul",
+		tag: {
+			EntityName: "divinerpg:king_of_scorchers"
+		}
+	},
+	x: -10.0d,
+	y: -2.0d,
+	text: [
+		"Убейте его.",
+		"§7§6Призывается Адским Огнём."
+	],
+	dependencies: [
+		"a3a0f328",
+		"f3ced59b"
+	],
+	tasks: [{
+		uid: "6e15819d",
+		type: "kill",
+		entity: "divinerpg:king_of_scorchers",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "77b5ab08",
+		type: "item",
+		item: "divinerpg:twilight_clock"
+	},
+	{
+		uid: "5e9d17b2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

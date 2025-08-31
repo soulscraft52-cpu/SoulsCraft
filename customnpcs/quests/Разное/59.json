@@ -1,0 +1,304 @@
+{
+    "CompleterNpc": "Джером",
+    "NextQuestId": -1,
+    "RandomReward": 0b,
+    "QuestRepeat": 0,
+    "QuestCompletion": 0,
+    "IgnoreNBT": 0b,
+    "Title": "Взять сумку у Джерома",
+    "Text": "Джером подготовил для меня небольшую награду. Было бы неприлично от неё отказываться.",
+    "QuestFactionPoints": {
+        "DecreaseFaction1Points": 0b,
+        "OptionFaction2Points": 100,
+        "OptionFactions1": -1,
+        "OptionFactions2": -1,
+        "OptionFaction1Points": 100,
+        "DecreaseFaction2Points": 0b
+    },
+    "RewardExp": 0,
+    "QuestCommand": "",
+    "ModRev": 18,
+    "Type": 0,
+    "QuestMail": {
+        "Sender": "",
+        "BeenRead": 0b,
+        "Message": {
+        },
+        "MailItems": [
+        ],
+        "MailQuest": -1,
+        "TimePast": 1655314284366L,
+        "Time": 0L,
+        "Subject": ""
+    },
+    "IgnoreDamage": 0b,
+    "Rewards": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "thermalexpansion:satchel",
+                "Count": 1b,
+                "tag": {
+                    "Inventory": {
+                        "Slot13": {
+                            "ForgeCaps": {
+                                "customnpcs:itemscripteddata": {
+                                }
+                            },
+                            "id": "minecraft:elytra",
+                            "Count": 1b,
+                            "Damage": 0s
+                        },
+                        "Slot14": {
+                            "ForgeCaps": {
+                                "customnpcs:itemscripteddata": {
+                                }
+                            },
+                            "id": "minecraft:golden_apple",
+                            "Count": 1b,
+                            "Damage": 1s
+                        },
+                        "Slot15": {
+                            "ForgeCaps": {
+                                "customnpcs:itemscripteddata": {
+                                }
+                            },
+                            "id": "thermalfoundation:coin",
+                            "Count": 1b,
+                            "Damage": 64s
+                        },
+                        "Slot16": {
+                            "ForgeCaps": {
+                                "customnpcs:itemscripteddata": {
+                                }
+                            },
+                            "id": "thermalfoundation:coin",
+                            "Count": 1b,
+                            "Damage": 66s
+                        },
+                        "Slot17": {
+                            "ForgeCaps": {
+                                "customnpcs:itemscripteddata": {
+                                }
+                            },
+                            "id": "thermalfoundation:coin",
+                            "Count": 1b,
+                            "Damage": 64s
+                        },
+                        "Slot18": {
+                            "ForgeCaps": {
+                                "customnpcs:itemscripteddata": {
+                                }
+                            },
+                            "id": "thermalfoundation:coin",
+                            "Count": 1b,
+                            "Damage": 64s
+                        },
+                        "Slot19": {
+                            "ForgeCaps": {
+                                "customnpcs:itemscripteddata": {
+                                }
+                            },
+                            "id": "thermalfoundation:coin",
+                            "Count": 1b,
+                            "Damage": 64s
+                        },
+                        "Slot2": {
+                            "ForgeCaps": {
+                                "customnpcs:itemscripteddata": {
+                                }
+                            },
+                            "id": "thermalfoundation:coin",
+                            "Count": 1b,
+                            "Damage": 64s
+                        },
+                        "Slot3": {
+                            "ForgeCaps": {
+                                "customnpcs:itemscripteddata": {
+                                }
+                            },
+                            "id": "minecraft:fireworks",
+                            "Count": 1b,
+                            "Damage": 0s
+                        },
+                        "Slot4": {
+                            "ForgeCaps": {
+                                "customnpcs:itemscripteddata": {
+                                }
+                            },
+                            "id": "minecraft:golden_apple",
+                            "Count": 1b,
+                            "Damage": 1s
+                        },
+                        "Slot5": {
+                            "ForgeCaps": {
+                                "customnpcs:itemscripteddata": {
+                                }
+                            },
+                            "id": "minecraft:fireworks",
+                            "Count": 1b,
+                            "Damage": 0s
+                        },
+                        "Slot20": {
+                            "ForgeCaps": {
+                                "customnpcs:itemscripteddata": {
+                                }
+                            },
+                            "id": "thermalfoundation:coin",
+                            "Count": 1b,
+                            "Damage": 64s
+                        },
+                        "Slot21": {
+                            "ForgeCaps": {
+                                "customnpcs:itemscripteddata": {
+                                }
+                            },
+                            "id": "minecraft:fireworks",
+                            "Count": 1b,
+                            "Damage": 0s
+                        },
+                        "Slot22": {
+                            "ForgeCaps": {
+                                "customnpcs:itemscripteddata": {
+                                }
+                            },
+                            "id": "minecraft:golden_apple",
+                            "Count": 1b,
+                            "Damage": 1s
+                        },
+                        "Slot0": {
+                            "ForgeCaps": {
+                                "customnpcs:itemscripteddata": {
+                                }
+                            },
+                            "id": "thermalfoundation:coin",
+                            "Count": 1b,
+                            "Damage": 64s
+                        },
+                        "Slot1": {
+                            "ForgeCaps": {
+                                "customnpcs:itemscripteddata": {
+                                }
+                            },
+                            "id": "thermalfoundation:coin",
+                            "Count": 1b,
+                            "Damage": 64s
+                        },
+                        "Slot23": {
+                            "ForgeCaps": {
+                                "customnpcs:itemscripteddata": {
+                                }
+                            },
+                            "id": "minecraft:fireworks",
+                            "Count": 1b,
+                            "Damage": 0s
+                        },
+                        "Slot6": {
+                            "ForgeCaps": {
+                                "customnpcs:itemscripteddata": {
+                                }
+                            },
+                            "id": "thermalfoundation:coin",
+                            "Count": 1b,
+                            "Damage": 64s
+                        },
+                        "Slot7": {
+                            "ForgeCaps": {
+                                "customnpcs:itemscripteddata": {
+                                }
+                            },
+                            "id": "thermalfoundation:coin",
+                            "Count": 1b,
+                            "Damage": 64s
+                        },
+                        "Slot8": {
+                            "ForgeCaps": {
+                                "customnpcs:itemscripteddata": {
+                                }
+                            },
+                            "id": "thermalfoundation:coin",
+                            "Count": 1b,
+                            "Damage": 64s
+                        },
+                        "Slot9": {
+                            "ForgeCaps": {
+                                "customnpcs:itemscripteddata": {
+                                }
+                            },
+                            "id": "thermalfoundation:coin",
+                            "Count": 1b,
+                            "Damage": 64s
+                        },
+                        "Slot24": {
+                            "ForgeCaps": {
+                                "customnpcs:itemscripteddata": {
+                                }
+                            },
+                            "id": "thermalfoundation:coin",
+                            "Count": 1b,
+                            "Damage": 64s
+                        },
+                        "Slot25": {
+                            "ForgeCaps": {
+                                "customnpcs:itemscripteddata": {
+                                }
+                            },
+                            "id": "thermalfoundation:coin",
+                            "Count": 1b,
+                            "Damage": 64s
+                        },
+                        "Slot26": {
+                            "ForgeCaps": {
+                                "customnpcs:itemscripteddata": {
+                                }
+                            },
+                            "id": "thermalfoundation:coin",
+                            "Count": 1b,
+                            "Damage": 64s
+                        },
+                        "Slot10": {
+                            "ForgeCaps": {
+                                "customnpcs:itemscripteddata": {
+                                }
+                            },
+                            "id": "thermalfoundation:coin",
+                            "Count": 1b,
+                            "Damage": 66s
+                        },
+                        "Slot11": {
+                            "ForgeCaps": {
+                                "customnpcs:itemscripteddata": {
+                                }
+                            },
+                            "id": "thermalfoundation:coin",
+                            "Count": 1b,
+                            "Damage": 64s
+                        },
+                        "Slot12": {
+                            "ForgeCaps": {
+                                "customnpcs:itemscripteddata": {
+                                }
+                            },
+                            "id": "minecraft:golden_apple",
+                            "Count": 1b,
+                            "Damage": 1s
+                        }
+                    },
+                    "Accessible": 1b
+                },
+                "Damage": 2s
+            }
+        ]
+    },
+    "Items": {
+        "NpcMiscInv": [
+        ]
+    },
+    "LeaveItems": 0b,
+    "CompleteText": "",
+    "NextQuestTitle": ""
+}

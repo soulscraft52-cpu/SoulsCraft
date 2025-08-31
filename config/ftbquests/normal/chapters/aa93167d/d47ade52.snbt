@@ -1,0 +1,31 @@
+{
+	title: "И ещё быстрее хотите?",
+	x: 0.5d,
+	y: -6.5d,
+	text: [
+		"Ну ладно, делайте, мажоры."
+	],
+	dependencies: [
+		"ff033827"
+	],
+	tasks: [{
+		uid: "464d611f",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:basemachine3 1 55"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d909ac81",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 2,
+		random_bonus: 3
+	}]
+}

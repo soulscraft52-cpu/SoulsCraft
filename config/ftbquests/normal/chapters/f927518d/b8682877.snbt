@@ -1,0 +1,30 @@
+{
+	title: "Плавильня tier 3",
+	icon: "thaumcraft:smelter_void",
+	x: -11.0d,
+	y: -9.0d,
+	text: [
+		"Ещё более крутая плавильня"
+	],
+	dependencies: [
+		"d11b3741",
+		"005cdc1b"
+	],
+	tasks: [{
+		uid: "ee67a18b",
+		type: "item",
+		items: [{
+			item: "thaumcraft:smelter_void"
+		}]
+	}],
+	rewards: [{
+		uid: "42060180",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

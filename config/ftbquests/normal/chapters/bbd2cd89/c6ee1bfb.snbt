@@ -1,0 +1,30 @@
+{
+	title: "Загрузчик топлива",
+	icon: "galacticraftcore:fuel_loader",
+	x: -17.0d,
+	y: -0.5d,
+	text: [
+		"Загружает топливо в вашу ракету"
+	],
+	dependencies: [
+		"a1f4ef96"
+	],
+	tasks: [{
+		uid: "cb31e8aa",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:fuel_loader"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "01444bc6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

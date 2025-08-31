@@ -1,0 +1,36 @@
+{
+	title: "Мифическая имба",
+	icon: "thaumadditions:mithminite_ingot",
+	x: -18.0d,
+	y: -3.5d,
+	text: [
+		"Новый ихор"
+	],
+	dependencies: [
+		"1fe25187"
+	],
+	tasks: [{
+		uid: "ed6a31e2",
+		type: "item",
+		items: [{
+			item: "thaumadditions:mithminite_ingot 2"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "4d6de31b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	},
+	{
+		uid: "94253367",
+		type: "item",
+		item: "thaumadditions:adaminite_ingot",
+		count: 2
+	}]
+}

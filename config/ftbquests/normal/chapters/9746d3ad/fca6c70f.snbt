@@ -1,0 +1,29 @@
+{
+	title: "И начнут звёзды сиять",
+	x: -22.5d,
+	y: -8.0d,
+	text: [
+		"Романтик &l&5LORD_Chaos "
+	],
+	dependencies: [
+		"96c2dbb8",
+		"ab23990c"
+	],
+	tasks: [{
+		uid: "ae042eeb",
+		type: "item",
+		items: [{
+			item: "enderio:block_solar_panel 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "b3f8da65",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		}
+	}]
+}

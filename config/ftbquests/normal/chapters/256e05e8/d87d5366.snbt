@@ -1,0 +1,29 @@
+{
+	x: -1.5d,
+	y: -4.0d,
+	text: [
+		"Инопланетные 35 EF/t"
+	],
+	dependencies: [
+		"1d2981a2"
+	],
+	tasks: [{
+		uid: "0437b3fb",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:reactorneptuniumsimple"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c51e9c09",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

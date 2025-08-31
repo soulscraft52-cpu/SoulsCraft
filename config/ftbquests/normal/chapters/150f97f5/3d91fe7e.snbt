@@ -1,0 +1,31 @@
+{
+	title: "Беленькая",
+	icon: "projectex:matter 1 10",
+	x: 9.5d,
+	y: -5.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"578b6eea"
+	],
+	tasks: [{
+		uid: "b7d55517",
+		type: "item",
+		items: [{
+			item: "projectex:matter 1 10"
+		}]
+	}],
+	rewards: [{
+		uid: "a09a7771",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 11,
+		random_bonus: 1
+	}]
+}

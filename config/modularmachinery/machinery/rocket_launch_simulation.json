@@ -1,0 +1,2336 @@
+{ 
+     "registryname": "rocket_launch_simulation",
+    "localizedname": "Симулятор Запуска Ракет",
+    "color": "555555",      
+    "parts": [
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 0,
+           
+            "elements": [
+                "galaxyspace:fake_block@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 0,
+           
+            "elements": [
+                "galaxyspace:fake_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 0,
+           
+            "elements": [
+                "galaxyspace:fake_block@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 0,
+           
+            "elements": [
+                "galaxyspace:fake_block@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 0,
+           
+            "elements": [
+                "galaxyspace:fake_block@1"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 12,
+            "z": -2,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "railcraft:post_metal@15"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 3,
+            "z": 1,
+          
+            "elements": [
+                "modularmachinery:blockcasing@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 9,
+            "z": 4,
+            "elements": [
+                "railcraft:post_metal@15"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "railcraft:post_metal@15"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 1,
+          
+            "elements": [
+                "modularmachinery:blockcasing@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 0,
+           
+            "elements": [
+                "generalized_output_item"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 0,
+           
+            "elements": [
+                "generalized_output_item"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 0,
+           
+            "elements": [
+                "generalized_output_item"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 11,
+            "z": -2,
+          
+            "elements": [
+                "modularmachinery:blockcasing@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 11,
+            "z": -2,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 11,
+            "z": -2,
+          
+            "elements": [
+                "modularmachinery:blockcasing@3"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 11,
+            "z": -2,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 13,
+            "z": -1,
+            "elements": [
+                "contenttweaker:strong_rocket_stabilizer@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 11,
+            "z": -2,
+          
+            "elements": [
+                "modularmachinery:blockcasing@2"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 8,
+            "z": 3,
+          
+            "elements": [
+                "modularmachinery:blockcasing@2"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "railcraft:post_metal@15"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 4,
+            "z": 1,
+          
+            "elements": [
+                "modularmachinery:blockcasing@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 10,
+            "z": 4,
+            "elements": [
+                "railcraft:post_metal@15"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": 3,
+          
+            "elements": [
+                "modularmachinery:blockcasing@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "railcraft:post_metal@15"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 1,
+          
+            "elements": [
+                "modularmachinery:blockcasing@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 10,
+            "z": -2,
+            "elements": [
+                "railcraft:post_metal@15"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 11,
+            "z": 4,
+          
+            "elements": [
+                "modularmachinery:blockcasing@2"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "railcraft:post_metal@15"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 11,
+            "z": 4,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 11,
+            "z": 4,
+          
+            "elements": [
+                "modularmachinery:blockcasing@3"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 11,
+            "z": 4,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 11,
+            "z": 4,
+          
+            "elements": [
+                "modularmachinery:blockcasing@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "railcraft:post_metal@15"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 11,
+            "z": -1,
+          
+            "elements": [
+                "modularmachinery:blockcasing@2"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 9,
+            "z": -2,
+            "elements": [
+                "railcraft:post_metal@15"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 11,
+            "z": -1,
+          
+            "elements": [
+                "modularmachinery:blockcasing@2"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 12,
+            "z": 4,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 8,
+            "z": -2,
+          
+            "elements": [
+                "modularmachinery:blockcasing@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 8,
+            "z": -2,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 8,
+            "z": -2,
+          
+            "elements": [
+                "modularmachinery:blockcasing@3"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 8,
+            "z": -2,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 11,
+            "z": 3,
+          
+            "elements": [
+                "modularmachinery:blockcasing@2"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 8,
+            "z": -2,
+          
+            "elements": [
+                "modularmachinery:blockcasing@2"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 13,
+            "z": 4,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "railcraft:post_metal@15"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 11,
+            "z": 3,
+          
+            "elements": [
+                "modularmachinery:blockcasing@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "railcraft:post_metal@15"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 7,
+            "z": -2,
+            "elements": [
+                "railcraft:post_metal@15"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 7,
+            "z": -2,
+            "elements": [
+                "railcraft:post_metal@15"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 8,
+            "z": 1,
+          
+            "elements": [
+                "modularmachinery:blockcasing@3"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "railcraft:post_metal@15"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": 1,
+          
+            "elements": [
+                "modularmachinery:blockcasing@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "railcraft:post_metal@15"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": -1,
+          
+            "elements": [
+                "modularmachinery:blockcasing@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 6,
+            "z": -2,
+            "elements": [
+                "railcraft:post_metal@15"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 6,
+            "z": -2,
+            "elements": [
+                "railcraft:post_metal@15"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 11,
+            "z": 2,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 9,
+            "z": 1,
+            "elements": [
+                "railcraft:post_metal@15"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 8,
+            "z": -1,
+          
+            "elements": [
+                "modularmachinery:blockcasing@2"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 7,
+            "z": 0,
+            "elements": [
+                "railcraft:post_metal@15"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 13,
+            "z": 3,
+            "elements": [
+                "contenttweaker:strong_rocket_stabilizer@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 11,
+            "z": 2,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 9,
+            "z": 1,
+            "elements": [
+                "railcraft:post_metal@15"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 0,
+            "elements": [
+                "railcraft:post_metal@15"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 4,
+         
+            "elements": [
+                "generalized_input_item"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": -2,
+            "elements": [
+                "railcraft:post_metal@15"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 5,
+            "z": -2,
+            "elements": [
+                "railcraft:post_metal@15"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 10,
+            "z": 1,
+            "elements": [
+                "railcraft:post_metal@15"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 8,
+            "z": 0,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 10,
+            "z": 1,
+            "elements": [
+                "railcraft:post_metal@15"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": 0,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "railcraft:post_metal@15"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 4,
+          
+            "elements": [
+                "modularmachinery:blockcasing@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "railcraft:post_metal@15"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": -2,
+          
+            "elements": [
+                "modularmachinery:blockcasing@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": -2,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": -2,
+          
+            "elements": [
+                "modularmachinery:blockcasing@3"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 4,
+            "z": -2,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 4,
+            "z": -2,
+          
+            "elements": [
+                "modularmachinery:blockcasing@2"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 11,
+            "z": 1,
+          
+            "elements": [
+                "modularmachinery:blockcasing@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 11,
+            "z": 1,
+          
+            "elements": [
+                "modularmachinery:blockcasing@3"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "railcraft:post_metal@15"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 4,
+          
+            "elements": [
+                "modularmachinery:blockcasing@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "railcraft:post_metal@15"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": -2,
+            "elements": [
+                "railcraft:post_metal@15"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": -2,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "z": -2,
+          
+            "elements": [
+                "modularmachinery:blockcasing@3"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 3,
+            "z": -2,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 3,
+            "z": -2,
+            "elements": [
+                "railcraft:post_metal@15"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 12,
+            "z": 1,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 12,
+            "z": 1,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "railcraft:post_metal@15"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "railcraft:post_metal@15"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 3,
+           
+            "elements": [
+                "galaxyspace:fake_block@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 3,
+           
+            "elements": [
+                "galaxyspace:fake_block@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 4,
+          
+            "elements": [
+                "modularmachinery:blockcasing@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 3,
+           
+            "elements": [
+                "galaxyspace:fake_block@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 3,
+           
+            "elements": [
+                "galaxyspace:fake_block@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "railcraft:post_metal@15"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 3,
+           
+            "elements": [
+                "galaxyspace:fake_block@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "railcraft:post_metal@15"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": -2,
+            "elements": [
+                "railcraft:post_metal@15"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": -1,
+          
+            "elements": [
+                "modularmachinery:blockcasing@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": -2,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": -2,
+          
+            "elements": [
+                "modularmachinery:blockcasing@3"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": -2,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 2,
+            "z": -2,
+            "elements": [
+                "railcraft:post_metal@15"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 13,
+            "z": 1,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 4,
+            "z": -1,
+          
+            "elements": [
+                "modularmachinery:blockcasing@2"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 11,
+            "z": 0,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 13,
+            "z": 1,
+            "elements": [
+                "contenttweaker:strong_rocket_stabilizer@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 13,
+            "z": 1,
+            "elements": [
+                "contenttweaker:strong_rocket_stabilizer@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 13,
+            "z": 1,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 11,
+            "z": 0,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "railcraft:post_metal@15"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "railcraft:post_metal@15"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "z": 4,
+          
+            "elements": [
+                "modularmachinery:blockcasing@3"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 2,
+           
+            "elements": [
+                "generalized_output_item"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 2,
+           
+            "elements": [
+                "generalized_output_item"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "railcraft:post_metal@15"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 2,
+           
+            "elements": [
+                "generalized_output_item"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "railcraft:post_metal@15"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": -2,
+            "elements": [
+                "railcraft:post_metal@15"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "railcraft:post_metal@15"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": -2,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": -2,
+          
+            "elements": [
+                "modularmachinery:blockcasing@3"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": -2,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": -2,
+            "elements": [
+                "railcraft:post_metal@15"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "railcraft:post_metal@15"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "railcraft:post_metal@15"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 4,
+            "z": 4,
+          
+            "elements": [
+                "modularmachinery:blockcasing@2"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 2,
+           
+            "elements": [
+                "galaxyspace:fake_block@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": 4,
+          
+            "elements": [
+                "modularmachinery:blockcasing@3"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 2,
+           
+            "elements": [
+                "galaxyspace:fake_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 2,
+           
+            "elements": [
+                "galaxyspace:fake_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 4,
+          
+            "elements": [
+                "modularmachinery:blockcasing@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 2,
+           
+            "elements": [
+                "galaxyspace:fake_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 2,
+           
+            "elements": [
+                "galaxyspace:fake_block@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "railcraft:post_metal@15"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+           
+            "elements": [
+                "modularmachinery:blockenergyinputhatch"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "railcraft:post_metal@15"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": -1,
+            "elements": [
+                "railcraft:post_metal@15"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": -2,
+          
+            "elements": [
+                "modularmachinery:blockcasing@3"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "railcraft:post_metal@15"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 2,
+            "z": -1,
+            "elements": [
+                "railcraft:post_metal@15"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "railcraft:post_metal@15"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "railcraft:post_metal@15"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "railcraft:post_metal@15"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 1,
+           
+            "elements": [
+                "generalized_output_item"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 1,
+           
+            "elements": [
+                "generalized_output_item"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 1,
+           
+            "elements": [
+                "generalized_output_item"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "railcraft:post_metal@15"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": -1,
+            "elements": [
+                "railcraft:post_metal@15"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": -2,
+           
+            "elements": [
+                "generalized_input_fluid"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 1,
+            "z": -1,
+            "elements": [
+                "railcraft:post_metal@15"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 4,
+            "z": 3,
+          
+            "elements": [
+                "modularmachinery:blockcasing@2"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "railcraft:post_metal@15"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 1,
+          
+            "elements": [
+                "modularmachinery:blockcasing@3"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 1,
+           
+            "elements": [
+                "galaxyspace:fake_block@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "railcraft:post_metal@15"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 1,
+           
+            "elements": [
+                "galaxyspace:fake_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 1,
+          
+            "elements": [
+                "galaxyspace:advanced_landing_pad_full@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 1,
+           
+            "elements": [
+                "galaxyspace:fake_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 3,
+          
+            "elements": [
+                "modularmachinery:blockcasing@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 1,
+           
+            "elements": [
+                "galaxyspace:fake_block@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 1,
+          
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:maximum_space_antenna@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "railcraft:post_metal@15"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": -1,
+           
+            "elements": [
+                "galaxyspace:fake_block@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": -1,
+           
+            "elements": [
+                "galaxyspace:fake_block@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": -1,
+           
+            "elements": [
+                "galaxyspace:fake_block@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": -1,
+           
+            "elements": [
+                "galaxyspace:fake_block@1"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": -1,
+           
+            "elements": [
+                "galaxyspace:fake_block@1"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "railcraft:post_metal@15"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "railcraft:post_metal@15"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 1,
+            "z": 1,
+          
+            "elements": [
+                "modularmachinery:blockcasing@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "railcraft:post_metal@15"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 1,
+          
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+          
+            "elements": [
+                "blockparallelcontroller_g"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 13,
+            "z": -2,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 8,
+            "z": 4,
+          
+            "elements": [
+                "modularmachinery:blockcasing@2"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 8,
+            "z": 4,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 2,
+            "z": 1,
+          
+            "elements": [
+                "modularmachinery:blockcasing@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 8,
+            "z": 4,
+          
+            "elements": [
+                "modularmachinery:blockcasing@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 8,
+            "z": 4,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 8,
+            "z": 4,
+          
+            "elements": [
+                "modularmachinery:blockcasing@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "contenttweaker:dense_steel_rocket_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 1,
+          
+            "elements": [
+                "modularmachinery:blockcasing@3"
+            ]
+        }
+    ]}

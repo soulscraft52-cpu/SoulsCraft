@@ -1,0 +1,62 @@
+{
+	title: "Чарящий механизм",
+	icon: {
+		id: "thermalexpansion:machine",
+		tag: {
+			RSControl: 0b,
+			Facing: 3b,
+			Energy: 0,
+			SideCache: [B;
+				1b,
+				1b,
+				2b,
+				2b,
+				2b,
+				2b
+			],
+			Level: 0b
+		},
+		Damage: 13s
+	},
+	x: -20.0d,
+	y: -12.0d,
+	text: [
+		"Чарка из чарки"
+	],
+	dependencies: [
+		"4d8b5dae"
+	],
+	tasks: [{
+		uid: "e0690d5d",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					1b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 13s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d6a474a3",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

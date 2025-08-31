@@ -1,0 +1,21 @@
+{
+	title: "ВСЕ ПРЕДМЕТЫ МИРА",
+	x: 7.5d,
+	y: 5.5d,
+	text: [
+		"ТОЛЬКО В ОДНОМ ПРЕДМЕТЕ"
+	],
+	dependencies: [
+		"948dd829",
+		"72661f2e"
+	],
+	tasks: [{
+		uid: "83914504",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:creative_storage_cell",
+			tag: {}
+		}],
+		ignore_nbt: 2b
+	}]
+}

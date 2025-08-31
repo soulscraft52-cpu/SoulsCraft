@@ -1,0 +1,29 @@
+{
+	title: "Бедные мобы",
+	x: 0.5d,
+	y: -3.5d,
+	text: [
+		"Зачем оно тебе?"
+	],
+	dependencies: [
+		"86f51caa"
+	],
+	tasks: [{
+		uid: "a3c08ddc",
+		type: "item",
+		items: [{
+			item: "contenttweaker:mining_module4"
+		}]
+	}],
+	rewards: [{
+		uid: "e85d69b5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 12
+	}]
+}

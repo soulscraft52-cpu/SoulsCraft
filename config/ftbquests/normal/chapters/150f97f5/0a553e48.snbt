@@ -1,0 +1,56 @@
+{
+	title: "Броня с инкрустированными самоцветами",
+	icon: "projecte:item.pe_gem_armor_2",
+	x: -3.0d,
+	y: -3.5d,
+	text: [
+		"Аж блестит..."
+	],
+	dependencies: [
+		"6d6a55e0"
+	],
+	tasks: [{
+		uid: "c2f2afc5",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_gem_armor_3"
+		}],
+		ignore_damage: true
+	},
+	{
+		uid: "60a31a63",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_gem_armor_2"
+		}],
+		ignore_damage: true
+	},
+	{
+		uid: "1629dc49",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_gem_armor_1"
+		}],
+		ignore_damage: true
+	},
+	{
+		uid: "16fc6d6f",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_gem_armor_0"
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "735f3038",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 2,
+		random_bonus: 2
+	}]
+}

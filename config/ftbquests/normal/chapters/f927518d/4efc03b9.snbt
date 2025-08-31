@@ -1,0 +1,25 @@
+{
+	x: 1.5d,
+	y: -0.5d,
+	dependencies: [
+		"d3ddafb0",
+		"f9250e96"
+	],
+	tasks: [{
+		uid: "2bc3ccbd",
+		type: "item",
+		items: [{
+			item: "thaumadditions:vis_seeds/energy"
+		}]
+	}],
+	rewards: [{
+		uid: "d9e484b7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	title: "Продвинутое утраивание",
+	icon: "industrialupgrade:moremachine1 1 8",
+	x: -11.0d,
+	y: -12.0d,
+	text: [
+		"Вашему карьеру это понравится"
+	],
+	dependencies: [
+		"ba5935cf"
+	],
+	tasks: [{
+		uid: "4718243b",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:moremachine1 1 8"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "05ad6b01",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

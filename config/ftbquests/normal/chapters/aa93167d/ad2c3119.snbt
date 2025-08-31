@@ -1,0 +1,34 @@
+{
+	title: "Резиновая бомба",
+	icon: "industrialupgrade:crafting_elements 1 271",
+	x: -17.5d,
+	y: -8.0d,
+	text: [
+		"Эластичная, прочная, вообщем кекс"
+	],
+	dependencies: [
+		"6e5f5628"
+	],
+	tasks: [{
+		uid: "9a76f55d",
+		type: "item",
+		icon: "industrialupgrade:crafting_elements 1 271",
+		items: [{
+			item: "industrialupgrade:crafting_elements 1 271"
+		}],
+		count: 16L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "3bead511",
+		type: "item",
+		item: "industrialupgrade:sapling",
+		count: 4
+	},
+	{
+		uid: "c6a13347",
+		type: "item",
+		item: "industrialupgrade:crafting_elements 1 271",
+		count: 32
+	}]
+}

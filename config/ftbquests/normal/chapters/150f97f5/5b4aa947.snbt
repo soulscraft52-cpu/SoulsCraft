@@ -1,0 +1,29 @@
+{
+	title: "Реле антиматерии #2",
+	x: -4.5d,
+	y: -8.5d,
+	text: [
+		"Может это улучшеная версия...... ?",
+		"Я не знаю"
+	],
+	dependencies: [
+		"aaf946b1"
+	],
+	tasks: [{
+		uid: "74c42a8a",
+		type: "item",
+		items: [{
+			item: "projecte:relay_mk2"
+		}]
+	}],
+	rewards: [{
+		uid: "89428190",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		}
+	}]
+}

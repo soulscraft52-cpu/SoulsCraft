@@ -1,0 +1,32 @@
+{
+	title: "Электросхема",
+	icon: "industrialupgrade:crafting_elements 1 272",
+	x: -15.5d,
+	y: -8.0d,
+	text: [
+		"ДЕФОЛТНАЯ ЭЛЕКТРОСХЕМА"
+	],
+	dependencies: [
+		"ad2c3119",
+		"4303599d"
+	],
+	tasks: [{
+		uid: "6fb5b8ca",
+		type: "item",
+		icon: "industrialupgrade:crafting_elements 1 272",
+		items: [{
+			item: "industrialupgrade:crafting_elements 1 272"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "120144c7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

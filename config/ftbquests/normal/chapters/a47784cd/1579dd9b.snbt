@@ -1,0 +1,26 @@
+{
+	title: "Красная рубашка Лорда Атомоса",
+	icon: "contenttweaker:the_red_shirt_of_lord_atomos",
+	x: -9.5d,
+	y: 0.0d,
+	can_repeat: true,
+	dependencies: [
+		"9f4f32d5"
+	],
+	tasks: [{
+		uid: "8e4878bd",
+		type: "item",
+		items: [{
+			item: "contenttweaker:pulsating_black_hole"
+		}],
+		count: 2L,
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "acaad123",
+		type: "item",
+		item: "contenttweaker:the_red_shirt_of_lord_atomos"
+	}]
+}

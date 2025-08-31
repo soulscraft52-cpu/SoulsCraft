@@ -1,0 +1,29 @@
+{
+	title: "Всё, финалочка",
+	x: -3.5d,
+	y: -8.0d,
+	text: [
+		"По крайней мере с утилизаторами"
+	],
+	dependencies: [
+		"bd332b96"
+	],
+	tasks: [{
+		uid: "281b1b3f",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:moremachine1 1 5"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8fdaa951",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

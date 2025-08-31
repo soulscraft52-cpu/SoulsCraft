@@ -1,0 +1,53 @@
+{
+	title: "Камни да палки",
+	icon: "notreepunching:rock/stone",
+	x: -17.5d,
+	y: -10.0d,
+	text: [
+		"Основа всех основ!",
+		"§9§8Камни §7вы можете получить, ломая кучки камней, разбросанные по всему миру.",
+		"§6Палки §7вы можете получить, ломая листву."
+	],
+	dependencies: [
+		"ee123e10"
+	],
+	tasks: [{
+		uid: "236c55cc",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "rock",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any rock"
+				}
+			}
+		}],
+		count: 8L
+	},
+	{
+		uid: "0f23027e",
+		type: "item",
+		items: [{
+			item: "minecraft:stick 8"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "4cf309de",
+		type: "item",
+		item: "minecraft:torch",
+		count: 16
+	},
+	{
+		uid: "231ddcf0",
+		type: "item",
+		item: "cfm:item_toast",
+		count: 4
+	}]
+}

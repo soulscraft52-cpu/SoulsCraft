@@ -1,0 +1,25 @@
+{
+	x: 2.5d,
+	y: -5.5d,
+	dependencies: [
+		"652a7205",
+		"5f840cf7"
+	],
+	tasks: [{
+		uid: "b65545c9",
+		type: "item",
+		items: [{
+			item: "thaumadditions:vis_seeds/alienis"
+		}]
+	}],
+	rewards: [{
+		uid: "295a3ffa",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		}
+	}]
+}

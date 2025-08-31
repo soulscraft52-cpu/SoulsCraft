@@ -1,0 +1,29 @@
+{
+	title: "Этого достаточно?",
+	x: 0.5d,
+	y: -5.5d,
+	text: [
+		"Да"
+	],
+	dependencies: [
+		"7787f858"
+	],
+	tasks: [{
+		uid: "e50af607",
+		type: "item",
+		items: [{
+			item: "contenttweaker:mining_module3"
+		}]
+	}],
+	rewards: [{
+		uid: "18c009bc",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 8
+	}]
+}

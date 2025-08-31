@@ -1,0 +1,58 @@
+{
+	title: "Я стану богом",
+	icon: "divinerpg:divine_chestplate",
+	x: -11.0d,
+	y: -3.0d,
+	text: [
+		"Нет, не станешь"
+	],
+	dependencies: [
+		"a3a0f328"
+	],
+	tasks: [{
+		uid: "1d9c08f7",
+		type: "item",
+		items: [{
+			item: "divinerpg:divine_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f1103669",
+		type: "item",
+		items: [{
+			item: "divinerpg:divine_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "72417046",
+		type: "item",
+		items: [{
+			item: "divinerpg:divine_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "09c6b836",
+		type: "item",
+		items: [{
+			item: "divinerpg:divine_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f3f69ce7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	title: "Ништяк",
+	x: -2.5d,
+	y: -20.0d,
+	text: [
+		"Вот где я буду хранить креозот"
+	],
+	dependencies: [
+		"2b33cff4"
+	],
+	tasks: [{
+		uid: "cd7da19c",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockfluidoutputhatch 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "16fafdde",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		}
+	}]
+}

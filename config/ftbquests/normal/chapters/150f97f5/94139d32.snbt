@@ -1,0 +1,45 @@
+{
+	title: "Финальные",
+	icon: "projectex:power_flower 1 15",
+	x: 11.5d,
+	y: -7.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"12b9025b"
+	],
+	tasks: [{
+		uid: "539aa4b4",
+		type: "item",
+		items: [{
+			item: "projectex:collector 1 15"
+		}]
+	},
+	{
+		uid: "fa0615b8",
+		type: "item",
+		items: [{
+			item: "projectex:relay 1 15"
+		}]
+	},
+	{
+		uid: "82f79550",
+		type: "item",
+		items: [{
+			item: "projectex:power_flower 1 15"
+		}]
+	}],
+	rewards: [{
+		uid: "c77eb8e8",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 13,
+		random_bonus: 1
+	}]
+}

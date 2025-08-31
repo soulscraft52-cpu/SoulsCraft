@@ -1,0 +1,29 @@
+{
+	x: -4.5d,
+	y: 3.0d,
+	text: [
+		"Свиток знаний- Хранит опыт, нажмите ПКМ по могилке с душой и свиток заберет весь ваш опыт, зажмите пкм что б забабрать опыт назад"
+	],
+	dependencies: [
+		"43fad645"
+	],
+	tasks: [{
+		uid: "a901f6ac",
+		type: "item",
+		items: [{
+			item: "tombstone:scroll_of_knowledge"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "baed02a9",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

@@ -1,0 +1,10 @@
+{
+	title: " ",
+	icon: "tombstone:decorative_grave_normal 1 1",
+	description: [
+		"Бета | Знания смерти"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

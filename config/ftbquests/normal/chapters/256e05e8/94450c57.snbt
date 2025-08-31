@@ -1,0 +1,24 @@
+{
+	x: -6.5d,
+	y: -8.0d,
+	text: [
+		"Первый шаг к продвинутой энергетике"
+	],
+	dependencies: [
+		"6e9d71af"
+	],
+	tasks: [{
+		uid: "5b07f6a9",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:itemiucrafring"
+		}],
+		count: 6L
+	}],
+	rewards: [{
+		uid: "1e54f987",
+		type: "item",
+		item: "industrialupgrade:itemiucrafring",
+		count: 2
+	}]
+}

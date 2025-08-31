@@ -1,0 +1,30 @@
+{
+	title: "Быстро копает быстро ломает",
+	x: -16.5d,
+	y: -6.0d,
+	text: [
+		"Раунд"
+	],
+	dependencies: [
+		"39402e28"
+	],
+	tasks: [{
+		uid: "b0af2d64",
+		type: "item",
+		items: [{
+			item: "divinerpg:arlemite_shickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "28f23512",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

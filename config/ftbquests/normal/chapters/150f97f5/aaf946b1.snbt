@@ -1,0 +1,28 @@
+{
+	title: "Реле антиматерии #1",
+	x: -6.0d,
+	y: -8.5d,
+	text: [
+		"Что он делает?"
+	],
+	dependencies: [
+		"b9daef8d"
+	],
+	tasks: [{
+		uid: "64429afb",
+		type: "item",
+		items: [{
+			item: "projecte:relay_mk1"
+		}]
+	}],
+	rewards: [{
+		uid: "092d97e6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		}
+	}]
+}

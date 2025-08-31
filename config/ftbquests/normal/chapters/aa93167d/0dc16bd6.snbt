@@ -1,0 +1,31 @@
+{
+	title: "Это шо такое вообще?",
+	icon: "industrialupgrade:machines 1 7",
+	x: 6.0d,
+	y: -2.0d,
+	text: [
+		"Ну ты крафть их дальше, крафть"
+	],
+	dependencies: [
+		"e06917a7"
+	],
+	tasks: [{
+		uid: "3ec0802f",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:machines 1 7"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3baa5e94",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 5
+	}]
+}

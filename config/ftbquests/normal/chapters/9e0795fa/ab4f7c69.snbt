@@ -1,0 +1,29 @@
+{
+	title: "Сердце на 1к",
+	icon: "appliedenergistics2:crafting_storage_1k",
+	x: -13.0d,
+	y: 4.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"a2a09448"
+	],
+	tasks: [{
+		uid: "a020ec11",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:crafting_storage_1k"
+		}]
+	}],
+	rewards: [{
+		uid: "a9605db9",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

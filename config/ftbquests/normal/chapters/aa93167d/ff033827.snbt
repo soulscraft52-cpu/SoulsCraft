@@ -1,0 +1,30 @@
+{
+	title: "С - Скорость!",
+	x: -0.5d,
+	y: -6.5d,
+	text: [
+		"Делайте только, если вам некуда девать вашу материю."
+	],
+	dependencies: [
+		"6a865c16"
+	],
+	tasks: [{
+		uid: "f907f59d",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:basemachine3 1 54"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a4f1193d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		random_bonus: 1
+	}]
+}

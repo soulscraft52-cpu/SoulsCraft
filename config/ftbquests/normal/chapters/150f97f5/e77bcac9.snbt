@@ -1,0 +1,56 @@
+{
+	title: "Гарри Поттер",
+	icon: {
+		id: "projecte:item.pe_philosophers_stone",
+		tag: {}
+	},
+	x: -7.5d,
+	y: -7.5d,
+	text: [
+		"Самый ценный камень из всех"
+	],
+	dependencies: [
+		"bbbe3fa2",
+		"b9f18b36"
+	],
+	tasks: [{
+		uid: "34558afc",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_philosophers_stone",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "887a0b18",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		}
+	},
+	{
+		uid: "6b58a1f6",
+		type: "item",
+		item: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyVariant: "neon",
+				TrophyColorGreen: 128,
+				TrophyShowsTooltip: 1b,
+				TrophyItem: {
+					id: "projecte:item.pe_philosophers_stone",
+					Count: 1b,
+					Damage: 0s
+				},
+				TrophyColorBlue: 128,
+				TrophyName: "Философия с Майкрафтом",
+				TrophyColorRed: 128
+			}
+		}
+	}]
+}

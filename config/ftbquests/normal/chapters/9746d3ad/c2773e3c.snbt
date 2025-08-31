@@ -1,0 +1,31 @@
+{
+	title: "Спаунер",
+	icon: "enderio:block_powered_spawner",
+	x: -1.5d,
+	y: -4.0d,
+	text: [
+		"Сам спаунит, а убивать их будет кто-то ещё"
+	],
+	dependencies: [
+		"501f9d5f",
+		"e4631db0"
+	],
+	tasks: [{
+		uid: "6ee92c8f",
+		type: "item",
+		items: [{
+			item: "enderio:block_powered_spawner"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "385947ca",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		}
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	title: "Пропитанный Корпус",
+	icon: "forestry:impregnated_casing",
+	x: 0.0d,
+	y: -6.5d,
+	can_repeat: true,
+	dependencies: [
+		"6d4fdd0a"
+	],
+	tasks: [{
+		uid: "e6db57c6",
+		type: "item",
+		items: [{
+			item: "contenttweaker:coin_tier1"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "f0668c96",
+		type: "item",
+		item: "forestry:impregnated_casing"
+	}]
+}

@@ -1,0 +1,33 @@
+{
+	x: -22.0d,
+	y: -13.0d,
+	dependencies: [
+		"574f478b"
+	],
+	tasks: [{
+		uid: "63b1f1a4",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:water_spectral",
+			tag: {
+				damage: 157090,
+				hasID: 1b,
+				canupgrade: 1b,
+				maxDamage: 157090,
+				ID_Item: 15
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f0765925",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	title: "Пика точёная",
+	icon: "extrautils2:spike_creative",
+	x: 11.5d,
+	y: -2.5d,
+	text: [
+		"Не садись на неё"
+	],
+	dependencies: [
+		"257f84b3"
+	],
+	tasks: [{
+		uid: "0c77474a",
+		type: "item",
+		items: [{
+			item: "extrautils2:spike_creative"
+		}]
+	}],
+	rewards: [{
+		uid: "1b129ab7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "6"
+			}
+		},
+		count: 16
+	}]
+}

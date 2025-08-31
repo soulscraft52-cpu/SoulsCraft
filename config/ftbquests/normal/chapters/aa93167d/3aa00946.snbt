@@ -1,0 +1,29 @@
+{
+	title: "Улучшили гидрогенератор",
+	x: -17.5d,
+	y: -3.5d,
+	text: [
+		"Вставь в него лопасти покруче"
+	],
+	dependencies: [
+		"9bed685e"
+	],
+	tasks: [{
+		uid: "822d5c52",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:basemachine3 1 46"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "790ab3be",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

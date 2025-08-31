@@ -1,0 +1,33 @@
+{
+	x: -21.0d,
+	y: -14.0d,
+	dependencies: [
+		"78e03618"
+	],
+	tasks: [{
+		uid: "d0513156",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:myphical",
+			tag: {
+				damage: 3456000,
+				hasID: 1b,
+				canupgrade: 1b,
+				maxDamage: 3456000,
+				ID_Item: 17
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c167a726",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

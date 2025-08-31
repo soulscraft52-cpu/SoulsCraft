@@ -1,0 +1,40 @@
+{
+	title: "МЕГА АВТОКРАФТ +++",
+	x: -10.0d,
+	y: -7.5d,
+	dependencies: [
+		"ba8271e1"
+	],
+	tasks: [{
+		uid: "bc07f23d",
+		type: "item",
+		items: [{
+			item: "packagedauto:unpackager"
+		}]
+	},
+	{
+		uid: "8cf84270",
+		type: "item",
+		items: [{
+			item: "packagedauto:encoder"
+		}]
+	},
+	{
+		uid: "7dfdf169",
+		type: "item",
+		items: [{
+			item: "packagedauto:packager"
+		}]
+	}],
+	rewards: [{
+		uid: "740aa437",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		},
+		count: 4
+	}]
+}

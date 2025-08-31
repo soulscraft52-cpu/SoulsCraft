@@ -1,0 +1,29 @@
+{
+	title: "Магнитики",
+	icon: "draconicevolution:magnet",
+	x: 2.5d,
+	y: -3.5d,
+	text: [
+		"Всасывает в вас предметы"
+	],
+	dependencies: [
+		"3cf26441"
+	],
+	tasks: [{
+		uid: "0e786092",
+		type: "item",
+		items: [{
+			item: "draconicevolution:magnet"
+		}]
+	}],
+	rewards: [{
+		uid: "a4cbf4bb",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

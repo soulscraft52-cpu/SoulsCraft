@@ -1,0 +1,27 @@
+{
+	x: -6.5d,
+	y: -21.0d,
+	text: [
+		"Может делать 512 задач одновременно"
+	],
+	dependencies: [
+		"38758f93"
+	],
+	tasks: [{
+		uid: "0016a8f9",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockparallelcontroller 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "66f3581f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

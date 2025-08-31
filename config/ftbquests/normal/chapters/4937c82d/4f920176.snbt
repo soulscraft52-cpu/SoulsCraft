@@ -1,0 +1,69 @@
+{
+	title: "Ваууу как много жемчугов!!!!",
+	icon: "contenttweaker:enderman_core",
+	x: 11.0d,
+	y: -21.0d,
+	text: [
+		"Ну, я считаю, что данный мультиблок не настолько безполезен."
+	],
+	dependencies: [
+		"4bcd859d"
+	],
+	tasks: [{
+		uid: "2166417e",
+		type: "item",
+		items: [{
+			item: "modularmachinery:automated_killer_enderman_controller"
+		}]
+	},
+	{
+		uid: "31cf33ee",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing 1 4"
+		}],
+		count: 65L
+	},
+	{
+		uid: "618d4718",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockoutputbus 1 2"
+		}],
+		count: 5L
+	},
+	{
+		uid: "5cca25ec",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockenergyinputhatch 1 4"
+		}],
+		count: 2L
+	},
+	{
+		uid: "496a4ef3",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing 1 5"
+		}]
+	},
+	{
+		uid: "1e5b207a",
+		type: "item",
+		items: [{
+			item: "railcraft:post_metal 1 9"
+		}],
+		count: 36L
+	}],
+	rewards: [{
+		uid: "51d25d67",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "6"
+			}
+		},
+		count: 2
+	}]
+}

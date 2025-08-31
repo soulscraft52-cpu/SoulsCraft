@@ -1,0 +1,48 @@
+{
+	title: "Самая главная часть в машине",
+	x: -9.5d,
+	y: -14.5d,
+	text: [
+		"Я слышу гудение от этой штуки"
+	],
+	dependencies: [
+		"50d0e596"
+	],
+	tasks: [{
+		uid: "201fd6e2",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcontroller"
+		}]
+	}],
+	rewards: [{
+		uid: "7ed56a1c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	},
+	{
+		uid: "f6b04e99",
+		type: "item",
+		item: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyVariant: "neon",
+				TrophyColorGreen: 128,
+				TrophyShowsTooltip: 1b,
+				TrophyItem: {
+					id: "modularmachinery:blockcontroller",
+					Count: 1b,
+					Damage: 0s
+				},
+				TrophyColorBlue: 128,
+				TrophyName: "П.К. для учёбы",
+				TrophyColorRed: 128
+			}
+		}
+	}]
+}

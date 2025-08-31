@@ -1,0 +1,30 @@
+{
+	title: "Так и до чёрной дыры сжать можно",
+	icon: "industrialupgrade:moremachine 1 5",
+	x: -10.0d,
+	y: -14.0d,
+	text: [
+		"К сожалению, не получится"
+	],
+	dependencies: [
+		"425a59ed"
+	],
+	tasks: [{
+		uid: "c190dab7",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:moremachine 1 5"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a862f83e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

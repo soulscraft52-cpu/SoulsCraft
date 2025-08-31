@@ -1,0 +1,29 @@
+{
+	title: "Создатель сингулярностей",
+	icon: "avaritia:neutronium_compressor",
+	x: -8.5d,
+	y: -5.5d,
+	text: [
+		"Сжимайте тысячи блоков до сингулярностей"
+	],
+	dependencies: [
+		"85732537"
+	],
+	tasks: [{
+		uid: "bc654040",
+		type: "item",
+		items: [{
+			item: "avaritia:neutronium_compressor"
+		}]
+	}],
+	rewards: [{
+		uid: "e4fe2e8d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		}
+	}]
+}

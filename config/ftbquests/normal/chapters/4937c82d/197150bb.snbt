@@ -1,0 +1,29 @@
+{
+	title: "Наверное этот более вмистительный?",
+	x: -2.5d,
+	y: -18.0d,
+	text: [
+		"Ну это не точно"
+	],
+	dependencies: [
+		"ce44aabf"
+	],
+	tasks: [{
+		uid: "b28fec9f",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockfluidoutputhatch 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "55970fa7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		},
+		count: 2
+	}]
+}

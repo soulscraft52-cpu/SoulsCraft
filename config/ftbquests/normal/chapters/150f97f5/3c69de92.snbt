@@ -1,0 +1,45 @@
+{
+	title: "Жёлтые",
+	icon: "projectex:power_flower 1 11",
+	x: 7.5d,
+	y: -7.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"8d5a2883"
+	],
+	tasks: [{
+		uid: "0d4dbe6e",
+		type: "item",
+		items: [{
+			item: "projectex:collector 1 11"
+		}]
+	},
+	{
+		uid: "506814fd",
+		type: "item",
+		items: [{
+			item: "projectex:relay 1 11"
+		}]
+	},
+	{
+		uid: "29882afd",
+		type: "item",
+		items: [{
+			item: "projectex:power_flower 1 11"
+		}]
+	}],
+	rewards: [{
+		uid: "49ecb962",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 9,
+		random_bonus: 1
+	}]
+}

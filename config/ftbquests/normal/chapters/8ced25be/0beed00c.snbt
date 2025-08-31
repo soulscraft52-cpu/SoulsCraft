@@ -1,0 +1,51 @@
+{
+	title: "Зачарователь? Опять?",
+	icon: {
+		id: "extrautils2:machine",
+		tag: {
+			Type: "extrautils2:enchanter"
+		}
+	},
+	x: -12.0d,
+	y: -6.5d,
+	text: [
+		"Вроде как зачарователь, а не чарит..."
+	],
+	dependencies: [
+		"1278fa85",
+		"0b73e8d9"
+	],
+	tasks: [{
+		uid: "486b4ec4",
+		type: "item",
+		items: [{
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:enchanter"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "57a4f50f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	},
+	{
+		uid: "be7d61ba",
+		type: "item",
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 5s,
+					id: 32s
+				}]
+			}
+		}
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	title: "§6ЛАВА§f, ДАЙТЕ §6ЛАВУ",
+	x: -13.5d,
+	y: -2.0d,
+	text: [
+		"Хочу больше §6лавы§f, дайте больше §6лавы§f, качайте §6лаву помпой!"
+	],
+	dependencies: [
+		"d2c3dcfb"
+	],
+	tasks: [{
+		uid: "f592b11d",
+		type: "item",
+		items: [{
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_lava"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "acb888cc",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

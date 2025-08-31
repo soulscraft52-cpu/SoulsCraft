@@ -1,0 +1,98 @@
+{
+	title: "Жидкостный реактор",
+	icon: "industrialupgrade:water_reactors 1 8",
+	x: -12.0d,
+	y: -9.5d,
+	text: [
+		"Ваш первый реактор. Подайте ему жидкий хладагент, и воду.",
+		"Не забудьте сделать выход пара и горячего хладагента.",
+		"",
+		"Нужно подать ему первую энергию для разгона 1 уровня из 5, и активировать реактор. После этого вам откроется возможность ложить стержни и охладители 1 уровня."
+	],
+	dependencies: [
+		"1d2981a2"
+	],
+	tasks: [{
+		uid: "dc369121",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:water_reactors 1 8"
+		}]
+	},
+	{
+		uid: "80c4f87a",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:water_reactors 1 4"
+		}],
+		count: 2L
+	},
+	{
+		uid: "aaa5a03a",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:water_reactors 1 36"
+		}]
+	},
+	{
+		uid: "01d05c49",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:water_reactors"
+		}],
+		count: 25L
+	},
+	{
+		uid: "b356e752",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:water_reactors 1 12"
+		}]
+	},
+	{
+		uid: "a7e5d2c3",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:water_reactors 1 16"
+		}]
+	},
+	{
+		uid: "abfdef7c",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:water_reactors 1 20"
+		}]
+	},
+	{
+		uid: "53af583f",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:water_reactors 1 24"
+		}]
+	},
+	{
+		uid: "de585e66",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:water_reactors 1 28"
+		}]
+	},
+	{
+		uid: "eb7ebb09",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:water_reactors 1 32"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "93102325",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		}
+	}]
+}

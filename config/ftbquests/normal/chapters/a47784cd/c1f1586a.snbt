@@ -1,0 +1,22 @@
+{
+	title: "Ядро Хаоса",
+	icon: "draconicevolution:chaotic_core",
+	x: 2.0d,
+	y: -1.5d,
+	can_repeat: true,
+	dependencies: [
+		"bc9e4eee"
+	],
+	tasks: [{
+		uid: "aea4d779",
+		type: "item",
+		items: [{
+			item: "contenttweaker:coin_tier7"
+		}]
+	}],
+	rewards: [{
+		uid: "a5982f5a",
+		type: "item",
+		item: "draconicevolution:chaotic_core"
+	}]
+}

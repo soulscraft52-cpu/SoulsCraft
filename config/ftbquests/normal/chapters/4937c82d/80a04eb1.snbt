@@ -1,0 +1,29 @@
+{
+	title: "Сплав из сплавов",
+	x: 3.5d,
+	y: -15.5d,
+	text: [
+		"Как его автоматизировать"
+	],
+	dependencies: [
+		"3f8968d4"
+	],
+	tasks: [{
+		uid: "d3751b3a",
+		type: "item",
+		items: [{
+			item: "contenttweaker:industrial_alloy"
+		}]
+	}],
+	rewards: [{
+		uid: "e5baafff",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 2
+	}]
+}

@@ -1,0 +1,38 @@
+{
+	title: "МФЭХ",
+	icon: {
+		id: "industrialupgrade:wiring_storage",
+		tag: {},
+		Damage: 4s
+	},
+	x: -9.5d,
+	y: 2.5d,
+	text: [
+		"Многофункциональное энергохранилище или МФЭХ",
+		"Хранит 40.000.000$ в биткоинах."
+	],
+	dependencies: [
+		"a2a3b757",
+		"7468f14e"
+	],
+	tasks: [{
+		uid: "bd7b5b37",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:wiring_storage",
+			tag: {},
+			Damage: 4s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "52cb8110",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

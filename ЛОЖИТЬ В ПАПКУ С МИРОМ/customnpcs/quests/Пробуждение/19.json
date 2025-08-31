@@ -1,0 +1,71 @@
+{
+    "CompleterNpc": "Торговец",
+    "NextQuestId": -1,
+    "RandomReward": 0b,
+    "QuestRepeat": 0,
+    "QuestCompletion": 0,
+    "IgnoreNBT": 0b,
+    "Title": "Магический компас",
+    "Text": "Нужно взять компас у торговца.",
+    "QuestFactionPoints": {
+        "DecreaseFaction1Points": 0b,
+        "OptionFaction2Points": 100,
+        "OptionFactions1": -1,
+        "OptionFactions2": -1,
+        "OptionFaction1Points": 100,
+        "DecreaseFaction2Points": 0b
+    },
+    "RewardExp": 0,
+    "QuestCommand": "",
+    "ModRev": 18,
+    "Type": 0,
+    "QuestMail": {
+        "Sender": "",
+        "BeenRead": 0b,
+        "Message": {
+        },
+        "MailItems": [
+        ],
+        "MailQuest": -1,
+        "TimePast": 1659599224398L,
+        "Time": 0L,
+        "Subject": ""
+    },
+    "IgnoreDamage": 0b,
+    "Rewards": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "bettercompass:homing_compass",
+                "Count": 1b,
+                "tag": {
+                    "RepairCost": 0,
+                    "pos": {
+                        "X": 5929,
+                        "Y": 62,
+                        "Z": -3987
+                    },
+                    "last_update": 6940781L,
+                    "rotation": 0.09875691291275746d,
+                    "display": {
+                        "Name": "Форествилль"
+                    },
+                    "dim": 0,
+                    "rota": 0.02117950179764519d
+                },
+                "Damage": 0s
+            }
+        ]
+    },
+    "Items": {
+        "NpcMiscInv": [
+        ]
+    },
+    "LeaveItems": 0b,
+    "CompleteText": "",
+    "NextQuestTitle": ""
+}

@@ -1,0 +1,21 @@
+{
+	title: " ",
+	icon: "divinerpg:densos_crystal",
+	description: [
+		"Дельта | RPG"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "",
+	images: [{
+		x: -1.0d,
+		y: -4.5d,
+		width: 25.0d,
+		height: 8.0d,
+		rotation: 0.0d,
+		image: "ftbquests:textures/gui/isl4.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	title: "Инструментички",
+	x: -14.0d,
+	y: 3.5d,
+	text: [
+		"Прям те самые, что и раньше. Только составляющие подорожали..."
+	],
+	dependencies: [
+		"dc1ba81d"
+	],
+	tasks: [{
+		uid: "4dd51c77",
+		type: "item",
+		items: [{
+			item: "thaumictinkerer:ichorium_pick"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "308ffed0",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

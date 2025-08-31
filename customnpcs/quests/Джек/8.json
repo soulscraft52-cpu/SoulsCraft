@@ -1,0 +1,127 @@
+{
+    "CompleterNpc": "Джек",
+    "NextQuestId": -1,
+    "RandomReward": 0b,
+    "QuestRepeat": 0,
+    "QuestCompletion": 0,
+    "IgnoreNBT": 0b,
+    "Title": "Забрать сумку",
+    "Text": "Мне нужно забрать сумку у Джека.",
+    "QuestFactionPoints": {
+        "DecreaseFaction1Points": 0b,
+        "OptionFaction2Points": 100,
+        "OptionFactions1": -1,
+        "OptionFactions2": -1,
+        "OptionFaction1Points": 100,
+        "DecreaseFaction2Points": 0b
+    },
+    "RewardExp": 0,
+    "QuestCommand": "",
+    "ModRev": 18,
+    "Type": 0,
+    "QuestMail": {
+        "Sender": "",
+        "BeenRead": 0b,
+        "Message": {
+        },
+        "MailItems": [
+        ],
+        "MailQuest": -1,
+        "TimePast": 1647293920575L,
+        "Time": 0L,
+        "Subject": ""
+    },
+    "IgnoreDamage": 0b,
+    "Rewards": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "thermalexpansion:satchel",
+                "Count": 1b,
+                "tag": {
+                    "Inventory": {
+                        "Slot2": {
+                            "ForgeCaps": {
+                                "customnpcs:itemscripteddata": {
+                                }
+                            },
+                            "id": "bq_standard:loot_chest",
+                            "Count": 1b,
+                            "tag": {
+                                "hideLootInfo": 1b
+                            },
+                            "Damage": 0s
+                        },
+                        "Slot3": {
+                            "ForgeCaps": {
+                                "customnpcs:itemscripteddata": {
+                                }
+                            },
+                            "id": "thaumcraft:ingot",
+                            "Count": 48b,
+                            "Damage": 1s
+                        },
+                        "Slot4": {
+                            "ForgeCaps": {
+                                "customnpcs:itemscripteddata": {
+                                }
+                            },
+                            "id": "thaumadditions:mithminite_fabric",
+                            "Count": 2b,
+                            "Damage": 0s
+                        },
+                        "Slot5": {
+                            "ForgeCaps": {
+                                "customnpcs:itemscripteddata": {
+                                }
+                            },
+                            "id": "thermalfoundation:coin",
+                            "Count": 4b,
+                            "Damage": 72s
+                        },
+                        "Slot0": {
+                            "ForgeCaps": {
+                                "customnpcs:itemscripteddata": {
+                                }
+                            },
+                            "id": "minecraft:diamond",
+                            "Count": 64b,
+                            "Damage": 0s
+                        },
+                        "Slot1": {
+                            "ForgeCaps": {
+                                "customnpcs:itemscripteddata": {
+                                }
+                            },
+                            "id": "minecraft:emerald",
+                            "Count": 64b,
+                            "Damage": 0s
+                        },
+                        "Slot6": {
+                            "ForgeCaps": {
+                                "customnpcs:itemscripteddata": {
+                                }
+                            },
+                            "id": "divinerpg:arcanium",
+                            "Count": 32b,
+                            "Damage": 0s
+                        }
+                    },
+                    "Accessible": 1b
+                },
+                "Damage": 1s
+            }
+        ]
+    },
+    "Items": {
+        "NpcMiscInv": [
+        ]
+    },
+    "LeaveItems": 0b,
+    "CompleteText": "",
+    "NextQuestTitle": ""
+}

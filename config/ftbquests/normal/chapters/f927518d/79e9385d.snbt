@@ -1,0 +1,24 @@
+{
+	x: -0.5d,
+	y: -1.0d,
+	dependencies: [
+		"6095e708"
+	],
+	tasks: [{
+		uid: "83b7a771",
+		type: "item",
+		items: [{
+			item: "thaumadditions:vis_seeds/perditio"
+		}]
+	}],
+	rewards: [{
+		uid: "d3140c81",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

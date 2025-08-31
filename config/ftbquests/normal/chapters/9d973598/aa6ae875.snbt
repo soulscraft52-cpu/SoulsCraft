@@ -1,0 +1,43 @@
+{
+	title: "Халитик",
+	icon: "divinerpg:halite_boots",
+	x: 4.5d,
+	y: -13.0d,
+	text: [
+		"Надеюсь они вам с первого босса дропнулись)"
+	],
+	dependencies: [
+		"26afe819"
+	],
+	tasks: [{
+		uid: "2897b43e",
+		type: "item",
+		items: [{
+			item: "divinerpg:halite_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "dffb7c06",
+		type: "item",
+		items: [{
+			item: "divinerpg:halite_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e1613bf4",
+		type: "item",
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 5s,
+					id: 57s
+				}]
+			}
+		}
+	}]
+}

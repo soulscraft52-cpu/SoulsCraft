@@ -1,0 +1,25 @@
+{
+	title: "50/50",
+	x: -2.0d,
+	y: -9.5d,
+	dependencies: [
+		"ef22b961"
+	],
+	tasks: [{
+		uid: "7e872334",
+		type: "item",
+		items: [{
+			item: "extrautils2:opinium 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "59b3231f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

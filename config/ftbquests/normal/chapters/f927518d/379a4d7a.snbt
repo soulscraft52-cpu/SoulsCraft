@@ -1,0 +1,29 @@
+{
+	title: "Автоматическая зарядка инвентаря",
+	x: -3.0d,
+	y: -2.0d,
+	text: [
+		"Заряжает ваши предметы в инвентаре за энергию находящейся вокруг вас."
+	],
+	dependencies: [
+		"0e34ab97"
+	],
+	tasks: [{
+		uid: "c0dc6785",
+		type: "item",
+		items: [{
+			item: "thaumcraft:amulet_vis 1 1"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "14dbca78",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

@@ -1,0 +1,66 @@
+{
+	title: "Выдержит пару ударов",
+	icon: "divinerpg:realmite_chestplate",
+	x: -13.5d,
+	y: -3.5d,
+	text: [
+		"Смотри, не сломай мне её!"
+	],
+	dependencies: [
+		"70bac546"
+	],
+	tasks: [{
+		uid: "e9df93be",
+		type: "item",
+		items: [{
+			item: "divinerpg:realmite_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "dd69f03f",
+		type: "item",
+		items: [{
+			item: "divinerpg:realmite_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ddd65b60",
+		type: "item",
+		items: [{
+			item: "divinerpg:realmite_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "7babf86c",
+		type: "item",
+		items: [{
+			item: "divinerpg:realmite_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "357f4f5f",
+		type: "item",
+		item: "divinerpg:realmite_ingot",
+		count: 8
+	},
+	{
+		uid: "8fff5736",
+		type: "item",
+		item: "divinerpg:realmite_bricks",
+		count: 16
+	},
+	{
+		uid: "19979464",
+		type: "item",
+		item: "divinerpg:realmite_lamp",
+		count: 16
+	}]
+}

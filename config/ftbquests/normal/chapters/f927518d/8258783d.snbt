@@ -1,0 +1,30 @@
+{
+	title: "Колечко восстанавливающее голод",
+	x: -6.0d,
+	y: -2.0d,
+	dependencies: [
+		"0e34ab97"
+	],
+	tasks: [{
+		uid: "4f0415f0",
+		type: "item",
+		items: [{
+			id: "thaumcraft:verdant_charm",
+			tag: {
+				type: 2b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "8c923133",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

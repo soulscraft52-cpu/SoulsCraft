@@ -1,0 +1,67 @@
+{
+	title: "Последний механизм",
+	icon: {
+		id: "thermalexpansion:machine",
+		tag: {
+			RSControl: 0b,
+			Facing: 3b,
+			Energy: 0,
+			SideCache: [B;
+				1b,
+				1b,
+				2b,
+				2b,
+				2b,
+				2b
+			],
+			Level: 0b
+		},
+		Damage: 14s
+	},
+	x: -19.0d,
+	y: -14.0d,
+	text: [
+		"Да ладно, ты смог?"
+	],
+	dependencies: [
+		"515dfc41"
+	],
+	tasks: [{
+		uid: "ad4500b1",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					1b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 14s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6414130a",
+		type: "item",
+		item: "soulscraft:burnbutcherburn"
+	},
+	{
+		uid: "59435435",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		}
+	}]
+}

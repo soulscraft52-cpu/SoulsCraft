@@ -1,0 +1,35 @@
+{
+	title: "Ваш билет домой",
+	icon: "cyclicmagic:tool_warp_home",
+	x: -1.5d,
+	y: -3.5d,
+	text: [
+		"Телепортирует на вашу персональную точку респавна. Бесконечное!"
+	],
+	dependencies: [
+		"97058304"
+	],
+	tasks: [{
+		uid: "a3ff56b5",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:tool_warp_home"
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "ad65724b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	},
+	{
+		uid: "c8c6a342",
+		type: "item",
+		item: "cfm:modern_bed_bottom 1 15"
+	}]
+}

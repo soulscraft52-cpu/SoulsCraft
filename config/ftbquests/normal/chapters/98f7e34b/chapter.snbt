@@ -1,0 +1,65 @@
+{
+	title: " ",
+	icon: "avaritia:resource 1 6",
+	description: [
+		"Омикрон | Avaritia"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "",
+	images: [{
+		x: 6.5d,
+		y: 6.0d,
+		width: 18.0d,
+		height: 10.0d,
+		rotation: 0.0d,
+		image: "ftbquests:textures/gui/isl3.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -6.0d,
+		y: -5.5d,
+		width: 5.0d,
+		height: 5.0d,
+		rotation: 0.0d,
+		image: "ftbquests:textures/gui/isl9.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 11.5d,
+		y: 7.0d,
+		width: 5.0d,
+		height: 5.0d,
+		rotation: 0.0d,
+		image: "ftbquests:textures/gui/isl7.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -1.0d,
+		y: -5.5d,
+		width: 8.0d,
+		height: 8.0d,
+		rotation: 0.0d,
+		image: "ftbquests:textures/gui/isl9.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -9.0d,
+		y: -2.5d,
+		width: 3.0d,
+		height: 3.0d,
+		rotation: 0.0d,
+		image: "ftbquests:textures/gui/isl9.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

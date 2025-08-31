@@ -1,0 +1,31 @@
+{
+	title: "Выкинь свои реакторы",
+	icon: "industrialupgrade:machines 1 9",
+	x: 8.0d,
+	y: -2.0d,
+	text: [
+		"Реально, они тебе не нужны уже"
+	],
+	dependencies: [
+		"6c2b48dd"
+	],
+	tasks: [{
+		uid: "cb1cf3c8",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:machines 1 9"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e8e4c32b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 7
+	}]
+}

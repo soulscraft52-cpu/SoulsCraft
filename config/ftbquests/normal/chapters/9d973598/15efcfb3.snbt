@@ -1,0 +1,29 @@
+{
+	title: "Везея",
+	icon: "divinerpg:nightmare_bed",
+	x: 11.5d,
+	y: -6.0d,
+	text: [
+		"Тут ты сам по себе, не жди помощи."
+	],
+	dependencies: [
+		"126fb96e"
+	],
+	tasks: [{
+		uid: "01b5a8b6",
+		type: "item",
+		items: [{
+			item: "divinerpg:nightmare_bed"
+		}]
+	}],
+	rewards: [{
+		uid: "c9e180fe",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

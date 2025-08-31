@@ -1,0 +1,33 @@
+{
+	x: -22.0d,
+	y: -7.0d,
+	dependencies: [
+		"d105d6ee"
+	],
+	tasks: [{
+		uid: "b265f3f4",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:water_rotor_bronze",
+			tag: {
+				damage: 43200,
+				hasID: 1b,
+				canupgrade: 1b,
+				maxDamage: 43200,
+				ID_Item: 2
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "08236653",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

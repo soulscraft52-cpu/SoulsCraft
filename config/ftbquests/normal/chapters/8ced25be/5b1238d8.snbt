@@ -1,0 +1,31 @@
+{
+	x: -12.0d,
+	y: -9.5d,
+	text: [
+		"Он старался быть лучшим из лучших, и превзашел своего отца. Тем самым получив своё имя Шустряк. Переделывает ваши руды в размере 1 к 8."
+	],
+	dependencies: [
+		"3ab87fab"
+	],
+	tasks: [{
+		uid: "63cb69f7",
+		type: "item",
+		items: [{
+			id: "extrautils2:machine",
+			tag: {
+				Type: "crafttweaker:hustler"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "50a00a32",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 5
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	title: "Он ещё воскреснет... Когда-нибудь...",
+	icon: "minecraft:dragon_egg",
+	x: -11.5d,
+	y: -4.5d,
+	text: [
+		"Убейте дракона, и заберите его яйцо... первый раз"
+	],
+	dependencies: [
+		"cc9e1e36",
+		"839c42a2"
+	],
+	tasks: [{
+		uid: "e8dd2a40",
+		type: "item",
+		items: [{
+			item: "minecraft:dragon_egg"
+		}]
+	}],
+	rewards: [{
+		uid: "63aa4e24",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

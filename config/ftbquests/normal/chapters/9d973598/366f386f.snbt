@@ -1,0 +1,14 @@
+{
+	x: 13.5d,
+	y: -3.0d,
+	dependencies: [
+		"86f0a74a"
+	],
+	tasks: [{
+		uid: "9b993ccf",
+		type: "item",
+		items: [{
+			item: "divinerpg:arksiane_lump"
+		}]
+	}]
+}

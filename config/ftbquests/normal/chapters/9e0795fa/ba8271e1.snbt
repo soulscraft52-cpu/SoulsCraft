@@ -1,0 +1,27 @@
+{
+	x: -10.0d,
+	y: -6.5d,
+	text: [
+		"Все что нужно для автокрафт нестандартного типа ,оно присутствует здесь"
+	],
+	dependencies: [
+		"176cc7f0"
+	],
+	tasks: [{
+		uid: "5221fd08",
+		type: "item",
+		items: [{
+			item: "packagedauto:me_package_component"
+		}]
+	}],
+	rewards: [{
+		uid: "064e145b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

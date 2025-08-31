@@ -1,0 +1,24 @@
+{
+	x: -0.5d,
+	y: -5.0d,
+	dependencies: [
+		"6095e708"
+	],
+	tasks: [{
+		uid: "e5c2c8ac",
+		type: "item",
+		items: [{
+			item: "thaumadditions:vis_seeds/terra"
+		}]
+	}],
+	rewards: [{
+		uid: "edb2ebf9",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

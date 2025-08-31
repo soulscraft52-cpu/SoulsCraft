@@ -1,0 +1,31 @@
+{
+	title: "Катализатор химических реакций",
+	icon: "avaritia:resource 1 5",
+	x: -6.0d,
+	y: -5.5d,
+	text: [
+		"Вам повезло или вы просто сумасшедший?"
+	],
+	dependencies: [
+		"b1e19587",
+		"a4f458ee"
+	],
+	tasks: [{
+		uid: "42bb22dd",
+		type: "item",
+		items: [{
+			item: "avaritia:resource 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "ccf903ec",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		random_bonus: 2
+	}]
+}

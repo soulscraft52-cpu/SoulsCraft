@@ -1,0 +1,72 @@
+{
+	x: 8.5d,
+	y: -7.0d,
+	text: [
+		"Вы ведь знаете кто это?"
+	],
+	dependencies: [
+		"116747e0"
+	],
+	tasks: [{
+		uid: "f019e032",
+		type: "item",
+		items: [{
+			id: "extrautils2:lawsword",
+			tag: {
+				ench: [{
+					lvl: 10s,
+					id: 56s
+				},
+				{
+					lvl: 5s,
+					id: 72s
+				},
+				{
+					lvl: 15s,
+					id: 94s
+				},
+				{
+					lvl: 5s,
+					id: 84s
+				},
+				{
+					lvl: 15s,
+					id: 179s
+				},
+				{
+					lvl: 5s,
+					id: 57s
+				},
+				{
+					lvl: 5s,
+					id: 177s
+				},
+				{
+					lvl: 10s,
+					id: 120s
+				},
+				{
+					lvl: 10s,
+					id: 126s
+				}],
+				RepairCost: 15,
+				display: {
+					Name: "Катана Такео"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "bab09765",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 2
+	}]
+}

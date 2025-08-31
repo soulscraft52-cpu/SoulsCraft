@@ -1,0 +1,29 @@
+{
+	title: "Собирает нейтроний со скоростью черепахи",
+	icon: "avaritia:neutron_collector",
+	x: -13.0d,
+	y: -5.5d,
+	text: [
+		"Крайне необходимы часы времени"
+	],
+	dependencies: [
+		"3db47a92"
+	],
+	tasks: [{
+		uid: "4a04d642",
+		type: "item",
+		items: [{
+			item: "avaritia:neutron_collector"
+		}]
+	}],
+	rewards: [{
+		uid: "56f24000",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		}
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	title: "Сжимает булыжник до сингулярности, пошутил",
+	icon: "industrialupgrade:moremachine 1 3",
+	x: -12.0d,
+	y: -14.0d,
+	text: [
+		"Просто крутой компрессор"
+	],
+	dependencies: [
+		"bd88f8c5"
+	],
+	tasks: [{
+		uid: "53d17e15",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:moremachine 1 3"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0a3d602f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		},
+		random_bonus: 1
+	}]
+}

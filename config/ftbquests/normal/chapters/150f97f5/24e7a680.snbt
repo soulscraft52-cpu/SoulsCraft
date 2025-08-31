@@ -1,0 +1,60 @@
+{
+	title: "НУ ЭТО ТОЧНО КОНЕЦ",
+	icon: "projectex:final_star",
+	x: 14.5d,
+	y: -5.5d,
+	shape: "octagon",
+	text: [
+		"Закрывай игру, пора...",
+		"&3&l&nВы прошли сборку целиком!"
+	],
+	dependencies: [
+		"94139d32"
+	],
+	size: 3.0d,
+	tasks: [{
+		uid: "7d8ce59e",
+		type: "item",
+		items: [{
+			item: "projectex:final_star"
+		}],
+		consume_items: true,
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "cb343090",
+		type: "item",
+		item: {
+			id: "thermalexpansion:satchel",
+			tag: {
+				Accessible: 1b
+			},
+			Damage: 32000s
+		}
+	},
+	{
+		uid: "cc24c273",
+		type: "command",
+		command: "/title @a title [\"\",{\"text\":\"\\u06de\\u221e\\u06de\",\"color\":\"black\"},{\"text\":\"\\u0421\\u0411\\u041e\\u0420\\u041a\\u0410 \\u041f\\u0420\\u041e\\u0419\\u0414\\u0415\\u041d\\u0410\",\"bold\":true,\"color\":\"dark_purple\"},{\"text\":\"\\u06de\\u221e\\u06de\",\"color\":\"black\"}]"
+	},
+	{
+		uid: "1f348545",
+		type: "item",
+		item: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyVariant: "neon",
+				TrophyColorGreen: 81,
+				TrophyShowsTooltip: 1b,
+				TrophyItem: {
+					id: "cfm:computer",
+					Count: 1b,
+					Damage: 0s
+				},
+				TrophyColorBlue: 41,
+				TrophyName: "Все хватит выключай",
+				TrophyColorRed: 118
+			}
+		}
+	}]
+}

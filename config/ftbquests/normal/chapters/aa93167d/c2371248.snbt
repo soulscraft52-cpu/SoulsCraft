@@ -1,0 +1,30 @@
+{
+	title: "Латекс =  3 резины",
+	icon: "industrialupgrade:simplemachine 1 3",
+	x: -13.0d,
+	y: -10.0d,
+	text: [
+		"Сплошная выгода"
+	],
+	dependencies: [
+		"4f1a4228"
+	],
+	tasks: [{
+		uid: "a8292db3",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:simplemachine 1 3"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "05d690e6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

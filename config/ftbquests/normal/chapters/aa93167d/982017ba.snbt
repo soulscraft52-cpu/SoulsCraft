@@ -1,0 +1,38 @@
+{
+	title: "Кратос - отец года",
+	icon: {
+		id: "industrialupgrade:wiring_storage",
+		tag: {},
+		Damage: 9s
+	},
+	x: 4.5d,
+	y: 2.5d,
+	text: [
+		"Даже десятилетия"
+	],
+	dependencies: [
+		"48de76e4"
+	],
+	tasks: [{
+		uid: "b45c860a",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:wiring_storage",
+			tag: {},
+			Damage: 9s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "eb1e6bfb",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 3,
+		random_bonus: 2
+	}]
+}

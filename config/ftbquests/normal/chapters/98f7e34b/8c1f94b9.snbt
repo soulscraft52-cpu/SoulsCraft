@@ -1,0 +1,30 @@
+{
+	title: "Пылинка бесконечности",
+	icon: "avaritia:resource 1 2",
+	x: -11.5d,
+	y: -5.5d,
+	text: [
+		"С помощью коллектора нейтрония и чей-то там матери создайте §7пыль нейтрония."
+	],
+	dependencies: [
+		"5377a32a"
+	],
+	tasks: [{
+		uid: "cd0fdae8",
+		type: "item",
+		items: [{
+			item: "avaritia:resource 1 2"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "ec055f5d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

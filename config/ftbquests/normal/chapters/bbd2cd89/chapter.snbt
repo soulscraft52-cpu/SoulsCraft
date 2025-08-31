@@ -1,0 +1,21 @@
+{
+	title: " ",
+	icon: "galacticraftcore:rocket_t1",
+	description: [
+		"Йота | Galactic"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "",
+	images: [{
+		x: -5.5d,
+		y: -6.5d,
+		width: 20.0d,
+		height: 15.0d,
+		rotation: 0.0d,
+		image: "ftbquests:textures/gui/isl5.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

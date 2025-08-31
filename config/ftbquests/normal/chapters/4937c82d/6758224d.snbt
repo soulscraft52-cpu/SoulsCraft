@@ -1,0 +1,12 @@
+{
+	title: "Начаго чего-то большего..",
+	x: 6.5d,
+	y: -9.0d,
+	dependencies: [
+		"a78ec132"
+	],
+	tasks: [{
+		uid: "9e879701",
+		type: "checkmark"
+	}]
+}

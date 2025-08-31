@@ -1,0 +1,29 @@
+{
+	title: "Хммм",
+	x: -3.5d,
+	y: -19.0d,
+	text: [
+		"Тяжёлый"
+	],
+	dependencies: [
+		"be2bf244"
+	],
+	tasks: [{
+		uid: "646ef09f",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockfluidinputhatch 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "56d1582a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		},
+		count: 2
+	}]
+}

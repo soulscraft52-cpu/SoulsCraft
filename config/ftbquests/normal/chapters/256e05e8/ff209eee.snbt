@@ -1,0 +1,30 @@
+{
+	x: -13.5d,
+	y: -2.0d,
+	text: [
+		"Теперь будем реактивировать"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"678be6b2"
+	],
+	tasks: [{
+		uid: "1df6fa6b",
+		type: "item",
+		items: [{
+			item: "bigreactors:turbinehousingcores"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "a7e4b547",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		},
+		count: 2
+	}]
+}

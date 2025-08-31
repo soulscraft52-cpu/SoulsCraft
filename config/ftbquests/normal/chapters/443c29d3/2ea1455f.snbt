@@ -1,0 +1,25 @@
+{
+	title: "Простой ножик",
+	icon: "notreepunching:knife/flint",
+	x: -20.0d,
+	y: -11.0d,
+	text: [
+		"Нужен для добычи §aрастительных волокон§r из §2травы§r."
+	],
+	dependencies: [
+		"ad5ab19e"
+	],
+	tasks: [{
+		uid: "ba31e841",
+		type: "item",
+		items: [{
+			item: "notreepunching:knife/flint"
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "01d43364",
+		type: "item",
+		item: "harvestcraft:lemondrizzlecakeitem"
+	}]
+}

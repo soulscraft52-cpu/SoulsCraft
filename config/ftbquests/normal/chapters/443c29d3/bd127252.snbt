@@ -1,0 +1,31 @@
+{
+	title: "Всё ещё мало для того, чтобы стать Гарри Поваром",
+	icon: "extrautils2:compressedcobblestone 1 5",
+	x: -17.5d,
+	y: -4.5d,
+	text: [
+		"Ещё 2 сжатия, а потом 3 раза повторить."
+	],
+	dependencies: [
+		"99a426c6"
+	],
+	tasks: [{
+		uid: "914678fe",
+		type: "item",
+		items: [{
+			item: "extrautils2:compressedcobblestone 4 5"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "a96f4fa6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		},
+		random_bonus: 1
+	}]
+}

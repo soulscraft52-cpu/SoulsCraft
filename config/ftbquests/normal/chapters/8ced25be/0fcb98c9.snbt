@@ -1,0 +1,31 @@
+{
+	title: "Навевает тоску",
+	x: -6.5d,
+	y: 1.0d,
+	text: [
+		"От использования этого генератора вы поймаете фрустрацию."
+	],
+	dependencies: [
+		"d2c3dcfb"
+	],
+	tasks: [{
+		uid: "86f1e7c0",
+		type: "item",
+		items: [{
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_enchant"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "5f88dc78",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

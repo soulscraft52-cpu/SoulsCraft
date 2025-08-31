@@ -1,0 +1,10 @@
+{
+	title: " ",
+	icon: "enderio:block_alloy_smelter",
+	description: [
+		"Эта | Продвинутая электроника"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

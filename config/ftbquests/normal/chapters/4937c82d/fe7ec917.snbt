@@ -1,0 +1,117 @@
+{
+	title: "Закажи ракету в один клик",
+	icon: "modularmachinery:automatic_nasa_workbench_controller",
+	x: -5.5d,
+	y: -7.0d,
+	shape: "square",
+	text: [
+		"Клик",
+		"...",
+		"И все готово"
+	],
+	dependencies: [
+		"fb5acef0"
+	],
+	tasks: [{
+		uid: "5cfb3bbb",
+		type: "item",
+		items: [{
+			item: "modularmachinery:automatic_nasa_workbench_controller"
+		}]
+	},
+	{
+		uid: "e7174d46",
+		type: "item",
+		items: [{
+			item: "galaxyspace:futureglass 1 8"
+		}],
+		count: 8L
+	},
+	{
+		uid: "eee02cde",
+		type: "item",
+		items: [{
+			item: "galaxyspace:machineframes"
+		}],
+		count: 73L
+	},
+	{
+		uid: "e57fa992",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockinputbus 1 2"
+		}],
+		count: 2L
+	},
+	{
+		uid: "f931afd8",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockoutputbus 1 2"
+		}]
+	},
+	{
+		uid: "a0659513",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockenergyinputhatch 1 2"
+		}]
+	},
+	{
+		uid: "971df3e9",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing 1 5"
+		}]
+	},
+	{
+		uid: "d8d8e89f",
+		type: "item",
+		items: [{
+			item: "enderio:block_alloy_endergy 1 3"
+		}],
+		count: 8L
+	},
+	{
+		uid: "2a691201",
+		type: "item",
+		items: [{
+			item: "redstonearsenal:storage"
+		}],
+		count: 12L
+	},
+	{
+		uid: "233cf473",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconium_block 1 1"
+		}],
+		count: 2L
+	},
+	{
+		uid: "84fee3f3",
+		type: "item",
+		items: [{
+			item: "contenttweaker:powerful_rocket_collector"
+		}]
+	},
+	{
+		uid: "a3b05d59",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:controller"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "4fab3436",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		},
+		count: 2
+	}]
+}

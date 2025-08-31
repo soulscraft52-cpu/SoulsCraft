@@ -1,0 +1,25 @@
+{
+	title: "Зелёненькая",
+	icon: "projectex:matter 1 6",
+	x: 5.5d,
+	y: -5.5d,
+	text: [
+		"",
+		""
+	],
+	dependencies: [
+		"ea4fb474"
+	],
+	tasks: [{
+		uid: "875e8032",
+		type: "item",
+		items: [{
+			item: "projectex:matter 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "0fae5320",
+		type: "choice",
+		table: 18
+	}]
+}

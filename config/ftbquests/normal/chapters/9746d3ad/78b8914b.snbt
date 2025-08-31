@@ -1,0 +1,29 @@
+{
+	title: "Уже чё-то юзабельное",
+	icon: "enderio:item_material 1 1",
+	x: -10.0d,
+	y: -4.0d,
+	text: [
+		"Грейдим механизмы"
+	],
+	dependencies: [
+		"cf247961"
+	],
+	tasks: [{
+		uid: "79b9d92a",
+		type: "item",
+		items: [{
+			item: "enderio:item_material 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "7be43cba",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

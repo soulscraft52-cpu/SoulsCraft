@@ -1,0 +1,31 @@
+{
+	title: "Зарядник x2",
+	icon: "enderio:block_wired_charger",
+	x: -10.0d,
+	y: 0.0d,
+	text: [
+		"Ну зарядник и зарядник, чё смотришь?"
+	],
+	dependencies: [
+		"78b8914b",
+		"28a102ee"
+	],
+	tasks: [{
+		uid: "0e16b047",
+		type: "item",
+		items: [{
+			item: "enderio:block_wired_charger"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1b33431b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

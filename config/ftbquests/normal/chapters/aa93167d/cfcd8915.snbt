@@ -1,0 +1,33 @@
+{
+	x: -22.0d,
+	y: -15.0d,
+	dependencies: [
+		"dbf75e48"
+	],
+	tasks: [{
+		uid: "51c34f53",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:water_photon",
+			tag: {
+				damage: 691200,
+				hasID: 1b,
+				canupgrade: 1b,
+				maxDamage: 691200,
+				ID_Item: 19
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e55feb37",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

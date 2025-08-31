@@ -1,0 +1,56 @@
+{
+	title: "Dark Броня",
+	icon: "projecte:item.pe_dm_armor_2",
+	x: -7.5d,
+	y: -3.5d,
+	text: [
+		"Фулл сет брони из тёмной материи, через неё и свет не пройдёт."
+	],
+	dependencies: [
+		"a037cf8b"
+	],
+	tasks: [{
+		uid: "49b035f0",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_dm_armor_3"
+		}],
+		ignore_damage: true
+	},
+	{
+		uid: "2a551e1e",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_dm_armor_2"
+		}],
+		ignore_damage: true
+	},
+	{
+		uid: "6e945a8c",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_dm_armor_1"
+		}],
+		ignore_damage: true
+	},
+	{
+		uid: "27d75a3f",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_dm_armor_0"
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "5f35f701",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 2,
+		random_bonus: 2
+	}]
+}

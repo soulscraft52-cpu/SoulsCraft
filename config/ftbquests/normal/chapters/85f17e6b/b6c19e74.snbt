@@ -1,0 +1,29 @@
+{
+	title: "База ур.6 (ФИНАЛЬНАЯ)",
+	x: 10.0d,
+	y: -1.5d,
+	text: [
+		"Супер-ультра дорогое семечко. Надеюсь вы использовали мастерский инфузионный кристалл."
+	],
+	dependencies: [
+		"39cc5231"
+	],
+	tasks: [{
+		uid: "447b2ecd",
+		type: "item",
+		items: [{
+			item: "mysticalagradditions:insanium 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "7dd99c91",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 2
+	}]
+}

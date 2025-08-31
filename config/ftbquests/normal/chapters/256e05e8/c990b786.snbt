@@ -1,0 +1,97 @@
+{
+	title: "Газоохлаждающий реактор (Продвинутый)",
+	icon: "industrialupgrade:gas_reactor 1 26",
+	x: -15.0d,
+	y: -7.5d,
+	dependencies: [
+		"6a0f05ea"
+	],
+	tasks: [{
+		uid: "8ca0d898",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:gas_reactor 1 26"
+		}]
+	},
+	{
+		uid: "a69fb18e",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:gas_reactor 1 22"
+		}],
+		count: 3L
+	},
+	{
+		uid: "3e941aa3",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:gas_reactor 1 18"
+		}],
+		count: 3L
+	},
+	{
+		uid: "17539989",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:gas_reactor 1 14"
+		}],
+		count: 93L
+	},
+	{
+		uid: "946317cd",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:gas_reactor 1 10"
+		}],
+		count: 3L
+	},
+	{
+		uid: "537b3d94",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:gas_reactor 1 6"
+		}],
+		count: 3L
+	},
+	{
+		uid: "2d26e4df",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:gas_reactor 1 2"
+		}],
+		count: 4L
+	},
+	{
+		uid: "8fe08597",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:gas_reactor 1 34"
+		}]
+	},
+	{
+		uid: "4174f919",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:gas_reactor 1 38"
+		}],
+		count: 8L
+	},
+	{
+		uid: "439c1779",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:gas_reactor 1 30"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "bbfbaaaf",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		}
+	}]
+}

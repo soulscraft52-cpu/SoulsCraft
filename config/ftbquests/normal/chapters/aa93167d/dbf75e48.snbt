@@ -1,0 +1,33 @@
+{
+	x: -22.0d,
+	y: -14.0d,
+	dependencies: [
+		"870e383e"
+	],
+	tasks: [{
+		uid: "8aa02221",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:water_myphical",
+			tag: {
+				damage: 3456000,
+				hasID: 1b,
+				canupgrade: 1b,
+				maxDamage: 3456000,
+				ID_Item: 17
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "335f78ec",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

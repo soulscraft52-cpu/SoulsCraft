@@ -1,0 +1,50 @@
+{
+	title: "Анализатор почвы и очиститель радиации",
+	icon: {
+		id: "industrialupgrade:basemachine3",
+		tag: {},
+		Damage: 20s
+	},
+	x: -6.5d,
+	y: -12.5d,
+	text: [
+		"Поставь в чанк, где была взорвана ядерная бомба, для того чтобы анализировать почву, и очистителем её исцелить - и одновременно получить радиактивные отходы. Они понадобятся позже"
+	],
+	dependencies: [
+		"de6830a8"
+	],
+	tasks: [{
+		uid: "aa112e77",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:basemachine3",
+			tag: {},
+			Damage: 20s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "64a636df",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:basemachine3",
+			tag: {},
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e7a41252",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:crafting_elements 1 443"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "fbab5e18",
+		type: "item",
+		item: "industrialupgrade:crafting_elements 1 443",
+		count: 16
+	}]
+}

@@ -1,0 +1,49 @@
+{
+	x: 11.5d,
+	y: -7.0d,
+	text: [
+		"Все лучшие собрал из своих предшественников"
+	],
+	dependencies: [
+		"116747e0"
+	],
+	tasks: [{
+		uid: "a14d2654",
+		type: "item",
+		items: [{
+			id: "divinerpg:storm_sword",
+			tag: {
+				ench: [{
+					lvl: 12s,
+					id: 89s
+				},
+				{
+					lvl: 12s,
+					id: 30s
+				},
+				{
+					lvl: 12s,
+					id: 73s
+				},
+				{
+					lvl: 5s,
+					id: 137s
+				}],
+				RepairCost: 15
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2028df4d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 2
+	}]
+}

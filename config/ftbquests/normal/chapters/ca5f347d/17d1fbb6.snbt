@@ -1,0 +1,47 @@
+{
+	title: "Расчистите территорию под 101-ую базу",
+	icon: {
+		ForgeCaps: {
+			Parent: {
+				Size: 18,
+				Items: []
+			}
+		},
+		id: "draconicevolution:draconic_shovel",
+		Damage: 32767s
+	},
+	x: 2.0d,
+	y: -2.5d,
+	text: [
+		"Убирает землю..."
+	],
+	dependencies: [
+		"d488a3f4"
+	],
+	tasks: [{
+		uid: "e92a9dab",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					Size: 18,
+					Items: []
+				}
+			},
+			id: "draconicevolution:draconic_shovel",
+			Damage: 32767s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e805d93e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		}
+	}]
+}

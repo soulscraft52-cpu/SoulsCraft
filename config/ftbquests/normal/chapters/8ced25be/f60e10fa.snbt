@@ -1,0 +1,36 @@
+{
+	title: "Ускорение, уиии...",
+	icon: "extrautils2:ingredients 1 16",
+	x: -9.5d,
+	y: -8.0d,
+	text: [
+		"Теперь ваши генераторы очень быстрые!"
+	],
+	dependencies: [
+		"f9fa2a59"
+	],
+	tasks: [{
+		uid: "256561d5",
+		type: "item",
+		items: [{
+			item: "extrautils2:ingredients 64 16"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "2cf1472d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		random_bonus: 1
+	},
+	{
+		uid: "755d7bad",
+		type: "item",
+		item: "soulscraft:thisiscall"
+	}]
+}

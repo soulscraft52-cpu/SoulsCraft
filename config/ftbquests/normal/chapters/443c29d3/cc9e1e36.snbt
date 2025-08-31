@@ -1,0 +1,44 @@
+{
+	title: "Портал в ад и...",
+	icon: "minecraft:obsidian",
+	x: -11.5d,
+	y: -7.0d,
+	text: [
+		"Добудьте обсидиан на постройку портала.",
+		"§cЧтобы добывать §0§3обсидиан§c, §,§cулучшите свою кирку до следующего уровня добычи",
+		"при помощи §bалмаза§c в §aинженерной станции§c. Для того, чтобы получить ",
+		"свободный модификатор, нужно прокачать вашу кирку до 2-ого уровня или использовать нужный материал при крафте кирки."
+	],
+	dependencies: [
+		"75097f09"
+	],
+	tasks: [{
+		uid: "3d503dae",
+		type: "item",
+		items: [{
+			item: "minecraft:obsidian 12"
+		}],
+		count: 12L
+	}],
+	rewards: [{
+		uid: "4d281e00",
+		type: "item",
+		item: "minecraft:flint_and_steel"
+	},
+	{
+		uid: "8257cf77",
+		type: "item",
+		item: "minecraft:bread",
+		count: 32
+	},
+	{
+		uid: "ccd742d8",
+		type: "item",
+		item: {
+			id: "minecraft:potion",
+			tag: {
+				Potion: "minecraft:long_fire_resistance"
+			}
+		}
+	}]
+}

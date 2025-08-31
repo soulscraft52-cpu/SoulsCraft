@@ -1,0 +1,105 @@
+{
+	title: "Ресурсовые семена ур.2",
+	x: -4.5d,
+	y: 0.5d,
+	text: [
+		"Ухты, мы сможем фармить ресурсы из ничего, просто выращивая растения! Немыслимо!"
+	],
+	dependencies: [
+		"2693a9c7"
+	],
+	tasks: [{
+		uid: "9d609fa1",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:fire_seeds"
+		}]
+	},
+	{
+		uid: "22369a65",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:dye_seeds"
+		}]
+	},
+	{
+		uid: "6ed16b0f",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:nether_seeds"
+		}]
+	},
+	{
+		uid: "5243234e",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:coal_seeds"
+		}]
+	},
+	{
+		uid: "e3985274",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:rubber_seeds"
+		}]
+	},
+	{
+		uid: "86e845c5",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:silicon_seeds"
+		}]
+	},
+	{
+		uid: "70b7c952",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:sulfur_seeds"
+		}]
+	},
+	{
+		uid: "0ae046fc",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:aluminum_seeds"
+		}]
+	},
+	{
+		uid: "e26ce202",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:copper_seeds"
+		}]
+	},
+	{
+		uid: "a377af13",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:aluminum_brass_seeds"
+		}]
+	},
+	{
+		uid: "c4fa076f",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:grains_of_infinity_seeds"
+		}]
+	},
+	{
+		uid: "dcd95252",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:apatite_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "5e64745e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		}
+	}]
+}

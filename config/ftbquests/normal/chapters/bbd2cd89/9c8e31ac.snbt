@@ -1,0 +1,26 @@
+{
+	title: "СЫЫЫЫЫЫР",
+	icon: "galacticraftcore:cheese_curd",
+	x: -2.0d,
+	y: 0.0d,
+	text: [
+		"Скажите Cheese"
+	],
+	dependencies: [
+		"17f66729"
+	],
+	tasks: [{
+		uid: "356d653c",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:cheese_curd 16"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "173e5c70",
+		type: "item",
+		item: "galacticraftcore:food 1 8",
+		count: 16
+	}]
+}

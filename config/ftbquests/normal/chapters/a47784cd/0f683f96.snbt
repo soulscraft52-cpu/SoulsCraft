@@ -1,0 +1,29 @@
+{
+	title: "Кейс №1",
+	icon: {
+		id: "ftbquests:lootcrate",
+		tag: {
+			type: "full_random"
+		}
+	},
+	x: -7.5d,
+	y: -1.5d,
+	can_repeat: true,
+	tasks: [{
+		uid: "88868225",
+		type: "item",
+		items: [{
+			item: "contenttweaker:coin_tier2"
+		}]
+	}],
+	rewards: [{
+		uid: "9ba09986",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

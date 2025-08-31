@@ -1,0 +1,31 @@
+{
+	title: "Ускоряем механизмы",
+	icon: "thermalfoundation:upgrade",
+	x: -24.5d,
+	y: -14.0d,
+	text: [
+		"Самое базовое ускорение",
+		"§5Нажмите ПКМ по механизму из Thermal Expansion, чтобы улучшить его."
+	],
+	dependencies: [
+		"51d964e5",
+		"c550a2af"
+	],
+	tasks: [{
+		uid: "5b398206",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:upgrade"
+		}]
+	}],
+	rewards: [{
+		uid: "86007d3e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

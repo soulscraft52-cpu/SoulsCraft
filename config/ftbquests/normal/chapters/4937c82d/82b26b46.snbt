@@ -1,0 +1,30 @@
+{
+	title: "Что тут делают кристалы?",
+	x: 6.0d,
+	y: -14.5d,
+	text: [
+		"Жалко мобов будет"
+	],
+	dependencies: [
+		"3f8968d4"
+	],
+	tasks: [{
+		uid: "f1e34638",
+		type: "item",
+		items: [{
+			item: "contenttweaker:divine_alloy"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "f4b7cca7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		},
+		count: 2
+	}]
+}

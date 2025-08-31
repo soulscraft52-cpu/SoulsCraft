@@ -1,0 +1,27 @@
+{
+	x: -17.5d,
+	y: -1.0d,
+	text: [
+		"ПКМ по ящику - делает все предметы в ящике невидимыми, это скорее всего нужно для того, чтобы меньше нагружали ненужные ящики ваш ПК) ну или найдите своё применение))"
+	],
+	dependencies: [
+		"8d57081b"
+	],
+	tasks: [{
+		uid: "96a0b15b",
+		type: "item",
+		items: [{
+			item: "storagedrawers:shroud_key"
+		}]
+	}],
+	rewards: [{
+		uid: "4e262270",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

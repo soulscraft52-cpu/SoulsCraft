@@ -1,0 +1,30 @@
+{
+	title: "Ваш любимчик",
+	icon: "industrialupgrade:moremachine1 1 9",
+	x: -10.0d,
+	y: -12.0d,
+	text: [
+		"Серьёзно, вы его должны обожать"
+	],
+	dependencies: [
+		"a01bfb05"
+	],
+	tasks: [{
+		uid: "11233b1a",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:moremachine1 1 9"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f0ca780e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

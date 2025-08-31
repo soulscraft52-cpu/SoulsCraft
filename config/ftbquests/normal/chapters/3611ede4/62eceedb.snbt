@@ -1,0 +1,31 @@
+{
+	title: "Портал в глубокую темноту",
+	icon: "extrautils2:teleporter 1 1",
+	x: -3.5d,
+	y: -5.5d,
+	text: [
+		"Портал в никуда"
+	],
+	dependencies: [
+		"dc1ba81d",
+		"85f19896"
+	],
+	tasks: [{
+		uid: "c2a0d7fe",
+		type: "item",
+		items: [{
+			item: "extrautils2:teleporter 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "ca8f62d6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		},
+		random_bonus: 1
+	}]
+}

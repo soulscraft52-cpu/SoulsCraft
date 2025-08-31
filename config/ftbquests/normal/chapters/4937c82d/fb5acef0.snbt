@@ -1,0 +1,15 @@
+{
+	title: "МИНИ Боссы",
+	x: -5.5d,
+	y: -13.0d,
+	text: [
+		"Технологии 3 уровня"
+	],
+	dependencies: [
+		"a0b238cb"
+	],
+	tasks: [{
+		uid: "3f32546b",
+		type: "checkmark"
+	}]
+}

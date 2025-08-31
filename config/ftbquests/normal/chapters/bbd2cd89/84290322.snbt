@@ -1,0 +1,27 @@
+{
+	title: "Достаньте мне этот магний",
+	icon: "galaxyspace:ingots 1 1",
+	x: -7.0d,
+	y: -10.5d,
+	text: [
+		"Добудьте магний на Меркурие или Ганимеде"
+	],
+	dependencies: [
+		"030b67ab"
+	],
+	tasks: [{
+		uid: "69e58651",
+		type: "item",
+		items: [{
+			item: "galaxyspace:ingots 16 1"
+		}],
+		count: 16L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "a455ee96",
+		type: "item",
+		item: "galacticraftplanets:item_basic_asteroids 1 5",
+		count: 8
+	}]
+}

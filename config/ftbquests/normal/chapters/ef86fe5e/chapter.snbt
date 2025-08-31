@@ -1,0 +1,10 @@
+{
+	title: " ",
+	icon: "thermalexpansion:frame",
+	description: [
+		"Эпсилон | Первая электроника"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

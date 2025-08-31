@@ -1,0 +1,30 @@
+{
+	title: "Связываем души с предметами",
+	icon: "enderio:block_soul_binder",
+	x: -4.0d,
+	y: -6.0d,
+	text: [
+		"Теперь кристалльный путь открыт для вас"
+	],
+	dependencies: [
+		"55ea927b"
+	],
+	tasks: [{
+		uid: "18fe1e30",
+		type: "item",
+		items: [{
+			item: "enderio:block_soul_binder"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8ea4e3dd",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

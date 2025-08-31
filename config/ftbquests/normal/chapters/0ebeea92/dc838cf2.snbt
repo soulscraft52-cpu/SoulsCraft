@@ -1,0 +1,32 @@
+{
+	x: 8.5d,
+	y: 4.5d,
+	text: [
+		"Данный вид планшета, тот же что и зачарованный, но работает по площади. То есть рядом стоящие игроки тоже получит бафы."
+	],
+	dependencies: [
+		"54ee04c1"
+	],
+	tasks: [{
+		uid: "d461eb40",
+		type: "item",
+		items: [{
+			id: "tombstone:tablet_of_cupidity",
+			tag: {
+				ancient: 1b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "419e7f14",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

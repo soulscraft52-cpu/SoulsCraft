@@ -1,0 +1,31 @@
+{
+	x: -1.5d,
+	y: 8.5d,
+	text: [
+		"С такими эффектами даже блейзу не страшен снег"
+	],
+	dependencies: [
+		"43fad645"
+	],
+	tasks: [{
+		uid: "67968f88",
+		type: "item",
+		items: [{
+			id: "tombstone:scroll_buff",
+			tag: {
+				enchant: 1b
+			},
+			Damage: 7s
+		}]
+	}],
+	rewards: [{
+		uid: "a08c1074",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "2"
+			}
+		}
+	}]
+}

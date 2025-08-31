@@ -1,0 +1,29 @@
+{
+	title: "На синаловых ускорителях",
+	icon: "thermalfoundation:upgrade 1 2",
+	x: -27.5d,
+	y: -14.0d,
+	text: [
+		"Почти максимальная скорость"
+	],
+	dependencies: [
+		"e81eeaf7"
+	],
+	tasks: [{
+		uid: "ad9ca5d1",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:upgrade 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "5884c65b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	title: "Сам Геркулес пользовался",
+	x: 6.0d,
+	y: 0.0d,
+	text: [
+		"Так точно Зевс потвердил"
+	],
+	dependencies: [
+		"7bfbee75"
+	],
+	tasks: [{
+		uid: "b9e19e97",
+		type: "item",
+		items: [{
+			item: "fluxnetworks:herculeanfluxstorage"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1d86924e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		},
+		count: 6
+	}]
+}

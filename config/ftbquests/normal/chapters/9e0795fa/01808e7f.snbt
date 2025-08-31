@@ -1,0 +1,29 @@
+{
+	title: "Диск повреждён, вставьте другой",
+	icon: "contenttweaker:storage_casing_fluid",
+	x: -6.0d,
+	y: -4.0d,
+	text: [
+		"Жидкостный HDD корпус"
+	],
+	dependencies: [
+		"17e65989"
+	],
+	tasks: [{
+		uid: "5c9db096",
+		type: "item",
+		items: [{
+			item: "contenttweaker:storage_casing_fluid"
+		}]
+	}],
+	rewards: [{
+		uid: "9a970197",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

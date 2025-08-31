@@ -1,0 +1,34 @@
+{
+	title: "Каменный барабашка",
+	x: -14.5d,
+	y: -3.5d,
+	text: [
+		"16 ведёр, для начала пойдёт."
+	],
+	dependencies: [
+		"cea31829"
+	],
+	tasks: [{
+		uid: "3a6ffd4f",
+		type: "item",
+		items: [{
+			item: "extrautils2:drum"
+		}]
+	}],
+	rewards: [{
+		uid: "8af4b09b",
+		type: "item",
+		item: "harvestcraft:limejellysandwichitem",
+		count: 8
+	},
+	{
+		uid: "0fe954c3",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	title: "Факт #1",
+	x: -13.0d,
+	y: -6.0d,
+	text: [
+		"Половина населения Земли (а по некоторым подсчетам, даже две трети) никогда не видели снега."
+	],
+	dependencies: [
+		"4f1a4228"
+	],
+	tasks: [{
+		uid: "4a66a7e1",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:moremachine2 1 8"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c03b2015",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

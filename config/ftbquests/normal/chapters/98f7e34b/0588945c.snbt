@@ -1,0 +1,31 @@
+{
+	title: "Штаны за 30 гривень",
+	icon: "avaritia:infinity_pants",
+	x: -4.5d,
+	y: -0.5d,
+	text: [
+		"В этих штанах Танос работал в поле"
+	],
+	dependencies: [
+		"257f84b3"
+	],
+	tasks: [{
+		uid: "bde15aa1",
+		type: "item",
+		items: [{
+			item: "avaritia:infinity_pants"
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "a538c0cd",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "6"
+			}
+		},
+		count: 16
+	}]
+}

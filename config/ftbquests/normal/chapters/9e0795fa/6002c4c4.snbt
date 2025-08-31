@@ -1,0 +1,49 @@
+{
+	title: "КонтроллЁр",
+	icon: "appliedenergistics2:controller",
+	x: -11.0d,
+	y: -2.0d,
+	text: [
+		"Контроллирует ваши ресурсы"
+	],
+	dependencies: [
+		"29e3cda4"
+	],
+	tasks: [{
+		uid: "7cb4216c",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:controller"
+		}]
+	}],
+	rewards: [{
+		uid: "4a656e44",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	},
+	{
+		uid: "ad85af29",
+		type: "item",
+		item: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyVariant: "neon",
+				TrophyColorGreen: 128,
+				TrophyShowsTooltip: 1b,
+				TrophyItem: {
+					id: "appliedenergistics2:controller",
+					Count: 1b,
+					Damage: 0s
+				},
+				TrophyColorBlue: 128,
+				TrophyName: "Пока Сундуки",
+				TrophyColorRed: 128
+			}
+		}
+	}]
+}

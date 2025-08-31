@@ -1,0 +1,29 @@
+{
+	title: "Нормальный ветряк в один блок???",
+	x: -16.5d,
+	y: -4.5d,
+	text: [
+		"Да, теперь это возможно благодаря Industrial Upgrade! Давайте все скажем спасибо Denfop'у!"
+	],
+	dependencies: [
+		"900f23c9"
+	],
+	tasks: [{
+		uid: "a42863e6",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:basemachine3 1 28"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9b30b3ed",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

@@ -1,0 +1,49 @@
+{
+	title: "Лопата ВИ-ВИ",
+	icon: {
+		ForgeCaps: {
+			Parent: {
+				Size: 9,
+				Items: []
+			}
+		},
+		id: "draconicevolution:wyvern_shovel",
+		tag: {},
+		Damage: 32767s
+	},
+	x: -10.0d,
+	y: -1.0d,
+	text: [
+		"Как кирка, только лопата"
+	],
+	dependencies: [
+		"501f9d5f"
+	],
+	tasks: [{
+		uid: "5d52d144",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					Size: 9,
+					Items: []
+				}
+			},
+			id: "draconicevolution:wyvern_shovel",
+			tag: {},
+			Damage: 32767s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4f72ddac",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

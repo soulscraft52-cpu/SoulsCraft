@@ -1,0 +1,30 @@
+{
+	title: "Ммм, какой запах",
+	icon: "enderio:block_vat",
+	x: -10.0d,
+	y: 1.0d,
+	text: [
+		"Как же вкусно пахнет варёная голова зомби."
+	],
+	dependencies: [
+		"78b8914b"
+	],
+	tasks: [{
+		uid: "83e2a2bb",
+		type: "item",
+		items: [{
+			item: "enderio:block_vat"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d0e8c87d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

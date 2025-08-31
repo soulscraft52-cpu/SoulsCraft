@@ -1,0 +1,25 @@
+{
+	x: 0.5d,
+	y: 0.0d,
+	dependencies: [
+		"f2097bf5",
+		"af5c6fe7"
+	],
+	tasks: [{
+		uid: "bb1c8210",
+		type: "item",
+		items: [{
+			item: "thaumadditions:vis_seeds/motus"
+		}]
+	}],
+	rewards: [{
+		uid: "880e8a14",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

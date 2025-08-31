@@ -1,0 +1,23 @@
+{
+	title: "Пыль Пиротеума",
+	icon: "thermalfoundation:material 1 1024",
+	x: -13.5d,
+	y: -4.5d,
+	can_repeat: true,
+	dependencies: [
+		"f94bad98"
+	],
+	tasks: [{
+		uid: "cec11b06",
+		type: "item",
+		items: [{
+			item: "contenttweaker:coin_tier1"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "e73c37e9",
+		type: "item",
+		item: "thermalfoundation:material 1 1024"
+	}]
+}

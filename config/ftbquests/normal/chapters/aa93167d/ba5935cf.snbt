@@ -1,0 +1,31 @@
+{
+	title: "Просто лучше",
+	icon: "industrialupgrade:moremachine1 1 7",
+	x: -12.0d,
+	y: -12.0d,
+	text: [
+		"x3 вдвойне быстрее!"
+	],
+	dependencies: [
+		"aaff1949"
+	],
+	tasks: [{
+		uid: "8e589630",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:moremachine1 1 7"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6e6f665f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		},
+		random_bonus: 1
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	title: "Ужас,Позор,Безобразие,Страх,Неудача",
+	x: -2.0d,
+	y: -7.5d,
+	dependencies: [
+		"5d812be3"
+	],
+	tasks: [{
+		uid: "c01e9556",
+		type: "item",
+		items: [{
+			item: "extrautils2:opinium"
+		}]
+	}],
+	rewards: [{
+		uid: "dbe42e1e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

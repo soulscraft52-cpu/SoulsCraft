@@ -1,0 +1,28 @@
+{
+	x: -4.5d,
+	y: -6.5d,
+	text: [
+		"По тихоньку синтезируем с переменным успехом"
+	],
+	dependencies: [
+		"308318e3"
+	],
+	tasks: [{
+		uid: "911377c2",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:basemachine1 1 11"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "46e3380b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

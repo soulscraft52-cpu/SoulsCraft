@@ -1,0 +1,32 @@
+{
+	x: -0.5d,
+	y: 10.0d,
+	text: [
+		"Данный вид свитка, тот же что и зачарованный, но работает по площади. То есть рядом стоящие игроки тоже получит бафы."
+	],
+	dependencies: [
+		"9aeb4a83"
+	],
+	tasks: [{
+		uid: "b7e1bac0",
+		type: "item",
+		items: [{
+			id: "tombstone:scroll_buff",
+			tag: {
+				enchant: 1b,
+				ancient: 1b
+			},
+			Damage: 8s
+		}]
+	}],
+	rewards: [{
+		uid: "f8b2c04f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

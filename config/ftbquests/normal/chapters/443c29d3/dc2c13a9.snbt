@@ -1,0 +1,111 @@
+{
+	title: "Первый отлитый инструмент",
+	icon: {
+		id: "tconstruct:pickaxe",
+		tag: {
+			StatsOriginal: {
+				AttackSpeedMultiplier: 1.0f,
+				MiningSpeed: 12.0f,
+				FreeModifiers: 3,
+				Durability: 1522,
+				HarvestLevel: 4,
+				Attack: 4.1f
+			},
+			Stats: {
+				AttackSpeedMultiplier: 1.0f,
+				MiningSpeed: 12.0f,
+				FreeModifiers: 0,
+				Durability: 1522,
+				HarvestLevel: 4,
+				Attack: 4.1f
+			},
+			Special: {
+				Categories: [
+					"aoe",
+					"tool",
+					"harvest"
+				]
+			},
+			TinkerData: {
+				Materials: [
+					"ardite",
+					"cobalt",
+					"ardite"
+				],
+				Modifiers: [
+					"toolleveling"
+				]
+			},
+			Modifiers: [{
+				identifier: "petramor",
+				color: -3063280,
+				level: 1
+			},
+			{
+				identifier: "momentum",
+				color: -14122284,
+				level: 1
+			},
+			{
+				identifier: "toolleveling",
+				color: 16777215,
+				level: 1
+			}],
+			Traits: [
+				"petramor",
+				"momentum",
+				"toolleveling"
+			]
+		}
+	},
+	x: -15.0d,
+	y: -5.5d,
+	text: [
+		"Вот и первая кирка, которую ты вылил в своей плавильне.",
+		"",
+		"Не спеши создавать новую кирку, используй старую. Ведь старую можно просто обновить, тем самым оставив свои улучшения и уровень инструмента. Просто положи свою кирку в инженерную станцию и подложи новые материалы."
+	],
+	dependencies: [
+		"cea31829"
+	],
+	tasks: [{
+		uid: "c7d96408",
+		type: "item",
+		items: [{
+			id: "tconstruct:pick_head",
+			tag: {
+				Material: "cobalt"
+			}
+		}]
+	},
+	{
+		uid: "ca1619f6",
+		type: "item",
+		items: [{
+			id: "tconstruct:binding",
+			tag: {
+				Material: "ardite"
+			}
+		}]
+	},
+	{
+		uid: "87dc50f0",
+		type: "item",
+		items: [{
+			id: "tconstruct:tool_rod",
+			tag: {
+				Material: "ardite"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "7340dd61",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

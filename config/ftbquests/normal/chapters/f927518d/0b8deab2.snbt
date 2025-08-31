@@ -1,0 +1,30 @@
+{
+	title: "Личный спаунер",
+	icon: "thaumadditions:entity_summoner",
+	x: -14.0d,
+	y: -5.5d,
+	text: [
+		"Спаунер на эссенциях. Сушки, ко мне!"
+	],
+	dependencies: [
+		"40dfdaa1",
+		"889634d1"
+	],
+	tasks: [{
+		uid: "7ceab275",
+		type: "item",
+		items: [{
+			item: "thaumadditions:entity_summoner"
+		}]
+	}],
+	rewards: [{
+		uid: "b3d66da7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

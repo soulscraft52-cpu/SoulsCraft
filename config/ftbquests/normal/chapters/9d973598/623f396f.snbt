@@ -1,0 +1,53 @@
+{
+	title: "Бронирован до зубов",
+	icon: "divinerpg:bedrock_chestplate",
+	x: -18.0d,
+	y: -4.0d,
+	text: [
+		"Танк несётся в бой!"
+	],
+	dependencies: [
+		"a1105497"
+	],
+	tasks: [{
+		uid: "dcf3effe",
+		type: "item",
+		items: [{
+			item: "divinerpg:bedrock_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "60f1e8c4",
+		type: "item",
+		items: [{
+			item: "divinerpg:bedrock_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c0d60deb",
+		type: "item",
+		items: [{
+			item: "divinerpg:bedrock_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "7a378273",
+		type: "item",
+		items: [{
+			item: "divinerpg:bedrock_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "43ef8403",
+		type: "choice",
+		table: 5
+	}]
+}

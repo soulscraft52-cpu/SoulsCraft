@@ -1,0 +1,34 @@
+{
+	title: "Зелёные штаны",
+	icon: "divinerpg:halite_leggings",
+	x: 5.5d,
+	y: -13.0d,
+	text: [
+		"В таких штанах не стыдно и с пацанами из соседнего подъезда гулять."
+	],
+	dependencies: [
+		"052b6af8"
+	],
+	tasks: [{
+		uid: "aa6486ca",
+		type: "item",
+		items: [{
+			item: "divinerpg:halite_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "02c17a1a",
+		type: "item",
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 3s,
+					id: 52s
+				}]
+			}
+		}
+	}]
+}

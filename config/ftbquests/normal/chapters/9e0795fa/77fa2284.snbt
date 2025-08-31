@@ -1,0 +1,17 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	dependencies: [
+		"a52ff168"
+	],
+	tasks: [{
+		uid: "67d8e423",
+		type: "item",
+		items: [{
+			id: "crazyae:storage_cell_16mb",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

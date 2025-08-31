@@ -1,0 +1,23 @@
+{
+	title: "Зловещий Слиток",
+	icon: "extrautils2:ingredients 1 17",
+	x: -10.5d,
+	y: -1.5d,
+	can_repeat: true,
+	dependencies: [
+		"0beed00c"
+	],
+	tasks: [{
+		uid: "1dcc5b9f",
+		type: "item",
+		items: [{
+			item: "contenttweaker:coin_tier4"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "58fa6e8b",
+		type: "item",
+		item: "extrautils2:ingredients 1 17"
+	}]
+}

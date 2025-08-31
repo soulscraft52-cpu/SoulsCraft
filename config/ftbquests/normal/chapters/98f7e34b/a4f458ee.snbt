@@ -1,0 +1,44 @@
+{
+	x: -9.0d,
+	y: -2.5d,
+	dependencies: [
+		"46f96cb1",
+		"f9972636",
+		"8c29c5d3",
+		"691e4892",
+		"a9dc0eba",
+		"b0cd92d2"
+	],
+	tasks: [{
+		uid: "b67fedfd",
+		type: "item",
+		items: [{
+			item: "eternalsingularity:eternal_singularity"
+		}]
+	}],
+	rewards: [{
+		uid: "961cb73b",
+		type: "item",
+		item: "eternalsingularity:eternal_singularity"
+	},
+	{
+		uid: "b1404342",
+		type: "item",
+		item: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyVariant: "neon",
+				TrophyColorGreen: 128,
+				TrophyShowsTooltip: 1b,
+				TrophyItem: {
+					id: "eternalsingularity:eternal_singularity",
+					Count: 1b,
+					Damage: 0s
+				},
+				TrophyColorBlue: 128,
+				TrophyName: "Мастер Сингулярностей",
+				TrophyColorRed: 128
+			}
+		}
+	}]
+}

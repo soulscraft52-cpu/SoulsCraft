@@ -1,0 +1,15 @@
+{
+	x: -8.0d,
+	y: -2.0d,
+	dependencies: [
+		"72419365",
+		"17e65989"
+	],
+	tasks: [{
+		uid: "dbe959ec",
+		type: "item",
+		items: [{
+			item: "crazyae:improved_drive"
+		}]
+	}]
+}

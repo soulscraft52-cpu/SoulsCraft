@@ -1,0 +1,30 @@
+{
+	title: "Что-то новенькое",
+	icon: "industrialupgrade:basemachine 1 6",
+	x: -10.0d,
+	y: -3.5d,
+	text: [
+		"Производитель микросхем? Это же индастриал, а не галактик!"
+	],
+	dependencies: [
+		"4f1a4228"
+	],
+	tasks: [{
+		uid: "c2e7c2c1",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:basemachine 1 6"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "512ca04e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

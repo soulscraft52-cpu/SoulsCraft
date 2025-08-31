@@ -1,0 +1,34 @@
+{
+	x: -21.5d,
+	y: -1.0d,
+	text: [
+		"Позволяет создать свой вид ящика как душе угодно."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"98b5ddc1"
+	],
+	tasks: [{
+		uid: "1a8d1fda",
+		type: "item",
+		items: [{
+			item: "storagedrawers:framingtable"
+		}]
+	}],
+	rewards: [{
+		uid: "1c6001fa",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	},
+	{
+		uid: "c42191f2",
+		type: "item",
+		item: "minecraft:planks",
+		count: 32
+	}]
+}

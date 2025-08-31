@@ -1,0 +1,95 @@
+﻿#Creative Tab
+itemGroup.TinkerIO_Tabs=Tinker I/O
+
+#Blocks
+tile.fuel_input_machine.name=Машина для ускорения плавильни на твёрдом топливе
+tile.smart_output.name=Продвинутый сливной выход
+tile.what_a_beautiful_block.name=Звездный светокамень
+tile.Ore_Crusher.name=Дробилка для руды
+tile.Stirling_Engine.name=Двигатель Стирлинга
+
+#Items
+item.speedUPG.name=Улучшение скорость
+item.SolidFuel.name=Твердое топливо
+item.upg_0.name=Ядро улучшения
+item.upg_1.name=Обновление слота I
+item.upg_2.name=Обновление слота II
+item.upg_3.name=Обновление слота II
+item.upg_4.name=Обновление слота IV
+item.upg_5.name=Улучшение редстоун
+item.upg_6.name=Улучшение удача
+item.upg_7.name=Улучшение резервуар
+item.CD_Lonesome_Avenue.name=Пластинка
+item.CD_Lonesome_Avenue.desc=Lonesome Avenue (YouTube Audio Library)
+item.Crushed_ore.name=Измельченная руда
+
+#Fluid
+fluid.pure_metal=Чистый металл
+
+#GUI
+tio.gui.fim.slot1=UPG.
+tio.gui.fim.slot2=Твердое топливо
+tio.gui.fim.error_message=Поставь над резервуаром
+tio.gui.fim.temperature=Температура
+
+tio.gui.SO.max_output=Максимальный выход :
+tio.gui.SO.toolTips.button_head=Опустошить резервуар.
+tio.gui.SO.toolTips.button_info=Удерживайте Shift, чтобы разблокировать кнопку.
+
+#Tool Tips
+tio.toolTips.common.holdShift=Удерживайте Shift для получения информации.
+
+tio.toolTips.UpgSpeed=Для : Машина для ускорения плавильни на твёрдом топливе
+
+tio.toolTips.UpgBase=Просто материал для изготовления...
+
+tio.toolTips.slotUPG1=Для : Продвинутый сливной выход
+tio.toolTips.slotUPG1.usage1=Увеличивает максимальный выход на 1 слот.
+tio.toolTips.slotUPG1.usage2=Increase 30 maximum process slot in Fuel Input Machine
+
+tio.toolTips.slotUPG2=Для : Продвинутый сливной выход
+tio.toolTips.slotUPG2.usage1=Увеличивает максимальный выход на 2 слота.
+tio.toolTips.slotUPG2.usage2=Increase 60 maximum process slot in Fuel Input Machine
+
+tio.toolTips.slotUPG3=Для : Продвинутый сливной выход
+tio.toolTips.slotUPG3.usage1=Увеличивает максимальный выход на 3 слота.
+tio.toolTips.slotUPG3.usage2=Increase 90 maximum process slot in Fuel Input Machine
+
+tio.toolTips.slotUPG4=Для : Продвинутый сливной выход
+tio.toolTips.slotUPG4.usage1=Увеличивает максимальный выход на 4 слота.
+tio.toolTips.slotUPG4.usage2=Increase 120 maximum process slot in Fuel Input Machine
+
+tio.toolTips.slotUPGinfinity=Для : Дробилка для руды
+tio.toolTips.slotUPGinfinity.usage1=Увеличивает на 30% скорость дробления руды.
+
+tio.toolTips.redstoneUPG=Для : Продвинутый сливной выход
+tio.toolTips.redstoneUPG.usage1=Позволит управлять сигналом редстоуна.
+
+tio.toolTips.basinUPG=Для : Продвинутый сливной выход
+tio.toolTips.basinUPG.usage1=Переключение в режим резервуара
+
+tio.toolTips.CD_Lonesome_Avenue=В память о процессе моддинга Tinker I/O
+
+tio.toolTips.oreCrusher.energy=Накопленная энергия
+tio.toolTips.oreCrusher.rf=RF
+tio.toolTips.oreCrusher.rf_per_tick=RF / tick
+
+tio.toolTips.StirlingEngine.liquidAmount=Количество топлива
+tio.toolTips.StirlingEngine.liquidTemp=Температура топлива
+tio.toolTips.StirlingEngine.energyStored=Хранилище энергии
+tio.toolTips.StirlingEngine.generatePerTick=Генерирует за тик
+
+#Item Block Tooltip
+tio.toolTips.itemBlock.StirlingEngine.energyStored=Накоплено энергии: %d RF
+
+#Chat Message
+tio.playerMessage.FIM.rightClick=Машина для ускорения плавильни на твёрдом топливе должна быть помещена в строение плавильни над резервуаром с жидким топливом.
+
+#Waila
+tio.plugin.waila.tankEmpty=(Пусто)
+
+#JEI
+tio.plugin.jei.smart_output.consume=Consume cast!
+
+#Config
+tio.config.name=Конфигурация Tinker I/O

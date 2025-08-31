@@ -1,0 +1,38 @@
+{
+	title: "Стабильная нестабильность",
+	icon: "extrautils2:unstableingots 1 2",
+	x: -14.5d,
+	y: -5.0d,
+	text: [
+		"Создайте слиток стабильно-нестабильного металла"
+	],
+	dependencies: [
+		"030b67ab",
+		"eb518f3d"
+	],
+	tasks: [{
+		uid: "fe2702f1",
+		type: "item",
+		items: [{
+			item: "extrautils2:unstableingots 1 2"
+		}],
+		count: 4L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "51f6b40e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	},
+	{
+		uid: "2f1bec27",
+		type: "item",
+		item: "minecraft:diamond_block",
+		count: 8
+	}]
+}

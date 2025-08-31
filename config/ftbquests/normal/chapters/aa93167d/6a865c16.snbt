@@ -1,0 +1,34 @@
+{
+	title: "Репликатор",
+	icon: {
+		id: "industrialupgrade:basemachine3",
+		tag: {},
+		Damage: 53s
+	},
+	x: -1.5d,
+	y: -6.5d,
+	text: [
+		"Формирует из материи что-то..."
+	],
+	dependencies: [
+		"880c85ef"
+	],
+	tasks: [{
+		uid: "76ebeeaa",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:basemachine3 1 53"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ef9287f9",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

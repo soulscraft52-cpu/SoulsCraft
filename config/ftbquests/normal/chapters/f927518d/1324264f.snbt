@@ -1,0 +1,31 @@
+{
+	title: "Набедренная повязка",
+	icon: "thaumadditions:adaminite_belt",
+	x: -16.0d,
+	y: -2.0d,
+	text: [
+		"И ради этого ты столько времени убил на халит?"
+	],
+	dependencies: [
+		"1fe25187",
+		"e2423969"
+	],
+	tasks: [{
+		uid: "4fd756a9",
+		type: "item",
+		items: [{
+			item: "thaumadditions:adaminite_belt"
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "4e238630",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

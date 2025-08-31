@@ -1,0 +1,36 @@
+{
+	title: "Моргенштерн",
+	icon: {
+		id: "projecte:item.pe_rm_morning_star",
+		tag: {}
+	},
+	x: -4.0d,
+	y: -3.5d,
+	text: [
+		"Это вам не челик с ютуба..."
+	],
+	dependencies: [
+		"6d6a55e0"
+	],
+	tasks: [{
+		uid: "d7c417f5",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_rm_morning_star",
+			tag: {}
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "a9e61117",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 2,
+		random_bonus: 1
+	}]
+}

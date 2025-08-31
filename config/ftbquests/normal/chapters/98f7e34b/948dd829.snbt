@@ -1,0 +1,19 @@
+{
+	title: "Она не хранит аспекты",
+	x: 8.5d,
+	y: 5.0d,
+	text: [
+		"Она и есть генератор аспектов"
+	],
+	dependencies: [
+		"9f4f32d5"
+	],
+	tasks: [{
+		uid: "fd060f27",
+		type: "item",
+		items: [{
+			item: "thaumicenergistics:essentia_cell_creative"
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: 13.5d,
+	y: -6.0d,
+	dependencies: [
+		"a912087d"
+	],
+	tasks: [{
+		uid: "7f7707f9",
+		type: "item",
+		items: [{
+			item: "divinerpg:amthirmis_lump"
+		}]
+	}]
+}

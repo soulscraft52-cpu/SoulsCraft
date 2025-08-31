@@ -1,0 +1,30 @@
+{
+	title: "Улучшаем дальше",
+	icon: "industrialupgrade:moremachine1 1 1",
+	x: -11.0d,
+	y: -8.0d,
+	text: [
+		"Тут не останавливаемся, добиваем до совершенства"
+	],
+	dependencies: [
+		"b37b0895"
+	],
+	tasks: [{
+		uid: "df2730c3",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:moremachine1 1 1"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ebfc7664",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

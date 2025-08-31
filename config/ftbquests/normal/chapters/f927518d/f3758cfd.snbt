@@ -1,0 +1,58 @@
+{
+	title: "Ещё одна шуба для архимага",
+	icon: "thaumictinkerer:ichor_chest",
+	x: -8.0d,
+	y: 3.5d,
+	text: [
+		"Пробуди и побеседуй с зомби 500-ого уровня."
+	],
+	dependencies: [
+		"54931184"
+	],
+	tasks: [{
+		uid: "dbb10130",
+		type: "item",
+		items: [{
+			item: "thaumictinkerer:ichor_helm"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4af2c18c",
+		type: "item",
+		items: [{
+			item: "thaumictinkerer:ichor_chest"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "24a148de",
+		type: "item",
+		items: [{
+			item: "thaumictinkerer:ichor_legs"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "136faeb8",
+		type: "item",
+		items: [{
+			item: "thaumictinkerer:ichor_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "08888cd1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		}
+	}]
+}

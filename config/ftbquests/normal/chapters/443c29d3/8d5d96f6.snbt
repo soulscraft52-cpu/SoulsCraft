@@ -1,0 +1,65 @@
+{
+	x: -21.5d,
+	y: -3.5d,
+	dependencies: [
+		"97f044cb"
+	],
+	tasks: [{
+		uid: "0080f550",
+		type: "item",
+		title: "Скрафти один из ящиков 1x2",
+		items: [{
+			id: "storagedrawers:basicdrawers",
+			tag: {
+				material: "oak"
+			},
+			Damage: 1s
+		},
+		{
+			id: "storagedrawers:basicdrawers",
+			tag: {
+				material: "spruce"
+			},
+			Damage: 1s
+		},
+		{
+			id: "storagedrawers:basicdrawers",
+			tag: {
+				material: "birch"
+			},
+			Damage: 1s
+		},
+		{
+			id: "storagedrawers:basicdrawers",
+			tag: {
+				material: "jungle"
+			},
+			Damage: 1s
+		},
+		{
+			id: "storagedrawers:basicdrawers",
+			tag: {
+				material: "acacia"
+			},
+			Damage: 1s
+		},
+		{
+			id: "storagedrawers:basicdrawers",
+			tag: {
+				material: "dark_oak"
+			},
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "62df64ee",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

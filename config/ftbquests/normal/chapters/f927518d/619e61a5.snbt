@@ -1,0 +1,31 @@
+{
+	title: "Для дряхлых магов",
+	icon: "thaumadditions:adaminite_robe",
+	x: -16.0d,
+	y: -5.0d,
+	text: [
+		"В этой робе ещё Мерлин ходил"
+	],
+	dependencies: [
+		"1fe25187",
+		"e2423969"
+	],
+	tasks: [{
+		uid: "ff0205d6",
+		type: "item",
+		items: [{
+			item: "thaumadditions:adaminite_robe"
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "7bba6dea",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	x: -0.5d,
+	y: -6.0d,
+	dependencies: [
+		"81d7eb6f"
+	],
+	tasks: [{
+		uid: "e90cd6c7",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:dual_mox_fuel_rod"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1438bdff",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

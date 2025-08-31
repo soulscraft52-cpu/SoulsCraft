@@ -1,0 +1,30 @@
+{
+	x: -1.5d,
+	y: 3.0d,
+	text: [
+		"Точно по таблице 520 EF/t"
+	],
+	dependencies: [
+		"5db4df41",
+		"1d2981a2"
+	],
+	tasks: [{
+		uid: "4f8566a7",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:reactormendeleviumsimple"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3df26f91",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

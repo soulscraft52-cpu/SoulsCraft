@@ -1,0 +1,24 @@
+{
+	x: 5.0d,
+	y: -6.0d,
+	dependencies: [
+		"3c51d042"
+	],
+	tasks: [{
+		uid: "f7a88509",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:basemachine3 1 35"
+		}]
+	}],
+	rewards: [{
+		uid: "62528a12",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		}
+	}]
+}

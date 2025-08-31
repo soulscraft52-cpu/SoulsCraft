@@ -1,0 +1,35 @@
+{
+	title: "Верстак чернокнижника",
+	icon: "thaumcraft:arcane_workbench",
+	x: -4.0d,
+	y: -5.5d,
+	text: [
+		"Магический верстак для крафтов из Thaumcraft.",
+		"§3§4§5Требует вис-кристаллы для крафтов. Разные кристаллы требуют разные виды вис-кристаллов."
+	],
+	dependencies: [
+		"257787e7"
+	],
+	tasks: [{
+		uid: "bc73669e",
+		type: "item",
+		items: [{
+			item: "thaumcraft:arcane_workbench"
+		}]
+	}],
+	rewards: [{
+		uid: "98948ead",
+		type: "item",
+		item: "thaumcraft:loot_bag 1 2"
+	},
+	{
+		uid: "3ad04dfd",
+		type: "item",
+		item: "thaumcraft:loot_bag 1 1"
+	},
+	{
+		uid: "60ee432e",
+		type: "item",
+		item: "thaumcraft:loot_bag"
+	}]
+}

@@ -1,0 +1,40 @@
+{
+	title: "Неужели опять его сжимать?",
+	icon: "extrautils2:compressedcobblestone",
+	x: -19.5d,
+	y: -5.5d,
+	text: [
+		"Сожмите 9 стаков булыжника"
+	],
+	dependencies: [
+		"98c94bc7"
+	],
+	tasks: [{
+		uid: "f3f3ea89",
+		type: "item",
+		items: [{
+			item: "extrautils2:compressedcobblestone 64"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "cc723aec",
+		type: "item",
+		item: "extrautils2:compressedcobblestone",
+		count: 16
+	},
+	{
+		uid: "84063821",
+		type: "item",
+		item: {
+			id: "minecraft:iron_pickaxe",
+			tag: {
+				ench: [{
+					lvl: 3s,
+					id: 35s
+				}],
+				RepairCost: 1
+			}
+		}
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	x: 5.5d,
+	y: -10.5d,
+	dependencies: [
+		"f1a9bc29",
+		"3d2e78bc",
+		"350e996c",
+		"3c51d042",
+		"7e1e358a",
+		"4bf2c594",
+		"5ea5b34d",
+		"4223a79a"
+	],
+	tasks: [{
+		uid: "d72a044d",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:combiner_solid_matter"
+		}]
+	}],
+	rewards: [{
+		uid: "4f2854c2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 3
+	}]
+}

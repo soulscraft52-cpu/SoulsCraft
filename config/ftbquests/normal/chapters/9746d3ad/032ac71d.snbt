@@ -1,0 +1,28 @@
+{
+	title: "ТОП 2 в своем роде",
+	x: -20.5d,
+	y: -6.0d,
+	text: [
+		"НО не первый"
+	],
+	dependencies: [
+		"8cb6e595"
+	],
+	tasks: [{
+		uid: "7c846888",
+		type: "item",
+		items: [{
+			item: "enderio:item_capacitor_melodic"
+		}]
+	}],
+	rewards: [{
+		uid: "fc72c5d4",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

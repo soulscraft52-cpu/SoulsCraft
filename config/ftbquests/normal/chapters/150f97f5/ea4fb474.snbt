@@ -1,0 +1,31 @@
+{
+	title: "Бирюзовенькая",
+	icon: "projectex:matter 1 5",
+	x: 4.5d,
+	y: -5.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"eb81d9f1"
+	],
+	tasks: [{
+		uid: "1ee76d88",
+		type: "item",
+		items: [{
+			item: "projectex:matter 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "8968018a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 6,
+		random_bonus: 1
+	}]
+}

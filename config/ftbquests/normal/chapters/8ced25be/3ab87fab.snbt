@@ -1,0 +1,35 @@
+{
+	title: "Подлиза",
+	x: -14.5d,
+	y: -9.5d,
+	text: [
+		"Он стараеться быть хорошим но все ли так просто?",
+		"Он быстрый,он дробит руду в X4, Что тут не так?",
+		"Все просто ",
+		"Он ПОДЛИЗА"
+	],
+	dependencies: [
+		"7cb8d9d2"
+	],
+	tasks: [{
+		uid: "a66166fc",
+		type: "item",
+		items: [{
+			id: "extrautils2:machine",
+			tag: {
+				Type: "crafttweaker:lickspittle"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "60c471f7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		},
+		count: 6
+	}]
+}

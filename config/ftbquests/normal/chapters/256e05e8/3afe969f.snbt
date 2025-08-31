@@ -1,0 +1,29 @@
+{
+	x: -1.5d,
+	y: -3.0d,
+	text: [
+		"... 45 EF/t"
+	],
+	dependencies: [
+		"1d2981a2"
+	],
+	tasks: [{
+		uid: "30458cc6",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:reactoramericiumsimple"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5cc18cd0",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

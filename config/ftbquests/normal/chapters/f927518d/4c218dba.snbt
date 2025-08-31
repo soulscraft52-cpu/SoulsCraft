@@ -1,0 +1,23 @@
+{
+	title: "Мёртвый анархист",
+	x: -11.0d,
+	y: 4.5d,
+	text: [
+		"Нажмите на галочку и пластинка ваша)"
+	],
+	dependencies: [
+		"f21b1e55",
+		"c999792f"
+	],
+	tasks: [{
+		uid: "4bb83927",
+		type: "checkmark",
+		title: "Просто галочка",
+		icon: "soulscraft:deadanarchist"
+	}],
+	rewards: [{
+		uid: "5cd72b00",
+		type: "item",
+		item: "soulscraft:deadanarchist"
+	}]
+}

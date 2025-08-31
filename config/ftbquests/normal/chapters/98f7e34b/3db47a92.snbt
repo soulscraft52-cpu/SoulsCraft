@@ -1,0 +1,29 @@
+{
+	title: "Ты дал обещяние что корпус будет последним",
+	x: -14.5d,
+	y: -5.5d,
+	text: [
+		"А оказалось что нет!!!"
+	],
+	dependencies: [
+		"bbbe3fa2"
+	],
+	tasks: [{
+		uid: "39e1bf78",
+		type: "item",
+		items: [{
+			item: "contenttweaker:ultra_casing"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "78ec1d76",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		}
+	}]
+}

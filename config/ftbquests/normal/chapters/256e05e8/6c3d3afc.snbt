@@ -1,0 +1,65 @@
+{
+	title: "Защитный костюм от ядерного излучения",
+	icon: {
+		id: "industrialupgrade:hazmat_chestplate",
+		tag: {}
+	},
+	x: -4.5d,
+	y: -10.5d,
+	text: [
+		"Защищает вас от радиации"
+	],
+	dependencies: [
+		"da026fb5"
+	],
+	tasks: [{
+		uid: "847b322d",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:hazmat_helmet",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6ad3ca04",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:hazmat_chestplate",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a49b77a3",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:hazmat_leggings",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a6aa17e8",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:rubber_boots",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "52927ec7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

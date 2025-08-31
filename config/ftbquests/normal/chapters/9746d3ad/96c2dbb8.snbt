@@ -1,0 +1,28 @@
+{
+	title: "Ну вот почти финал",
+	x: -22.5d,
+	y: -6.0d,
+	text: [
+		"И да тот который второй на самом деле 3"
+	],
+	dependencies: [
+		"032ac71d"
+	],
+	tasks: [{
+		uid: "f85c3dc8",
+		type: "item",
+		items: [{
+			item: "enderio:item_capacitor_stellar"
+		}]
+	}],
+	rewards: [{
+		uid: "f946b52b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		}
+	}]
+}

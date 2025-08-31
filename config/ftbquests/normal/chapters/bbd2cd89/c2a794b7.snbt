@@ -1,0 +1,28 @@
+{
+	title: "А это ещё что тут делает?",
+	x: 4.0d,
+	y: -9.0d,
+	text: [
+		"А вот сам не знаю, но для него вам нужна ракета 6-ого уровня."
+	],
+	dependencies: [
+		"9d23851e"
+	],
+	tasks: [{
+		uid: "c39cd9a2",
+		type: "item",
+		items: [{
+			item: "harvestcraft:market"
+		}]
+	}],
+	rewards: [{
+		uid: "00bc892d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		}
+	}]
+}

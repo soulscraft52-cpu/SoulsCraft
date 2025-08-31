@@ -1,0 +1,31 @@
+{
+	title: "Пиромант чёртов",
+	icon: "thermalfoundation:material 1 1024",
+	x: -25.0d,
+	y: -12.0d,
+	text: [
+		"Пиротеум"
+	],
+	dependencies: [
+		"51d964e5"
+	],
+	tasks: [{
+		uid: "3f89351e",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 64 1024"
+		}],
+		count: 64L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "6cb97fb0",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

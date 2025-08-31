@@ -1,0 +1,29 @@
+{
+	title: "Кейс №4",
+	icon: {
+		id: "ftbquests:lootcrate",
+		tag: {
+			type: "random_75_"
+		}
+	},
+	x: -4.5d,
+	y: -1.5d,
+	can_repeat: true,
+	tasks: [{
+		uid: "99d88230",
+		type: "item",
+		items: [{
+			item: "contenttweaker:coin_tier5"
+		}]
+	}],
+	rewards: [{
+		uid: "e84e57a8",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		}
+	}]
+}

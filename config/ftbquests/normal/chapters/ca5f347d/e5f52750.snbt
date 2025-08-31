@@ -1,0 +1,64 @@
+{
+	title: "Теперь вас даже Годзилла не пробьёт",
+	icon: "draconicevolution:draconic_chest",
+	x: 2.0d,
+	y: -1.0d,
+	text: [
+		"Супербронь теперь ваша, стоп, а что это за мотыга?"
+	],
+	dependencies: [
+		"d488a3f4"
+	],
+	tasks: [{
+		uid: "98b9ea9a",
+		type: "item",
+		icon: "draconicevolution:draconic_helm",
+		items: [{
+			item: "draconicevolution:draconic_helm 1 32767"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6bbf78cb",
+		type: "item",
+		icon: "draconicevolution:draconic_chest",
+		items: [{
+			item: "draconicevolution:draconic_chest 1 32767"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f9d5d3ea",
+		type: "item",
+		icon: "draconicevolution:draconic_legs",
+		items: [{
+			item: "draconicevolution:draconic_legs 1 32767"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f9443dd6",
+		type: "item",
+		icon: "draconicevolution:draconic_boots",
+		items: [{
+			item: "draconicevolution:draconic_boots 1 32767"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c4088e2b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 2,
+		random_bonus: 1
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	title: "Магические элементы ",
+	x: -4.5d,
+	y: -10.0d,
+	dependencies: [
+		"6f816114"
+	],
+	tasks: [{
+		uid: "61abd538",
+		type: "item",
+		items: [{
+			item: "thaumicenergistics:coalescence_core"
+		}]
+	},
+	{
+		uid: "80d6da33",
+		type: "item",
+		items: [{
+			item: "thaumicenergistics:diffusion_core"
+		}]
+	}],
+	rewards: [{
+		uid: "69531cd8",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

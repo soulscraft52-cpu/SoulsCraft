@@ -1,0 +1,37 @@
+{
+	title: "Меч ВИ-ВИ",
+	icon: {
+		id: "draconicevolution:wyvern_sword",
+		tag: {},
+		Damage: 32767s
+	},
+	x: -10.0d,
+	y: -4.0d,
+	text: [
+		"Хороший меч, хорошо послужит"
+	],
+	dependencies: [
+		"501f9d5f"
+	],
+	tasks: [{
+		uid: "1758e165",
+		type: "item",
+		items: [{
+			id: "draconicevolution:wyvern_sword",
+			tag: {},
+			Damage: 32767s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "40209e7f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

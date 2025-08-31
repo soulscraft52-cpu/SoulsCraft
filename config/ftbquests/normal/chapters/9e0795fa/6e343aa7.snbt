@@ -1,0 +1,31 @@
+{
+	title: "Прессы есть, теперь высекаем",
+	icon: "appliedenergistics2:inscriber",
+	x: -13.0d,
+	y: -5.5d,
+	text: [
+		"Необходимы для создания процессоров"
+	],
+	dependencies: [
+		"21d992dc",
+		"fdb01095"
+	],
+	tasks: [{
+		uid: "195b5cfb",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:inscriber 5"
+		}],
+		count: 5L
+	}],
+	rewards: [{
+		uid: "d6f2ac88",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		}
+	}]
+}

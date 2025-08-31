@@ -1,0 +1,272 @@
+#loader contenttweaker
+import mods.contenttweaker.VanillaFactory;
+import mods.contenttweaker.Item;
+import mods.contenttweaker.IItemRightClick;
+import mods.contenttweaker.Commands;
+import mods.contenttweaker.ItemFood;
+import mods.contenttweaker.IItemFoodEaten;
+import mods.contenttweaker.MutableItemStack;
+import mods.contenttweaker.Hand;
+import mods.contenttweaker.World;
+import mods.contenttweaker.IItemUpdate;
+import mods.contenttweaker.Player;
+import crafttweaker.player.IPlayer;
+import mods.contenttweaker.IItemDestroySpeed;
+import mods.ctintegration.baubles.IBaubleInventory;
+
+
+
+
+//Амулет: Сердце зверя
+var The_Heart_of_the_Beast = VanillaFactory.createBaubleItem("The_Heart_of_the_Beast");
+The_Heart_of_the_Beast.rarity = "EPIC";
+The_Heart_of_the_Beast.onWornTick = function(bauble, wearer) {
+    if(wearer instanceof IPlayer) {
+        var player as IPlayer = wearer;
+          player.addPotionEffect(<potion:minecraft:regeneration>.makePotionEffect(50, 5));
+    }
+};
+The_Heart_of_the_Beast.baubleType = "TRINKET";
+The_Heart_of_the_Beast.register();
+
+//Амулет: Манипулятор силы дракона
+var Dragon_Power_Manipulator = VanillaFactory.createBaubleItem("Dragon_Power_Manipulator");
+Dragon_Power_Manipulator.rarity = "EPIC";
+Dragon_Power_Manipulator.onWornTick = function(bauble, wearer) {
+    if(wearer instanceof IPlayer) {
+        var player as IPlayer = wearer;
+player.addPotionEffect(<potion:minecraft:strength>.makePotionEffect(25, 100));
+    }
+};
+Dragon_Power_Manipulator.baubleType = "TRINKET";
+Dragon_Power_Manipulator.register();
+
+//Амулет: Элексир от валентино
+var Elixir_from_Valentino = VanillaFactory.createBaubleItem("Elixir_from_Valentino");
+Elixir_from_Valentino.rarity = "EPIC";
+Elixir_from_Valentino.onWornTick = function(bauble, wearer) {
+    if(wearer instanceof IPlayer) {
+        var player as IPlayer = wearer;
+             player.addPotionEffect(<potion:minecraft:health_boost>.makePotionEffect(10, 10));
+
+    }
+};
+Elixir_from_Valentino.baubleType = "BELT";
+Elixir_from_Valentino.register();
+
+//Амулет: Кольцо лилит
+var Lilith_Ring = VanillaFactory.createBaubleItem("Lilith_Ring");
+Lilith_Ring.rarity = "EPIC";
+Lilith_Ring.onWornTick = function(bauble, wearer) {
+    if(wearer instanceof IPlayer) {
+        var player as IPlayer = wearer;
+            
+          player.addPotionEffect(<potion:minecraft:resistance>.makePotionEffect(5, 50));
+         
+    }
+};
+Lilith_Ring.baubleType = "RING";
+Lilith_Ring.register(); 
+
+//Амулет: Кукла вуду
+var Voodoo_Doll = VanillaFactory.createBaubleItem("Voodoo_Doll");
+Voodoo_Doll.rarity = "EPIC";
+Voodoo_Doll.onWornTick = function(bauble, wearer) {
+    if(wearer instanceof IPlayer) {
+        var player as IPlayer = wearer;
+          player.addPotionEffect(<potion:minecraft:absorption>.makePotionEffect(35, 5));
+       
+    }
+};
+Voodoo_Doll.baubleType = "BODY";
+Voodoo_Doll.register();
+
+//Амулет: Кольцо люцифера
+var Lucifer_Ring = VanillaFactory.createBaubleItem("Lucifer_Ring");
+Lucifer_Ring.rarity = "EPIC";
+Lucifer_Ring.onWornTick = function(bauble, wearer) {
+    if(wearer instanceof IPlayer) {
+        var player as IPlayer = wearer;
+             player.addPotionEffect(<potion:minecraft:water_breathing>.makePotionEffect(5, 0));
+             player.addPotionEffect(<potion:minecraft:fire_resistance>.makePotionEffect(5, 0));
+             player.addPotionEffect(<potion:minecraft:haste>.makePotionEffect(5, 5));
+             player.addPotionEffect(<potion:minecraft:absorption>.makePotionEffect(50, 5));
+             player.addPotionEffect(<potion:minecraft:regeneration>.makePotionEffect(50, 5));
+             player.addPotionEffect(<potion:minecraft:strength>.makePotionEffect(25, 100));
+             player.addPotionEffect(<potion:minecraft:health_boost>.makePotionEffect(45, 5));
+             player.addPotionEffect(<potion:minecraft:resistance>.makePotionEffect(5, 20));
+                
+    }
+};
+Lucifer_Ring.baubleType = "RING";
+Lucifer_Ring.register();
+
+
+
+
+
+
+
+//Меч сумеречного зверя
+var sword1 = VanillaFactory.createItem("sword1");
+sword1.maxStackSize = 1;
+sword1.rarity = "epic";
+sword1.toolClass = "sword";
+sword1.register();
+
+//Тесак титана
+var sword2 = VanillaFactory.createItem("sword2");
+sword2.maxStackSize = 1;
+sword2.rarity = "epic";
+sword2.toolClass = "sword";
+sword2.register();
+
+//Коса властелина
+var sword3 = VanillaFactory.createItem("sword3");
+sword3.maxStackSize = 1;
+sword3.rarity = "epic";
+sword3.toolClass = "sword";
+sword3.register();
+
+//Меч вулкана
+var sword4 = VanillaFactory.createItem("sword4");
+sword4.maxStackSize = 1;
+sword4.rarity = "epic";
+sword4.toolClass = "sword";
+sword4.register();
+
+//Кислотная катана
+var sword5 = VanillaFactory.createItem("sword5");
+sword5.maxStackSize = 1;
+sword5.rarity = "epic";
+sword5.toolClass = "sword";
+sword5.register();
+
+//Меч королевской гварди
+var sword7 = VanillaFactory.createItem("sword7");
+sword7.maxStackSize = 1;
+sword7.rarity = "epic";
+sword7.toolClass = "sword";
+sword7.register();
+
+//Радиоктивная коса коса
+var sword8 = VanillaFactory.createItem("sword8");
+sword8.maxStackSize = 1;
+sword8.rarity = "epic";
+sword8.toolClass = "sword";
+sword8.register();
+
+//Мучительный клинок
+var sword9 = VanillaFactory.createItem("sword9");
+sword9.maxStackSize = 1;
+sword9.rarity = "epic";
+sword9.toolClass = "sword";
+sword9.register();
+
+//Халитовый клинок оверлорда
+var sword10 = VanillaFactory.createItem("sword10");
+sword10.maxStackSize = 1;
+sword10.rarity = "epic";
+sword10.toolClass = "sword";
+sword10.register();
+
+//Адская боль
+var sword11 = VanillaFactory.createItem("sword11");
+sword11.maxStackSize = 1;
+sword11.rarity = "epic";
+sword11.toolClass = "sword";
+sword11.register();
+
+//Коса смерти
+var sword12 = VanillaFactory.createItem("sword12");
+sword12.maxStackSize = 1;
+sword12.rarity = "epic";
+sword12.toolClass = "sword";
+sword12.register();
+
+//Топор лорда холода
+var sword13 = VanillaFactory.createItem("sword13");
+sword13.maxStackSize = 1;
+sword13.rarity = "epic";
+sword13.toolClass = "sword";
+sword13.register();
+
+//Топор адского лесника
+var sword14 = VanillaFactory.createItem("sword14");
+sword14.maxStackSize = 1;
+sword14.rarity = "epic";
+sword14.toolClass = "axe";
+sword14.toolLevel = 10;
+sword14.register();
+
+//Неразрушимый серп
+var sword15 = VanillaFactory.createItem("sword15");
+sword15.maxStackSize = 1;
+sword15.rarity = "epic";
+sword15.toolClass = "sword";
+sword15.register();
+
+//Коса бесконечности
+var infinity_scythe = VanillaFactory.createItem("infinity_scythe");
+infinity_scythe.maxStackSize = 1;
+infinity_scythe.rarity = "epic";
+infinity_scythe.toolClass = "sword";
+infinity_scythe.itemRightClick = function(stack, world, player, hand) {
+    if(world.isRemote()) { return "Pass"; }
+    Commands.call("kill @e[type=draconicevolution:chaosguardian,r=10]",player, world, false, true);
+    return "Pass";
+};
+infinity_scythe.register();
+
+
+
+
+//Пропуск от лорда геватикуса
+var pass_from_Lord_Gevaticus = VanillaFactory.createItem("pass_from_Lord_Gevaticus");
+pass_from_Lord_Gevaticus.maxStackSize = 1;
+pass_from_Lord_Gevaticus.register();
+
+//Пропуск от лорда атомоса
+var pass_from_lord_atomos = VanillaFactory.createItem("pass_from_lord_atomos");
+pass_from_lord_atomos.maxStackSize = 1;
+pass_from_lord_atomos.register();
+
+//Пропуск от генерала хатикуса
+var pass_from_General_Haticus = VanillaFactory.createItem("pass_from_General_Haticus");
+pass_from_General_Haticus.maxStackSize = 1;
+pass_from_General_Haticus.register();
+
+//Пропуск от шефа
+var pass_from_chief = VanillaFactory.createItem("pass_from_chief");
+pass_from_chief.maxStackSize = 1;
+pass_from_chief.register();
+
+//пропуск к LORD_Chaos
+var pass_LORD_Chaos = VanillaFactory.createItem("pass_LORD_Chaos");
+pass_LORD_Chaos.maxStackSize = 1;
+pass_LORD_Chaos.register();
+
+//LORD_Chaos
+var Lord_Dominator = VanillaFactory.createItem("Lord_Dominator");
+Lord_Dominator.maxStackSize = 64;
+Lord_Dominator.register();
+
+//Лорд атомос
+var lord_atomos = VanillaFactory.createItem("lord_atomos");
+lord_atomos.maxStackSize = 64;
+lord_atomos.register();
+
+//Шеф
+var Chief = VanillaFactory.createItem("Chief");
+Chief.maxStackSize = 64;
+Chief.register();
+
+//Генерал хатикус
+var General_Haticus = VanillaFactory.createItem("General_Haticus");
+General_Haticus.maxStackSize = 64;
+General_Haticus.register();
+
+//Лорд геватикус
+var Lord_Gevaticus = VanillaFactory.createItem("Lord_Gevaticus");
+Lord_Gevaticus.maxStackSize = 64;
+Lord_Gevaticus.register();

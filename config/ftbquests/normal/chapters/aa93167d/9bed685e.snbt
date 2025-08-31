@@ -1,0 +1,29 @@
+{
+	title: "Тоже крутой генератор",
+	x: -16.5d,
+	y: -3.5d,
+	text: [
+		"Наверное, советую попробовать. Лично я не пробовал)"
+	],
+	dependencies: [
+		"900f23c9"
+	],
+	tasks: [{
+		uid: "bd4a8d3e",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:basemachine3 1 45"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c46b3f3c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

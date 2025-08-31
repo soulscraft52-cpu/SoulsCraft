@@ -1,0 +1,30 @@
+{
+	title: "Двухслойный кондёр",
+	icon: "enderio:item_basic_capacitor 1 1",
+	x: -14.5d,
+	y: -6.0d,
+	text: [
+		"Нужен для крафта восьмислойки и продвинутой электросхемы"
+	],
+	dependencies: [
+		"4303599d"
+	],
+	tasks: [{
+		uid: "6d775534",
+		type: "item",
+		items: [{
+			item: "enderio:item_basic_capacitor 2 1"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "b334d8fa",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

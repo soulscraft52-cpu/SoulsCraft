@@ -1,0 +1,49 @@
+{
+	title: "О ДА",
+	x: 5.5d,
+	y: 6.5d,
+	text: [
+		"&5&lТаинственный Пазл:",
+		"&f&lВ центре - то, что рождается лишь из безумной тяги к совершенству.",
+		"&lЕго охраняют хранилища, крепкие, как сама вечность.",
+		"&lА по углам сияет металл, некогда принадлежавший Небесам,",
+		"&lспустившийся с высот Эдема и сохранивший отблеск рая.",
+		"&lСоедини их воедино - и тайна обретёт форму."
+	],
+	dependencies: [
+		"d9d4044d"
+	],
+	tasks: [{
+		uid: "9a16d80e",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:strongbox",
+			tag: {
+				RSControl: 0b,
+				Creative: 1b,
+				Level: 4b
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f3149cd0",
+		type: "item",
+		item: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyVariant: "neon",
+				TrophyColorGreen: 128,
+				TrophyShowsTooltip: 1b,
+				TrophyItem: {
+					id: "extrautils2:creativechest",
+					Count: 1b,
+					Damage: 0s
+				},
+				TrophyColorBlue: 128,
+				TrophyName: "Креатив",
+				TrophyColorRed: 128
+			}
+		}
+	}]
+}

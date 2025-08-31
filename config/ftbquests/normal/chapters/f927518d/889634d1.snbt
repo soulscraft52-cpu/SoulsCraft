@@ -1,0 +1,36 @@
+{
+	title: "Светится и взрывает",
+	icon: "thaumcraft:alumentum",
+	x: -12.0d,
+	y: -5.5d,
+	text: [
+		"Нитор и алюментум"
+	],
+	dependencies: [
+		"56d1bf6e"
+	],
+	tasks: [{
+		uid: "3c290ff4",
+		type: "item",
+		items: [{
+			item: "thaumcraft:alumentum"
+		}]
+	},
+	{
+		uid: "21319c3b",
+		type: "item",
+		items: [{
+			item: "thaumcraft:nitor_yellow"
+		}]
+	}],
+	rewards: [{
+		uid: "d3e2078b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	title: "Паяльник",
+	icon: "forestry:soldering_iron",
+	x: -1.0d,
+	y: -4.5d,
+	can_repeat: true,
+	dependencies: [
+		"6d4fdd0a"
+	],
+	tasks: [{
+		uid: "63e6bc16",
+		type: "item",
+		items: [{
+			item: "contenttweaker:coin_tier1"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "785b20c3",
+		type: "item",
+		item: "forestry:soldering_iron"
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	title: "Моет ваши руды",
+	icon: "industrialupgrade:moremachine3 1 8",
+	x: -13.0d,
+	y: -2.5d,
+	text: [
+		"Индустриальное производство ждет твоего рудопромывочного механизма!"
+	],
+	dependencies: [
+		"4f1a4228"
+	],
+	tasks: [{
+		uid: "4acd0f66",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:moremachine3 1 8"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "93a91a66",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

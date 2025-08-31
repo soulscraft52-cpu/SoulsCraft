@@ -1,0 +1,96 @@
+{
+	title: "ТУРБИНА!",
+	icon: "bigreactors:turbinecontroller",
+	x: -16.5d,
+	y: -4.5d,
+	text: [
+		"Полноценная начальная турбина. Не забудьте один из портов сделать на выход.",
+		"Вырабатывает 265.000 RF/t",
+		"Материал катушки может быть еще из золота, или лудикрита"
+	],
+	dependencies: [
+		"a5ef482f"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "12d300f4",
+		type: "item",
+		items: [{
+			item: "bigreactors:turbinehousing"
+		}],
+		count: 87L
+	},
+	{
+		uid: "679c0f29",
+		type: "item",
+		items: [{
+			item: "bigreactors:turbineglass"
+		}],
+		count: 6L
+	},
+	{
+		uid: "6a24e4ff",
+		type: "item",
+		items: [{
+			item: "bigreactors:turbinecontroller"
+		}]
+	},
+	{
+		uid: "28eb657a",
+		type: "item",
+		items: [{
+			item: "bigreactors:turbinerotorshaft"
+		}],
+		count: 3L
+	},
+	{
+		uid: "352295e9",
+		type: "item",
+		items: [{
+			item: "bigreactors:turbinerotorblade"
+		}],
+		count: 4L
+	},
+	{
+		uid: "4d024a99",
+		type: "item",
+		items: [{
+			item: "bigreactors:turbinefluidport"
+		}],
+		count: 2L
+	},
+	{
+		uid: "d557b775",
+		type: "item",
+		items: [{
+			item: "bigreactors:turbinebearing"
+		}]
+	},
+	{
+		uid: "88558902",
+		type: "item",
+		title: "Кольцо катушки",
+		items: [{
+			item: "minecraft:iron_block"
+		}],
+		count: 8L
+	},
+	{
+		uid: "0d6b4951",
+		type: "item",
+		items: [{
+			item: "bigreactors:turbinepowertaprf"
+		}]
+	}],
+	rewards: [{
+		uid: "81e0c47a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 2
+	}]
+}

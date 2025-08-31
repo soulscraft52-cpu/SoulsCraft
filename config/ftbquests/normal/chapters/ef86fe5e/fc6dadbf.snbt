@@ -1,0 +1,34 @@
+{
+	title: "Лазер для психанутых (tier 4)",
+	x: -27.5d,
+	y: -18.5d,
+	text: [
+		"§5  2048 MJ/t§f, а крафт для больных."
+	],
+	dependencies: [
+		"c05717df"
+	],
+	tasks: [{
+		uid: "56bdb152",
+		type: "item",
+		items: [{
+			id: "quarryplus:laserplus",
+			tag: {
+				ench: [{
+					lvl: 4s,
+					id: 32s
+				}]
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "c172f05a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		}
+	}]
+}

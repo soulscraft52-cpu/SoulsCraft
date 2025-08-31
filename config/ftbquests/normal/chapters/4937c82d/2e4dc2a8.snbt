@@ -1,0 +1,40 @@
+{
+	x: 15.5d,
+	y: -12.0d,
+	text: [
+		"Провода ждите меня"
+	],
+	dependencies: [
+		"116747e0"
+	],
+	tasks: [{
+		uid: "0a9e497a",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:cutter",
+			tag: {
+				ench: [{
+					lvl: 125s,
+					id: 34s
+				}],
+				RepairCost: 1,
+				display: {
+					Name: "Красные Кусачки"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a823ad34",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 2
+	}]
+}

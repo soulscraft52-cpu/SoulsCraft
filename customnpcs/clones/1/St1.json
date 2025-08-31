@@ -1,0 +1,596 @@
+{
+    "ReturnToStart": 1b,
+    "PuppetHead": {
+        "RotationY": 0.0f,
+        "RotationX": 0.0f,
+        "RotationZ": 0.0f,
+        "Disabled": 0b
+    },
+    "NpcInv": [
+    ],
+    "BossColor": 0,
+    "PotionEffect": 0,
+    "Size": 5,
+    "Resistances": {
+        "Arrow": 1.0f,
+        "Explosion": 1.0f,
+        "Knockback": 1.0f,
+        "Melee": 1.0f
+    },
+    "BossBar": 0b,
+    "RespawnTime": 10,
+    "NpcAngrySound": "",
+    "IgnoreCobweb": 0b,
+    "PuppetRArm2": {
+        "RotationY": 0.0f,
+        "RotationX": 0.0f,
+        "RotationZ": 0.0f,
+        "Disabled": 0b
+    },
+    "LootMode": 0,
+    "AttackStrenght": 5,
+    "PersistenceRequired": 0b,
+    "NpcLines": {
+        "Lines": [
+        ]
+    },
+    "PuppetLLeg": {
+        "RotationY": -0.112676084f,
+        "RotationX": -0.49295777f,
+        "RotationZ": 0.0f,
+        "Disabled": 0b
+    },
+    "NpcScenes": {
+        "Scenes": [
+        ]
+    },
+    "Orientation": 0,
+    "ScriptLanguage": "ECMAScript",
+    "KnockBack": 0,
+    "TransformHasJob": 0b,
+    "PuppetHead2": {
+        "RotationY": 0.0f,
+        "RotationX": 0.0f,
+        "RotationZ": 0.0f,
+        "Disabled": 0b
+    },
+    "BurnInSun": 0b,
+    "TraderSold": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "antiqueatlas:empty_antique_atlas",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 3b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "antiqueatlas:empty_antique_atlas",
+                "Count": 1b,
+                "Damage": 0s
+            }
+        ]
+    },
+    "AttackInvisible": 0b,
+    "HurtTime": 0s,
+    "PuppetMoving": 0b,
+    "PuppetBody": {
+        "RotationY": 0.0f,
+        "RotationX": 0.0f,
+        "RotationZ": 0.0f,
+        "Disabled": 0b
+    },
+    "PotionImmune": 1b,
+    "AvoidsSun": 0b,
+    "Texture": "customnpcs:textures/merchant.png",
+    "NpcJob": 9,
+    "BurstCount": 1,
+    "pSpeed": 10,
+    "DeathTime": 0s,
+    "pImpact": 0,
+    "Motion": [
+        0.0d,
+        -0.0784000015258789d,
+        0.0d
+    ],
+    "pEffect": 0,
+    "DistanceToMelee": 0,
+    "NpcStepSound": "",
+    "FireRate": 5,
+    "pEffAmp": 0,
+    "NpcKilledLines": {
+        "Lines": [
+        ]
+    },
+    "TraderMarket": "",
+    "Fire": -1s,
+    "TransformHasInv": 0b,
+    "PuppetAnimationSpeed": 4,
+    "NpcInteractLines": {
+        "Lines": [
+        ]
+    },
+    "pSpin": 0b,
+    "NpcHurtSound": "minecraft:entity.player.hurt",
+    "pTrail": 0,
+    "NoFallDamage": 0b,
+    "AbsorptionAmount": 0.0f,
+    "Name": "Торговец",
+    "FallDistance": 0.0f,
+    "SkinColor": 16777215,
+    "PuppetLArm": {
+        "RotationY": 0.0f,
+        "RotationX": 0.0f,
+        "RotationZ": 0.0f,
+        "Disabled": 0b
+    },
+    "NPCDialogOptions": [
+        {
+            "NPCDialog": {
+                "DialogCommand": "",
+                "Dialog": 158,
+                "Title": "ст1.0",
+                "DialogColor": 14737632,
+                "OptionType": 1
+            },
+            "DialogSlot": 0
+        },
+        {
+            "NPCDialog": {
+                "DialogCommand": "",
+                "Dialog": 164,
+                "Title": "ст1.30",
+                "DialogColor": 14737632,
+                "OptionType": 1
+            },
+            "DialogSlot": 1
+        },
+        {
+            "NPCDialog": {
+                "DialogCommand": "",
+                "Dialog": 177,
+                "Title": "ст1.1.2.3.1.1",
+                "DialogColor": 14737632,
+                "OptionType": 1
+            },
+            "DialogSlot": 2
+        },
+        {
+            "NPCDialog": {
+                "DialogCommand": "",
+                "Dialog": 181,
+                "Title": "ст2.0",
+                "DialogColor": 14737632,
+                "OptionType": 1
+            },
+            "DialogSlot": 3
+        },
+        {
+            "NPCDialog": {
+                "DialogCommand": "",
+                "Dialog": 200,
+                "Title": "Ст(п1)1",
+                "DialogColor": 14737632,
+                "OptionType": 1
+            },
+            "DialogSlot": 7
+        },
+        {
+            "NPCDialog": {
+                "DialogCommand": "",
+                "Dialog": 209,
+                "Title": "Ст(п1)2",
+                "DialogColor": 14737632,
+                "OptionType": 1
+            },
+            "DialogSlot": 8
+        },
+        {
+            "NPCDialog": {
+                "DialogCommand": "",
+                "Dialog": 210,
+                "Title": "Ст(п1)3",
+                "DialogColor": 14737632,
+                "OptionType": 1
+            },
+            "DialogSlot": 9
+        }
+    ],
+    "AggroRange": 16,
+    "DirectLOS": 1b,
+    "HandDropChances": [
+        0.085f,
+        0.085f
+    ],
+    "NpcModelData": {
+        "LegsConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.012000002f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "BodyConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "Eyes": {
+            "Pattern": 0b,
+            "Glint": 1b,
+            "Type": 0b,
+            "PositionY": 1,
+            "SkinColor": 11830381,
+            "PlayerTexture": 0b,
+            "Color": 6109203,
+            "BrowColor": 5982516,
+            "BrowThickness": 0
+        },
+        "LegParts": {
+            "Pattern": 0b,
+            "Type": 0b,
+            "PlayerTexture": 0b,
+            "Color": 16777215
+        },
+        "Parts": [
+        ],
+        "ArmsConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": -0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "ExtraData": {
+        },
+        "HeadConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        }
+    },
+    "minDelay": 20,
+    "DoorInteract": 2,
+    "MoveSpeed": 5,
+    "TransformEditingModus": 0b,
+    "UsingSkinUrl": 0b,
+    "PuppetRArm": {
+        "RotationY": 0.0f,
+        "RotationX": 0.0f,
+        "RotationZ": 0.0f,
+        "Disabled": 0b
+    },
+    "TraderIgnoreNBT": 0b,
+    "PotionDuration": 5,
+    "maxDelay": 40,
+    "ScriptEnabled": 0b,
+    "Role": 1,
+    "DropChance": [
+        {
+            "Integer": 100,
+            "Slot": 0
+        },
+        {
+            "Integer": 100,
+            "Slot": 1
+        },
+        {
+            "Integer": 100,
+            "Slot": 2
+        },
+        {
+            "Integer": 100,
+            "Slot": 3
+        },
+        {
+            "Integer": 100,
+            "Slot": 4
+        },
+        {
+            "Integer": 100,
+            "Slot": 5
+        },
+        {
+            "Integer": 100,
+            "Slot": 6
+        },
+        {
+            "Integer": 100,
+            "Slot": 7
+        },
+        {
+            "Integer": 100,
+            "Slot": 8
+        }
+    ],
+    "KilledTime": 0L,
+    "AimWhileShooting": 0b,
+    "CanPickUpLoot": 0b,
+    "CanDrown": 1b,
+    "pSize": 5,
+    "CanSprint": 0b,
+    "CanLeap": 0b,
+    "ForgeData": {
+        "cnpcmarkdata": {
+            "marks": [
+            ]
+        },
+        "lastPullTime": 1042999L,
+        "timeInAir": 907
+    },
+    "PuppetAttacking": 0b,
+    "PotionAmp": 0,
+    "PuppetBody2": {
+        "RotationY": 0.0f,
+        "RotationX": 0.0f,
+        "RotationZ": 0.0f,
+        "Disabled": 0b
+    },
+    "RelativeAABB": [
+        -0.30000001192092896d,
+        0.0d,
+        -0.30000001192092896d,
+        0.30000001192092896d,
+        1.899999976158142d,
+        0.30000001192092896d
+    ],
+    "TacticalRadius": 8,
+    "MaxExp": 0,
+    "PortalCooldown": 0,
+    "pGlows": 0b,
+    "TransformHasAdvanced": 0b,
+    "MovementType": 0,
+    "FiringSound": "minecraft:entity.arrow.shoot",
+    "Armor": [
+    ],
+    "CloakTexture": "",
+    "GlowTexture": "",
+    "pXlr8": 0b,
+    "MarkovGeneratorId": 8,
+    "Scripts": [
+    ],
+    "Health": 40.0f,
+    "MovingPause": 1b,
+    "Title": "",
+    "PuppetRLeg": {
+        "RotationY": 0.0f,
+        "RotationX": -0.5070423f,
+        "RotationZ": 0.0f,
+        "Disabled": 0b
+    },
+    "PuppetLLeg2": {
+        "RotationY": 0.0f,
+        "RotationX": 0.0f,
+        "RotationZ": 0.0f,
+        "Disabled": 0b
+    },
+    "Rotation": [
+        134.40112f,
+        0.0f
+    ],
+    "ShowName": 0,
+    "SpawnCycle": 0,
+    "stopAndInteract": 0b,
+    "ReactsToFire": 0b,
+    "PositionOffsetZ": 5.0f,
+    "PositionOffsetY": 5.0f,
+    "PositionOffsetX": 5.0f,
+    "TransformHasAI": 0b,
+    "id": "customnpcs:customnpc",
+    "IsStatue": 0b,
+    "MovingPatern": 0,
+    "DefendFaction": 0b,
+    "FireIndirect": 0,
+    "NpcVisible": 0,
+    "LinkedNpcName": "",
+    "HitSound": "minecraft:entity.arrow.hit",
+    "FindShelter": 2,
+    "Air": 300s,
+    "TacticalVariant": 0,
+    "HandItems": [
+        {
+        },
+        {
+        }
+    ],
+    "ArmorDropChances": [
+        0.085f,
+        0.085f,
+        0.085f,
+        0.085f
+    ],
+    "StandingState": 3,
+    "NpcInteractNPCLines": {
+        "Lines": [
+        ]
+    },
+    "WalkingRange": 10,
+    "ShotCount": 1,
+    "pDur": 5,
+    "TraderIgnoreDamage": 0b,
+    "AttackRange": 2,
+    "NpcKillLines": {
+        "Lines": [
+        ]
+    },
+    "NpcAttackLines": {
+        "Lines": [
+        ]
+    },
+    "pArea": 0,
+    "MoveState": 1,
+    "pRender3D": 1b,
+    "CombatRegen": 0,
+    "NpcsTimers": [
+    ],
+    "MarkovGender": 0,
+    "PuppetRLeg2": {
+        "RotationY": 0.0f,
+        "RotationX": 0.0f,
+        "RotationZ": 0.0f,
+        "Disabled": 0b
+    },
+    "LeftHanded": 0b,
+    "OnGround": 1b,
+    "Dimension": 0,
+    "ImmuneToFire": 1b,
+    "ArmorItems": [
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        }
+    ],
+    "DisablePitch": 0b,
+    "pPhysics": 1b,
+    "PuppetLArm2": {
+        "RotationY": 0.0f,
+        "RotationX": 0.0f,
+        "RotationZ": 0.0f,
+        "Disabled": 0b
+    },
+    "HurtByTimestamp": 5921,
+    "TraderCurrency": {
+        "NpcMiscInv": [
+            {
+                "Slot": 18b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "thermalfoundation:coin",
+                "Count": 1b,
+                "Damage": 72s
+            },
+            {
+                "Slot": 21b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "soulscraft:bloodgold",
+                "Count": 32b,
+                "Damage": 0s
+            }
+        ]
+    },
+    "CreatureType": 0,
+    "Attributes": [
+        {
+            "Base": -2.0d,
+            "Name": "tc.mobmod"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "tc.mobmodtaint"
+        },
+        {
+            "Base": 40.0d,
+            "Name": "generic.maxHealth"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.knockbackResistance"
+        },
+        {
+            "Base": 0.25d,
+            "Name": "generic.movementSpeed"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.armor"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.armorToughness"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "forge.swimSpeed"
+        },
+        {
+            "Base": 32.0d,
+            "Name": "generic.followRange"
+        },
+        {
+            "Base": 5.0d,
+            "Name": "generic.attackDamage"
+        },
+        {
+            "Base": 0.5d,
+            "Name": "generic.flyingSpeed"
+        }
+    ],
+    "Invulnerable": 0b,
+    "TransformHasDisplay": 0b,
+    "TransformHasRole": 0b,
+    "PuppetAnimate": 0b,
+    "NpcIdleSound": "",
+    "Weapons": [
+    ],
+    "HealthRegen": 1,
+    "ForgeCaps": {
+        "tinkertoolleveling:entityxp": [
+        ]
+    },
+    "Leashed": 0b,
+    "SkinUrl": "",
+    "CanSwim": 1b,
+    "GroundSound": "minecraft:block.stone.break",
+    "MaxHealth": 40,
+    "HideBodyWhenKilled": 1b,
+    "AttackSpeed": 20,
+    "FactionPoints": {
+        "DecreaseFaction1Points": 0b,
+        "OptionFaction2Points": 100,
+        "OptionFactions1": -1,
+        "OptionFactions2": -1,
+        "OptionFaction1Points": 100,
+        "DecreaseFaction2Points": 0b
+    },
+    "pDamage": 4,
+    "AttackOtherFactions": 0b,
+    "TransformIsActive": 0b,
+    "MovingState": 0,
+    "MovingPos": 0,
+    "OnAttack": 3,
+    "FallFlying": 0b,
+    "OrderedLines": 0b,
+    "PuppetStanding": 1b,
+    "TransformHasStats": 0b,
+    "ModRev": 18,
+    "Accuracy": 60,
+    "MinExp": 0,
+    "MaxFiringRange": 15,
+    "pStick": 0b,
+    "NpcDeathSound": "minecraft:entity.player.hurt",
+    "FactionID": 0,
+    "TotalTicksAlive": 797992L,
+    "npcInteracting": 1b,
+    "UpdateBlocked": 0b,
+    "AvoidsWater": 0b,
+    "NoLivingAnimation": 0b
+}

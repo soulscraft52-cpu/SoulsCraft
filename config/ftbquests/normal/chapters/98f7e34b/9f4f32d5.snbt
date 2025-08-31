@@ -1,0 +1,29 @@
+{
+	title: "Что это?",
+	x: 1.0d,
+	y: 6.5d,
+	text: [
+		"Оно тяжелое...",
+		"Очень...."
+	],
+	dependencies: [
+		"c6367376",
+		"316cc75c",
+		"375358d2",
+		"f5411c33",
+		"46b12a5c",
+		"be706b15"
+	],
+	tasks: [{
+		uid: "7c8a2035",
+		type: "item",
+		items: [{
+			item: "contenttweaker:pulsating_black_hole"
+		}]
+	}],
+	rewards: [{
+		uid: "ed4b330e",
+		type: "command",
+		command: "/title @a title [\"\",{\"text\":\"\\u2560\\u2550\\u256c\\u2550\\u2563\",\"bold\":true,\"color\":\"black\"},{\"text\":\"\\u0424\\u0418\\u041d\\u0410\\u041b\",\"bold\":true,\"color\":\"dark_purple\"},{\"text\":\"\\u2560\\u2550\\u256c\\u2550\\u2563\",\"bold\":true,\"color\":\"black\"}]"
+	}]
+}

@@ -1,0 +1,95 @@
+{
+	title: "Жидкостный реактор (Улучшенный)",
+	icon: "industrialupgrade:water_reactors 1 9",
+	x: -13.5d,
+	y: -9.5d,
+	dependencies: [
+		"488d7a6d"
+	],
+	tasks: [{
+		uid: "4e381084",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:water_reactors 1 9"
+		}]
+	},
+	{
+		uid: "b470688c",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:water_reactors 1 5"
+		}],
+		count: 3L
+	},
+	{
+		uid: "74ead1b6",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:water_reactors 1 1"
+		}],
+		count: 34L
+	},
+	{
+		uid: "fd224094",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:water_reactors 1 13"
+		}],
+		count: 2L
+	},
+	{
+		uid: "6df86284",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:water_reactors 1 17"
+		}]
+	},
+	{
+		uid: "d6236b8d",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:water_reactors 1 21"
+		}],
+		count: 2L
+	},
+	{
+		uid: "49c59ef1",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:water_reactors 1 25"
+		}]
+	},
+	{
+		uid: "c24e7bbe",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:water_reactors 1 29"
+		}]
+	},
+	{
+		uid: "1f0e3c06",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:water_reactors 1 33"
+		}],
+		count: 6L
+	},
+	{
+		uid: "e9b0d91e",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:water_reactors 1 37"
+		}]
+	}],
+	rewards: [{
+		uid: "d812035e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		},
+		count: 2
+	}]
+}

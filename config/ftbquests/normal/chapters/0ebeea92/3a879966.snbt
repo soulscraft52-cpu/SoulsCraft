@@ -1,0 +1,30 @@
+{
+	title: "Ручной пузырёк",
+	x: -2.0d,
+	y: 2.5d,
+	text: [
+		"Пригодится чтобы удержать жизнь вашего питомца. Или собрать душу из декоративной могилы."
+	],
+	dependencies: [
+		"24782bb6"
+	],
+	tasks: [{
+		uid: "d207c738",
+		type: "item",
+		items: [{
+			item: "tombstone:familiar_receptacle"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "13965269",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

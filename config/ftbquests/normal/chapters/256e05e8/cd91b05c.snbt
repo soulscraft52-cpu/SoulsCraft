@@ -1,0 +1,98 @@
+{
+	title: "Высокотемпературный реактор (Улучшенный)",
+	icon: "industrialupgrade:heat_reactors 1 5",
+	x: -13.5d,
+	y: -6.5d,
+	dependencies: [
+		"bc580ce6"
+	],
+	tasks: [{
+		uid: "3988c4c0",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:heat_reactors 1 5"
+		}]
+	},
+	{
+		uid: "1dadb4ff",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:heat_reactors 1 33"
+		}],
+		count: 4L
+	},
+	{
+		uid: "3f3f1d13",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:heat_reactors 1 29"
+		}]
+	},
+	{
+		uid: "aadaf333",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:heat_reactors 1 25"
+		}],
+		count: 54L
+	},
+	{
+		uid: "4093fdd5",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:heat_reactors 1 21"
+		}],
+		count: 2L
+	},
+	{
+		uid: "30bd88f1",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:heat_reactors 1 17"
+		}],
+		count: 2L
+	},
+	{
+		uid: "fac6d92c",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:heat_reactors 1 13"
+		}],
+		count: 4L
+	},
+	{
+		uid: "584c43e7",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:heat_reactors 1 9"
+		}],
+		count: 8L
+	},
+	{
+		uid: "b194c975",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:heat_reactors 1 1"
+		}],
+		count: 2L
+	},
+	{
+		uid: "14688aca",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:heat_reactors 1 37"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "2b65fd9f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		},
+		count: 2
+	}]
+}

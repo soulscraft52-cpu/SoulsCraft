@@ -1,0 +1,28 @@
+{
+	title: "Без него не как",
+	x: -5.5d,
+	y: -16.0d,
+	text: [
+		"Имеет 1 слот"
+	],
+	dependencies: [
+		"c83bc188"
+	],
+	tasks: [{
+		uid: "da24ae99",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockoutputbus"
+		}]
+	}],
+	rewards: [{
+		uid: "cd852677",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

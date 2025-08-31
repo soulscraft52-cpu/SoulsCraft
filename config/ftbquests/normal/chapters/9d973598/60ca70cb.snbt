@@ -1,0 +1,14 @@
+{
+	x: 11.5d,
+	y: -7.0d,
+	dependencies: [
+		"15efcfb3"
+	],
+	tasks: [{
+		uid: "52a13c94",
+		type: "item",
+		items: [{
+			item: "divinerpg:rock_chunks"
+		}]
+	}]
+}

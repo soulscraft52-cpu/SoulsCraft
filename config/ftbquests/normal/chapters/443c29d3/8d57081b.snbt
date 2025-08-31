@@ -1,0 +1,30 @@
+{
+	title: "Блокировка ящика",
+	x: -19.5d,
+	y: -1.0d,
+	text: [
+		"ПКМ по ящику - фиксирует предметы в ячейках. Позволяет так настроить авто-сортировку. Даже если предмета будет 0, слот будет занят для данного предмета."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"481d6aea",
+		"97f044cb"
+	],
+	tasks: [{
+		uid: "47aa16d0",
+		type: "item",
+		items: [{
+			item: "storagedrawers:drawer_key"
+		}]
+	}],
+	rewards: [{
+		uid: "b732e1ba",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

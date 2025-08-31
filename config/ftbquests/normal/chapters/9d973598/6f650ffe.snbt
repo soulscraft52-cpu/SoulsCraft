@@ -1,0 +1,33 @@
+{
+	title: "НЕНАВИЖУ ТАРАКАНОВ",
+	icon: {
+		id: "draconicevolution:mob_soul",
+		tag: {
+			EntityName: "divinerpg:ancient_entity"
+		}
+	},
+	x: -10.0d,
+	y: -8.5d,
+	text: [
+		"Убейте 10 древних сущностей"
+	],
+	dependencies: [
+		"a3a0f328"
+	],
+	tasks: [{
+		uid: "a3a3f726",
+		type: "kill",
+		entity: "divinerpg:ancient_entity",
+		value: 10L
+	}],
+	rewards: [{
+		uid: "02d41993",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

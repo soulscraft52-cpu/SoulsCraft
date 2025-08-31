@@ -1,0 +1,41 @@
+{
+	title: "Зачем это?",
+	icon: {
+		id: "thermalexpansion:capacitor",
+		tag: {
+			Energy: 1210000000
+		},
+		Damage: 32000s
+	},
+	x: 11.5d,
+	y: 0.5d,
+	text: [
+		"Чё-то из термала..."
+	],
+	dependencies: [
+		"257f84b3"
+	],
+	tasks: [{
+		uid: "9600f46b",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:capacitor",
+			tag: {
+				Energy: 1210000000
+			},
+			Damage: 32000s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ebb15d35",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "6"
+			}
+		},
+		count: 16
+	}]
+}

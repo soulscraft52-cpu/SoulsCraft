@@ -1,0 +1,31 @@
+{
+	x: -0.5d,
+	y: 8.5d,
+	text: [
+		"Любовь дельфинов, даже когда их нет."
+	],
+	dependencies: [
+		"43fad645"
+	],
+	tasks: [{
+		uid: "9aa0b01c",
+		type: "item",
+		items: [{
+			id: "tombstone:scroll_buff",
+			tag: {
+				enchant: 1b
+			},
+			Damage: 8s
+		}]
+	}],
+	rewards: [{
+		uid: "15870646",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "2"
+			}
+		}
+	}]
+}

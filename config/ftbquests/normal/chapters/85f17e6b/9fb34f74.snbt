@@ -1,0 +1,31 @@
+{
+	title: "Супер-работяга",
+	x: -11.0d,
+	y: -2.5d,
+	text: [
+		"Восстановите прочность философского камня."
+	],
+	dependencies: [
+		"476c8481"
+	],
+	tasks: [{
+		uid: "319290aa",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:master_infusion_crystal"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "77b37522",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 4
+	}]
+}

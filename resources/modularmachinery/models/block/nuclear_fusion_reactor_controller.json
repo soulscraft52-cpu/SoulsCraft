@@ -1,0 +1,12 @@
+{
+    "parent": "modularmachinery:block/blockmodel_overlay_orientable_all",
+    "textures": {
+                "bg_all": "modularmachinery:blocks/nuclear_fusion_reactor_casing",
+        "ov_top": "modularmachinery:blocks/nuclear_fusion_reactor_casing",
+        "ov_side": "modularmachinery:blocks/nuclear_fusion_reactor_casing",
+        "ov_front": "modularmachinery:blocks/nuclear_fusion_reactor_layer"
+
+
+
+    }
+}

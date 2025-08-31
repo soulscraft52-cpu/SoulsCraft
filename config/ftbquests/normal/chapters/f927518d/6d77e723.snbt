@@ -1,0 +1,25 @@
+{
+	x: 0.5d,
+	y: -5.0d,
+	dependencies: [
+		"79e9385d",
+		"372b57f7"
+	],
+	tasks: [{
+		uid: "ec459ff4",
+		type: "item",
+		items: [{
+			item: "thaumadditions:vis_seeds/mortuus"
+		}]
+	}],
+	rewards: [{
+		uid: "0323cf7c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

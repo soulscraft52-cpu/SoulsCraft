@@ -1,0 +1,32 @@
+{
+	title: "Шлем Таноса",
+	icon: "avaritia:infinity_helmet",
+	x: -4.5d,
+	y: -2.5d,
+	text: [
+		"Колпак в котором воевал сам Танос"
+	],
+	dependencies: [
+		"257f84b3"
+	],
+	tasks: [{
+		uid: "3b03f385",
+		type: "item",
+		items: [{
+			item: "avaritia:infinity_helmet"
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "df291035",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			Count: 16,
+			tag: {
+				type: "6"
+			}
+		},
+		count: 16
+	}]
+}

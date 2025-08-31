@@ -1,0 +1,32 @@
+{
+	x: -1.5d,
+	y: -9.5d,
+	text: [
+		"Создаем наше светлое будущее",
+		"",
+		"Внимание! Обращайте внимание на уровни стержней, они важны при разгоне реактора."
+	],
+	dependencies: [
+		"308318e3"
+	],
+	tasks: [{
+		uid: "ad1d09fe",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:basemachine3",
+			tag: {},
+			Damage: 100s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "707bfa41",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

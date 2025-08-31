@@ -1,0 +1,30 @@
+{
+	title: "Ну типо да...",
+	icon: "extrautils2:passivegenerator 1 6",
+	x: 11.5d,
+	y: -3.5d,
+	text: [
+		"Мельница"
+	],
+	dependencies: [
+		"257f84b3"
+	],
+	tasks: [{
+		uid: "c3c25c33",
+		type: "item",
+		items: [{
+			item: "extrautils2:passivegenerator 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "b6a8c540",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "6"
+			}
+		},
+		count: 16
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	title: "Уже не так медленно и нудно",
+	x: -0.5d,
+	y: -7.5d,
+	text: [
+		"Но всё ещё долго. Надо быстрее!"
+	],
+	dependencies: [
+		"2542c835"
+	],
+	tasks: [{
+		uid: "6cadd090",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:basemachine 1 1"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "bbbd3bb8",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		}
+	}]
+}

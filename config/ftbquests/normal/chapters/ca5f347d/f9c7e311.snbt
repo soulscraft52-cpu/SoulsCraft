@@ -1,0 +1,32 @@
+{
+	title: "Этим мы будем убивать визеров...",
+	icon: "draconicevolution:grinder",
+	x: -5.0d,
+	y: -7.5d,
+	text: [
+		"Молотилка, убивает любого за один удар"
+	],
+	dependencies: [
+		"235944c1",
+		"a3af5472",
+		"40641296"
+	],
+	tasks: [{
+		uid: "3537efa9",
+		type: "item",
+		items: [{
+			item: "draconicevolution:grinder"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4f7b6f30",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		}
+	}]
+}

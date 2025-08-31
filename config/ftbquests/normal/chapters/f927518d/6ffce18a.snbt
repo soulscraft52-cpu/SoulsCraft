@@ -1,0 +1,29 @@
+{
+	x: -5.0d,
+	y: -2.0d,
+	text: [
+		"Почти тоже самое как сапожки"
+	],
+	dependencies: [
+		"0e34ab97"
+	],
+	tasks: [{
+		uid: "870f66e0",
+		type: "item",
+		items: [{
+			item: "thaumadditions:traveller_belt"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "eba0d21b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

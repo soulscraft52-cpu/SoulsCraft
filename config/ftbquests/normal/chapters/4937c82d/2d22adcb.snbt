@@ -1,0 +1,131 @@
+{
+	title: "Машина для ленивых",
+	icon: "modularmachinery:rocket_launch_simulation_controller",
+	x: -3.5d,
+	y: -8.5d,
+	shape: "square",
+	text: [
+		"Зато есть ништяки"
+	],
+	dependencies: [
+		"afe787ef"
+	],
+	tasks: [{
+		uid: "a736b0ec",
+		type: "item",
+		items: [{
+			item: "modularmachinery:rocket_launch_simulation_controller"
+		}],
+		consume_items: false
+	},
+	{
+		uid: "aacb8881",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockfluidinputhatch 1 2"
+		}]
+	},
+	{
+		uid: "eae3647e",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockinputbus 1 3"
+		}]
+	},
+	{
+		uid: "a4aba73f",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockoutputbus 1 2"
+		}],
+		count: 9L
+	},
+	{
+		uid: "1f98b155",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockenergyinputhatch 1 2"
+		}]
+	},
+	{
+		uid: "c4c30b52",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing 1 5"
+		}]
+	},
+	{
+		uid: "d8392143",
+		type: "item",
+		items: [{
+			item: "galaxyspace:advanced_landing_pad"
+		}],
+		count: 25L
+	},
+	{
+		uid: "32ce29db",
+		type: "item",
+		items: [{
+			item: "contenttweaker:dense_steel_rocket_casing"
+		}],
+		count: 121L
+	},
+	{
+		uid: "ce30ef85",
+		type: "item",
+		items: [{
+			item: "railcraft:post_metal 1 15"
+		}],
+		count: 64L
+	},
+	{
+		uid: "fb994208",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing 1 3"
+		}],
+		count: 26L
+	},
+	{
+		uid: "87e2d05f",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing 1 1"
+		}],
+		count: 24L
+	},
+	{
+		uid: "005ae31b",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing 1 2"
+		}],
+		count: 2L
+	},
+	{
+		uid: "3174d2ab",
+		type: "item",
+		items: [{
+			item: "contenttweaker:strong_rocket_stabilizer"
+		}],
+		count: 4L
+	},
+	{
+		uid: "90b3d15b",
+		type: "item",
+		items: [{
+			item: "contenttweaker:maximum_space_antenna"
+		}]
+	}],
+	rewards: [{
+		uid: "68f7eceb",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 4
+	}]
+}

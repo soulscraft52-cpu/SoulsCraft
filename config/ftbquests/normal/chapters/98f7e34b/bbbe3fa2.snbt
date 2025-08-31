@@ -1,0 +1,29 @@
+{
+	title: "Супер-верстак",
+	icon: "extendedcrafting:table_ultimate",
+	x: -14.5d,
+	y: -4.0d,
+	text: [
+		"Верстак 9x9, нужен для серьёзных крафтов"
+	],
+	dependencies: [
+		"9a56ae44"
+	],
+	tasks: [{
+		uid: "bc850f31",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:table_ultimate"
+		}]
+	}],
+	rewards: [{
+		uid: "f6816878",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		}
+	}]
+}

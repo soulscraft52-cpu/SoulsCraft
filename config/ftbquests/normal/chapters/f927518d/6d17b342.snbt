@@ -1,0 +1,24 @@
+{
+	x: -3.5d,
+	y: -11.0d,
+	dependencies: [
+		"82a220be"
+	],
+	tasks: [{
+		uid: "110fa02f",
+		type: "item",
+		items: [{
+			item: "packagedthaumic:arcane_crafter"
+		}]
+	}],
+	rewards: [{
+		uid: "be2076a9",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

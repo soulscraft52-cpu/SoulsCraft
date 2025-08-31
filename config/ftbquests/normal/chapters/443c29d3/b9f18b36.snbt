@@ -1,0 +1,30 @@
+{
+	title: "Тёмная материя",
+	icon: "extrautils2:compressedcobblestone 1 7",
+	x: -19.5d,
+	y: -4.5d,
+	text: [
+		"Он такой тёмный..."
+	],
+	dependencies: [
+		"85f19896"
+	],
+	tasks: [{
+		uid: "b1bbedf5",
+		type: "item",
+		items: [{
+			item: "extrautils2:compressedcobblestone 1 7"
+		}]
+	}],
+	rewards: [{
+		uid: "72a93e29",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		random_bonus: 1
+	}]
+}

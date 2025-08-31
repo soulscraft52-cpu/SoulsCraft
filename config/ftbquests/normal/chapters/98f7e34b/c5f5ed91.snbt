@@ -1,0 +1,30 @@
+{
+	title: "Ты найдёшь ему применение",
+	icon: "bigreactors:reactorcreativecoolantport",
+	x: 2.5d,
+	y: 1.5d,
+	text: [
+		"..."
+	],
+	dependencies: [
+		"257f84b3"
+	],
+	tasks: [{
+		uid: "46b12a5c",
+		type: "item",
+		items: [{
+			item: "bigreactors:reactorcreativecoolantport"
+		}]
+	}],
+	rewards: [{
+		uid: "1b963922",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "6"
+			}
+		},
+		count: 16
+	}]
+}

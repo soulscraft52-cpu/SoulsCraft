@@ -1,0 +1,31 @@
+{
+	title: "Улучшенная дробилка",
+	icon: "industrialupgrade:moremachine",
+	x: -12.0d,
+	y: -13.0d,
+	text: [
+		"Мацератор, но круче"
+	],
+	dependencies: [
+		"7d6b426f"
+	],
+	tasks: [{
+		uid: "cac1b682",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:moremachine"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4060545c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		},
+		random_bonus: 1
+	}]
+}

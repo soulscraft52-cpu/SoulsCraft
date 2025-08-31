@@ -1,0 +1,66 @@
+{
+	title: "Имба имбой",
+	icon: {
+		id: "thermalexpansion:device",
+		tag: {
+			RSControl: 0b,
+			Facing: 3b,
+			Energy: 0,
+			SideCache: [B;
+				2b,
+				1b,
+				1b,
+				1b,
+				1b,
+				1b
+			]
+		},
+		Damage: 10s
+	},
+	x: 1.5d,
+	y: -7.5d,
+	text: [
+		"1 блок к 9 слиткам и не только!"
+	],
+	dependencies: [
+		"bc9e4eee"
+	],
+	tasks: [{
+		uid: "ac159dfe",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:device",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					2b,
+					1b,
+					1b,
+					1b,
+					1b,
+					1b
+				]
+			},
+			Damage: 10s
+		}]
+	}],
+	rewards: [{
+		uid: "1a4dcea9",
+		type: "item",
+		item: "draconicevolution:draconic_block",
+		count: 4
+	},
+	{
+		uid: "55870a7a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		random_bonus: 2
+	}]
+}

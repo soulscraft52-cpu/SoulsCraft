@@ -1,0 +1,29 @@
+{
+	title: "Довольно дорогое процветание",
+	x: -11.0d,
+	y: 1.5d,
+	text: [
+		"Если так и будет дальше то скоро мы будеи деградировать"
+	],
+	dependencies: [
+		"e2ef3a17"
+	],
+	tasks: [{
+		uid: "5b476485",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:crafting 1 32"
+		}]
+	}],
+	rewards: [{
+		uid: "640b0f66",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		},
+		random_bonus: 3
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	title: "Она проста эссенция",
+	x: 14.0d,
+	y: -1.0d,
+	shape: "diamond",
+	text: [
+		"Да вы правы....",
+		"ОНА ПРОСТА ЭССЕНЦИЯ"
+	],
+	dependencies: [
+		"cc455e27"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "9c278f4a",
+		type: "item",
+		items: [{
+			item: "mysticalagradditions:stuff 1 69"
+		}]
+	}],
+	rewards: [{
+		uid: "8d7f6064",
+		type: "command",
+		command: "/title @a title [\"\",{\"text\":\"\\u2560\\u2550\\u256c\\u2550\\u2563\",\"bold\":true,\"color\":\"black\"},{\"text\":\"\\u0424\\u0418\\u041d\\u0410\\u041b\",\"bold\":true,\"color\":\"dark_purple\"},{\"text\":\"\\u2560\\u2550\\u256c\\u2550\\u2563\",\"bold\":true,\"color\":\"black\"}]"
+	}]
+}

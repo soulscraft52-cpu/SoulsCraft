@@ -1,0 +1,29 @@
+{
+	title: "Приклейте эти крылья клеем",
+	icon: "extrautils2:angelring",
+	x: -12.0d,
+	y: -5.0d,
+	text: [
+		"Нет, ходить ты никогда не будешь, но ты будешь летать."
+	],
+	dependencies: [
+		"0b73e8d9"
+	],
+	tasks: [{
+		uid: "31f551a9",
+		type: "item",
+		items: [{
+			item: "extrautils2:angelring"
+		}]
+	}],
+	rewards: [{
+		uid: "dd442f72",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	x: 1.5d,
+	y: -9.5d,
+	dependencies: [
+		"6d77e723",
+		"b4464075"
+	],
+	tasks: [{
+		uid: "6eb063eb",
+		type: "item",
+		items: [{
+			item: "thaumadditions:vis_seeds/spiritus"
+		}]
+	}],
+	rewards: [{
+		uid: "1d989dda",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

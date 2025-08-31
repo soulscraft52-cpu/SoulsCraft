@@ -1,0 +1,28 @@
+{
+	title: "§6Ихориевая §fткань",
+	x: -8.0d,
+	y: 2.0d,
+	text: [
+		"Ещё и ткань, а какая красивая, какие камушки блестящие, ух!"
+	],
+	dependencies: [
+		"f3ad0dd7"
+	],
+	tasks: [{
+		uid: "1212fb84",
+		type: "item",
+		items: [{
+			item: "thaumictinkerer:kamiresource 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "75d962bd",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

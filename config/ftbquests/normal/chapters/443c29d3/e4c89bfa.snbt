@@ -1,0 +1,41 @@
+{
+	title: "Наконец-то доски!",
+	icon: "minecraft:planks",
+	x: -23.0d,
+	y: -7.0d,
+	text: [
+		"Чтобы получить §6доски §r- нажмите §aПКМ §rс §3§7§8§1§cтопором§r§r в руке по §eбревну§r."
+	],
+	dependencies: [
+		"6e5f5628"
+	],
+	tasks: [{
+		uid: "0f7d1187",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "plankWood",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any plankWood"
+				}
+			}
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "f2636387",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

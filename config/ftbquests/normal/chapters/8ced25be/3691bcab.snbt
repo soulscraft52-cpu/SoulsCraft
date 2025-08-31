@@ -1,0 +1,25 @@
+{
+	title: "Баланс",
+	x: -1.0d,
+	y: -8.5d,
+	dependencies: [
+		"b112f9c5"
+	],
+	tasks: [{
+		uid: "9cf6946d",
+		type: "item",
+		items: [{
+			item: "extrautils2:opinium 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "d80abee9",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

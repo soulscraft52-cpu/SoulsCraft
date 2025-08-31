@@ -1,0 +1,29 @@
+{
+	x: -5.0d,
+	y: 1.0d,
+	text: [
+		"Продвинутая версия пояса"
+	],
+	dependencies: [
+		"9e539b52"
+	],
+	tasks: [{
+		uid: "297b6d3a",
+		type: "item",
+		items: [{
+			item: "thaumadditions:meteor_belt"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c4bc6c9b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

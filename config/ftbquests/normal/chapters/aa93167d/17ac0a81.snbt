@@ -1,0 +1,29 @@
+{
+	title: "Совершенный поток воды",
+	x: -19.5d,
+	y: -3.5d,
+	text: [
+		"Прям как в моих эссе и докладах"
+	],
+	dependencies: [
+		"b7720f98"
+	],
+	tasks: [{
+		uid: "b9c5f1bd",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:basemachine3 1 48"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e9483e15",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		}
+	}]
+}

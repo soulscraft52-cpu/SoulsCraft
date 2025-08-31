@@ -1,0 +1,80 @@
+{
+	title: "Пробуждённый халит",
+	icon: "divinerpg:awakened_halite_chestplate",
+	x: 5.5d,
+	y: -14.5d,
+	text: [
+		"Не ихор, но тоже неплохо."
+	],
+	dependencies: [
+		"06084df4",
+		"1989a31c",
+		"aa6ae875"
+	],
+	tasks: [{
+		uid: "b4fcfd37",
+		type: "item",
+		items: [{
+			item: "divinerpg:awakened_halite_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ffc8576a",
+		type: "item",
+		items: [{
+			item: "divinerpg:awakened_halite_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "cf1bfae6",
+		type: "item",
+		items: [{
+			item: "divinerpg:awakened_halite_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5131880f",
+		type: "item",
+		items: [{
+			item: "divinerpg:awakened_halite_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "df376c0b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		}
+	},
+	{
+		uid: "648b3e39",
+		type: "item",
+		item: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyVariant: "neon",
+				TrophyColorGreen: 128,
+				TrophyShowsTooltip: 1b,
+				TrophyItem: {
+					id: "divinerpg:halite_blade",
+					Count: 1b,
+					Damage: 0s
+				},
+				TrophyColorBlue: 128,
+				TrophyName: "Легенда",
+				TrophyColorRed: 128
+			}
+		}
+	}]
+}

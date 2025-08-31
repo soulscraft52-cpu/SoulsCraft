@@ -1,0 +1,81 @@
+{
+	title: "Я скорость",
+	icon: "modularmachinery:fast_inscriber_controller",
+	x: -9.5d,
+	y: -7.0d,
+	shape: "square",
+	text: [
+		"Кчау"
+	],
+	dependencies: [
+		"b52c8b41"
+	],
+	tasks: [{
+		uid: "4c520f9d",
+		type: "item",
+		items: [{
+			item: "modularmachinery:fast_inscriber_controller"
+		}]
+	},
+	{
+		uid: "ff82c144",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing 1 4"
+		}],
+		count: 17L
+	},
+	{
+		uid: "1e92affc",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing 1 5"
+		}]
+	},
+	{
+		uid: "2dc97003",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockoutputbus 1 2"
+		}]
+	},
+	{
+		uid: "1b40d43a",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockenergyinputhatch 1 2"
+		}]
+	},
+	{
+		uid: "7e603b6c",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockinputbus 1 2"
+		}]
+	},
+	{
+		uid: "8aaa4a7c",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:glass_alloy"
+		}],
+		count: 4L
+	},
+	{
+		uid: "7de76f69",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconium_block 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "e3871a1d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		}
+	}]
+}

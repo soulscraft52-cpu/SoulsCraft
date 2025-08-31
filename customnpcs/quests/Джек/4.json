@@ -1,0 +1,172 @@
+{
+    "CompleterNpc": "Джек",
+    "NextQuestId": -1,
+    "RandomReward": 0b,
+    "QuestRepeat": 0,
+    "QuestCompletion": 0,
+    "IgnoreNBT": 0b,
+    "Title": "Принести оружие",
+    "Text": "Джек попросил принести ему оружия двух стражей, Хагрида и Оскара. Он хочет их изучить поподробнее, потому что в их оружиях может быть скрыта огромная мощь. Жаль будет, если он их сломает, топор и лук действительно славные.",
+    "QuestFactionPoints": {
+        "DecreaseFaction1Points": 0b,
+        "OptionFaction2Points": 100,
+        "OptionFactions1": -1,
+        "OptionFactions2": -1,
+        "OptionFaction1Points": 100,
+        "DecreaseFaction2Points": 0b
+    },
+    "RewardExp": 0,
+    "QuestCommand": "",
+    "ModRev": 18,
+    "Type": 0,
+    "QuestMail": {
+        "Sender": "",
+        "BeenRead": 0b,
+        "Message": {
+        },
+        "MailItems": [
+        ],
+        "MailQuest": -1,
+        "TimePast": 1647294330924L,
+        "Time": 0L,
+        "Subject": ""
+    },
+    "IgnoreDamage": 0b,
+    "Rewards": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "thaumadditions:mithminite_ingot",
+                "Count": 4b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 1b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "thaumadditions:mithminite_plate",
+                "Count": 2b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 2b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "thaumadditions:mithminite_fabric",
+                "Count": 2b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 3b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "extrautils2:unstableingots",
+                "Count": 16b,
+                "Damage": 2s
+            },
+            {
+                "Slot": 4b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "bigreactors:ingotludicrite",
+                "Count": 8b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 5b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "avaritia:resource",
+                "Count": 4b,
+                "Damage": 1s
+            },
+            {
+                "Slot": 6b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "thermalfoundation:material",
+                "Count": 3b,
+                "Damage": 1028s
+            }
+        ]
+    },
+    "Items": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "divinerpg:skythern_bow",
+                "Count": 1b,
+                "tag": {
+                    "ench": [
+                        {
+                            "lvl": 5,
+                            "id": 48
+                        },
+                        {
+                            "lvl": 1,
+                            "id": 51
+                        }
+                    ],
+                    "display": {
+                        "Lore": [
+                            "Лук Оскара, который верно служил ему при жизни... и после смерти"
+                        ],
+                        "Name": "Зефир"
+                    }
+                },
+                "Damage": 0s
+            },
+            {
+                "Slot": 1b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "divinerpg:wildwood_axe",
+                "Count": 1b,
+                "tag": {
+                    "ench": [
+                        {
+                            "lvl": 5,
+                            "id": 16
+                        },
+                        {
+                            "lvl": 3,
+                            "id": 21
+                        }
+                    ],
+                    "display": {
+                        "Lore": [
+                            "Топор, который ни раз спасал Хагрида при жизни. Теперь он ему уже не нужен..."
+                        ],
+                        "Name": "Левиафан"
+                    }
+                },
+                "Damage": 0s
+            }
+        ]
+    },
+    "LeaveItems": 0b,
+    "CompleteText": "Принёс оружие? Спасибо. Я тогда прямо сейчас его разберу, слава богу делается это не так долго... Вот, держи, что я смог полезного в них найти.",
+    "NextQuestTitle": ""
+}

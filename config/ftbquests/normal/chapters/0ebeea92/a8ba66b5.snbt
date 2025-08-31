@@ -1,0 +1,33 @@
+{
+	title: "Планшет содействия",
+	x: 5.5d,
+	y: 7.5d,
+	text: [
+		"Телепортирует вас к другому игроку.",
+		"Для телепортации к выбранному игроку в наковальне с могильной пылью, переименуйте в ник-игрока."
+	],
+	dependencies: [
+		"56066b51"
+	],
+	tasks: [{
+		uid: "b80bbe6f",
+		type: "item",
+		title: "Планшет содействия",
+		items: [{
+			id: "tombstone:tablet_of_assistance",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c090283f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

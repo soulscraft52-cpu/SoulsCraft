@@ -1,0 +1,25 @@
+{
+	x: 1.5d,
+	y: -5.5d,
+	dependencies: [
+		"5fecbfd4",
+		"79e9385d"
+	],
+	tasks: [{
+		uid: "778453f1",
+		type: "item",
+		items: [{
+			item: "thaumadditions:vis_seeds/vinculum"
+		}]
+	}],
+	rewards: [{
+		uid: "86d3f340",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

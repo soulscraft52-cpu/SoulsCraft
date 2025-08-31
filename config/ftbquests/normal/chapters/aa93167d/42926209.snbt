@@ -1,0 +1,29 @@
+{
+	title: "Любит лаву",
+	x: -12.0d,
+	y: -3.5d,
+	text: [
+		"Любит много лавы"
+	],
+	dependencies: [
+		"4f1a4228"
+	],
+	tasks: [{
+		uid: "4d3b0664",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:basemachine3 1 6"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "cbb26901",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

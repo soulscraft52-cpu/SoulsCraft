@@ -1,0 +1,15 @@
+{
+	title: "БИГ БОССЫ",
+	x: -3.5d,
+	y: -13.0d,
+	text: [
+		"Боссы среди всех машин"
+	],
+	dependencies: [
+		"fb5acef0"
+	],
+	tasks: [{
+		uid: "3031b131",
+		type: "checkmark"
+	}]
+}

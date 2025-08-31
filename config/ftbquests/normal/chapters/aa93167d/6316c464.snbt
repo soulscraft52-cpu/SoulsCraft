@@ -1,0 +1,28 @@
+{
+	x: -11.0d,
+	y: -2.5d,
+	text: [
+		"Создай улучшенную версию улучшенного рудопромывочного механизма и увеличь эффективность еще больше!"
+	],
+	dependencies: [
+		"4ccb60ac"
+	],
+	tasks: [{
+		uid: "d2cb0c97",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:moremachine3 1 10"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9281d491",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

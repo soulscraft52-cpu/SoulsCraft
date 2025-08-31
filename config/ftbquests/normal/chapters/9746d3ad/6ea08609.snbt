@@ -1,0 +1,25 @@
+{
+	title: "Серебро всему голова",
+	x: -14.5d,
+	y: -4.0d,
+	dependencies: [
+		"4303599d"
+	],
+	tasks: [{
+		uid: "1f422079",
+		type: "item",
+		items: [{
+			item: "enderio:item_capacitor_silver"
+		}]
+	}],
+	rewards: [{
+		uid: "0f511069",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

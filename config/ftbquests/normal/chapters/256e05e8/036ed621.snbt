@@ -1,0 +1,28 @@
+{
+	x: -2.5d,
+	y: -8.0d,
+	text: [
+		"А-багащаем"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"308318e3"
+	],
+	tasks: [{
+		uid: "1af7611a",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:nuclearresource"
+		}]
+	}],
+	rewards: [{
+		uid: "06000e5e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

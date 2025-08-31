@@ -1,0 +1,24 @@
+{
+	x: -3.5d,
+	y: -12.0d,
+	dependencies: [
+		"6d17b342"
+	],
+	tasks: [{
+		uid: "dabf0fe1",
+		type: "item",
+		items: [{
+			item: "packagedthaumic:virial_arcane_crafter"
+		}]
+	}],
+	rewards: [{
+		uid: "8585fa7e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		}
+	}]
+}

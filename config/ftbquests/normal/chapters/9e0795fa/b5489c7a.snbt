@@ -1,0 +1,37 @@
+{
+	title: "Ядра для Задач",
+	x: -11.0d,
+	y: -5.5d,
+	text: [
+		"Данные ядра нужны в крафтах механизмов для облегчения вашей жизни"
+	],
+	dependencies: [
+		"29e3cda4"
+	],
+	tasks: [{
+		uid: "59524b0b",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 43"
+		}]
+	},
+	{
+		uid: "b5b28865",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 44"
+		}]
+	}],
+	rewards: [{
+		uid: "56709513",
+		type: "item",
+		item: "appliedenergistics2:material 1 43",
+		count: 8
+	},
+	{
+		uid: "a85b4e83",
+		type: "item",
+		item: "appliedenergistics2:material 1 44",
+		count: 8
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	title: "Арканиум",
+	icon: "divinerpg:arcanium",
+	x: -5.5d,
+	y: 0.5d,
+	text: [
+		"Нужная вещь для создания стабильности в нестабильности."
+	],
+	dependencies: [
+		"0bb7e05d"
+	],
+	tasks: [{
+		uid: "b237fe44",
+		type: "item",
+		items: [{
+			item: "divinerpg:arcanium 8"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "217c718e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

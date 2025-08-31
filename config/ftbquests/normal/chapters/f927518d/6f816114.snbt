@@ -1,0 +1,104 @@
+{
+	title: "Salis Mundus",
+	icon: "thaumcraft:salis_mundus",
+	x: -6.0d,
+	y: -8.0d,
+	text: [
+		"Порошок, не нюхайте!",
+		"§9Не забудьте поспать ;)"
+	],
+	dependencies: [
+		"cea31829"
+	],
+	tasks: [{
+		uid: "5519e8c3",
+		type: "item",
+		items: [{
+			item: "thaumcraft:salis_mundus"
+		}]
+	}],
+	rewards: [{
+		uid: "3092c56d",
+		type: "item",
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "aer"
+				}]
+			}
+		},
+		count: 8
+	},
+	{
+		uid: "ef60c854",
+		type: "item",
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "terra"
+				}]
+			}
+		},
+		count: 8
+	},
+	{
+		uid: "6650a7aa",
+		type: "item",
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "ignis"
+				}]
+			}
+		},
+		count: 8
+	},
+	{
+		uid: "df3481c9",
+		type: "item",
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "aqua"
+				}]
+			}
+		},
+		count: 8
+	},
+	{
+		uid: "84dfb384",
+		type: "item",
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "ordo"
+				}]
+			}
+		},
+		count: 8
+	},
+	{
+		uid: "d09a8061",
+		type: "item",
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "perditio"
+				}]
+			}
+		},
+		count: 8
+	}]
+}

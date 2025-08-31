@@ -1,0 +1,29 @@
+{
+	x: -5.5d,
+	y: 5.0d,
+	text: [
+		"Имба для полётов и шахт."
+	],
+	dependencies: [
+		"f3758cfd"
+	],
+	tasks: [{
+		uid: "7fec1ea0",
+		type: "item",
+		items: [{
+			item: "thaumictinkerer:kami_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "325a8fc7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		}
+	}]
+}

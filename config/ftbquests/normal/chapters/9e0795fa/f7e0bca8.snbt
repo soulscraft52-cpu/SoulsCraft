@@ -1,0 +1,34 @@
+{
+	title: "1k SSD",
+	icon: {
+		id: "appliedenergistics2:fluid_storage_cell_1k",
+		tag: {}
+	},
+	x: -6.0d,
+	y: -5.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"01808e7f"
+	],
+	tasks: [{
+		uid: "773137c0",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:fluid_storage_cell_1k",
+			tag: {}
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "842cb58f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

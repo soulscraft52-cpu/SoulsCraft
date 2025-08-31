@@ -1,0 +1,30 @@
+{
+	title: "Инструмент на всегда",
+	x: -16.5d,
+	y: -7.0d,
+	text: [
+		"так как у данного инструмента нет прочности"
+	],
+	dependencies: [
+		"5ec1f52e"
+	],
+	tasks: [{
+		uid: "69bcd382",
+		type: "item",
+		items: [{
+			item: "divinerpg:rupee_shickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ea444d0a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

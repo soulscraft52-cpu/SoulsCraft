@@ -1,0 +1,25 @@
+{
+	x: 1.5d,
+	y: -4.5d,
+	dependencies: [
+		"fc7264c8",
+		"5f840cf7"
+	],
+	tasks: [{
+		uid: "6237aa3c",
+		type: "item",
+		items: [{
+			item: "thaumadditions:vis_seeds/tenebrae"
+		}]
+	}],
+	rewards: [{
+		uid: "3b3854cf",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

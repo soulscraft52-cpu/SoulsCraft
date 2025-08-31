@@ -1,0 +1,30 @@
+{
+	title: "Очередная пыль?",
+	icon: "galaxyspace:gs_basic 1 4",
+	x: -1.5d,
+	y: -13.5d,
+	text: [
+		"Переработайте кристалл в пыль"
+	],
+	dependencies: [
+		"25005ebb"
+	],
+	tasks: [{
+		uid: "51dfc54d",
+		type: "item",
+		items: [{
+			item: "galaxyspace:gs_basic 32 4"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "805a91cd",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

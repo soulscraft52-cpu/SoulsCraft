@@ -1,0 +1,31 @@
+{
+	title: "Супер-высекатель",
+	icon: "ae2stuff:inscriber",
+	x: -14.0d,
+	y: -6.5d,
+	text: [
+		"Высечем вас и ваши процессоры"
+	],
+	dependencies: [
+		"030b67ab",
+		"6e343aa7"
+	],
+	tasks: [{
+		uid: "d107d7df",
+		type: "item",
+		items: [{
+			item: "ae2stuff:inscriber 5"
+		}],
+		count: 5L
+	}],
+	rewards: [{
+		uid: "46d5eeb4",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		}
+	}]
+}

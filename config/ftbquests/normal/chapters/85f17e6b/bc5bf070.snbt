@@ -1,0 +1,26 @@
+{
+	title: "Эссенции ур.6",
+	x: 10.0d,
+	y: -0.5d,
+	dependencies: [
+		"b6c19e74"
+	],
+	tasks: [{
+		uid: "bf5cd7a5",
+		type: "item",
+		items: [{
+			item: "mysticalagradditions:insanium"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "3a3ce02c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		}
+	}]
+}

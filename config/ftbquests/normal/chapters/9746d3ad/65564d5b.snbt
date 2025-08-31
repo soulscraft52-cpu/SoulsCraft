@@ -1,0 +1,30 @@
+{
+	title: "А такая вообще есть?",
+	icon: "enderio:block_solar_panel 1 3",
+	x: -16.5d,
+	y: -8.0d,
+	text: [
+		"Созданная силой эндера, способна генерировать много энергии"
+	],
+	dependencies: [
+		"6358b708",
+		"a51acf38"
+	],
+	tasks: [{
+		uid: "1546c801",
+		type: "item",
+		items: [{
+			item: "enderio:block_solar_panel 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "783e461a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

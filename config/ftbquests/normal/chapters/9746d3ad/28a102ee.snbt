@@ -1,0 +1,30 @@
+{
+	title: "Зарядник, какой-то там",
+	icon: "enderio:block_simple_wired_charger",
+	x: -12.5d,
+	y: 0.0d,
+	text: [
+		"Заряжает..."
+	],
+	dependencies: [
+		"cf247961"
+	],
+	tasks: [{
+		uid: "bbc23d86",
+		type: "item",
+		items: [{
+			item: "enderio:block_simple_wired_charger"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "fbfe287c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

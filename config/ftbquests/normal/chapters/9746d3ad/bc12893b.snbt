@@ -1,0 +1,31 @@
+{
+	title: "А вот из этого уже можно сделать дробитель",
+	icon: "enderio:block_sag_mill",
+	x: -10.0d,
+	y: -1.0d,
+	text: [
+		"Используется в крафте дробителя из IC2"
+	],
+	dependencies: [
+		"82d2246b",
+		"78b8914b"
+	],
+	tasks: [{
+		uid: "1fba5bef",
+		type: "item",
+		items: [{
+			item: "enderio:block_sag_mill"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1de77534",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

@@ -1,0 +1,58 @@
+{
+	title: "Опа инструменты",
+	icon: "divinerpg:arlemite_pickaxe",
+	x: -15.5d,
+	y: -6.0d,
+	text: [
+		"Лучше чем реалмитовые инструменты"
+	],
+	dependencies: [
+		"70bac546"
+	],
+	tasks: [{
+		uid: "9e681c46",
+		type: "item",
+		items: [{
+			item: "divinerpg:arlemite_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "12a78d6f",
+		type: "item",
+		items: [{
+			item: "divinerpg:arlemite_axe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "31d13853",
+		type: "item",
+		items: [{
+			item: "divinerpg:arlemite_shovel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3d837cbc",
+		type: "item",
+		items: [{
+			item: "divinerpg:arlemite_hoe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4d5ff758",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

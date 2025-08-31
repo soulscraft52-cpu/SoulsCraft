@@ -1,0 +1,29 @@
+{
+	title: "Механизмы для бомжей",
+	icon: "enderio:item_material",
+	x: -12.5d,
+	y: -4.0d,
+	text: [
+		"Самая базовый корпус механизма"
+	],
+	dependencies: [
+		"4303599d"
+	],
+	tasks: [{
+		uid: "d6a7d493",
+		type: "item",
+		items: [{
+			item: "enderio:item_material"
+		}]
+	}],
+	rewards: [{
+		uid: "4c817f3b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

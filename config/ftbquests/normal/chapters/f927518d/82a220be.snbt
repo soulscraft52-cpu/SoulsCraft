@@ -1,0 +1,24 @@
+{
+	x: -2.0d,
+	y: -10.0d,
+	dependencies: [
+		"5ede7f3d"
+	],
+	tasks: [{
+		uid: "76f3943a",
+		type: "item",
+		items: [{
+			item: "packagedthaumic:thaumic_package_component"
+		}]
+	}],
+	rewards: [{
+		uid: "94b239d1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	title: "Мастхев для кристаллов",
+	icon: "ae2stuff:grower",
+	x: -13.0d,
+	y: -4.5d,
+	text: [
+		"Сделайте одну такую штуку и забудьте о том, чтобы самому выращивать кристаллы"
+	],
+	dependencies: [
+		"3c6b2a66"
+	],
+	tasks: [{
+		uid: "a6d8f12a",
+		type: "item",
+		items: [{
+			item: "ae2stuff:grower"
+		}]
+	}],
+	rewards: [{
+		uid: "ec798546",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		}
+	}]
+}

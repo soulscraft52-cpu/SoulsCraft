@@ -1,0 +1,33 @@
+{
+	title: "Лава=Энергия",
+	x: -30.5d,
+	y: -18.5d,
+	dependencies: [
+		"d2c3dcfb"
+	],
+	tasks: [{
+		uid: "6cb33cb0",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:dynamo",
+			tag: {
+				RSControl: 0b,
+				Facing: 1b,
+				Energy: 0,
+				Level: 0b
+			},
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "66c82f99",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

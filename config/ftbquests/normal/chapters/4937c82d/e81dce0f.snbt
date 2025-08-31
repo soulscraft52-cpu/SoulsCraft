@@ -1,0 +1,29 @@
+{
+	title: "Ясно ",
+	x: -1.5d,
+	y: -21.0d,
+	text: [
+		"Крафт для нубов"
+	],
+	dependencies: [
+		"8f125fca"
+	],
+	tasks: [{
+		uid: "d4d1dd0c",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockenergyinputhatch 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "0f12b14a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		},
+		count: 2
+	}]
+}

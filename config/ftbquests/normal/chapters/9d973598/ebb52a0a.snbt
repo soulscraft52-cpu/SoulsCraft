@@ -1,0 +1,58 @@
+{
+	title: "На случай, если вы хотите искупаться в лаве",
+	icon: "divinerpg:inferno_chestplate",
+	x: -12.0d,
+	y: 1.0d,
+	text: [
+		"Но лучше не стоит..."
+	],
+	dependencies: [
+		"c75a694c"
+	],
+	tasks: [{
+		uid: "2d6518e0",
+		type: "item",
+		items: [{
+			item: "divinerpg:inferno_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "cfdd52d0",
+		type: "item",
+		items: [{
+			item: "divinerpg:inferno_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "40953f04",
+		type: "item",
+		items: [{
+			item: "divinerpg:inferno_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8a2db791",
+		type: "item",
+		items: [{
+			item: "divinerpg:inferno_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "558ad9ef",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	title: "Опа, слиточки",
+	loot_size: 1,
+	rewards: [{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	},
+	{
+		item: {
+			id: "divinerpg:realmite_pickaxe",
+			tag: {
+				ench: [{
+					lvl: 3s,
+					id: 34s
+				},
+				{
+					lvl: 1s,
+					id: 54s
+				},
+				{
+					lvl: 1s,
+					id: 71s
+				}],
+				RepairCost: 7
+			}
+		}
+	},
+	{
+		item: "divinerpg:corrupted_stone"
+	}]
+}

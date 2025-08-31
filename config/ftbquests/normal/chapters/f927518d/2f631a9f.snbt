@@ -1,0 +1,30 @@
+{
+	title: "Можно ещё дальше",
+	icon: "thaumadditions:adaminite_smelter",
+	x: -15.0d,
+	y: -9.0d,
+	text: [
+		"Tier 5 печка"
+	],
+	dependencies: [
+		"1fe25187",
+		"22a48fc7"
+	],
+	tasks: [{
+		uid: "336fe330",
+		type: "item",
+		items: [{
+			item: "thaumadditions:adaminite_smelter"
+		}]
+	}],
+	rewards: [{
+		uid: "8a3b9bce",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

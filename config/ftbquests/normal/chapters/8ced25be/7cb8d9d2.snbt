@@ -1,0 +1,49 @@
+{
+	title: "Бесполезность не предел",
+	x: -14.5d,
+	y: -8.0d,
+	text: [
+		"Может кто-то и найдёт их полезными, но точно не я, поэтому я у вас их конфискую!"
+	],
+	dependencies: [
+		"1278fa85"
+	],
+	tasks: [{
+		uid: "4adc2759",
+		type: "item",
+		items: [{
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:furnace"
+			}
+		}],
+		consume_items: true
+	},
+	{
+		uid: "61faef1b",
+		type: "item",
+		items: [{
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:crusher"
+			}
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "605acac3",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		},
+		random_bonus: 1
+	},
+	{
+		uid: "6d4332a6",
+		type: "item",
+		item: "soulscraft:whereismymind"
+	}]
+}

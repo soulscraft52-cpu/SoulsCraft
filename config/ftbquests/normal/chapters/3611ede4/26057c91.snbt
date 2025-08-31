@@ -1,0 +1,49 @@
+{
+	title: "Это пока Ядро",
+	x: -7.5d,
+	y: 0.5d,
+	text: [
+		"Вот дальше!!!"
+	],
+	dependencies: [
+		"47534762"
+	],
+	tasks: [{
+		uid: "2256486c",
+		type: "item",
+		items: [{
+			item: "fluxnetworks:fluxcore"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "ba48578a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	},
+	{
+		uid: "9710e673",
+		type: "item",
+		item: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyVariant: "neon",
+				TrophyColorGreen: 128,
+				TrophyShowsTooltip: 1b,
+				TrophyItem: {
+					id: "fluxnetworks:fluxcore",
+					Count: 1b,
+					Damage: 0s
+				},
+				TrophyColorBlue: 128,
+				TrophyName: "Флакс Сеть",
+				TrophyColorRed: 128
+			}
+		}
+	}]
+}

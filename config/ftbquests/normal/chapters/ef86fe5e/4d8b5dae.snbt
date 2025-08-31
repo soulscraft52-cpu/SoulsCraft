@@ -1,0 +1,62 @@
+{
+	title: "Дистилятор",
+	icon: {
+		id: "thermalexpansion:machine",
+		tag: {
+			RSControl: 0b,
+			Facing: 3b,
+			Energy: 0,
+			SideCache: [B;
+				1b,
+				2b,
+				3b,
+				3b,
+				3b,
+				3b
+			],
+			Level: 0b
+		},
+		Damage: 7s
+	},
+	x: -20.0d,
+	y: -11.0d,
+	text: [
+		"Нужен для переработчика топлива"
+	],
+	dependencies: [
+		"0d72a2a0"
+	],
+	tasks: [{
+		uid: "14148338",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					1b,
+					2b,
+					3b,
+					3b,
+					3b,
+					3b
+				],
+				Level: 0b
+			},
+			Damage: 7s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "cb49fca2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

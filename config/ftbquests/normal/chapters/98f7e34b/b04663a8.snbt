@@ -1,0 +1,30 @@
+{
+	title: "Быстрее,Выше и Сильнее",
+	x: -13.0d,
+	y: -4.5d,
+	text: [
+		"Да да да это все про него",
+		"Вырабатывает:Самородки"
+	],
+	dependencies: [
+		"5377a32a"
+	],
+	tasks: [{
+		uid: "7b05a350",
+		type: "item",
+		items: [{
+			item: "denseneutroncollectors:compressed_neutron_collector"
+		}]
+	}],
+	rewards: [{
+		uid: "49e60a8e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		},
+		count: 4
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	title: "Гибридная панелька",
+	icon: "industrialupgrade:machines 1 1",
+	x: 0.0d,
+	y: -2.0d,
+	text: [
+		"Только вторая из десяти(четырнадцати)..."
+	],
+	dependencies: [
+		"a3a926ce"
+	],
+	tasks: [{
+		uid: "66ad7da2",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:machines 1 1"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9025bbbe",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

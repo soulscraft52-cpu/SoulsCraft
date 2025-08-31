@@ -1,0 +1,32 @@
+{
+	title: "Быстрый завод сплавов",
+	icon: "enderio:block_alloy_smelter",
+	x: -10.0d,
+	y: -3.0d,
+	text: [
+		"Быстрый энергетический сплав"
+	],
+	dependencies: [
+		"4136cf9c",
+		"78b8914b",
+		"4ded860e"
+	],
+	tasks: [{
+		uid: "51b3a719",
+		type: "item",
+		items: [{
+			item: "enderio:block_alloy_smelter"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e790e16a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

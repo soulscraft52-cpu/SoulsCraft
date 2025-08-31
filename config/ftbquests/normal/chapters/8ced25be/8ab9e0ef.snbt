@@ -1,0 +1,29 @@
+{
+	title: "Чёрт возми ",
+	x: -1.0d,
+	y: -7.5d,
+	text: [
+		"Это правда"
+	],
+	dependencies: [
+		"3691bcab"
+	],
+	tasks: [{
+		uid: "3dacdc68",
+		type: "item",
+		items: [{
+			item: "extrautils2:opinium 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "abc0dc56",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		},
+		random_bonus: 2
+	}]
+}

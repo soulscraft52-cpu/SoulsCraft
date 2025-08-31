@@ -1,0 +1,65 @@
+{
+	title: "§cР§6а§eд§aу§9г§1а§5!",
+	x: -10.5d,
+	y: -0.5d,
+	text: [
+		"Бесконечная энергия §cр§6а§eд§aу§9г§1и §fв этом генераторе!"
+	],
+	dependencies: [
+		"bf977bf6",
+		"0fcb98c9",
+		"f1e2c066",
+		"09878a61",
+		"fac32be4",
+		"c37008b8",
+		"21f7941e",
+		"20c360ef",
+		"09e04bf2",
+		"2e0b6b9f",
+		"804cb9f9",
+		"0d16f18f",
+		"1d8deb34",
+		"98b6fb6c",
+		"e1ae9cb3",
+		"956d2512"
+	],
+	tasks: [{
+		uid: "94bb06de",
+		type: "item",
+		items: [{
+			item: "extrautils2:rainbowgenerator"
+		}]
+	}],
+	rewards: [{
+		uid: "52f31d59",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 4,
+		random_bonus: 1
+	},
+	{
+		uid: "18561387",
+		type: "item",
+		item: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyVariant: "neon",
+				TrophyColorGreen: 128,
+				TrophyShowsTooltip: 1b,
+				TrophyItem: {
+					id: "extrautils2:rainbowgenerator",
+					Count: 1b,
+					Damage: 0s
+				},
+				TrophyColorBlue: 128,
+				TrophyName: "Сила радуги",
+				TrophyColorRed: 128
+			}
+		}
+	}]
+}

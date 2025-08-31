@@ -1,0 +1,54 @@
+{
+	title: "Последний Креативный Предмет",
+	x: 11.5d,
+	y: 7.0d,
+	text: [
+		"Вот и финал.....",
+		"Возможно это конец?",
+		"...."
+	],
+	dependencies: [
+		"eca08ea0",
+		"21d13045",
+		"948dd829",
+		"72661f2e",
+		"d9d4044d",
+		"c287ce8d",
+		"f5930b1c",
+		"38fe0cc1"
+	],
+	tasks: [{
+		uid: "770b3f67",
+		type: "item",
+		items: [{
+			item: "contenttweaker:the_last_creative_item"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ec9f5279",
+		type: "command",
+		command: "/title @a title [\"\",{\"text\":\"\\u2560\\u2550\\u256c\\u2550\\u2563\",\"bold\":true,\"color\":\"black\"},{\"text\":\"\\u0424\\u0418\\u041d\\u0410\\u041b\",\"bold\":true,\"color\":\"dark_purple\"},{\"text\":\"\\u2560\\u2550\\u256c\\u2550\\u2563\",\"bold\":true,\"color\":\"black\"}]"
+	},
+	{
+		uid: "0fb3a05e",
+		type: "item",
+		item: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyVariant: "neon",
+				TrophyColorGreen: 128,
+				TrophyShowsTooltip: 1b,
+				TrophyItem: {
+					id: "contenttweaker:the_last_creative_item",
+					Count: 1b,
+					Damage: 0s
+				},
+				TrophyColorBlue: 128,
+				TrophyName: "ФИНАЛ",
+				TrophyColorRed: 128
+			}
+		}
+	}]
+}

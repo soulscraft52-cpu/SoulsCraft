@@ -1,0 +1,35 @@
+{
+	title: "Кремний и разбитый кремний",
+	icon: "notreepunching:flint_shard",
+	x: -17.5d,
+	y: -11.0d,
+	text: [
+		"Кремень нужен для создания базовых инструментов.",
+		"§0§9Чтобы получить § §8кусочки кремния §9нужно разбить обычный §8кремень §9о §7каменную поверхность§9. §e(нажать ПКМ по камню)"
+	],
+	dependencies: [
+		"ee123e10"
+	],
+	tasks: [{
+		uid: "3caa7b5a",
+		type: "item",
+		items: [{
+			item: "minecraft:flint 2"
+		}],
+		count: 2L
+	},
+	{
+		uid: "73ac15cc",
+		type: "item",
+		items: [{
+			item: "notreepunching:flint_shard 4"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "c798903e",
+		type: "item",
+		item: "minecraft:flint",
+		count: 8
+	}]
+}

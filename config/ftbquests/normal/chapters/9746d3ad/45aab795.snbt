@@ -1,0 +1,29 @@
+{
+	title: "Самый топ за свои деньги",
+	icon: "enderio:item_material 1 54",
+	x: -6.5d,
+	y: -4.0d,
+	text: [
+		"Максимально грейженые механизмы"
+	],
+	dependencies: [
+		"78b8914b"
+	],
+	tasks: [{
+		uid: "24feb2a1",
+		type: "item",
+		items: [{
+			item: "enderio:item_material 1 54"
+		}]
+	}],
+	rewards: [{
+		uid: "eec89609",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

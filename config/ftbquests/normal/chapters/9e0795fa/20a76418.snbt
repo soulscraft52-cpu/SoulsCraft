@@ -1,0 +1,14 @@
+{
+	x: -14.5d,
+	y: 4.0d,
+	dependencies: [
+		"e5f1a0d9"
+	],
+	tasks: [{
+		uid: "e739a046",
+		type: "item",
+		items: [{
+			item: "crazyae:crafting_accelerator_4x"
+		}]
+	}]
+}

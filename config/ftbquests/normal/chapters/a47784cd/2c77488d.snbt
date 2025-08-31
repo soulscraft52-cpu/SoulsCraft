@@ -1,0 +1,23 @@
+{
+	title: "Пыль Петротеума",
+	icon: "thermalfoundation:material 1 1027",
+	x: -10.5d,
+	y: -4.5d,
+	can_repeat: true,
+	dependencies: [
+		"683553ad"
+	],
+	tasks: [{
+		uid: "b5e45ad1",
+		type: "item",
+		items: [{
+			item: "contenttweaker:coin_tier1"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "bfba8fb8",
+		type: "item",
+		item: "thermalfoundation:material 1 1027"
+	}]
+}

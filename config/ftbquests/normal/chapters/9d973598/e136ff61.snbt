@@ -1,0 +1,53 @@
+{
+	title: "Синенькая",
+	icon: "divinerpg:rupee_chestplate",
+	x: -15.5d,
+	y: -2.5d,
+	text: [
+		"В такой и на босса можно"
+	],
+	dependencies: [
+		"c75a694c"
+	],
+	tasks: [{
+		uid: "0c97fae3",
+		type: "item",
+		items: [{
+			item: "divinerpg:rupee_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4b4afe23",
+		type: "item",
+		items: [{
+			item: "divinerpg:rupee_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "61db128c",
+		type: "item",
+		items: [{
+			item: "divinerpg:rupee_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4d945cb7",
+		type: "item",
+		items: [{
+			item: "divinerpg:rupee_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b88a0940",
+		type: "choice",
+		table: 4
+	}]
+}

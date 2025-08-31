@@ -1,0 +1,19 @@
+{
+	title: "База ур.1",
+	x: -7.5d,
+	y: -1.5d,
+	text: [
+		"База кормит... Буквально."
+	],
+	dependencies: [
+		"44b1b0bd",
+		"917e0d3e"
+	],
+	tasks: [{
+		uid: "fe01f723",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:crafting 1 17"
+		}]
+	}]
+}

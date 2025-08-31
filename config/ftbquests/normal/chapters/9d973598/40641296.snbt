@@ -1,0 +1,71 @@
+{
+	title: "Порвите ткань сна",
+	icon: "minecraft:ender_chest",
+	x: 11.5d,
+	y: -3.0d,
+	text: [
+		"С помощью эндер-сундука передайте предметы из Везеи в обычый мир."
+	],
+	dependencies: [
+		"15efcfb3",
+		"366f386f",
+		"9cefbb38"
+	],
+	tasks: [{
+		uid: "9e8f856a",
+		type: "item",
+		items: [{
+			item: "divinerpg:firewood_log"
+		}]
+	},
+	{
+		uid: "9181917f",
+		type: "item",
+		items: [{
+			item: "divinerpg:shiny_pearls"
+		}]
+	},
+	{
+		uid: "feac877f",
+		type: "item",
+		items: [{
+			item: "divinerpg:clean_pearls"
+		}]
+	},
+	{
+		uid: "abb78c44",
+		type: "item",
+		items: [{
+			item: "divinerpg:cermile_lump"
+		}]
+	},
+	{
+		uid: "7f2a2d25",
+		type: "item",
+		items: [{
+			item: "minecraft:crafting_table"
+		}]
+	},
+	{
+		uid: "62f22475",
+		type: "item",
+		items: [{
+			item: "minecraft:ender_chest"
+		}]
+	}],
+	rewards: [{
+		uid: "788d4e77",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		}
+	},
+	{
+		uid: "780efd23",
+		type: "item",
+		item: "soulscraft:witcher"
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	title: "Шлюз для выхода предметов",
+	x: -5.5d,
+	y: -18.0d,
+	text: [
+		"Имеет 6 слотов"
+	],
+	dependencies: [
+		"8cd07dc6"
+	],
+	tasks: [{
+		uid: "8237ab4b",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockoutputbus 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "2d896e84",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		},
+		count: 2
+	}]
+}

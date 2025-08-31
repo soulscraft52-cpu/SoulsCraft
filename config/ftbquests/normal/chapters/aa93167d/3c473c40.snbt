@@ -1,0 +1,30 @@
+{
+	title: "Водяные роторы",
+	x: -22.0d,
+	y: -3.5d,
+	text: [
+		"Крутые роторы для крутых гидрогенераторов"
+	],
+	dependencies: [
+		"c5bd1cf0",
+		"9bed685e"
+	],
+	tasks: [{
+		uid: "fbcbab90",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:basemachine3 1 44"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "97c89d62",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

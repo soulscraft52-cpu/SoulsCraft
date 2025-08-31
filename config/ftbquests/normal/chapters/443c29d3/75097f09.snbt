@@ -1,0 +1,30 @@
+{
+	title: "Алмазикиии",
+	icon: "minecraft:diamond",
+	x: -13.5d,
+	y: -7.0d,
+	text: [
+		"Алмазы, так ли они нужны?"
+	],
+	dependencies: [
+		"cea31829"
+	],
+	tasks: [{
+		uid: "46d64d3b",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond 8"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "46402bf9",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

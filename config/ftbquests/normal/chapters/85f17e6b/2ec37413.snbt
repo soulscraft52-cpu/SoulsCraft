@@ -1,0 +1,49 @@
+{
+	title: "Ресурсовые семена ур.6",
+	x: 10.0d,
+	y: 0.5d,
+	text: [
+		"Ухты, мы сможем фармить ресурсы из ничего, просто выращивая растения! Немыслимо!"
+	],
+	dependencies: [
+		"bc5bf070"
+	],
+	tasks: [{
+		uid: "97d17aab",
+		type: "item",
+		items: [{
+			item: "mysticalagradditions:nether_star_seeds"
+		}]
+	},
+	{
+		uid: "86c98930",
+		type: "item",
+		items: [{
+			item: "mysticalagradditions:dragon_egg_seeds"
+		}]
+	},
+	{
+		uid: "7a239c5e",
+		type: "item",
+		items: [{
+			item: "mysticalagradditions:awakened_draconium_seeds"
+		}]
+	},
+	{
+		uid: "6fde0ed3",
+		type: "item",
+		items: [{
+			item: "mysticalagradditions:neutronium_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "8a4f5fd6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "6"
+			}
+		}
+	}]
+}

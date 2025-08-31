@@ -1,0 +1,29 @@
+{
+	x: -8.5d,
+	y: -4.5d,
+	text: [
+		"Необходим для работы турбины"
+	],
+	dependencies: [
+		"dc297a07"
+	],
+	tasks: [{
+		uid: "bc36642c",
+		type: "item",
+		items: [{
+			item: "railcraft:turbine_rotor"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8d0199b4",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

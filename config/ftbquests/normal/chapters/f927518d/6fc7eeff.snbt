@@ -1,0 +1,32 @@
+{
+	title: "Красивый камушек на красивой цепочке",
+	icon: "contenttweaker:cleaning_amulet",
+	x: -10.0d,
+	y: 1.0d,
+	text: [
+		"Избавит вас от головной боли и не только."
+	],
+	dependencies: [
+		"f3ad0dd7"
+	],
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "f381e035",
+		type: "item",
+		items: [{
+			item: "contenttweaker:cleaning_amulet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "53f73c63",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

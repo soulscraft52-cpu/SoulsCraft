@@ -1,0 +1,37 @@
+{
+	title: "Представляю вам абсолютно новый ИХОРИЕВЫЙ БЛОК",
+	x: -17.0d,
+	y: 2.0d,
+	text: [
+		"Он очень дорогой, понятно?",
+		"§cИменно поэтому давай сюда 4!"
+	],
+	dependencies: [
+		"dc1ba81d"
+	],
+	tasks: [{
+		uid: "a850d0e9",
+		type: "item",
+		items: [{
+			item: "thaumictinkerer:ichor_block"
+		}],
+		count: 4L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "875253b8",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		random_bonus: 1
+	},
+	{
+		uid: "c23f0b11",
+		type: "item",
+		item: "soulscraft:bumblebee"
+	}]
+}

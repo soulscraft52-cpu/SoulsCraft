@@ -1,0 +1,38 @@
+{
+	title: "Синий кристалл",
+	icon: {
+		id: "industrialupgrade:lapotron_crystal",
+		tag: {}
+	},
+	x: -14.0d,
+	y: 2.5d,
+	text: [
+		"Хранит 10кк энергии, нужен для крафта МФСУ"
+	],
+	dependencies: [
+		"2b7a5d78"
+	],
+	tasks: [{
+		uid: "7979ffc2",
+		type: "item",
+		icon: {
+			id: "industrialupgrade:lapotron_crystal",
+			tag: {}
+		},
+		items: [{
+			id: "industrialupgrade:lapotron_crystal",
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "cc9636f4",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

@@ -1,0 +1,45 @@
+{
+	x: 2.5d,
+	y: -10.5d,
+	text: [
+		"Лезвие данной катаны является обычным"
+	],
+	dependencies: [
+		"751f8455"
+	],
+	tasks: [{
+		uid: "f2730275",
+		type: "item",
+		items: [{
+			id: "variedcommodities:katana",
+			tag: {
+				ench: [{
+					lvl: 25s,
+					id: 16s
+				},
+				{
+					lvl: 5s,
+					id: 72s
+				},
+				{
+					lvl: 15s,
+					id: 154s
+				}],
+				RepairCost: 3
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "cceea1c5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "5"
+			}
+		},
+		count: 2
+	}]
+}

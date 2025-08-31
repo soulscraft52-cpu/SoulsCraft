@@ -1,0 +1,45 @@
+{
+	title: "Голова чтобы думать...",
+	icon: {
+		id: "avaritia:infinity_pickaxe",
+		tag: {
+			ench: [{
+				lvl: 10s,
+				id: 35s
+			}]
+		}
+	},
+	x: -3.0d,
+	y: 0.5d,
+	text: [
+		"кирка чтобы копать"
+	],
+	dependencies: [
+		"257f84b3"
+	],
+	tasks: [{
+		uid: "9143a5c7",
+		type: "item",
+		items: [{
+			id: "avaritia:infinity_pickaxe",
+			tag: {
+				ench: [{
+					lvl: 10s,
+					id: 35s
+				}]
+			}
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "bfed4ce4",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "6"
+			}
+		},
+		count: 16
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	title: "Infinity завод сплавов",
+	icon: "enderio:block_enhanced_alloy_smelter",
+	x: -6.5d,
+	y: -3.0d,
+	text: [
+		"Создаёт ваши сплавы ещё быстрее"
+	],
+	dependencies: [
+		"964ffc8a",
+		"45aab795"
+	],
+	tasks: [{
+		uid: "8803d114",
+		type: "item",
+		items: [{
+			item: "enderio:block_enhanced_alloy_smelter"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6e3f95ad",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

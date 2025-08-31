@@ -1,0 +1,44 @@
+{
+	title: "Братик",
+	icon: "divinerpg:densos_crystal",
+	x: 8.5d,
+	y: -12.5d,
+	text: [
+		"Денсос + Рейвор"
+	],
+	dependencies: [
+		"440a6d33"
+	],
+	tasks: [{
+		uid: "4983f2b4",
+		type: "item",
+		items: [{
+			item: "divinerpg:densos_crystal"
+		}],
+		ignore_damage: true
+	},
+	{
+		uid: "18046e16",
+		type: "item",
+		items: [{
+			item: "divinerpg:densos_statue"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "0ad4ead3",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	},
+	{
+		uid: "c289fc21",
+		type: "item",
+		team_reward: false,
+		item: "thaumadditions:dna_sample"
+	}]
+}

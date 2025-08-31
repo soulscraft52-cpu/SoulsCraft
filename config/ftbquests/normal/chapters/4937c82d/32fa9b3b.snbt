@@ -1,0 +1,37 @@
+{
+	x: 12.5d,
+	y: -7.0d,
+	text: [
+		"Совсем другой разговор"
+	],
+	dependencies: [
+		"116747e0"
+	],
+	tasks: [{
+		uid: "9bde67f2",
+		type: "item",
+		items: [{
+			id: "avaritia:infinity_sword",
+			tag: {
+				ench: [{
+					lvl: 10s,
+					id: 21s
+				}],
+				RepairCost: 1
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "07e5e6b4",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 2
+	}]
+}

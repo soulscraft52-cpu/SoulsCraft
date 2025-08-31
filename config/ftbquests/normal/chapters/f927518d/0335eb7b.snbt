@@ -1,0 +1,25 @@
+{
+	x: -1.5d,
+	y: -11.0d,
+	dependencies: [
+		"82a220be"
+	],
+	tasks: [{
+		uid: "d004fa8e",
+		type: "item",
+		items: [{
+			item: "packagedthaumic:infusion_crafter"
+		}]
+	}],
+	rewards: [{
+		uid: "53e2b8c1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		random_bonus: 1
+	}]
+}

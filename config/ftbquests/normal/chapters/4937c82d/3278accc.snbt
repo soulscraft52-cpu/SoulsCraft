@@ -1,0 +1,28 @@
+{
+	title: "Розетка для Iphone",
+	x: -1.5d,
+	y: -16.0d,
+	text: [
+		"Ну стоит как 2-3 почки и всЁ"
+	],
+	dependencies: [
+		"c83bc188"
+	],
+	tasks: [{
+		uid: "6ca278c5",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockenergyinputhatch"
+		}]
+	}],
+	rewards: [{
+		uid: "721ce92c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

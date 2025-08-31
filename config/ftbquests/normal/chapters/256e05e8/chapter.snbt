@@ -1,0 +1,21 @@
+{
+	title: " ",
+	icon: "bigreactors:ingotludicrite",
+	description: [
+		"Каппа | Реакторы"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "",
+	images: [{
+		x: -14.5d,
+		y: -4.5d,
+		width: 15.0d,
+		height: 9.0d,
+		rotation: 0.0d,
+		image: "ftbquests:textures/gui/isl14.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

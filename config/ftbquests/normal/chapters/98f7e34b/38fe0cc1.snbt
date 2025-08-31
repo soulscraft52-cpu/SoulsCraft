@@ -1,0 +1,20 @@
+{
+	title: "Она прекрасна",
+	x: 2.5d,
+	y: 8.0d,
+	text: [
+		"Я готов слушать  все её указания"
+	],
+	dependencies: [
+		"9f4f32d5"
+	],
+	tasks: [{
+		uid: "efd8c117",
+		type: "item",
+		icon: "industrialupgrade:admpanel",
+		items: [{
+			item: "industrialupgrade:admpanel"
+		}],
+		ignore_nbt: 1b
+	}]
+}

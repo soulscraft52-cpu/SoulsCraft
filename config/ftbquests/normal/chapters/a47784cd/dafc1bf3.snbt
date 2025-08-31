@@ -1,0 +1,23 @@
+{
+	title: "Кусок Берклия",
+	icon: "industrialupgrade:radiationresources 1 6",
+	x: -12.5d,
+	y: -3.5d,
+	can_repeat: true,
+	dependencies: [
+		"c215dab4"
+	],
+	tasks: [{
+		uid: "004e161d",
+		type: "item",
+		items: [{
+			item: "contenttweaker:coin_tier3"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "7523fb52",
+		type: "item",
+		item: "industrialupgrade:radiationresources 1 6"
+	}]
+}

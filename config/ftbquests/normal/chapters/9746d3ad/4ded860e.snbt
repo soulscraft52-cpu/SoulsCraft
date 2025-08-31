@@ -1,0 +1,31 @@
+{
+	title: "Замедляем печку?",
+	icon: "enderio:block_simple_furnace",
+	x: -12.5d,
+	y: -3.0d,
+	text: [
+		"Ну она нам ещё понадобится..."
+	],
+	dependencies: [
+		"cf247961",
+		"79eb6806"
+	],
+	tasks: [{
+		uid: "6feedb83",
+		type: "item",
+		items: [{
+			item: "enderio:block_simple_furnace"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "14f99e5d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

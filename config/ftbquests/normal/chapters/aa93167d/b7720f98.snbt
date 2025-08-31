@@ -1,0 +1,29 @@
+{
+	title: "Водичка течёт",
+	x: -18.5d,
+	y: -3.5d,
+	text: [
+		"Течёт быстро"
+	],
+	dependencies: [
+		"3aa00946"
+	],
+	tasks: [{
+		uid: "04daec86",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:basemachine3 1 47"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0b557264",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

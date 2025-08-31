@@ -1,0 +1,41 @@
+{
+	title: "Буль буль",
+	x: -8.0d,
+	y: -6.0d,
+	text: [
+		"Данный Боллер нужно запитать топливом по типу коксового угля "
+	],
+	dependencies: [
+		"dc297a07"
+	],
+	tasks: [{
+		uid: "9cb36026",
+		type: "item",
+		items: [{
+			item: "railcraft:boiler_firebox_solid"
+		}],
+		count: 9L
+	},
+	{
+		uid: "f06f8be3",
+		type: "item",
+		items: [{
+			item: "railcraft:boiler_tank_pressure_high"
+		},
+		{
+			item: "railcraft:boiler_tank_pressure_low"
+		}],
+		count: 27L,
+		consume_items: false
+	}],
+	rewards: [{
+		uid: "45a5067b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

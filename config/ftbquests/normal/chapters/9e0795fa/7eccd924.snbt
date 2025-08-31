@@ -1,0 +1,28 @@
+{
+	title: "Шаблон +++",
+	x: -11.0d,
+	y: -7.5d,
+	text: [
+		"В нем можно закадировать БОЛЬШИЕ крафты"
+	],
+	dependencies: [
+		"176cc7f0"
+	],
+	tasks: [{
+		uid: "29c52659",
+		type: "item",
+		items: [{
+			item: "packagedauto:recipe_holder"
+		}]
+	}],
+	rewards: [{
+		uid: "e7a2a967",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

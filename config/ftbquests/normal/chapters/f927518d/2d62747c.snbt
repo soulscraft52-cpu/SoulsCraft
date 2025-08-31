@@ -1,0 +1,31 @@
+{
+	title: "Мифический капюшон",
+	icon: "thaumadditions:mithminite_hood",
+	x: -19.5d,
+	y: -6.5d,
+	text: [
+		"Когда он был капюшоном адских глубин, но что-то пошло не так..."
+	],
+	dependencies: [
+		"75e42179",
+		"f7b39dc8"
+	],
+	tasks: [{
+		uid: "f415ecb1",
+		type: "item",
+		items: [{
+			item: "thaumadditions:mithminite_hood"
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "65d1ed6b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

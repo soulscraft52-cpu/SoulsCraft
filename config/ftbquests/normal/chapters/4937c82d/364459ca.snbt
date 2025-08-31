@@ -1,0 +1,35 @@
+{
+	title: "Что-же это?",
+	x: -9.5d,
+	y: -19.5d,
+	shape: "gear",
+	text: [
+		"Сталь?",
+		"Медь?",
+		"Лудикрит?",
+		"НЕТ! Это Модуляриум"
+	],
+	dependencies: [
+		"8ee6602e"
+	],
+	tasks: [{
+		uid: "94c9445e",
+		type: "item",
+		items: [{
+			item: "modularmachinery:itemmodularium"
+		}],
+		count: 64L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "58529c65",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		},
+		count: 2
+	}]
+}

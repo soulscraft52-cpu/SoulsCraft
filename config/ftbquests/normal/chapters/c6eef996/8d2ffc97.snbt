@@ -1,0 +1,24 @@
+{
+	x: -10.0d,
+	y: -1.0d,
+	dependencies: [
+		"6d4fdd0a"
+	],
+	tasks: [{
+		uid: "98178a63",
+		type: "item",
+		items: [{
+			item: "forestry:tree_chest"
+		}]
+	}],
+	rewards: [{
+		uid: "1135c7eb",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "2"
+			}
+		}
+	}]
+}

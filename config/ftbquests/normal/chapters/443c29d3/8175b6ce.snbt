@@ -1,0 +1,30 @@
+{
+	title: "Энчантинг",
+	icon: "minecraft:enchanting_table",
+	x: -11.5d,
+	y: -8.5d,
+	text: [
+		"Столик зачарований, так что там: 4 обсидиана, 2 алмаза, книжка, НУ И ПОЧЕМУ ОНО НЕ РАБОТАЕТ?"
+	],
+	dependencies: [
+		"cc9e1e36",
+		"4136cf9c"
+	],
+	tasks: [{
+		uid: "8874e476",
+		type: "item",
+		items: [{
+			item: "minecraft:enchanting_table"
+		}]
+	}],
+	rewards: [{
+		uid: "12ba5144",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

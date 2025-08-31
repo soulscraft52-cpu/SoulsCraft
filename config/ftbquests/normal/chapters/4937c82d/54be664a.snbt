@@ -1,0 +1,32 @@
+{
+	x: -9.5d,
+	y: -21.0d,
+	text: [
+		"Просто нажмите по контролеру машины",
+		"И она построится за вас",
+		"ТОЛЬКО НУЖНО ИМЕТЬ ВСЕ БЛОКИ УКАЗАННЫЕ В МАШИНЕ"
+	],
+	dependencies: [
+		"364459ca"
+	],
+	tasks: [{
+		uid: "7c6f5cbf",
+		type: "item",
+		items: [{
+			item: "contenttweaker:modular_tool"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "bb27fc4b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		},
+		count: 4
+	}]
+}

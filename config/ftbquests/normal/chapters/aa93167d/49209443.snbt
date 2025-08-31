@@ -1,0 +1,27 @@
+{
+	x: -15.5d,
+	y: -14.0d,
+	text: [
+		"НОМЕР 1 СРЕДИ ЭЛЕКТРОСХЕМ"
+	],
+	dependencies: [
+		"cfd28737"
+	],
+	tasks: [{
+		uid: "215de92a",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:circuit 1 11"
+		}]
+	}],
+	rewards: [{
+		uid: "52641511",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

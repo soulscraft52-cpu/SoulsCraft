@@ -1,0 +1,31 @@
+{
+	title: "Блок кондиционера",
+	icon: "enderio:block_cap_bank 1 2",
+	x: -14.5d,
+	y: -10.0d,
+	text: [
+		"Обычный кондёр"
+	],
+	dependencies: [
+		"58ae756a",
+		"189fa442"
+	],
+	tasks: [{
+		uid: "e6c87c11",
+		type: "item",
+		items: [{
+			item: "enderio:block_cap_bank 1 2"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a8ac9339",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

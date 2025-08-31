@@ -1,0 +1,85 @@
+{
+	title: "Экономь свое время",
+	icon: "contenttweaker:dragon_core",
+	x: 3.0d,
+	y: -21.0d,
+	text: [
+		"Но не ресурсы"
+	],
+	dependencies: [
+		"4f920176"
+	],
+	tasks: [{
+		uid: "bd6ed909",
+		type: "item",
+		items: [{
+			item: "modularmachinery:automated_killer_dragon_controller"
+		}]
+	},
+	{
+		uid: "a6500491",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing 1 4"
+		}],
+		count: 217L
+	},
+	{
+		uid: "ed47d685",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockinputbus 1 2"
+		}],
+		count: 3L
+	},
+	{
+		uid: "57f4551f",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockoutputbus 1 2"
+		}],
+		count: 5L
+	},
+	{
+		uid: "9f28ecff",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockenergyinputhatch 1 4"
+		}],
+		count: 3L
+	},
+	{
+		uid: "e6c7185e",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing 1 5"
+		}]
+	},
+	{
+		uid: "5dde8963",
+		type: "item",
+		items: [{
+			item: "railcraft:post_metal 1 14"
+		}],
+		count: 40L
+	},
+	{
+		uid: "509992e2",
+		type: "item",
+		items: [{
+			item: "railcraft:post_metal 1 10"
+		}],
+		count: 80L
+	}],
+	rewards: [{
+		uid: "c61aa8b5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "6"
+			}
+		},
+		count: 8
+	}]
+}

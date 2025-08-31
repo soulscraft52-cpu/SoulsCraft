@@ -1,0 +1,29 @@
+{
+	title: "Подготовка реактора к турбине",
+	x: -15.0d,
+	y: -4.5d,
+	text: [
+		"Для того чтобы сделать реактор чтобы он вырабатывал пар нужно заменить у реактора розетку на жидкостный порт, а второй в вместо одного центрального корпуса и один из портов настроить на выход гаечным ключем."
+	],
+	dependencies: [
+		"fe3aa487"
+	],
+	tasks: [{
+		uid: "f74cc49c",
+		type: "item",
+		items: [{
+			item: "bigreactors:reactorcoolantport"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "68a0cce9",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

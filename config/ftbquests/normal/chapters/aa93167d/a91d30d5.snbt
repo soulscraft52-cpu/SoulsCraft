@@ -1,0 +1,29 @@
+{
+	title: "Стаааааль",
+	x: -6.5d,
+	y: -11.0d,
+	text: [
+		"Быстрая, очень быстрая сталь(и не только)"
+	],
+	dependencies: [
+		"d78f98a3"
+	],
+	tasks: [{
+		uid: "957ff316",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:basemachine 1 4"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "cebcf418",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

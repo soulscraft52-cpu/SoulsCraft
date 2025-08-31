@@ -1,0 +1,31 @@
+{
+	title: "Ядро для психов",
+	icon: "draconicevolution:chaotic_core",
+	x: -0.5d,
+	y: -7.5d,
+	text: [
+		"Для самых отбитых"
+	],
+	dependencies: [
+		"d488a3f4",
+		"cfeb63f1"
+	],
+	tasks: [{
+		uid: "205c645d",
+		type: "item",
+		items: [{
+			item: "draconicevolution:chaotic_core"
+		}]
+	}],
+	rewards: [{
+		uid: "7fe43912",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		random_bonus: 1
+	}]
+}

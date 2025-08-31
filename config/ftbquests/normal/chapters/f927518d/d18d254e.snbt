@@ -1,0 +1,26 @@
+{
+	x: -18.5d,
+	y: 2.0d,
+	dependencies: [
+		"0e389fb3"
+	],
+	tasks: [{
+		uid: "600690d2",
+		type: "item",
+		items: [{
+			item: "thaumictinkerer:ichorium_fortress_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ca48332e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		}
+	}]
+}

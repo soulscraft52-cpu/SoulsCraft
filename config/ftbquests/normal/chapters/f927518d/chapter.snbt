@@ -1,0 +1,32 @@
+{
+	title: " ",
+	icon: "thaumcraft:arcane_workbench",
+	description: [
+		"Гамма | Магия"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "",
+	images: [{
+		x: -12.0d,
+		y: 0.5d,
+		width: 15.0d,
+		height: 15.0d,
+		rotation: 0.0d,
+		image: "ftbquests:textures/gui/isl8.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -5.0d,
+		y: -6.5d,
+		width: 9.0d,
+		height: 6.0d,
+		rotation: 0.0d,
+		image: "ftbquests:textures/gui/isl15.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

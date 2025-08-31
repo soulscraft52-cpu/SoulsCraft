@@ -1,0 +1,14 @@
+{
+	x: -13.0d,
+	y: -3.5d,
+	dependencies: [
+		"a24622b9"
+	],
+	tasks: [{
+		uid: "dff2698b",
+		type: "item",
+		items: [{
+			item: "crazyae:patterns_interface"
+		}]
+	}]
+}

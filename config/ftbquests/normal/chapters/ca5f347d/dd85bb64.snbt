@@ -1,0 +1,105 @@
+{
+	title: "Что тебе ещё нужно в этой жизни?",
+	icon: {
+		ForgeCaps: {
+			Parent: {
+				Size: 36,
+				Items: []
+			}
+		},
+		id: "draconicadditions:chaotic_staff_of_power",
+		Damage: 32767s
+	},
+	x: -2.5d,
+	y: -7.5d,
+	text: [
+		"Шмотки хаоса"
+	],
+	dependencies: [
+		"bc9e4eee"
+	],
+	tasks: [{
+		uid: "83bab420",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					Size: 36,
+					Items: []
+				}
+			},
+			id: "draconicadditions:chaotic_staff_of_power",
+			Damage: 32767s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ada2349f",
+		type: "item",
+		items: [{
+			item: "draconicadditions:chaotic_helm"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "32f49a34",
+		type: "item",
+		items: [{
+			item: "draconicadditions:chaotic_chest"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "98c84946",
+		type: "item",
+		items: [{
+			item: "draconicadditions:chaotic_legs"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9f67dba8",
+		type: "item",
+		items: [{
+			item: "draconicadditions:chaotic_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "164dc43f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 8,
+		random_bonus: 4
+	},
+	{
+		uid: "ef47b726",
+		type: "item",
+		item: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyVariant: "neon",
+				TrophyColorGreen: 128,
+				TrophyShowsTooltip: 1b,
+				TrophyItem: {
+					id: "draconicadditions:chaotic_staff_of_power",
+					Count: 1b,
+					Damage: 0s
+				},
+				TrophyColorBlue: 128,
+				TrophyName: "Посох вашей СИЛЫ",
+				TrophyColorRed: 128
+			}
+		}
+	}]
+}

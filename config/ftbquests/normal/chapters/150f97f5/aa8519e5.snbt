@@ -1,0 +1,31 @@
+{
+	title: "Розовая",
+	icon: "projectex:matter 1 1",
+	x: 0.5d,
+	y: -5.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"122e7209"
+	],
+	tasks: [{
+		uid: "3a517f2d",
+		type: "item",
+		items: [{
+			item: "projectex:matter 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "29228e51",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 2,
+		random_bonus: 1
+	}]
+}

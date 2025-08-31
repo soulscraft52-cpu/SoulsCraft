@@ -1,0 +1,28 @@
+{
+	title: "Бесконечный капаЧитор",
+	x: -15.5d,
+	y: -4.5d,
+	text: [
+		"Очень сильно прибавит мощности вашим механизмам"
+	],
+	dependencies: [
+		"bbbe3fa2"
+	],
+	tasks: [{
+		uid: "7647e84b",
+		type: "item",
+		items: [{
+			item: "avaritiaio:infinitecapacitor"
+		}]
+	}],
+	rewards: [{
+		uid: "c3a9a37d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		}
+	}]
+}

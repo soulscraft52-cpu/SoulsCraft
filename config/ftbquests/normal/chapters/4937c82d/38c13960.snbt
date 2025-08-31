@@ -1,0 +1,45 @@
+{
+	x: 7.0d,
+	y: -10.5d,
+	text: [
+		"Коса которая наводить ужас на тех кто грешил в своей жизни"
+	],
+	dependencies: [
+		"6758224d"
+	],
+	tasks: [{
+		uid: "37578755",
+		type: "item",
+		items: [{
+			id: "variedcommodities:demonic_scythe",
+			tag: {
+				ench: [{
+					lvl: 10s,
+					id: 129s
+				},
+				{
+					lvl: 10s,
+					id: 67s
+				},
+				{
+					lvl: 10s,
+					id: 125s
+				}],
+				RepairCost: 7
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "df1deccb",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "5"
+			}
+		},
+		count: 2
+	}]
+}

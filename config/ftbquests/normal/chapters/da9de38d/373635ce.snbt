@@ -1,0 +1,30 @@
+{
+	title: "Без него работать ничего не будет",
+	x: 2.0d,
+	y: 1.5d,
+	text: [
+		"Делай, делай... или нет (:"
+	],
+	dependencies: [
+		"26057c91"
+	],
+	tasks: [{
+		uid: "2b3d81a1",
+		type: "item",
+		items: [{
+			item: "fluxnetworks:fluxcontroller"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "fbca81f0",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		},
+		count: 4
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	x: -2.5d,
+	y: 3.0d,
+	text: [
+		"А Менделева завоевать ты не смогла!"
+	],
+	dependencies: [
+		"238b5bf6"
+	],
+	tasks: [{
+		uid: "bb685623",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:radiationresources 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "4047332a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 2
+	}]
+}

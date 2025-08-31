@@ -1,0 +1,76 @@
+{
+	title: "Квантовая броня",
+	icon: {
+		id: "industrialupgrade:quantum_chestplate",
+		tag: {
+			ID_Item: 2147483647
+		}
+	},
+	x: -4.5d,
+	y: 0.0d,
+	text: [
+		"Настало перейти из эпохи нано, в квантовую"
+	],
+	dependencies: [
+		"8d3b988c"
+	],
+	tasks: [{
+		uid: "f6d7b3bf",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:quantum_helmet",
+			tag: {
+				ID_Item: 2147483647
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "43fc58b3",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:quantum_chestplate",
+			tag: {
+				ID_Item: 2147483647
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5758f79f",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:quantum_leggings",
+			tag: {
+				ID_Item: 2147483647
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "16d95d33",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:quantum_boots",
+			tag: {
+				ID_Item: 2147483647
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "36bdbe7d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		},
+		count: 2
+	}]
+}

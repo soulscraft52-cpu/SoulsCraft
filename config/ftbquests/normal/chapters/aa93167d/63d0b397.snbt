@@ -1,0 +1,31 @@
+{
+	title: "Начни своё первуй путь зимнего солдата",
+	x: -13.0d,
+	y: -3.5d,
+	text: [
+		"Поможет остудить ваши механизмы, чтобы они работали без перегрева."
+	],
+	dependencies: [
+		"4f1a4228"
+	],
+	tasks: [{
+		uid: "ce2963dc",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:basemachine3",
+			tag: {},
+			Damage: 10s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ff756643",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

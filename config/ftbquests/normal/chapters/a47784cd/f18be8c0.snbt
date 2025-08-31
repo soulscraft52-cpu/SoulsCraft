@@ -1,0 +1,23 @@
+{
+	title: "Коллектор",
+	icon: "divinerpg:collector",
+	x: -10.5d,
+	y: -2.5d,
+	can_repeat: true,
+	dependencies: [
+		"0bb7e05d"
+	],
+	tasks: [{
+		uid: "a75dc7d7",
+		type: "item",
+		items: [{
+			item: "contenttweaker:coin_tier2"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "b565a880",
+		type: "item",
+		item: "divinerpg:collector"
+	}]
+}

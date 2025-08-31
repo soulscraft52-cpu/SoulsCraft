@@ -1,0 +1,29 @@
+{
+	title: "Тигель для истинных алхимиков!",
+	icon: "thaumcraft:crucible",
+	x: -9.0d,
+	y: -5.5d,
+	text: [
+		"Создавайте из одних предметов другие с помощью алхимии..."
+	],
+	dependencies: [
+		"257787e7"
+	],
+	tasks: [{
+		uid: "88fa9759",
+		type: "item",
+		items: [{
+			item: "thaumcraft:crucible"
+		}]
+	}],
+	rewards: [{
+		uid: "bd01c83e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	title: "Корпус всем корпусам",
+	icon: "forestry:sturdy_machine",
+	x: -13.5d,
+	y: -1.0d,
+	text: [
+		"Используется в крафтах механизмов из форестри"
+	],
+	dependencies: [
+		"0b725aa2",
+		"f7fd612f"
+	],
+	tasks: [{
+		uid: "c7275df3",
+		type: "item",
+		items: [{
+			item: "forestry:sturdy_machine"
+		}]
+	}],
+	rewards: [{
+		uid: "ecbf3b8b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

@@ -1,0 +1,264 @@
+{
+    "CompleterNpc": "Стивен",
+    "NextQuestId": -1,
+    "RandomReward": 0b,
+    "QuestRepeat": 0,
+    "QuestCompletion": 0,
+    "IgnoreNBT": 0b,
+    "Title": "И кирка без дела не ржавеет",
+    "Text": "Стивен попросил принести две кирки, взамен на которые он даст нужные мне ресурсы. Главное не забыть, железный обух, железная крестовина и деревянная рукоять.",
+    "QuestFactionPoints": {
+        "DecreaseFaction1Points": 0b,
+        "OptionFaction2Points": 10,
+        "OptionFactions1": 17,
+        "OptionFactions2": 18,
+        "OptionFaction1Points": 10,
+        "DecreaseFaction2Points": 0b
+    },
+    "RewardExp": 150,
+    "QuestCommand": "",
+    "ModRev": 18,
+    "Type": 0,
+    "QuestMail": {
+        "Sender": "",
+        "BeenRead": 0b,
+        "Message": {
+        },
+        "MailItems": [
+        ],
+        "MailQuest": -1,
+        "TimePast": 1657697443944L,
+        "Time": 0L,
+        "Subject": ""
+    },
+    "IgnoreDamage": 0b,
+    "Rewards": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "thaumcraft:crystal_essence",
+                "Count": 64b,
+                "tag": {
+                    "Aspects": [
+                        {
+                            "amount": 1,
+                            "key": "aqua"
+                        }
+                    ]
+                },
+                "Damage": 0s
+            },
+            {
+                "Slot": 1b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "thaumcraft:ore_cinnabar",
+                "Count": 32b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 2b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "thaumcraft:amber",
+                "Count": 32b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 3b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "minecraft:iron_ore",
+                "Count": 48b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 4b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "minecraft:gold_ore",
+                "Count": 8b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 5b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "minecraft:redstone",
+                "Count": 64b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 6b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "railcraft:ore_metal",
+                "Count": 16b,
+                "Damage": 5s
+            }
+        ]
+    },
+    "Items": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "tconstruct:pickaxe",
+                "Count": 1b,
+                "tag": {
+                    "StatsOriginal": {
+                        "AttackSpeedMultiplier": 1.0f,
+                        "MiningSpeed": 6.0f,
+                        "FreeModifiers": 3,
+                        "Durability": 279,
+                        "HarvestLevel": 2,
+                        "Attack": 4.0f
+                    },
+                    "Stats": {
+                        "AttackSpeedMultiplier": 1.0f,
+                        "MiningSpeed": 6.0f,
+                        "FreeModifiers": 0,
+                        "Durability": 279,
+                        "HarvestLevel": 2,
+                        "Attack": 4.0f
+                    },
+                    "Special": {
+                        "Categories": [
+                            "harvest",
+                            "tool",
+                            "aoe"
+                        ]
+                    },
+                    "TinkerData": {
+                        "Materials": [
+                            "wood",
+                            "iron",
+                            "iron"
+                        ],
+                        "Modifiers": [
+                            "toolleveling"
+                        ]
+                    },
+                    "Modifiers": [
+                        {
+                            "identifier": "ecological",
+                            "color": -7444965,
+                            "level": 1
+                        },
+                        {
+                            "identifier": "magnetic",
+                            "color": -3487030,
+                            "level": 3,
+                            "magnetic1": 1b,
+                            "magnetic2": 1b
+                        },
+                        {
+                            "identifier": "toolleveling",
+                            "color": 16777215,
+                            "level": 1
+                        }
+                    ],
+                    "Traits": [
+                        "ecological",
+                        "magnetic2",
+                        "magnetic1",
+                        "toolleveling"
+                    ]
+                },
+                "Damage": 0s
+            },
+            {
+                "Slot": 1b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "tconstruct:pickaxe",
+                "Count": 1b,
+                "tag": {
+                    "StatsOriginal": {
+                        "AttackSpeedMultiplier": 1.0f,
+                        "MiningSpeed": 6.0f,
+                        "FreeModifiers": 3,
+                        "Durability": 279,
+                        "HarvestLevel": 2,
+                        "Attack": 4.0f
+                    },
+                    "Stats": {
+                        "AttackSpeedMultiplier": 1.0f,
+                        "MiningSpeed": 6.0f,
+                        "FreeModifiers": 0,
+                        "Durability": 279,
+                        "HarvestLevel": 2,
+                        "Attack": 4.0f
+                    },
+                    "Special": {
+                        "Categories": [
+                            "harvest",
+                            "tool",
+                            "aoe"
+                        ]
+                    },
+                    "TinkerData": {
+                        "Materials": [
+                            "wood",
+                            "iron",
+                            "iron"
+                        ],
+                        "Modifiers": [
+                            "toolleveling"
+                        ]
+                    },
+                    "Modifiers": [
+                        {
+                            "identifier": "ecological",
+                            "color": -7444965,
+                            "level": 1
+                        },
+                        {
+                            "identifier": "magnetic",
+                            "color": -3487030,
+                            "level": 3,
+                            "magnetic1": 1b,
+                            "magnetic2": 1b
+                        },
+                        {
+                            "identifier": "toolleveling",
+                            "color": 16777215,
+                            "level": 1
+                        }
+                    ],
+                    "Traits": [
+                        "ecological",
+                        "magnetic2",
+                        "magnetic1",
+                        "toolleveling"
+                    ]
+                },
+                "Damage": 0s
+            }
+        ]
+    },
+    "LeaveItems": 0b,
+    "CompleteText": "О, спасибо тебе. Вот возьми, всё как просил. И от меня ещё кое-что.",
+    "NextQuestTitle": ""
+}

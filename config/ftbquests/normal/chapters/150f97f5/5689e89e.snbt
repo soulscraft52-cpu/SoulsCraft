@@ -1,0 +1,28 @@
+{
+	title: "Реле антиматерии #3",
+	x: -3.0d,
+	y: -8.5d,
+	text: [
+		"Иди посмотри в ЮТУБе "
+	],
+	dependencies: [
+		"5b4aa947"
+	],
+	tasks: [{
+		uid: "b2fdc8d8",
+		type: "item",
+		items: [{
+			item: "projecte:relay_mk3"
+		}]
+	}],
+	rewards: [{
+		uid: "e49edf67",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		}
+	}]
+}

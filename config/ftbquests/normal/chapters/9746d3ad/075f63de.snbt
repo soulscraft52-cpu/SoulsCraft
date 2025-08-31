@@ -1,0 +1,29 @@
+{
+	title: "Мелкие деревца",
+	icon: "bonsaitrees:bonsaipot",
+	x: -1.5d,
+	y: -8.5d,
+	text: [
+		"Бесконечный источник дерева"
+	],
+	dependencies: [
+		"a34a4e42"
+	],
+	tasks: [{
+		uid: "3ff128f4",
+		type: "item",
+		items: [{
+			item: "bonsaitrees:bonsaipot"
+		}]
+	}],
+	rewards: [{
+		uid: "6a4f8481",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

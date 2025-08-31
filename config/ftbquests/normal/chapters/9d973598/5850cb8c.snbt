@@ -1,0 +1,40 @@
+{
+	title: "Меч и кирка?",
+	icon: "divinerpg:divine_sword",
+	x: -9.0d,
+	y: -3.0d,
+	text: [
+		"А нет, инструмент..."
+	],
+	dependencies: [
+		"a3a0f328"
+	],
+	tasks: [{
+		uid: "fad078fe",
+		type: "item",
+		items: [{
+			item: "divinerpg:divine_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "da3ea1da",
+		type: "item",
+		items: [{
+			item: "divinerpg:divine_shickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "63dd5dc5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

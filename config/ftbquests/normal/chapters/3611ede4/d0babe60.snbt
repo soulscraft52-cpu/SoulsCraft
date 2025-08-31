@@ -1,0 +1,36 @@
+{
+	icon: "extrautils2:quarry",
+	x: -9.5d,
+	y: -5.5d,
+	text: [
+		"Сам добывает ресурсы из ничего!"
+	],
+	dependencies: [
+		"e8b6cf44"
+	],
+	tasks: [{
+		uid: "6d61a648",
+		type: "item",
+		items: [{
+			item: "extrautils2:quarry"
+		}]
+	},
+	{
+		uid: "f8429864",
+		type: "item",
+		items: [{
+			item: "extrautils2:quarryproxy"
+		}],
+		count: 6L
+	}],
+	rewards: [{
+		uid: "c4501945",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		}
+	}]
+}

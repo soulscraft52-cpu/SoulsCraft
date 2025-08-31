@@ -1,0 +1,45 @@
+{
+	x: 0.5d,
+	y: -10.5d,
+	text: [
+		"Холод одно из чувств которое не понять слабому человеку"
+	],
+	dependencies: [
+		"751f8455"
+	],
+	tasks: [{
+		uid: "4d426bd1",
+		type: "item",
+		items: [{
+			id: "variedcommodities:frost_battleaxe",
+			tag: {
+				ench: [{
+					lvl: 75s,
+					id: 16s
+				},
+				{
+					lvl: 10s,
+					id: 72s
+				},
+				{
+					lvl: 15s,
+					id: 137s
+				}],
+				RepairCost: 3
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a7647ee3",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "5"
+			}
+		},
+		count: 2
+	}]
+}

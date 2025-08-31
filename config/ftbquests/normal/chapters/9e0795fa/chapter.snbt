@@ -1,0 +1,32 @@
+{
+	title: " ",
+	icon: "appliedenergistics2:controller",
+	description: [
+		"Мю | AE2"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "",
+	images: [{
+		x: -16.0d,
+		y: 0.0d,
+		width: 21.0d,
+		height: 30.0d,
+		rotation: 90.0d,
+		image: "ftbquests:textures/gui/isl2.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -8.0d,
+		y: 0.0d,
+		width: 21.0d,
+		height: 30.0d,
+		rotation: -90.0d,
+		image: "ftbquests:textures/gui/isl2.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

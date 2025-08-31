@@ -1,0 +1,67 @@
+{
+    "CompleterNpc": "Торговец",
+    "NextQuestId": -1,
+    "RandomReward": 0b,
+    "QuestRepeat": 0,
+    "QuestCompletion": 0,
+    "Title": "Микстура от головной боли",
+    "Text": "Моя голова просто раскалывается... Может микстура, о которой он говорит поможет мне?",
+    "QuestFactionPoints": {
+        "DecreaseFaction1Points": 0b,
+        "OptionFaction2Points": 100,
+        "OptionFactions1": -1,
+        "OptionFactions2": -1,
+        "OptionFaction1Points": 100,
+        "DecreaseFaction2Points": 0b
+    },
+    "RewardExp": 0,
+    "QuestCommand": "",
+    "QuestDialogs": [
+    ],
+    "ModRev": 18,
+    "Type": 1,
+    "QuestMail": {
+        "Sender": "",
+        "BeenRead": 0b,
+        "Message": {
+        },
+        "MailItems": [
+        ],
+        "MailQuest": -1,
+        "TimePast": 1659599246398L,
+        "Time": 0L,
+        "Subject": ""
+    },
+    "Rewards": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "minecraft:potion",
+                "Count": 1b,
+                "tag": {
+                    "CustomPotionColor": 979176,
+                    "CustomPotionEffects": [
+                        {
+                            "Duration": 100,
+                            "Id": 10,
+                            "Amplifier": 2
+                        }
+                    ],
+                    "display": {
+                        "Lore": [
+                            "Микстура, которую вы взяли у крайне подозрительного торговца и сразу же решились выпить. Она вам точно поможет?"
+                        ],
+                        "Name": "Микстура от головной боли"
+                    }
+                },
+                "Damage": 0s
+            }
+        ]
+    },
+    "CompleteText": "",
+    "NextQuestTitle": ""
+}

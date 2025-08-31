@@ -1,0 +1,58 @@
+{
+	title: "Опа инструменты",
+	icon: "divinerpg:realmite_pickaxe",
+	x: -15.5d,
+	y: -5.0d,
+	text: [
+		"Лучше чем алмазные инструменты"
+	],
+	dependencies: [
+		"70bac546"
+	],
+	tasks: [{
+		uid: "00c448ab",
+		type: "item",
+		items: [{
+			item: "divinerpg:realmite_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9404b487",
+		type: "item",
+		items: [{
+			item: "divinerpg:realmite_axe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0bdce969",
+		type: "item",
+		items: [{
+			item: "divinerpg:realmite_shovel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "7a19989b",
+		type: "item",
+		items: [{
+			item: "divinerpg:realmite_hoe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a13c8e27",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

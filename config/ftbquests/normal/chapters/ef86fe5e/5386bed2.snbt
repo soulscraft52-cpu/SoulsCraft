@@ -1,0 +1,34 @@
+{
+	title: "Неплохо, очень даже неплохо (tier 2)",
+	x: -26.0d,
+	y: -20.0d,
+	text: [
+		"Создайте лазер на §c128 MJ/t"
+	],
+	dependencies: [
+		"0d4622ce"
+	],
+	tasks: [{
+		uid: "5c0a8582",
+		type: "item",
+		items: [{
+			id: "quarryplus:laserplus",
+			tag: {
+				ench: [{
+					lvl: 2s,
+					id: 32s
+				}]
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "828c56eb",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

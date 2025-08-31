@@ -1,0 +1,112 @@
+{
+	title: "Bounty Hunter",
+	icon: {
+		id: "draconicevolution:mob_soul",
+		tag: {
+			EntityName: "galacticraftcore:evolved_zombie"
+		}
+	},
+	x: -1.0d,
+	y: 0.0d,
+	text: [
+		"Станьте главным охотником за головами во всей Галактике..."
+	],
+	can_repeat: true,
+	dependencies: [
+		"17f66729"
+	],
+	tasks: [{
+		uid: "90b05c21",
+		type: "kill",
+		entity: "galacticraftcore:alien_villager",
+		value: 1L
+	},
+	{
+		uid: "ecadf766",
+		type: "kill",
+		entity: "galacticraftplanets:slimeling",
+		value: 1L
+	},
+	{
+		uid: "bbdf475a",
+		type: "kill",
+		entity: "galacticraftcore:evolved_zombie",
+		value: 1L
+	},
+	{
+		uid: "4893c574",
+		type: "kill",
+		entity: "galacticraftcore:evolved_witch",
+		value: 1L
+	},
+	{
+		uid: "37574238",
+		type: "kill",
+		entity: "galacticraftcore:evolved_spider",
+		value: 1L
+	},
+	{
+		uid: "6fb22f59",
+		type: "kill",
+		entity: "galacticraftcore:evolved_skeleton",
+		value: 1L
+	},
+	{
+		uid: "c3cc17b6",
+		type: "kill",
+		entity: "galacticraftcore:evolved_enderman",
+		value: 1L
+	},
+	{
+		uid: "df3a7970",
+		type: "kill",
+		entity: "galacticraftcore:evolved_creeper",
+		value: 1L
+	},
+	{
+		uid: "35d05367",
+		type: "kill",
+		entity: "galacticraftcore:evolved_skeleton_boss",
+		value: 1L
+	},
+	{
+		uid: "fbcae2c4",
+		type: "kill",
+		entity: "galacticraftplanets:creeper_boss",
+		value: 1L
+	},
+	{
+		uid: "39d6e646",
+		type: "kill",
+		entity: "galacticraftcore:evolved_coldblaze",
+		value: 1L
+	},
+	{
+		uid: "3d6ef4cf",
+		type: "kill",
+		entity: "galacticraftcore:evolved_boss_ghast",
+		value: 1L
+	},
+	{
+		uid: "df4bd1b0",
+		type: "kill",
+		entity: "galacticraftcore:evolved_boss_blaze",
+		value: 1L
+	},
+	{
+		uid: "03297c0e",
+		type: "kill",
+		entity: "galacticraftplanets:spider_queen",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "78bc4682",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		}
+	}]
+}

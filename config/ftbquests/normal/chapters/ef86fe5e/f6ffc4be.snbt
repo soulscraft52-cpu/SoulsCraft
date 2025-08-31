@@ -1,0 +1,60 @@
+{
+	title: "Ваккумулятор",
+	icon: {
+		id: "thermalexpansion:device",
+		tag: {
+			RSControl: 0b,
+			Facing: 3b,
+			Energy: 0,
+			SideCache: [B;
+				0b,
+				1b,
+				0b,
+				0b,
+				0b,
+				0b
+			]
+		},
+		Damage: 12s
+	},
+	x: -20.0d,
+	y: -17.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"3fbbb0ef"
+	],
+	tasks: [{
+		uid: "522e1d12",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:device",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					0b,
+					1b,
+					0b,
+					0b,
+					0b,
+					0b
+				]
+			},
+			Damage: 12s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "fa4b8ee2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

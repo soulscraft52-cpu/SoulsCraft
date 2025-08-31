@@ -1,0 +1,25 @@
+{
+	x: 1.5d,
+	y: 1.5d,
+	dependencies: [
+		"b5eb86d1",
+		"f9250e96"
+	],
+	tasks: [{
+		uid: "f48e1c9c",
+		type: "item",
+		items: [{
+			item: "thaumadditions:vis_seeds/instrumentum"
+		}]
+	}],
+	rewards: [{
+		uid: "00fd65e6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

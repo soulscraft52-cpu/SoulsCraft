@@ -1,0 +1,29 @@
+{
+	title: "+3 слотов",
+	x: -5.5d,
+	y: -20.0d,
+	text: [
+		"Имеет 12 слотов"
+	],
+	dependencies: [
+		"fe584e64"
+	],
+	tasks: [{
+		uid: "c6d432cc",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockoutputbus 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "b1667ff6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		},
+		count: 4
+	}]
+}

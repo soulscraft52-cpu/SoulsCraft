@@ -1,0 +1,25 @@
+{
+	x: 2.5d,
+	y: 0.5d,
+	dependencies: [
+		"869d318d",
+		"d3ddafb0"
+	],
+	tasks: [{
+		uid: "ece794f3",
+		type: "item",
+		items: [{
+			item: "thaumadditions:vis_seeds/cognitio"
+		}]
+	}],
+	rewards: [{
+		uid: "02ed6b3f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		}
+	}]
+}

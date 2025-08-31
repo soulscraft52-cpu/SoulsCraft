@@ -1,0 +1,32 @@
+{
+	title: "Конец? Это конец?",
+	icon: "industrialupgrade:machines 1 13",
+	x: 12.0d,
+	y: -2.0d,
+	text: [
+		"Ты прошёл, все панельки, молодец! Возьми пирожок с полки"
+	],
+	dependencies: [
+		"4cd8f311"
+	],
+	tasks: [{
+		uid: "2f91eeee",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:machines 1 13"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f3739fa4",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 16,
+		random_bonus: 16
+	}]
+}

@@ -1,0 +1,37 @@
+{
+	title: "Ваш личный сжиматель",
+	icon: {
+		id: "industrialupgrade:simplemachine",
+		tag: {},
+		Damage: 1s
+	},
+	x: -13.0d,
+	y: -14.0d,
+	text: [
+		"Сжимает лазурит, уголь, абсолютно бесплатно"
+	],
+	dependencies: [
+		"4f1a4228",
+		"3e2c1626"
+	],
+	tasks: [{
+		uid: "43beb6d5",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:simplemachine",
+			tag: {},
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e3ad6e8a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

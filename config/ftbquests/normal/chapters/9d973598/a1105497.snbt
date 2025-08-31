@@ -1,0 +1,53 @@
+{
+	title: "И скелет не пробьёт!",
+	icon: "divinerpg:arlemite_chestplate",
+	x: -15.5d,
+	y: -4.0d,
+	text: [
+		"Зелёненькая"
+	],
+	dependencies: [
+		"c75a694c"
+	],
+	tasks: [{
+		uid: "71873af8",
+		type: "item",
+		items: [{
+			item: "divinerpg:arlemite_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ae32662f",
+		type: "item",
+		items: [{
+			item: "divinerpg:arlemite_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "31bc12e5",
+		type: "item",
+		items: [{
+			item: "divinerpg:arlemite_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b040f9c5",
+		type: "item",
+		items: [{
+			item: "divinerpg:arlemite_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "382ffacb",
+		type: "choice",
+		table: 3
+	}]
+}

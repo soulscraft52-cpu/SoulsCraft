@@ -1,0 +1,17 @@
+{
+	title: "Синенькая",
+	loot_size: 1,
+	rewards: [{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	},
+	{
+		item: "divinerpg:shadow_bar",
+		count: 8,
+		random_bonus: 8
+	}]
+}

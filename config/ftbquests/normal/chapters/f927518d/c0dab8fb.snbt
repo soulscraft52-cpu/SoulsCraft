@@ -1,0 +1,30 @@
+{
+	title: "Большой пёрл",
+	x: -9.5d,
+	y: -0.5d,
+	text: [
+		"Супер большая жемчужина, которая нужна для двух с половиной крафтов."
+	],
+	dependencies: [
+		"9b57e123"
+	],
+	tasks: [{
+		uid: "7e09294e",
+		type: "item",
+		items: [{
+			item: "avaritia:extremely_primordial_pearl"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e3adc2fe",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	title: "На случай холодной зимы, если у вас дешевое электричество",
+	x: -9.0d,
+	y: -3.5d,
+	text: [
+		"Вашим ценам обзавидуется любой майнер."
+	],
+	dependencies: [
+		"c215dab4"
+	],
+	tasks: [{
+		uid: "cf66c3b2",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:basemachine3 1 5"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "fa2bc72f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

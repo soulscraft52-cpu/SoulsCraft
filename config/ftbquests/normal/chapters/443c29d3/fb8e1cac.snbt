@@ -1,0 +1,22 @@
+{
+	title: "Земляной сундук",
+	x: -23.0d,
+	y: -5.5d,
+	dependencies: [
+		"e4c89bfa"
+	],
+	tasks: [{
+		uid: "aaae5621",
+		type: "item",
+		title: "Земляной сундук",
+		items: [{
+			item: "ironchest:iron_chest 1 7"
+		}]
+	}],
+	rewards: [{
+		uid: "cc878760",
+		type: "item",
+		item: "minecraft:dirt",
+		count: 32
+	}]
+}

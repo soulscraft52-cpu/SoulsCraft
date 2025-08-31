@@ -1,0 +1,114 @@
+{
+	title: "Мифический",
+	loot_size: 1,
+	rewards: [{
+		item: "avaritia:resource 1 5",
+		random_bonus: 1
+	},
+	{
+		item: "draconicevolution:awakened_core",
+		count: 2,
+		random_bonus: 1
+	},
+	{
+		item: "draconicevolution:draconic_ingot",
+		count: 8,
+		random_bonus: 8
+	},
+	{
+		item: "projecte:item.pe_matter 1 1",
+		count: 4,
+		random_bonus: 4
+	},
+	{
+		item: "railcraft:worldspike 1 3"
+	},
+	{
+		item: "appliedenergistics2:controller",
+		count: 10,
+		random_bonus: 5
+	},
+	{
+		item: "bigreactors:blockludicrite",
+		count: 16,
+		random_bonus: 8
+	},
+	{
+		item: {
+			id: "cfm:item_package_signed",
+			tag: {
+				Author: "SoulsCraft",
+				Package: {
+					Items: [{
+						Slot: 0b,
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "ftbquests:lootcrate",
+						Count: 2b,
+						tag: {
+							type: "6"
+						},
+						Damage: 0s
+					}]
+				}
+			}
+		}
+	},
+	{
+		item: "soulscraft:manafilledcursedgold",
+		count: 4,
+		random_bonus: 4
+	},
+	{
+		item: "industrialupgrade:circuit 1 11"
+	},
+	{
+		item: "draconicevolution:magnet 1 1"
+	},
+	{
+		item: "contenttweaker:coin_tier7"
+	},
+	{
+		item: "contenttweaker:coin_tier6"
+	},
+	{
+		item: {
+			id: "appliedenergistics2:wireless_crafting_terminal",
+			tag: {}
+		}
+	},
+	{
+		item: "extrautils2:unstableingots 1 2"
+	},
+	{
+		item: "modularmachinery:blockcasing",
+		count: 4
+	},
+	{
+		item: "modularmachinery:itemmodularium",
+		count: 4
+	},
+	{
+		item: "redstonearsenal:storage",
+		count: 4
+	},
+	{
+		item: "thaumadditions:mithrillium_ingot",
+		count: 2
+	},
+	{
+		item: "industrialupgrade:itemsunnariumpanel 1 3"
+	}],
+	loot_crate: {
+		string_id: "6",
+		item_name: "Mythical Crate",
+		color: 14329120,
+		glow: true,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

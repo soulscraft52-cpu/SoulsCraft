@@ -1,0 +1,33 @@
+{
+	x: -21.0d,
+	y: -18.0d,
+	dependencies: [
+		"ddcd04ab"
+	],
+	tasks: [{
+		uid: "65a6f7b0",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:adronrotor",
+			tag: {
+				damage: 442368000,
+				hasID: 1b,
+				canupgrade: 1b,
+				maxDamage: 442368000,
+				ID_Item: 25
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c7daeb08",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		}
+	}]
+}

@@ -1,0 +1,40 @@
+{
+	title: "Первые инструменты для ловли пчел",
+	icon: "forestry:scoop",
+	x: -15.5d,
+	y: -2.5d,
+	text: [
+		"Дымарь поможет тебе успокоить пчел чтобы они тебя не атаковали во время сбора улья сачком."
+	],
+	dependencies: [
+		"0b725aa2"
+	],
+	tasks: [{
+		uid: "51bbbb35",
+		type: "item",
+		items: [{
+			item: "forestry:smoker"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "65c3b838",
+		type: "item",
+		items: [{
+			item: "forestry:scoop"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5a7ccb07",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

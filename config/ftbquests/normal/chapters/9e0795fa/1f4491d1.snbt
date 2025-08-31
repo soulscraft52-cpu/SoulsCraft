@@ -1,0 +1,29 @@
+{
+	title: "Сердце сына маминой подруги",
+	icon: "appliedenergistics2:crafting_storage_64k",
+	x: -13.0d,
+	y: 8.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"abfd2cbe"
+	],
+	tasks: [{
+		uid: "93609bb2",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:crafting_storage_64k"
+		}]
+	}],
+	rewards: [{
+		uid: "93153002",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

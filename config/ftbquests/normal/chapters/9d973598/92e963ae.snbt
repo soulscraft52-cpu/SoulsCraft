@@ -1,0 +1,16 @@
+{
+	x: 11.5d,
+	y: -8.0d,
+	dependencies: [
+		"60ca70cb"
+	],
+	tasks: [{
+		uid: "b01d669c",
+		type: "item",
+		items: [{
+			item: "divinerpg:karos_rockmaul"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

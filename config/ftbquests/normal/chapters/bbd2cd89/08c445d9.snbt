@@ -1,0 +1,27 @@
+{
+	title: "Деш, душ, дыш",
+	icon: "galacticraftplanets:item_basic_mars 1 2",
+	x: -8.0d,
+	y: -4.5d,
+	text: [
+		"Тёмный металл, но не сталь"
+	],
+	dependencies: [
+		"163124e2"
+	],
+	tasks: [{
+		uid: "efed8cd9",
+		type: "item",
+		items: [{
+			item: "galacticraftplanets:item_basic_mars 16 2"
+		}],
+		count: 16L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "1f4f0a14",
+		type: "item",
+		item: "galacticraftplanets:item_basic_mars 1 3",
+		count: 8
+	}]
+}

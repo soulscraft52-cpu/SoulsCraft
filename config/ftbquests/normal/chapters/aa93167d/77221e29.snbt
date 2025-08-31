@@ -1,0 +1,30 @@
+{
+	title: "Ура, обычный саннариум!",
+	icon: "industrialupgrade:gen_sunnarium",
+	x: -3.5d,
+	y: -2.0d,
+	text: [
+		"Наконец-то у вас он есть!"
+	],
+	dependencies: [
+		"e70b5d09"
+	],
+	tasks: [{
+		uid: "7d574623",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:gen_sunnarium"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c7c9606a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

@@ -1,0 +1,58 @@
+{
+	title: "Безрадужная",
+	icon: "divinerpg:skythern_chestplate",
+	x: 5.5d,
+	y: -3.5d,
+	text: [
+		"И бесцветная"
+	],
+	dependencies: [
+		"4bcc4fd3"
+	],
+	tasks: [{
+		uid: "3d00b334",
+		type: "item",
+		items: [{
+			item: "divinerpg:skythern_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1ead1087",
+		type: "item",
+		items: [{
+			item: "divinerpg:skythern_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b9701bc5",
+		type: "item",
+		items: [{
+			item: "divinerpg:skythern_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d9b42897",
+		type: "item",
+		items: [{
+			item: "divinerpg:skythern_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f74d4bc6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

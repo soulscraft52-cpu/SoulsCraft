@@ -1,0 +1,122 @@
+{
+    "CompleterNpc": "Брендстон",
+    "NextQuestId": -1,
+    "RandomReward": 0b,
+    "QuestRepeat": 0,
+    "QuestCompletion": 0,
+    "IgnoreNBT": 0b,
+    "Title": "Банки жизни",
+    "Text": "Сначала пузырёк, теперь 2 банки. Аппетиты у него явно растут. Мне нужно наполнить 2 банки эссенцией Victus и принести ему.",
+    "QuestFactionPoints": {
+        "DecreaseFaction1Points": 0b,
+        "OptionFaction2Points": 15,
+        "OptionFactions1": 18,
+        "OptionFactions2": 17,
+        "OptionFaction1Points": 15,
+        "DecreaseFaction2Points": 0b
+    },
+    "RewardExp": 500,
+    "QuestCommand": "",
+    "ModRev": 18,
+    "Type": 0,
+    "QuestMail": {
+        "Sender": "",
+        "BeenRead": 0b,
+        "Message": {
+        },
+        "MailItems": [
+        ],
+        "MailQuest": -1,
+        "TimePast": 1653117118434L,
+        "Time": 0L,
+        "Subject": ""
+    },
+    "IgnoreDamage": 0b,
+    "Rewards": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "thermalfoundation:coin",
+                "Count": 30b,
+                "Damage": 64s
+            },
+            {
+                "Slot": 1b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "thaumcraft:cloth_legs",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 2b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "thaumcraft:cloth_chest",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 3b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "thaumcraft:cloth_boots",
+                "Count": 1b,
+                "Damage": 0s
+            }
+        ]
+    },
+    "Items": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "thaumcraft:jar_normal",
+                "Count": 1b,
+                "tag": {
+                    "Aspects": [
+                        {
+                            "amount": 250,
+                            "key": "victus"
+                        }
+                    ]
+                },
+                "Damage": 0s
+            },
+            {
+                "Slot": 1b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "thaumcraft:jar_normal",
+                "Count": 1b,
+                "tag": {
+                    "Aspects": [
+                        {
+                            "amount": 250,
+                            "key": "victus"
+                        }
+                    ]
+                },
+                "Damage": 0s
+            }
+        ]
+    },
+    "LeaveItems": 0b,
+    "CompleteText": "Отлично. Вот тебе за работу, да и возьми мою старую мантию, мне она сейчас всё равно не нужна, а тебе может понадобиться.",
+    "NextQuestTitle": ""
+}

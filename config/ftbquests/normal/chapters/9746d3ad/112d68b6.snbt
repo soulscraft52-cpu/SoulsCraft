@@ -1,0 +1,51 @@
+{
+	title: "Предътечье МЭ",
+	icon: "enderio:block_inventory_panel",
+	x: -4.0d,
+	y: 1.0d,
+	text: [
+		"Да здравствуй автоматический склад!",
+		"Предметные трубы и информационные трубы должны быть подключены к панели, и любому хранилищу.",
+		"Предметные трубы нужно настроить:",
+		"- Режим красного камня: Всегда активно.",
+		"- Поставить галочку у режима \"Вставить\" у хранилищь.",
+		"",
+		"Не забудьте заполнить панель питательным дистилятом."
+	],
+	dependencies: [
+		"70da802b"
+	],
+	tasks: [{
+		uid: "497fadad",
+		type: "item",
+		items: [{
+			item: "enderio:block_inventory_panel"
+		}]
+	},
+	{
+		uid: "644fc6cc",
+		type: "item",
+		items: [{
+			item: "enderio:item_item_conduit"
+		}],
+		count: 16L
+	},
+	{
+		uid: "5ac1c476",
+		type: "item",
+		items: [{
+			item: "enderio:item_data_conduit"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "8edb5ca1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		}
+	}]
+}

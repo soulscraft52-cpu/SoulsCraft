@@ -1,0 +1,29 @@
+{
+	x: -12.5d,
+	y: -3.5d,
+	text: [
+		"Нужен чтобы настраивать вход/выход."
+	],
+	dependencies: [
+		"fe3aa487"
+	],
+	tasks: [{
+		uid: "989ed9d6",
+		type: "item",
+		items: [{
+			item: "bigreactors:wrench"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9cc3cf25",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

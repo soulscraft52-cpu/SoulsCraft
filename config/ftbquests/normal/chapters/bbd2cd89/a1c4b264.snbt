@@ -1,0 +1,31 @@
+{
+	title: "С таким верстаком и в NASA возьмут",
+	icon: "galacticraftcore:rocket_workbench",
+	x: -4.5d,
+	y: 1.0d,
+	text: [
+		"Тут вы можете начать творить"
+	],
+	dependencies: [
+		"fdb01095",
+		"a1f4ef96"
+	],
+	tasks: [{
+		uid: "cf942783",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:rocket_workbench"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "cd51695f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

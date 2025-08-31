@@ -1,0 +1,29 @@
+{
+	title: "Проектор шаблонов",
+	icon: "appliedenergistics2:part 1 340",
+	x: -12.0d,
+	y: -0.5d,
+	text: [
+		"Позволяет записывать ваши крафты в шаблоны"
+	],
+	dependencies: [
+		"53d0f623"
+	],
+	tasks: [{
+		uid: "66dee0e1",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 340"
+		}]
+	}],
+	rewards: [{
+		uid: "5424f72b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

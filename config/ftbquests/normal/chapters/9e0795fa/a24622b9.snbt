@@ -1,0 +1,43 @@
+{
+	title: "Интерфейсы, шины...",
+	icon: "appliedenergistics2:interface",
+	x: -12.0d,
+	y: -3.5d,
+	text: [
+		"Для подключения ваших автокрафтов"
+	],
+	dependencies: [
+		"29e3cda4"
+	],
+	tasks: [{
+		uid: "6923425d",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:interface"
+		}]
+	},
+	{
+		uid: "d43809db",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 260"
+		}]
+	},
+	{
+		uid: "f9f35330",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 240"
+		}]
+	}],
+	rewards: [{
+		uid: "88773b13",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

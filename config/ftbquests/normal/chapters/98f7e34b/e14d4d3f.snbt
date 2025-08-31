@@ -1,0 +1,30 @@
+{
+	title: "Золотая голова",
+	icon: "tconstruct:materials 1 50",
+	x: 11.5d,
+	y: 2.5d,
+	text: [
+		"О, да, сейчас самое время вспомнить о тинкере"
+	],
+	dependencies: [
+		"257f84b3"
+	],
+	tasks: [{
+		uid: "188fdfd3",
+		type: "item",
+		items: [{
+			item: "tconstruct:materials 1 50"
+		}]
+	}],
+	rewards: [{
+		uid: "07070982",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "6"
+			}
+		},
+		count: 2
+	}]
+}

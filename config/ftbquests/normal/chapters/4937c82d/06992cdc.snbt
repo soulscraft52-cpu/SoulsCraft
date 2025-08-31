@@ -1,0 +1,40 @@
+{
+	x: 15.5d,
+	y: -11.0d,
+	text: [
+		"Кузня жди меня"
+	],
+	dependencies: [
+		"116747e0"
+	],
+	tasks: [{
+		uid: "e6d63063",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:forge_hammer",
+			tag: {
+				ench: [{
+					lvl: 125s,
+					id: 34s
+				}],
+				RepairCost: 1,
+				display: {
+					Name: "Красный Кузнечный Молот"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "11591e83",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 2
+	}]
+}

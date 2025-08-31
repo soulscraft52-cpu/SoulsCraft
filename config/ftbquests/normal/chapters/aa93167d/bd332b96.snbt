@@ -1,0 +1,29 @@
+{
+	title: "Ну крутой утилизатор, ничего не сказать",
+	x: -4.5d,
+	y: -8.0d,
+	text: [
+		"Остался ещё один шажок"
+	],
+	dependencies: [
+		"a9977156"
+	],
+	tasks: [{
+		uid: "69d6a3de",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:moremachine1 1 4"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "dc240c47",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

@@ -1,0 +1,48 @@
+{
+	title: "Позволяет заряжать предметы вис",
+	icon: "thaumcraft:recharge_pedestal",
+	x: -4.0d,
+	y: -3.5d,
+	text: [
+		"Вставьте сюда ваши предметы для подзарядки."
+	],
+	dependencies: [
+		"97058304"
+	],
+	tasks: [{
+		uid: "5c326592",
+		type: "item",
+		items: [{
+			item: "thaumcraft:recharge_pedestal"
+		}]
+	}],
+	rewards: [{
+		uid: "f724adab",
+		type: "item",
+		item: "thaumcraft:vis_resonator"
+	},
+	{
+		uid: "1f3b0f8a",
+		type: "item",
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "aer"
+				}]
+			}
+		},
+		count: 16
+	},
+	{
+		uid: "469196d6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

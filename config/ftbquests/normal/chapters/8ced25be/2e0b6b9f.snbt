@@ -1,0 +1,32 @@
+{
+	title: "Выпиватель",
+	x: -10.5d,
+	y: -2.0d,
+	text: [
+		"Сожрёт любую бурду которую вы сделаете на зельеварке. ",
+		"Можете дать ему §7водки§f, если найдёте."
+	],
+	dependencies: [
+		"d2c3dcfb"
+	],
+	tasks: [{
+		uid: "ff129605",
+		type: "item",
+		items: [{
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_potion"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "24f7e235",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

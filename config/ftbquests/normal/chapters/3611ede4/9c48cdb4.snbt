@@ -1,0 +1,29 @@
+{
+	x: -5.5d,
+	y: -1.5d,
+	text: [
+		"Держа книжку в руках нажми ПКМ, чтобы получить все рецепты предметов у которых указано EMC (ps Там были скрытые предметы, у которых нет крафтов, загляни)."
+	],
+	dependencies: [
+		"e77bcac9"
+	],
+	tasks: [{
+		uid: "062d1df2",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_tome"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4242e19e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

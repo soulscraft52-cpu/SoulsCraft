@@ -1,0 +1,29 @@
+{
+	title: "Ухты, первая трата энергии в  никуда!",
+	x: -26.0d,
+	y: -15.5d,
+	text: [
+		"Вам стоит потратить данное око ради сдачи квеста."
+	],
+	dependencies: [
+		"774dd351"
+	],
+	tasks: [{
+		uid: "9c3fedfb",
+		type: "item",
+		items: [{
+			item: "extrautils2:ingredients 1 2"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "6d0f5efd",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

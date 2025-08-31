@@ -1,0 +1,27 @@
+{
+	title: "Жииир",
+	icon: "thaumcraft:tallow",
+	x: -8.0d,
+	y: -7.0d,
+	text: [
+		"Магический жир для свечек"
+	],
+	dependencies: [
+		"56d1bf6e"
+	],
+	tasks: [{
+		uid: "c5433448",
+		type: "item",
+		items: [{
+			item: "thaumcraft:tallow 2"
+		}],
+		count: 2L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "29c70a69",
+		type: "item",
+		item: "thaumcraft:candle_white",
+		count: 16
+	}]
+}

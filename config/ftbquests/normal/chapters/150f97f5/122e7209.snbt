@@ -1,0 +1,30 @@
+{
+	title: "Маджента",
+	icon: "projectex:matter",
+	x: -0.5d,
+	y: -5.5d,
+	text: [
+		"Начало пути к финалу..."
+	],
+	dependencies: [
+		"6d6a55e0"
+	],
+	tasks: [{
+		uid: "84e21fc6",
+		type: "item",
+		items: [{
+			item: "projectex:matter"
+		}]
+	}],
+	rewards: [{
+		uid: "d4015ccc",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		random_bonus: 1
+	}]
+}

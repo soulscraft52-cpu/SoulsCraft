@@ -1,0 +1,92 @@
+{
+	title: "Вот это МОЩЬ",
+	icon: "modularmachinery:advanced_arcane_assembler_controller",
+	x: -7.5d,
+	y: -7.0d,
+	shape: "square",
+	text: [
+		"Этот мультиблок вам понравится"
+	],
+	dependencies: [
+		"a0b238cb"
+	],
+	tasks: [{
+		uid: "1c617add",
+		type: "item",
+		items: [{
+			item: "modularmachinery:advanced_arcane_assembler_controller"
+		}]
+	},
+	{
+		uid: "bad678cb",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockinputbus 1 2"
+		}],
+		count: 2L
+	},
+	{
+		uid: "74902424",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockoutputbus 1 2"
+		}]
+	},
+	{
+		uid: "87fcad9c",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockenergyinputhatch 1 2"
+		}]
+	},
+	{
+		uid: "f946e17f",
+		type: "item",
+		items: [{
+			item: "thaumcraft:plank_greatwood"
+		}],
+		count: 8L
+	},
+	{
+		uid: "9e73a29b",
+		type: "item",
+		items: [{
+			item: "thaumadditions:mithrillium_block"
+		}]
+	},
+	{
+		uid: "77a5d180",
+		type: "item",
+		items: [{
+			item: "thaumcraft:log_greatwood"
+		}],
+		count: 24L
+	},
+	{
+		uid: "77975767",
+		type: "item",
+		items: [{
+			item: "thaumcraft:stairs_greatwood"
+		}],
+		count: 12L
+	},
+	{
+		uid: "56a413e9",
+		type: "item",
+		items: [{
+			item: "thaumcraft:slab_greatwood"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "00e6bbb4",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		},
+		count: 4
+	}]
+}

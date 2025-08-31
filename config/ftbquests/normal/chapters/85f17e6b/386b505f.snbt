@@ -1,0 +1,61 @@
+{
+	title: "Инфериумные семена, фармим эссенцию",
+	x: 6.5d,
+	y: 0.5d,
+	text: [
+		"Чем выше уровень семени, тем больше за раз мы сможет нафармить эссенций, великолепно."
+	],
+	dependencies: [
+		"39cc5231"
+	],
+	tasks: [{
+		uid: "2d31e1d4",
+		type: "item",
+		title: "Инфериумные семена ур.1",
+		items: [{
+			item: "mysticalagriculture:tier1_inferium_seeds"
+		}]
+	},
+	{
+		uid: "c8c7a07a",
+		type: "item",
+		title: "Инфериумные семена ур.2",
+		items: [{
+			item: "mysticalagriculture:tier2_inferium_seeds"
+		}]
+	},
+	{
+		uid: "95cbdb7d",
+		type: "item",
+		title: "Инфериумные семена ур.3",
+		items: [{
+			item: "mysticalagriculture:tier3_inferium_seeds"
+		}]
+	},
+	{
+		uid: "fe8dc513",
+		type: "item",
+		title: "Инфериумные семена ур.4",
+		items: [{
+			item: "mysticalagriculture:tier4_inferium_seeds"
+		}]
+	},
+	{
+		uid: "be70aec2",
+		type: "item",
+		title: "Инфериумные семена ур.5",
+		items: [{
+			item: "mysticalagriculture:tier5_inferium_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "7056cded",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		}
+	}]
+}

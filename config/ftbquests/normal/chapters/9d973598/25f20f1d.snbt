@@ -1,0 +1,58 @@
+{
+	title: "Дорогая броня",
+	icon: "divinerpg:corrupted_chestplate",
+	x: -16.5d,
+	y: -0.5d,
+	text: [
+		"Может лучше было потратить кристаллы на призывалку босса?"
+	],
+	dependencies: [
+		"c75a694c"
+	],
+	tasks: [{
+		uid: "015cb6d8",
+		type: "item",
+		items: [{
+			item: "divinerpg:corrupted_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d471169a",
+		type: "item",
+		items: [{
+			item: "divinerpg:corrupted_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "796966e2",
+		type: "item",
+		items: [{
+			item: "divinerpg:corrupted_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "05be6fff",
+		type: "item",
+		items: [{
+			item: "divinerpg:corrupted_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "72bdc1eb",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

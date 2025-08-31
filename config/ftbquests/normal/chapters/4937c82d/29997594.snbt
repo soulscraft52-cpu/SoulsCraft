@@ -1,0 +1,93 @@
+{
+	title: "ШЛАК",
+	icon: "modularmachinery:slag_furnace_controller",
+	x: -9.5d,
+	y: -11.5d,
+	text: [
+		"Но на качество не влияет ",
+		"Так стоп",
+		"Это ваш первый мультиблок",
+		"В качестве награды приймите наш падарок"
+	],
+	dependencies: [
+		"b52c8b41"
+	],
+	tasks: [{
+		uid: "4647ace7",
+		type: "item",
+		items: [{
+			item: "modularmachinery:slag_furnace_controller"
+		}]
+	},
+	{
+		uid: "9f08f060",
+		type: "item",
+		items: [{
+			item: "contenttweaker:block_of_slag_bricks"
+		}],
+		count: 21L
+	},
+	{
+		uid: "d0aabf68",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:storage_alloy"
+		}]
+	},
+	{
+		uid: "6b45325f",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockinputbus"
+		}]
+	},
+	{
+		uid: "f99aa596",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockenergyinputhatch"
+		}]
+	},
+	{
+		uid: "9de974a5",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockoutputbus"
+		}]
+	},
+	{
+		uid: "59f78476",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "e900e31e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	},
+	{
+		uid: "81af2190",
+		type: "item",
+		item: {
+			id: "cfm:item_package_signed",
+			tag: {
+				Author: "Infinity_KING",
+				Package: {
+					Items: [{
+						Slot: 3b,
+						id: "thermalfoundation:material",
+						Count: 32,
+						Damage: 160s
+					}]
+				}
+			}
+		}
+	}]
+}

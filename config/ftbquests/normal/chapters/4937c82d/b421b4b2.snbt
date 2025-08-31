@@ -1,0 +1,29 @@
+{
+	title: "Самый простой",
+	x: 5.5d,
+	y: -15.5d,
+	text: [
+		"Почему он зеленый?"
+	],
+	dependencies: [
+		"3f8968d4"
+	],
+	tasks: [{
+		uid: "d4adeffd",
+		type: "item",
+		items: [{
+			item: "contenttweaker:tinker_alloy"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "f41aae29",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		}
+	}]
+}

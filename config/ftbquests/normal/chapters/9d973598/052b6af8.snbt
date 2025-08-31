@@ -1,0 +1,44 @@
+{
+	title: "Рейвор",
+	icon: "divinerpg:reyvor_crystal",
+	x: 7.5d,
+	y: -11.5d,
+	text: [
+		"И ещё его брат Денсос"
+	],
+	dependencies: [
+		"440a6d33"
+	],
+	tasks: [{
+		uid: "63a56060",
+		type: "item",
+		items: [{
+			item: "divinerpg:reyvor_crystal"
+		}],
+		ignore_damage: true
+	},
+	{
+		uid: "a29acb7d",
+		type: "item",
+		items: [{
+			item: "divinerpg:reyvor_statue"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "a55aa1d1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	},
+	{
+		uid: "a1d77283",
+		type: "item",
+		team_reward: false,
+		item: "thaumadditions:dna_sample"
+	}]
+}

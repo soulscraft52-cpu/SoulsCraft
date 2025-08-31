@@ -1,0 +1,29 @@
+{
+	title: "Душевный корпус",
+	icon: "enderio:item_material 1 53",
+	x: -6.5d,
+	y: -6.0d,
+	text: [
+		"Излейте в него душу"
+	],
+	dependencies: [
+		"78b8914b"
+	],
+	tasks: [{
+		uid: "388b0a2f",
+		type: "item",
+		items: [{
+			item: "enderio:item_material 1 53"
+		}]
+	}],
+	rewards: [{
+		uid: "d17b343f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

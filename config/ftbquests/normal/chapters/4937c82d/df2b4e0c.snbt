@@ -1,0 +1,109 @@
+{
+	title: "Автоматическая Матрица",
+	icon: "modularmachinery:automated_infusion_matrix_controller",
+	x: -3.5d,
+	y: -11.5d,
+	text: [
+		"Теперь ихор будет делаться за один клик,",
+		"точнее за два"
+	],
+	dependencies: [
+		"afe787ef"
+	],
+	tasks: [{
+		uid: "ffdab8fb",
+		type: "item",
+		items: [{
+			item: "modularmachinery:automated_infusion_matrix_controller"
+		}]
+	},
+	{
+		uid: "5d4dbc9e",
+		type: "item",
+		items: [{
+			item: "thaumcraft:stone_arcane"
+		}],
+		count: 146L
+	},
+	{
+		uid: "3b9be0e1",
+		type: "item",
+		items: [{
+			item: "thaumcraft:log_silverwood"
+		}],
+		count: 36L
+	},
+	{
+		uid: "5038996f",
+		type: "item",
+		items: [{
+			item: "thaumadditions:brass_plated_silverwood"
+		}],
+		count: 12L
+	},
+	{
+		uid: "11b4c67e",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockaspectproviderinput"
+		}],
+		count: 20L
+	},
+	{
+		uid: "08edc3f4",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockinputbus 1 2"
+		}],
+		count: 6L
+	},
+	{
+		uid: "f16c514c",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockoutputbus 1 2"
+		}]
+	},
+	{
+		uid: "6b1be85b",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockenergyinputhatch 1 2"
+		}],
+		count: 3L
+	},
+	{
+		uid: "88f6638f",
+		type: "item",
+		items: [{
+			item: "thaumcraft:pedestal_arcane"
+		}],
+		count: 17L
+	},
+	{
+		uid: "49f807ec",
+		type: "item",
+		items: [{
+			item: "thaumcraft:infusion_matrix"
+		}]
+	},
+	{
+		uid: "345e4af0",
+		type: "item",
+		items: [{
+			item: "thaumcraft:stairs_silverwood"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "7e9c9374",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		},
+		count: 4
+	}]
+}

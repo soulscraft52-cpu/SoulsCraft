@@ -1,0 +1,58 @@
+{
+	title: "Дикая броня",
+	icon: "divinerpg:wildwood_chestplate",
+	x: -2.5d,
+	y: -3.5d,
+	text: [
+		"Бронь отличная, идём дальше."
+	],
+	dependencies: [
+		"ece4119a"
+	],
+	tasks: [{
+		uid: "6611888e",
+		type: "item",
+		items: [{
+			item: "divinerpg:wildwood_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "71808b40",
+		type: "item",
+		items: [{
+			item: "divinerpg:wildwood_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b47e901a",
+		type: "item",
+		items: [{
+			item: "divinerpg:wildwood_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2e593996",
+		type: "item",
+		items: [{
+			item: "divinerpg:wildwood_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "fac5b018",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

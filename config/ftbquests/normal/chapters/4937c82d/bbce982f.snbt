@@ -1,0 +1,31 @@
+{
+	title: "Финал",
+	x: -4.5d,
+	y: -22.0d,
+	shape: "square",
+	text: [
+		"Имеет 32 слота",
+		"Это кстати в 2 раза больше чем у прошлого"
+	],
+	dependencies: [
+		"afbb2a58"
+	],
+	tasks: [{
+		uid: "54138be2",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockinputbus 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "0cabc979",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 4
+	}]
+}

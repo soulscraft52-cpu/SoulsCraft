@@ -1,0 +1,29 @@
+{
+	title: "На чём прокатили, говоришь?",
+	x: -13.0d,
+	y: -7.0d,
+	text: [
+		"На станке. На станке прокатили."
+	],
+	dependencies: [
+		"4f1a4228"
+	],
+	tasks: [{
+		uid: "4efb9a9c",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:moremachine2"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a48b805e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

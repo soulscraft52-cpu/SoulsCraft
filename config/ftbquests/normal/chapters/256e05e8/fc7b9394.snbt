@@ -1,0 +1,29 @@
+{
+	x: -1.5d,
+	y: -7.0d,
+	text: [
+		"Повышаем мощность до 15 EF/t"
+	],
+	dependencies: [
+		"423ef5c6"
+	],
+	tasks: [{
+		uid: "f31dc040",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:reactoruran233simple"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e4ba45e9",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

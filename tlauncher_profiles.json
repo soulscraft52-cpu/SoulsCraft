@@ -1,0 +1,19 @@
+{
+  "userSet": {
+    "selected": {
+      "username": "Mops_opasen",
+      "type": "ely"
+    },
+    "list": [
+      {
+        "id": 3808441,
+        "username": "Mops_opasen",
+        "displayName": "Mops_opasen",
+        "uuid": "e5f0e8c2-f1a7-4730-b291-e5833bf08cb5",
+        "registeredAt": 1630409124,
+        "accessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJFUzI1NiJ9.eyJpYXQiOjE3NTUwMDQzOTQsInN1YiI6ImVseXwzODA4NDQxIiwiY2xpZW50X2lkIjoidGxhdW5jaGVyIiwic2NvcGUiOiJvYnRhaW5fb3duX2FjY291bnRfaW5mbyBtaW5lY3JhZnRfc2VydmVyX3Nlc3Npb24ifQ.kbkVeGKtmIKPAUBGLVFdTibglEM-qWOmQTUKT2ymIJhWVsbNhtiPxrKUKQ4kkBoJii3ObHHyS6D93b3O-RnidA",
+        "type": "ely"
+      }
+    ]
+  }
+}

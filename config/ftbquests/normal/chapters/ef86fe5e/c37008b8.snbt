@@ -1,0 +1,40 @@
+{
+	title: "Генератор выжившего",
+	icon: {
+		id: "extrautils2:machine",
+		tag: {
+			Type: "extrautils2:generator_survival"
+		}
+	},
+	x: -31.0d,
+	y: -15.5d,
+	text: [
+		"Самый простой генератор RF из Extra Utilities§0§r.",
+		"§6"
+	],
+	dependencies: [
+		"c992d5bd"
+	],
+	tasks: [{
+		uid: "948d19f2",
+		type: "item",
+		items: [{
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_survival"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "aa378e10",
+		type: "item",
+		item: "minecraft:coal",
+		count: 64
+	},
+	{
+		uid: "6f6c638a",
+		type: "item",
+		item: "thaumcraft:ingot",
+		count: 4
+	}]
+}

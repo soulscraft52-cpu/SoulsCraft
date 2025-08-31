@@ -1,0 +1,31 @@
+{
+	title: "Смертъ",
+	x: -14.5d,
+	y: 1.0d,
+	text: [
+		"После того, как вы поставите этот генератор к вам придёт Джек-о-Мэн и заберёт вашу душу. §4Шучу."
+	],
+	dependencies: [
+		"d2c3dcfb"
+	],
+	tasks: [{
+		uid: "b63b1a65",
+		type: "item",
+		items: [{
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_death"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "1bdf82af",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

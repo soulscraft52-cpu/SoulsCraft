@@ -1,0 +1,52 @@
+{
+	x: 9.5d,
+	y: -7.0d,
+	text: [
+		"Стань сильнее"
+	],
+	dependencies: [
+		"116747e0"
+	],
+	tasks: [{
+		uid: "6ff1b1ef",
+		type: "item",
+		items: [{
+			id: "divinerpg:flaming_fury",
+			tag: {
+				ench: [{
+					lvl: 5s,
+					id: 21s
+				},
+				{
+					lvl: 12s,
+					id: 121s
+				},
+				{
+					lvl: 15s,
+					id: 134s
+				},
+				{
+					lvl: 10s,
+					id: 136s
+				}],
+				RepairCost: 15,
+				display: {
+					Name: "Пылающий Ад"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "382888b9",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 2
+	}]
+}

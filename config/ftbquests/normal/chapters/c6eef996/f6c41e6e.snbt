@@ -1,0 +1,29 @@
+{
+	title: "Ты найдёшь этому применение",
+	icon: "forestry:centrifuge",
+	x: -16.0d,
+	y: -1.0d,
+	text: [
+		"Для лучшего пчеловода"
+	],
+	dependencies: [
+		"6d4fdd0a"
+	],
+	tasks: [{
+		uid: "39f00e57",
+		type: "item",
+		items: [{
+			item: "forestry:centrifuge"
+		}]
+	}],
+	rewards: [{
+		uid: "5d9ca2a6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

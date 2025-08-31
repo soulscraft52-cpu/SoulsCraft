@@ -1,0 +1,24 @@
+{
+	x: -0.5d,
+	y: -2.0d,
+	dependencies: [
+		"6095e708"
+	],
+	tasks: [{
+		uid: "64f53504",
+		type: "item",
+		items: [{
+			item: "thaumadditions:vis_seeds/ordo"
+		}]
+	}],
+	rewards: [{
+		uid: "7b1cde39",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

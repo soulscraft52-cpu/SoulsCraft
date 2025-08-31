@@ -1,0 +1,28 @@
+{
+	title: "Авто-Виверновое-Слияние",
+	x: -3.5d,
+	y: 2.5d,
+	text: [
+		"&l&4Данный энжектор нужно поставить как обычный энжектор"
+	],
+	dependencies: [
+		"5a8b6d77"
+	],
+	tasks: [{
+		uid: "ed0a039e",
+		type: "item",
+		items: [{
+			item: "packageddraconic:marked_wyvern_injector"
+		}]
+	}],
+	rewards: [{
+		uid: "a9167a45",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		}
+	}]
+}

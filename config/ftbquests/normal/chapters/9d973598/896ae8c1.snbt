@@ -1,0 +1,52 @@
+{
+	x: 9.5d,
+	y: -4.5d,
+	dependencies: [
+		"9cefbb38"
+	],
+	tasks: [{
+		uid: "dd3663c0",
+		type: "item",
+		items: [{
+			item: "divinerpg:everfright"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6281d148",
+		type: "item",
+		items: [{
+			item: "divinerpg:eversight"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f71b01ac",
+		type: "item",
+		items: [{
+			item: "divinerpg:everbright"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c971ef1d",
+		type: "item",
+		items: [{
+			item: "divinerpg:everlight"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1c0bc5fb",
+		type: "item",
+		items: [{
+			item: "divinerpg:evernight"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

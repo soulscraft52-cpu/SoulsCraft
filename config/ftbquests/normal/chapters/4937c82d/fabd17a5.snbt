@@ -1,0 +1,31 @@
+{
+	title: "Финалочка",
+	x: -5.5d,
+	y: -22.0d,
+	shape: "square",
+	text: [
+		"Имеет 32 слота",
+		"Для мобо ферм подойдет"
+	],
+	dependencies: [
+		"79def110"
+	],
+	tasks: [{
+		uid: "8c1b6873",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockoutputbus 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "7ecb804d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 4
+	}]
+}

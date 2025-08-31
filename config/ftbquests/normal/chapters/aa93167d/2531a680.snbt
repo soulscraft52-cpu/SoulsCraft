@@ -1,0 +1,28 @@
+{
+	x: -6.5d,
+	y: -10.0d,
+	text: [
+		"Прикольная ферма, тут можно обменять древесину гевеи на 2 латекса! И это не все, он может из 1 саженца дерева сделать 2 древесины!"
+	],
+	dependencies: [
+		"c2371248"
+	],
+	tasks: [{
+		uid: "c807217c",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:moremachine3",
+			tag: {}
+		}]
+	}],
+	rewards: [{
+		uid: "876c0c2f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

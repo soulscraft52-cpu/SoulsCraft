@@ -1,0 +1,29 @@
+{
+	title: "Термалочка побыстрее",
+	x: -5.5d,
+	y: -6.0d,
+	text: [
+		"Чем быстрее, тем круче. Ведь так?"
+	],
+	dependencies: [
+		"e63b99d4"
+	],
+	tasks: [{
+		uid: "7b2a27bf",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:moremachine3 1 13"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "63c36510",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

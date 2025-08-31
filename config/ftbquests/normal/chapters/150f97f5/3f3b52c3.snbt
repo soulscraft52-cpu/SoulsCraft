@@ -1,0 +1,29 @@
+{
+	title: "Коллектор #2",
+	icon: "projecte:collector_mk2",
+	x: -4.5d,
+	y: -7.5d,
+	text: [
+		"Собирает больше материи"
+	],
+	dependencies: [
+		"85766471"
+	],
+	tasks: [{
+		uid: "6e0bbbd1",
+		type: "item",
+		items: [{
+			item: "projecte:collector_mk2"
+		}]
+	}],
+	rewards: [{
+		uid: "4455db38",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		}
+	}]
+}

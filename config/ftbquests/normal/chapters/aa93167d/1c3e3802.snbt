@@ -1,0 +1,76 @@
+{
+	title: "Спектральная квантовая броня",
+	icon: {
+		id: "industrialupgrade:spectral_chestplate",
+		tag: {
+			ID_Item: 2147483647
+		}
+	},
+	x: -3.5d,
+	y: 0.0d,
+	text: [
+		"Улучши свой квантовый сет в спектральный"
+	],
+	dependencies: [
+		"9f49f142"
+	],
+	tasks: [{
+		uid: "723e96f1",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:spectral_helmet",
+			tag: {
+				ID_Item: 2147483647
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0df27912",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:spectral_chestplate",
+			tag: {
+				ID_Item: 2147483647
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "17825669",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:spectral_leggings",
+			tag: {
+				ID_Item: 2147483647
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "532fd2d6",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:spectral_boots",
+			tag: {
+				ID_Item: 2147483647
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a646ed34",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 2
+	}]
+}

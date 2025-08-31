@@ -1,0 +1,175 @@
+{
+	title: "Ресурсовые семена ур.3",
+	x: -1.0d,
+	y: 0.5d,
+	text: [
+		"Ухты, мы сможем фармить ресурсы из ничего, просто выращивая растения! Немыслимо!"
+	],
+	dependencies: [
+		"a449ac47"
+	],
+	tasks: [{
+		uid: "36570c76",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:iron_seeds"
+		}]
+	},
+	{
+		uid: "affcdd1f",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:nether_quartz_seeds"
+		}]
+	},
+	{
+		uid: "e38daab7",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:glowstone_seeds"
+		}]
+	},
+	{
+		uid: "7d6c722b",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:redstone_seeds"
+		}]
+	},
+	{
+		uid: "97bb5646",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:obsidian_seeds"
+		}]
+	},
+	{
+		uid: "4d66f360",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:saltpeter_seeds"
+		}]
+	},
+	{
+		uid: "22d0de2e",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:tin_seeds"
+		}]
+	},
+	{
+		uid: "d543fe27",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:bronze_seeds"
+		}]
+	},
+	{
+		uid: "474b3cf5",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:zinc_seeds"
+		}]
+	},
+	{
+		uid: "cd5addc7",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:brass_seeds"
+		}]
+	},
+	{
+		uid: "1b4e5788",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:silver_seeds"
+		}]
+	},
+	{
+		uid: "493b7c3d",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:lead_seeds"
+		}]
+	},
+	{
+		uid: "9ab5cf77",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:graphite_seeds"
+		}]
+	},
+	{
+		uid: "2dbd5da9",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:knightslime_seeds"
+		}]
+	},
+	{
+		uid: "298d6801",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:ardite_seeds"
+		}]
+	},
+	{
+		uid: "9f231820",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:electrical_steel_seeds"
+		}]
+	},
+	{
+		uid: "62212027",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:redstone_alloy_seeds"
+		}]
+	},
+	{
+		uid: "a660c2ef",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:conductive_iron_seeds"
+		}]
+	},
+	{
+		uid: "65b8942a",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:quicksilver_seeds"
+		}]
+	},
+	{
+		uid: "3e442392",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:thaumium_seeds"
+		}]
+	},
+	{
+		uid: "11bcc310",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:sky_stone_seeds"
+		}]
+	},
+	{
+		uid: "357cbbe5",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:certus_quartz_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "a3935b92",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		}
+	}]
+}

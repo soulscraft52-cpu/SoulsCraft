@@ -1,0 +1,27 @@
+{
+	x: -15.5d,
+	y: -11.0d,
+	text: [
+		"ЯВНО НЕ ДЕФОЛТНАЯ ЭЛЕКТРОСХЕМА"
+	],
+	dependencies: [
+		"ff7bbf01"
+	],
+	tasks: [{
+		uid: "e5f4ef24",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:circuit 1 9"
+		}]
+	}],
+	rewards: [{
+		uid: "6e459060",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

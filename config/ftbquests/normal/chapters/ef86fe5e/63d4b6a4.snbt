@@ -1,0 +1,33 @@
+{
+	title: "Драгоцености=Энергия",
+	x: -29.5d,
+	y: -18.5d,
+	dependencies: [
+		"d2c3dcfb"
+	],
+	tasks: [{
+		uid: "ebbc4a19",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:dynamo",
+			tag: {
+				RSControl: 0b,
+				Facing: 1b,
+				Energy: 0,
+				Level: 0b
+			},
+			Damage: 5s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "307c1d17",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

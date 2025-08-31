@@ -1,0 +1,30 @@
+{
+	title: "Без него кристаллы не растут вообще(ну почти)",
+	icon: "appliedenergistics2:quartz_growth_accelerator",
+	x: -14.0d,
+	y: -4.5d,
+	text: [
+		"Ускоряет рост ваших кристаллов"
+	],
+	dependencies: [
+		"6e343aa7"
+	],
+	tasks: [{
+		uid: "ad2d0148",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:quartz_growth_accelerator 4"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "f94625d7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

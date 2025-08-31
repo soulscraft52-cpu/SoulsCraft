@@ -1,0 +1,31 @@
+{
+	title: "Съесть ваши §9незер-стары",
+	x: -6.5d,
+	y: -2.0d,
+	text: [
+		"Не самое разумное применение для столь ценного материала."
+	],
+	dependencies: [
+		"d2c3dcfb"
+	],
+	tasks: [{
+		uid: "f0b3a3e9",
+		type: "item",
+		items: [{
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_netherstar"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "08da2874",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

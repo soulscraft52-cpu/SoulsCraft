@@ -1,0 +1,30 @@
+{
+	title: "Круто сжимает",
+	icon: "industrialupgrade:moremachine 1 4",
+	x: -11.0d,
+	y: -14.0d,
+	text: [
+		"Больше скорости, больше сжатия"
+	],
+	dependencies: [
+		"d93dd3b1"
+	],
+	tasks: [{
+		uid: "291d5194",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:moremachine 1 4"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "69a34ce5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

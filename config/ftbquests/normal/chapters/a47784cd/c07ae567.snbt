@@ -1,0 +1,23 @@
+{
+	title: "Средний Кислородный Баллон",
+	icon: "galacticraftcore:oxygen_tank_med_full 1 1800",
+	x: 0.0d,
+	y: -3.0d,
+	can_repeat: true,
+	dependencies: [
+		"10fa7f54"
+	],
+	tasks: [{
+		uid: "cd6febd1",
+		type: "item",
+		items: [{
+			item: "contenttweaker:coin_tier3"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "da61aef4",
+		type: "item",
+		item: "galacticraftcore:oxygen_tank_med_full 1 1800"
+	}]
+}

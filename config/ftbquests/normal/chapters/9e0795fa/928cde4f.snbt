@@ -1,0 +1,29 @@
+{
+	title: "С каких пор слиток это пластина?",
+	x: -15.0d,
+	y: -5.5d,
+	text: [
+		"Ну ",
+		"Я не знаю"
+	],
+	dependencies: [
+		"6e343aa7"
+	],
+	tasks: [{
+		uid: "dd9ae875",
+		type: "item",
+		items: [{
+			item: "threng:material 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "3eb85ed9",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

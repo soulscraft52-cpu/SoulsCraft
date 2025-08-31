@@ -1,0 +1,28 @@
+{
+	x: -2.5d,
+	y: 1.0d,
+	text: [
+		"Парадила бы ты Беккереля"
+	],
+	dependencies: [
+		"ab0e63a1"
+	],
+	tasks: [{
+		uid: "784a1fd9",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:radiationresources 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "b1800c26",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		},
+		count: 2
+	}]
+}

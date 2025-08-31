@@ -1,0 +1,31 @@
+{
+	title: "И ещё один источник",
+	icon: "enderio:block_cap_bank",
+	x: 1.5d,
+	y: 1.5d,
+	text: [
+		"INFINITY..."
+	],
+	dependencies: [
+		"257f84b3"
+	],
+	tasks: [{
+		uid: "be706b15",
+		type: "item",
+		items: [{
+			item: "enderio:block_cap_bank"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "00dcb270",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "6"
+			}
+		},
+		count: 16
+	}]
+}

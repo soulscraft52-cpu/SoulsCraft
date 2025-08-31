@@ -1,0 +1,31 @@
+{
+	title: "Я вижу, у тебя много иридия",
+	x: 0.5d,
+	y: -7.5d,
+	text: [
+		"Значит тратить его сюда."
+	],
+	dependencies: [
+		"24e19071"
+	],
+	tasks: [{
+		uid: "c41938af",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:basemachine 1 2"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a6adcee0",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 2,
+		random_bonus: 2
+	}]
+}

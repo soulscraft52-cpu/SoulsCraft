@@ -1,0 +1,35 @@
+{
+	title: "Волшебный напиток",
+	x: -6.5d,
+	y: -8.5d,
+	text: [
+		"Как же приготовить этот замечательный эликсир?"
+	],
+	dependencies: [
+		"ab98f1cb"
+	],
+	tasks: [{
+		uid: "9fb1ee26",
+		type: "item",
+		items: [{
+			id: "minecraft:potion",
+			tag: {
+				Potion: "soulscraft:sunbloompotion"
+			}
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "90ef45d0",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		},
+		random_bonus: 1
+	}]
+}

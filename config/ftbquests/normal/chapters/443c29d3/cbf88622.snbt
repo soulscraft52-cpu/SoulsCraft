@@ -1,0 +1,157 @@
+{
+	title: "Главный убийца трёх измерений",
+	icon: "minecraft:skull 1 4",
+	x: -10.0d,
+	y: -4.5d,
+	text: [
+		"Убейте существ обычного мира, незера и Края"
+	],
+	dependencies: [
+		"cc9e1e36",
+		"ba677a1e",
+		"839c42a2"
+	],
+	tasks: [{
+		uid: "a00cd295",
+		type: "kill",
+		entity: "minecraft:zombie",
+		value: 1L
+	},
+	{
+		uid: "e92d3762",
+		type: "kill",
+		entity: "minecraft:skeleton",
+		value: 1L
+	},
+	{
+		uid: "095b0ae4",
+		type: "kill",
+		entity: "minecraft:spider",
+		value: 1L
+	},
+	{
+		uid: "3dd8d3a8",
+		type: "kill",
+		entity: "minecraft:cave_spider",
+		value: 1L
+	},
+	{
+		uid: "fc482dc9",
+		type: "kill",
+		entity: "minecraft:creeper",
+		value: 1L
+	},
+	{
+		uid: "042a6a1f",
+		type: "kill",
+		entity: "minecraft:enderman",
+		value: 1L
+	},
+	{
+		uid: "2ad76b8b",
+		type: "kill",
+		entity: "minecraft:snowman",
+		value: 1L
+	},
+	{
+		uid: "dea4db4f",
+		type: "kill",
+		entity: "minecraft:villager_golem",
+		value: 1L
+	},
+	{
+		uid: "1b2f5e29",
+		type: "kill",
+		entity: "minecraft:villager",
+		value: 1L
+	},
+	{
+		uid: "03a5cea3",
+		type: "kill",
+		entity: "minecraft:bat",
+		value: 1L
+	},
+	{
+		uid: "7cff923e",
+		type: "kill",
+		entity: "minecraft:guardian",
+		value: 1L
+	},
+	{
+		uid: "470ec9ec",
+		type: "kill",
+		entity: "minecraft:slime",
+		value: 1L
+	},
+	{
+		uid: "f21aa56d",
+		type: "kill",
+		entity: "minecraft:witch",
+		value: 1L
+	},
+	{
+		uid: "17f70a3c",
+		type: "kill",
+		entity: "minecraft:vindication_illager",
+		value: 1L
+	},
+	{
+		uid: "8cd91403",
+		type: "kill",
+		entity: "minecraft:wither_skeleton",
+		value: 1L
+	},
+	{
+		uid: "3161fa9c",
+		type: "kill",
+		entity: "minecraft:zombie_pigman",
+		value: 1L
+	},
+	{
+		uid: "db03cbaf",
+		type: "kill",
+		entity: "minecraft:ghast",
+		value: 1L
+	},
+	{
+		uid: "7ce50c68",
+		type: "kill",
+		entity: "minecraft:shulker",
+		value: 1L
+	},
+	{
+		uid: "5f818f7b",
+		type: "kill",
+		entity: "minecraft:silverfish",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "6c2d0e5a",
+		type: "item",
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 1s,
+					id: 36s
+				}]
+			}
+		}
+	},
+	{
+		uid: "4278b971",
+		type: "item",
+		item: "minecraft:golden_apple 1 1",
+		count: 8
+	},
+	{
+		uid: "184f5d4d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

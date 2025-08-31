@@ -1,0 +1,41 @@
+{
+	title: "Опа, слиточки",
+	icon: "divinerpg:realmite_ingot",
+	x: -13.5d,
+	y: -6.0d,
+	text: [
+		"Ваше начало в Диване"
+	],
+	dependencies: [
+		"cea31829"
+	],
+	tasks: [{
+		uid: "e6255aa5",
+		type: "item",
+		items: [{
+			item: "divinerpg:realmite_ingot 16"
+		}],
+		count: 16L
+	},
+	{
+		uid: "4ba54cae",
+		type: "item",
+		items: [{
+			item: "divinerpg:arlemite_ingot 8"
+		}],
+		count: 8L
+	},
+	{
+		uid: "d3dde38b",
+		type: "item",
+		items: [{
+			item: "divinerpg:rupee_ingot 8"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "d3a86f6a",
+		type: "choice",
+		table: 2
+	}]
+}

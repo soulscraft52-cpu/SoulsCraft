@@ -1,0 +1,31 @@
+{
+	title: "Анх молитв",
+	x: 3.5d,
+	y: 3.5d,
+	text: [
+		"Многофункиональный крест, полезная вещь."
+	],
+	dependencies: [
+		"24782bb6",
+		"f3bcab36"
+	],
+	tasks: [{
+		uid: "4c8fe181",
+		type: "item",
+		items: [{
+			item: "tombstone:ankh_of_pray"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d8d30308",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

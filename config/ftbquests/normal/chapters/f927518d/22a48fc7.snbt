@@ -1,0 +1,30 @@
+{
+	title: "Прокачиваем печку дальше",
+	icon: "thaumadditions:mithrillium_smelter",
+	x: -13.0d,
+	y: -9.0d,
+	text: [
+		"Tier 4 печь"
+	],
+	dependencies: [
+		"40dfdaa1",
+		"b8682877"
+	],
+	tasks: [{
+		uid: "ee3fdf2a",
+		type: "item",
+		items: [{
+			item: "thaumadditions:mithrillium_smelter"
+		}]
+	}],
+	rewards: [{
+		uid: "7ee43591",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

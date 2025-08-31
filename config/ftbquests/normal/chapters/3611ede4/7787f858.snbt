@@ -1,0 +1,29 @@
+{
+	title: "Ого, так много лута?",
+	x: 0.5d,
+	y: -7.5d,
+	text: [
+		"Достойный вашего внимания"
+	],
+	dependencies: [
+		"fadce75f"
+	],
+	tasks: [{
+		uid: "ba82aa4a",
+		type: "item",
+		items: [{
+			item: "contenttweaker:mining_module2"
+		}]
+	}],
+	rewards: [{
+		uid: "34aabda3",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 2
+	}]
+}

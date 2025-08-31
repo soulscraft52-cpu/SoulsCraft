@@ -1,0 +1,30 @@
+{
+	title: "Совершенство!",
+	icon: "industrialupgrade:moremachine 1 2",
+	x: -10.0d,
+	y: -13.0d,
+	text: [
+		"Самая крутая, только ускорителей добавить"
+	],
+	dependencies: [
+		"bdacbd87"
+	],
+	tasks: [{
+		uid: "71541cfa",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:moremachine 1 2"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0f1df41a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

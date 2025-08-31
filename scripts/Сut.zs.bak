@@ -1,0 +1,363 @@
+import mods.modularmachinery.RecipeBuilder;
+import crafttweaker.formatting.IFormattedText;
+import crafttweaker.item.IItemStack;
+import crafttweaker.item.IIngredient;
+import crafttweaker.data.IData;
+import crafttweaker.enchantments.IEnchantment;
+import crafttweaker.oredict.IOreDictEntry;
+import crafttweaker.oredict.IOreDict;
+import mods.buildcraft.AssemblyTable;
+import mods.thaumcraft.Infusion;
+import mods.thermalexpansion.InductionSmelter;
+import mods.thermalexpansion.Compactor;
+import mods.thermalexpansion.Transposer;
+import mods.enderio.Vat;
+
+//ctgui craftingtable
+//mods.industrialupgrade.AdvAlloySmelter.addRecipe(output, container, fill, fill1, temperature);
+//mods.industrialupgrade.Fermer.addRecipe(output, container);
+//industrialupgrade.AlloySmelter.addRecipe(output, container, fill, temperature);
+//mods.industrialupgrade.MatterRecipe.addRecipe(output, matter, sunmatter, aquamatter, nethermatter, nightmatter, earthmatter, endmatter, aermatter);
+//mods.industrialupgrade.UURecipe.addRecipe(output, col);
+//liquid
+
+
+
+
+val kh = <variedcommodities:nanorum_head>.withTag({ench: [{lvl: 75, id: 0}, {lvl: 10, id: 162}, {lvl: 50, id: 34}], HideFlags: 2, AttributeModifiers: [{UUIDMost: 8570044826318882604 as long, UUIDLeast: -8502428747392908460 as long, Amount: 70.0, Slot: "head", AttributeName: "generic.attackDamage", Operation: 0, Name: "generic.attackDamage"},{UUIDMost: 1333637751601580648 as long, UUIDLeast: -7479968444899840819 as long, Amount: 200.0, Slot: "head", AttributeName: "generic.maxHealth", Operation: 0, Name: "generic.maxHealth"}, {UUIDMost: -8891111838701370138 as long, UUIDLeast: -5372581144218967667 as long, Amount: 150.0, Slot: "head", AttributeName: "generic.armorToughness", Operation: 0, Name: "generic.armorToughness"}, {UUIDMost: 3835337124952950126 as long, UUIDLeast: -5959008352109263361 as long, Amount: 0.2, Slot: "head", AttributeName: "generic.movementSpeed", Operation: 1, Name: "generic.movementSpeed"}, {UUIDMost: 8602730511442791089 as long, UUIDLeast: -4882598998180987810 as long, Amount: 150.0, Slot: "head", AttributeName: "generic.armor", Operation: 0, Name: "generic.armor"}]});
+
+val kc = <variedcommodities:nanorum_chest>.withTag({ench: [{lvl: 75, id: 0}, {lvl: 10, id: 162}, {lvl: 50, id: 34}],HideFlags: 2, AttributeModifiers: [{UUIDMost: 5942894775713679912 as long, UUIDLeast: -6299610429079282468 as long, Amount: 60.0, Slot: "chest", AttributeName: "generic.attackDamage", Operation: 0, Name: "generic.attackDamage"}, {UUIDMost: 1571592339582372922 as long, UUIDLeast: -7484224577165745665 as long, Amount: 120.0, Slot: "chest", AttributeName: "generic.armor", Operation: 0, Name: "generic.armor"},{UUIDMost: 1333637751601580648 as long, UUIDLeast: -7479968444899840819 as long, Amount: 200.0, Slot: "chest", AttributeName: "generic.maxHealth", Operation: 0, Name: "generic.maxHealth"}, {UUIDMost: 3835337124952950126 as long, UUIDLeast: -5959008352109263361 as long, Amount: 0.2, Slot: "legs", AttributeName: "generic.movementSpeed", Operation: 1, Name: "generic.movementSpeed"}, {UUIDMost: -5385405640960097490 as long, UUIDLeast: -6908652066205159587 as long, Amount: 120.0, Slot: "chest", AttributeName: "generic.armorToughness", Operation: 0, Name: "generic.armorToughness"}]});
+
+val kl = <variedcommodities:nanorum_legs>.withTag({ench: [{lvl: 75, id: 0}, {lvl: 10, id: 162}, {lvl: 50, id: 34}],HideFlags: 2, AttributeModifiers: [{UUIDMost: -93829642995610034 as long, UUIDLeast: -5883621880126949729 as long, Amount: 110.0, Slot: "legs", AttributeName: "generic.armor", Operation: 0, Name: "generic.armor"}, {UUIDMost: -549750072986480730 as long, UUIDLeast: -6300807040202852484 as long, Amount: 110.0, Slot: "legs", AttributeName: "generic.armorToughness", Operation: 0, Name: "generic.armorToughness"},{UUIDMost: 1333637751601580648 as long, UUIDLeast: -7479968444899840819 as long, Amount: 200.0, Slot: "chest", AttributeName: "generic.maxHealth", Operation: 0, Name: "generic.maxHealth"}, {UUIDMost: 3835337124952950126 as long, UUIDLeast: -5959008352109263361 as long, Amount: 0.2, Slot: "legs", AttributeName: "generic.movementSpeed", Operation: 1, Name: "generic.movementSpeed"}, {UUIDMost: -5169287295096436092 as long, UUIDLeast: -5648057193251521011 as long, Amount: 65.0, Slot: "legs", AttributeName: "generic.attackDamage", Operation: 0, Name: "generic.attackDamage"}]});
+
+val kb = <variedcommodities:nanorum_boots>.withTag({ench: [{lvl: 75, id: 0}, {lvl: 10, id: 162}, {lvl: 50, id: 34}],HideFlags: 2, AttributeModifiers: [{UUIDMost: -5672597233230068481 as long, UUIDLeast: -7339889844244053624 as long, Amount: 50.0, Slot: "feet", AttributeName: "generic.attackDamage", Operation: 0, Name: "generic.attackDamage"},{UUIDMost: 1333637751601580648 as long, UUIDLeast: -7479968444899840819 as long, Amount: 200.0, Slot: "chest", AttributeName: "generic.maxHealth", Operation: 0, Name: "generic.maxHealth"}, {UUIDMost: 3835337124952950126 as long, UUIDLeast: -5959008352109263361 as long, Amount: 0.2, Slot: "legs", AttributeName: "generic.movementSpeed", Operation: 1, Name: "generic.movementSpeed"}, {UUIDMost: -8243691273385326314 as long, UUIDLeast: -6098644532503391086 as long, Amount: 200.0, Slot: "feet", AttributeName: "generic.maxHealth", Operation: 0, Name: "generic.maxHealth"}]});
+
+mods.thaumcraft.Infusion.registerRecipe("kh", "",  kh, 12, [<aspect:desiderium> * 1024,<aspect:tenebrae> * 512,<aspect:auram> * 512,<aspect:alkimia> * 512,<aspect:cognitio> * 256,<aspect:praemunio> * 256], <thaumadditions:mithminite_hood>, [<divinerpg:shadow_helmet>,<divinerpg:mortum_helmet>,<divinerpg:gray_rupee_helmet>,<divinerpg:gray_ender_helmet>,<divinerpg:mortum_shield>,<enderio:item_alloy_endergy_ingot:3>,<enderio:item_alloy_endergy_ingot:3>,<enderio:item_alloy_endergy_ingot:3>,<enderio:item_alloy_endergy_ingot:3>,<enderio:item_alloy_endergy_ingot:3>,<contenttweaker:plate2>,<contenttweaker:plate2>,<contenttweaker:plate2>,<contenttweaker:plate2>,<contenttweaker:plate2>]);
+
+mods.thaumcraft.Infusion.registerRecipe("kc", "",  kc, 12, [<aspect:desiderium> * 1024,<aspect:tenebrae> * 512,<aspect:auram> * 512,<aspect:alkimia> * 512,<aspect:cognitio> * 256,<aspect:praemunio> * 256], <thaumadditions:mithminite_robe>, [<divinerpg:shadow_chestplate>,<divinerpg:mortum_chestplate>,<divinerpg:gray_rupee_chestplate>,<divinerpg:gray_ender_chestplate>,<divinerpg:mortum_shield>,<enderio:item_alloy_endergy_ingot:3>,<enderio:item_alloy_endergy_ingot:3>,<enderio:item_alloy_endergy_ingot:3>,<enderio:item_alloy_endergy_ingot:3>,<enderio:item_alloy_endergy_ingot:3>,<contenttweaker:plate2>,<contenttweaker:plate2>,<contenttweaker:plate2>,<contenttweaker:plate2>,<contenttweaker:plate2>]);
+
+mods.thaumcraft.Infusion.registerRecipe("kl", "",  kl, 12, [<aspect:desiderium> * 1024,<aspect:tenebrae> * 512,<aspect:auram> * 512,<aspect:alkimia> * 512,<aspect:cognitio> * 256,<aspect:praemunio> * 256], <thaumadditions:mithminite_belt>, [<divinerpg:shadow_leggings>,<divinerpg:mortum_leggings>,<divinerpg:gray_rupee_leggings>,<divinerpg:gray_ender_leggings>,<divinerpg:mortum_shield>,<enderio:item_alloy_endergy_ingot:3>,<enderio:item_alloy_endergy_ingot:3>,<enderio:item_alloy_endergy_ingot:3>,<enderio:item_alloy_endergy_ingot:3>,<enderio:item_alloy_endergy_ingot:3>,<contenttweaker:plate2>,<contenttweaker:plate2>,<contenttweaker:plate2>,<contenttweaker:plate2>,<contenttweaker:plate2>]);
+
+mods.thaumcraft.Infusion.registerRecipe("kb", "",  kb, 12, [<aspect:desiderium> * 1024,<aspect:tenebrae> * 512,<aspect:auram> * 512,<aspect:alkimia> * 512,<aspect:cognitio> * 256,<aspect:praemunio> * 256], <thaumadditions:mithminite_boots>, [<divinerpg:shadow_boots>,<divinerpg:mortum_boots>,<divinerpg:gray_rupee_boots>,<divinerpg:gray_ender_boots>,<divinerpg:mortum_shield>,<enderio:item_alloy_endergy_ingot:3>,<enderio:item_alloy_endergy_ingot:3>,<enderio:item_alloy_endergy_ingot:3>,<enderio:item_alloy_endergy_ingot:3>,<enderio:item_alloy_endergy_ingot:3>,<contenttweaker:plate2>,<contenttweaker:plate2>,<contenttweaker:plate2>,<contenttweaker:plate2>,<contenttweaker:plate2>]);
+
+//Амулет: Манипулятор силы дракона
+mods.avaritia.ExtremeCrafting.addShaped("dragon power manipulator", <contenttweaker:dragon_power_manipulator>, [ 
+[<contenttweaker:chaotic_block>, null, null, <contenttweaker:acid_chaotic_ingot>,<contenttweaker:zestialorium_ingot>,<contenttweaker:acid_chaotic_ingot>, null, null, <contenttweaker:chaotic_block>],
+[null, <contenttweaker:chaotic_block>, <contenttweaker:acid_chaotic_ingot>, <contenttweaker:the_chaos_crystal>,<contenttweaker:skull_of_nightmares>,<contenttweaker:the_chaos_crystal>, <contenttweaker:acid_chaotic_ingot>, <contenttweaker:chaotic_block>, null],
+[null, <contenttweaker:acid_chaotic_ingot>, <contenttweaker:elixir3>, <contenttweaker:element_cha>,<draconicadditions:chaos_heart>,<contenttweaker:element_cha>, <contenttweaker:elixir3>, <contenttweaker:acid_chaotic_ingot>, null],
+[<contenttweaker:acid_chaotic_ingot>, <contenttweaker:the_chaos_crystal>, <contenttweaker:element_cha>, <industrialupgrade:itemadvbatchargecrystal>.withTag({charge: 1.0E8}),<divinerpg:halite_blade>,<industrialupgrade:itemadvbatchargecrystal>.withTag({charge: 1.0E8}), <contenttweaker:element_cha>, <contenttweaker:the_chaos_crystal>, <contenttweaker:acid_chaotic_ingot>],
+[<contenttweaker:zestialorium_ingot>, <contenttweaker:skull_of_nightmares>, <draconicadditions:chaos_heart>, <divinerpg:halite_blade>,<contenttweaker:dragon_soul>,<divinerpg:halite_blade>, <draconicadditions:chaos_heart>, <contenttweaker:skull_of_nightmares>, <contenttweaker:zestialorium_ingot>],
+[<contenttweaker:acid_chaotic_ingot>, <contenttweaker:the_chaos_crystal>, <contenttweaker:element_cha>, <industrialupgrade:itemadvbatchargecrystal>.withTag({charge: 1.0E8}),<divinerpg:halite_blade>,<industrialupgrade:itemadvbatchargecrystal>.withTag({charge: 1.0E8}), <contenttweaker:element_cha>, <contenttweaker:the_chaos_crystal>, <contenttweaker:acid_chaotic_ingot>],
+[null, <contenttweaker:acid_chaotic_ingot>, <contenttweaker:elixir3>, <contenttweaker:element_cha>,<draconicadditions:chaos_heart>,<contenttweaker:element_cha>, <contenttweaker:elixir3>, <contenttweaker:acid_chaotic_ingot>, null],
+[null, <contenttweaker:chaotic_block>, <contenttweaker:acid_chaotic_ingot>, <contenttweaker:the_chaos_crystal>,<contenttweaker:skull_of_nightmares>,<contenttweaker:the_chaos_crystal>, <contenttweaker:acid_chaotic_ingot>, <contenttweaker:chaotic_block>, null],
+[<contenttweaker:chaotic_block>, null, null, <contenttweaker:acid_chaotic_ingot>,<contenttweaker:zestialorium_ingot>,<contenttweaker:acid_chaotic_ingot>, null, null, <contenttweaker:chaotic_block>] ] );
+
+//Амулет: Элексир от валентино
+mods.thaumcraft.Infusion.registerRecipe("elixir_from_valentino", "", <contenttweaker:elixir_from_valentino>, 20, [ <aspect:alkimia> * 12000,<aspect:humanus> * 2048,<aspect:caeles> * 1024,<aspect:praecantatio> * 512, <aspect:vitreus> * 512], <contenttweaker:liquid_substrate>, [<contenttweaker:elixir1>,<contenttweaker:elixir2>,<contenttweaker:elixir3>,<contenttweaker:elixir4>,<contenttweaker:elixir5>,<contenttweaker:elixir6>,<contenttweaker:elixir7>,<contenttweaker:elixir8>,<contenttweaker:elixir9>,<contenttweaker:elixir10>]);
+
+//Амулет: Кольцо лилит
+mods.thaumcraft.Infusion.registerRecipe("lilith_ring", "", <contenttweaker:lilith_ring>, 20, [<aspect:infernum> * 25000,<aspect:victus> * 512,<aspect:dominator> * 512], <projecte:item.pe_ring_iron_band>, [<contenttweaker:elixir_from_valentino>,<contenttweaker:skull_of_nightmares>,<extrautils2:opinium:8>,<contenttweaker:skull_of_nightmares>,<contenttweaker:chaos_diamond>,<contenttweaker:skull_of_nightmares>]);
+
+//Амулет: Кукла вуду
+mods.thaumcraft.Infusion.registerRecipe("voodoo_doll", "", <contenttweaker:voodoo_doll>, 20, [<aspect:praemunio> * 1024,<aspect:potentia> * 256,<aspect:exanimis> * 256,<aspect:victus> * 128,<aspect:dominator> * 64], <thaumcraft:charm_undying>, [<tombstone:voodoo_poppet>,<avaritia:block_resource>,<singularities:singularity:35>,<avaritia:block_resource>,<tombstone:voodoo_poppet>,<avaritia:block_resource>,<singularities:singularity:20>,<avaritia:block_resource>,<tombstone:voodoo_poppet>,<avaritia:block_resource>,<singularities:singularity:22>,<avaritia:block_resource>]);
+
+//Коса бесконечности
+val infinity_scythe = RecipeBuilder.newBuilder("infinity_scythe","the_last_forge",1);
+infinity_scythe.addEnergyPerTickInput(25000000);
+infinity_scythe.addFluidInput(<liquid:xu_evil_metal>*5000);
+infinity_scythe.addFluidInput(<liquid:blood>*5000);
+infinity_scythe.addAspectInput("caeles",250);
+infinity_scythe.addAspectInput("draco",250);
+infinity_scythe.addAspectInput("dominator",250);
+infinity_scythe.addItemInput(<avaritia:resource:5>);
+infinity_scythe.addItemInput(<contenttweaker:sword1>.withTag({ench: [{lvl: 120 as short, id: 16 as short}, {lvl: 20, id: 120}], HideFlags: 2, AttributeModifiers: [{UUIDMost: 4063, UUIDLeast: 721355, Amount: 30, AttributeName: "generic.maxHealth", Operation: 0, Name: "generic.maxHealth"}, {UUIDMost: 964349, Amount: 50, AttributeName: "generic.attackDamage",Operation: 0, Name:"generic.attackDamage"}]}));
+infinity_scythe.addItemInput(<contenttweaker:sword2>.withTag({ench: [{lvl: 590 as short, id: 16 as short},{lvl: 75, id: 122}, {lvl: 50, id: 100}], HideFlags: 2, AttributeModifiers: [{UUIDMost: 4063, UUIDLeast: 721355, Amount: 30, AttributeName: "generic.maxHealth", Operation: 0, Name: "generic.maxHealth"}, {UUIDMost: 964349, Amount: 300, AttributeName: "generic.attackDamage",Operation: 0, Name:"generic.attackDamage"}]}));
+infinity_scythe.addItemInput(<contenttweaker:sword3>.withTag({ench: [{lvl: 50, id: 11}, {lvl: 50, id: 22}], HideFlags: 2, AttributeModifiers: [{UUIDMost: 4063, UUIDLeast: 721355, Amount: 100, AttributeName: "generic.maxHealth", Operation: 0, Name: "generic.maxHealth"}, {UUIDMost: 20819, UUIDLeast:964349, Amount:100, AttributeName: "generic.attackDamage",Operation: 0, Name:"generic.attackDamage"}]}));
+infinity_scythe.addItemInput(<contenttweaker:sword4>.withTag({ench: [{lvl: 100, id: 20}, {lvl: 50, id: 65}], HideFlags: 2, AttributeModifiers: [{UUIDMost: 4063, UUIDLeast: 721355, Amount: 200, AttributeName: "generic.maxHealth", Operation: 0, Name: "generic.maxHealth"}, {UUIDMost:20819, UUIDLeast:964349, Amount:60, AttributeName: "generic.attackDamage",Operation: 0, Name:"generic.attackDamage"}]}));
+infinity_scythe.addItemInput(<contenttweaker:sword5>.withTag({ench: [{lvl: 25, id: 125}, {lvl: 50, id: 124}, {lvl: 25, id: 159}, {lvl: 10, id: 177}], HideFlags: 2, AttributeModifiers: [{UUIDMost: 4063, UUIDLeast: 721355, Amount: 75, AttributeName: "generic.maxHealth", Operation: 0, Name: "generic.maxHealth"}, {UUIDMost:20819, UUIDLeast:964349, Amount:125, AttributeName: "generic.attackDamage",Operation: 0, Name:"generic.attackDamage"},{UUIDMost: 15604, UUIDLeast: 246200, Amount: 5, AttributeName: "generic.movementSpeed", Operation: 2, Name: "generic.maxHealth"}]}));
+infinity_scythe.addItemInput(<contenttweaker:sword6>.withTag({ench: [{lvl: 25, id: 21}], HideFlags: 2, AttributeModifiers: [{UUIDMost: 4063, UUIDLeast: 721355, Amount: 75, AttributeName: "generic.maxHealth", Operation: 0, Name: "generic.maxHealth"}, {UUIDMost:20819, UUIDLeast:964349, Amount:60, AttributeName: "generic.attackDamage",Operation: 0, Name:"generic.attackDamage"}]}));
+infinity_scythe.addItemInput(<contenttweaker:sword7>.withTag({ench: [{lvl: 75, id: 189},{lvl: 50, id: 186},{lvl: 25, id: 190},{lvl: 50, id: 191}],  HideFlags: 2, AttributeModifiers: [{UUIDMost: 4063, UUIDLeast: 721355, Amount: 250, AttributeName: "generic.maxHealth", Operation: 0, Name: "generic.maxHealth"}, {UUIDMost: 20819, UUIDLeast:964349, Amount:500, AttributeName: "generic.attackDamage",Operation: 0, Name:"generic.attackDamage"}]}));
+infinity_scythe.addItemInput(<contenttweaker:sword8>.withTag({ench: [{lvl: 25, id: 179},{lvl: 25, id: 80},{lvl: 25, id: 96}],  HideFlags: 2, AttributeModifiers: [{UUIDMost: 4063, UUIDLeast: 721355, Amount: 100, AttributeName: "generic.maxHealth", Operation: 0, Name: "generic.maxHealth"}, {UUIDMost: 20819, UUIDLeast:964349, Amount:120, AttributeName: "generic.attackDamage",Operation: 0, Name:"generic.attackDamage"}]}));
+infinity_scythe.addItemInput(<contenttweaker:sword9>.withTag({ench: [{lvl: 25, id: 133},{lvl: 50, id: 93}],  HideFlags: 2, AttributeModifiers: [{UUIDMost: 4063, UUIDLeast: 721355, Amount: 450, AttributeName: "generic.maxHealth", Operation: 0, Name: "generic.maxHealth"}, {UUIDMost: 20819, UUIDLeast:964349, Amount:100, AttributeName: "generic.attackDamage",Operation: 0, Name:"generic.attackDamage"}]}));
+infinity_scythe.addItemInput(<contenttweaker:sword11>.withTag({ench: [{lvl: 25, id: 133},{lvl: 50, id: 93},{lvl: 15, id: 93},{lvl: 25, id: 159}],  HideFlags: 2, AttributeModifiers: [{UUIDMost: 4063, UUIDLeast: 721355, Amount: 50, AttributeName: "generic.maxHealth", Operation: 0, Name: "generic.maxHealth"}, {UUIDMost: 20819, UUIDLeast:964349, Amount:75, AttributeName: "generic.attackDamage",Operation: 0, Name:"generic.attackDamage"}]}));
+infinity_scythe.addItemInput(<contenttweaker:sword12>.withTag({ench: [{lvl: 25, id: 133},{lvl: 50, id: 93},{lvl: 15, id: 93},{lvl: 25, id: 159},{lvl: 50, id: 11}, {lvl: 50, id: 22},{lvl: 75, id: 85},{lvl: 75, id: 102},{lvl: 50, id: 92}],  HideFlags: 2, AttributeModifiers: [{UUIDMost: 4063, UUIDLeast: 721355, Amount: 250, AttributeName: "generic.maxHealth", Operation: 0, Name: "generic.maxHealth"}, {UUIDMost: 20819, UUIDLeast:964349, Amount:250, AttributeName: "generic.attackDamage",Operation: 0, Name:"generic.attackDamage"}]}));
+infinity_scythe.addItemInput(<contenttweaker:sword10>.withTag({ench: [{lvl: 25, id: 101},{lvl: 40, id: 74},{lvl: 10, id: 175},{lvl: 10, id: 78}],  HideFlags: 2, AttributeModifiers: [{UUIDMost: 4063, UUIDLeast: 721355, Amount: 450, AttributeName: "generic.maxHealth", Operation: 0, Name: "generic.maxHealth"}, {UUIDMost: 20819, UUIDLeast:964349, Amount:100, AttributeName: "generic.attackDamage",Operation: 0, Name:"generic.attackDamage"}]}));
+infinity_scythe.addItemInput(<contenttweaker:sword13>.withTag({ench: [{lvl: 75 as short, id: 16 as short},{lvl: 10 as short, id: 72 as short}, {lvl: 15 as short, id: 137 as short},{lvl: 25 as short, id: 89 as short},{lvl: 50 as short, id: 192 as short}, {lvl: 15 as short, id: 186 as short}],  HideFlags: 2, AttributeModifiers: [{UUIDMost: 4063, UUIDLeast: 721355, Amount: 1, AttributeName: "generic.maxHealth", Operation: 0, Name: "generic.maxHealth"}, {UUIDMost: 20819, UUIDLeast:964349, Amount:300, AttributeName: "generic.attackDamage",Operation: 0, Name:"generic.attackDamage"}]}));
+infinity_scythe.addItemInput(<contenttweaker:sword14>.withTag({ench: [{lvl: 25 as short, id: 87 as short}, {lvl: 10 as short, id: 133 as short}, {lvl: 25 as short, id: 179 as short}, {lvl: 25 as short, id: 82 as short}, {lvl: 25 as short, id: 83 as short}],  HideFlags: 2, AttributeModifiers: [{UUIDMost: 4063, UUIDLeast: 721355, Amount: 100, AttributeName: "generic.maxHealth", Operation: 0, Name: "generic.maxHealth"}, {UUIDMost: 20819, UUIDLeast:964349, Amount:200, AttributeName: "generic.attackDamage",Operation: 0, Name:"generic.attackDamage"}]}));
+infinity_scythe.addItemInput(<contenttweaker:sword15>.withTag({ench: [{lvl: 170 as short, id: 16 as short},{lvl: 20, id: 75},{lvl: 25, id: 84}, {lvl: 20, id: 156}], HideFlags: 2, AttributeModifiers: [{UUIDMost: 4063, UUIDLeast: 721355, Amount: 30, AttributeName: "generic.maxHealth", Operation: 0, Name: "generic.maxHealth"}, {UUIDMost: 964349, Amount: 80, AttributeName: "generic.attackDamage",Operation: 0, Name:"generic.attackDamage"}]}));
+infinity_scythe.addItemOutput(<contenttweaker:infinity_scythe>.withTag({ench: [{lvl: 1000 as short, id: 16 as short},{lvl: 50 as short, id: 26 as short}, {lvl: 45 as short, id: 75 as short}, {lvl: 100 as short, id: 21 as short}, {lvl: 75 as short, id: 72 as short}, {lvl: 50 as short, id: 17 as short},{lvl: 25 as short, id: 67 as short},{lvl: 50 as short, id: 66 as short},{lvl: 100 as short, id: 18 as short}],  HideFlags: 2, AttributeModifiers: [{UUIDMost: 4063, UUIDLeast: 721355, Amount: 1, AttributeName: "generic.maxHealth", Operation: 0, Name: "generic.maxHealth"}, {UUIDMost: 20819, UUIDLeast:964349, Amount:5000, AttributeName: "generic.attackDamage",Operation: 0, Name:"generic.attackDamage"}]}));
+infinity_scythe.build();
+
+
+//Коса смерти
+val sword12 = RecipeBuilder.newBuilder("sword12","the_last_forge",1);
+sword12.addEnergyPerTickInput(25000000);
+sword12.addFluidInput(<liquid:construction_alloy>*5000);
+sword12.addFluidInput(<liquid:stellar_alloy>*5000);
+sword12.addAspectInput("mortuus",250);
+sword12.addAspectInput("vitium",250);
+sword12.addAspectInput("humanus",250);
+sword12.addItemInput(<contenttweaker:sword11>.withTag({ench: [{lvl: 25, id: 133},{lvl: 50, id: 93},{lvl: 15, id: 93},{lvl: 25, id: 159}],  HideFlags: 2, AttributeModifiers: [{UUIDMost: 4063, UUIDLeast: 721355, Amount: 50, AttributeName: "generic.maxHealth", Operation: 0, Name: "generic.maxHealth"}, {UUIDMost: 20819, UUIDLeast:964349, Amount:75, AttributeName: "generic.attackDamage",Operation: 0, Name:"generic.attackDamage"}]}));
+sword12.addItemInput(<contenttweaker:sword3>.withTag({ench: [{lvl: 50, id: 11}, {lvl: 50, id: 22}], HideFlags: 2, AttributeModifiers: [{UUIDMost: 4063, UUIDLeast: 721355, Amount: 100, AttributeName: "generic.maxHealth", Operation: 0, Name: "generic.maxHealth"}, {UUIDMost: 20819, UUIDLeast:964349, Amount:100, AttributeName: "generic.attackDamage",Operation: 0, Name:"generic.attackDamage"}]}));
+sword12.addItemInput(<contenttweaker:stone_of_chaos>*4);
+sword12.addItemInput(<contenttweaker:otherworldly_charging_element>*4);
+sword12.addItemOutput(<contenttweaker:sword12>.withTag({ench: [{lvl: 25, id: 133},{lvl: 50, id: 93},{lvl: 15, id: 93},{lvl: 25, id: 159},{lvl: 50, id: 11}, {lvl: 50, id: 22},{lvl: 75, id: 85},{lvl: 75, id: 102},{lvl: 50, id: 92}],  HideFlags: 2, AttributeModifiers: [{UUIDMost: 4063, UUIDLeast: 721355, Amount: 250, AttributeName: "generic.maxHealth", Operation: 0, Name: "generic.maxHealth"}, {UUIDMost: 20819, UUIDLeast:964349, Amount:250, AttributeName: "generic.attackDamage",Operation: 0, Name:"generic.attackDamage"}]}));
+sword12.build();
+
+//Топор лорда холода
+val sword13 = RecipeBuilder.newBuilder("sword13","the_last_forge",1);
+sword13.addEnergyPerTickInput(25000000);
+sword13.addFluidInput(<liquid:cryotheum>*5000);
+sword13.addFluidInput(<liquid:ice>*5000);
+sword13.addAspectInput("aqua",250);
+sword13.addAspectInput("gelum",250);
+sword13.addAspectInput("permutatio",250);
+sword13.addItemInput(<variedcommodities:frost_battleaxe>.withTag({ench: [{lvl: 75 as short, id: 16 as short},{lvl: 10 as short, id: 72 as short}, {lvl: 15 as short, id: 137 as short}], RepairCost: 3}));
+sword13.addItemInput(<divinerpg:ice_stone>*64);
+sword13.addItemInput(<contenttweaker:iceika_steel_ingot>*64);
+sword13.addItemInput(<thermalfoundation:storage:6>*64);
+sword13.addItemInput(<forestry:bee_combs:4>*64);
+sword13.addItemInput(<thermalfoundation:material:1025>*32);
+sword13.addItemInput(<galacticraftplanets:dense_ice>*32);
+sword13.addItemInput(<singularities:singularity:51>*2);
+sword13.addItemOutput(<contenttweaker:sword13>.withTag({ench: [{lvl: 75 as short, id: 16 as short},{lvl: 10 as short, id: 72 as short}, {lvl: 15 as short, id: 137 as short},{lvl: 25 as short, id: 89 as short},{lvl: 50 as short, id: 192 as short}, {lvl: 15 as short, id: 186 as short}],  HideFlags: 2, AttributeModifiers: [{UUIDMost: 4063, UUIDLeast: 721355, Amount: 1, AttributeName: "generic.maxHealth", Operation: 0, Name: "generic.maxHealth"}, {UUIDMost: 20819, UUIDLeast:964349, Amount:300, AttributeName: "generic.attackDamage",Operation: 0, Name:"generic.attackDamage"}]}));
+sword13.build();
+
+//Топор адского пламени
+val sword14 = RecipeBuilder.newBuilder("sword14","the_last_forge",1);
+sword14.addEnergyPerTickInput(25000000);
+sword14.addFluidInput(<liquid:xu_demonic_metal>*5000);
+sword14.addFluidInput(<liquid:iufluidazot>*5000);
+sword14.addAspectInput("victus",250);
+sword14.addAspectInput("mortuus",250);
+sword14.addAspectInput("potentia",250);
+sword14.addItemInput(<variedcommodities:demonic_battleaxe>.withTag({ench: [{lvl: 15 as short, id: 87 as short}, {lvl: 5 as short, id: 133 as short}, {lvl: 15 as short, id: 179 as short}], RepairCost: 7}));
+sword14.addItemInput(<extrautils2:compressednetherrack:4>*4);
+sword14.addItemInput(<divinerpg:fury_fire>*64);
+sword14.addItemInput(<soulscraft:cursedgold>*16);
+sword14.addItemInput(<contenttweaker:mortum_steel_ingot>*32);
+sword14.addItemInput(<contenttweaker:combat_thaum_metal>*2);
+sword14.addItemOutput(<contenttweaker:sword14>.withTag({ench: [{lvl: 25 as short, id: 87 as short}, {lvl: 10 as short, id: 133 as short}, {lvl: 25 as short, id: 179 as short}, {lvl: 25 as short, id: 82 as short}, {lvl: 25 as short, id: 83 as short}],  HideFlags: 2, AttributeModifiers: [{UUIDMost: 4063, UUIDLeast: 721355, Amount: 100, AttributeName: "generic.maxHealth", Operation: 0, Name: "generic.maxHealth"}, {UUIDMost: 20819, UUIDLeast:964349, Amount:200, AttributeName: "generic.attackDamage",Operation: 0, Name:"generic.attackDamage"}]}));
+sword14.build();
+
+//Неразрушимый серп
+val sword15 = RecipeBuilder.newBuilder("sword15","the_last_forge",1);
+sword15.addEnergyPerTickInput(25000000);
+sword15.addFluidInput(<liquid:steel>*5000);
+sword15.addFluidInput(<liquid:zinc>*5000);
+sword15.addAspectInput("metallum",250);
+sword15.addAspectInput("instrumentum",250);
+sword15.addAspectInput("fabrico",250);
+sword15.addItemInput(<extrautils2:sickle_iron>);
+sword15.addItemInput(<thermalfoundation:storage_alloy>*16);
+sword15.addItemInput(<industrialupgrade:stik:4>*32);
+sword15.addItemInput(<industrialupgrade:stik:10>*8);
+sword15.addItemInput(<thermalfoundation:material:258>*16);
+sword15.addItemInput(<thermalfoundation:material:321>*8);
+sword15.addItemInput(<thermalfoundation:material:322>*8);
+sword15.addItemOutput(<contenttweaker:sword15>.withTag({ench: [{lvl: 170 as short, id: 16 as short},{lvl: 20, id: 75},{lvl: 25, id: 84}, {lvl: 20, id: 156}], HideFlags: 2, AttributeModifiers: [{UUIDMost: 4063, UUIDLeast: 721355, Amount: 30, AttributeName: "generic.maxHealth", Operation: 0, Name: "generic.maxHealth"}, {UUIDMost: 964349, Amount: 80, AttributeName: "generic.attackDamage",Operation: 0, Name:"generic.attackDamage"}]}));
+sword15.build();
+
+//Тесак титана
+val tisword = RecipeBuilder.newBuilder("tisword","the_last_forge",1);
+tisword.addEnergyPerTickInput(25000000);
+tisword.addFluidInput(<liquid:construction_alloy>*5000);
+tisword.addFluidInput(<liquid:dark_steel>*5000);
+tisword.addAspectInput("vitreus",250);
+tisword.addAspectInput("metallum",250);
+tisword.addAspectInput("vinculum",250);
+tisword.addItemInput(<galacticraftplanets:titanium_sword>);
+tisword.addItemInput(<draconicevolution:draconic_core>*2);
+tisword.addItemInput(<thaumadditions:mithminite_block>*2);
+tisword.addItemInput(<thaumadditions:adaminite_block>*4);
+tisword.addItemInput(<contenttweaker:compressed_lapis_block_x4>*4);
+tisword.addItemInput(<industrialupgrade:stik:10>*32);
+tisword.addItemInput(<thermalfoundation:storage_alloy>*64);
+tisword.addItemInput(<galacticraftplanets:asteroids_block:7>*64);
+tisword.addItemInput(<industrialupgrade:baseblockalloy:1>*64);
+tisword.addItemOutput(<contenttweaker:sword2>.withTag({ench: [{lvl: 590 as short, id: 16 as short},{lvl: 75, id: 122}, {lvl: 50, id: 100}], HideFlags: 2, AttributeModifiers: [{UUIDMost: 4063, UUIDLeast: 721355, Amount: 30, AttributeName: "generic.maxHealth", Operation: 0, Name: "generic.maxHealth"}, {UUIDMost: 964349, Amount: 300, AttributeName: "generic.attackDamage",Operation: 0, Name:"generic.attackDamage"}]}));
+tisword.build();
+
+//Адская боль
+val sword11 = RecipeBuilder.newBuilder("sword11","the_last_forge",1);
+sword11.addEnergyPerTickInput(25000000);
+sword11.addFluidInput(<liquid:xu_evil_metal>*5000);
+sword11.addFluidInput(<liquid:liquid_death>*5000);
+sword11.addAspectInput("imperium",250);
+sword11.addAspectInput("night",250);
+sword11.addAspectInput("dominator",250);
+sword11.addItemInput(<contenttweaker:sword9>.withTag({ench: [{lvl: 25, id: 133},{lvl: 50, id: 93}],  HideFlags: 2, AttributeModifiers: [{UUIDMost: 4063, UUIDLeast: 721355, Amount: 450, AttributeName: "generic.maxHealth", Operation: 0, Name: "generic.maxHealth"}, {UUIDMost: 20819, UUIDLeast:964349, Amount:100, AttributeName: "generic.attackDamage",Operation: 0, Name:"generic.attackDamage"}]}));
+sword11.addItemInput(<avaritia:block_resource>);
+sword11.addItemInput(<divinerpg:fury_fire>*64);
+sword11.addItemInput(<divinerpg:dirty_pearls>*64);
+sword11.addItemInput(<divinerpg:clean_pearls>*64);
+sword11.addItemInput(<divinerpg:polished_pearls>*64);
+sword11.addItemInput(<divinerpg:shiny_pearls>*64);
+sword11.addItemInput(<contenttweaker:vethea_steel_ingot>*32);
+sword11.addItemInput(<divinerpg:rock_chunks>*16);
+sword11.addItemOutput(<contenttweaker:sword11>.withTag({ench: [{lvl: 25, id: 133},{lvl: 50, id: 93},{lvl: 15, id: 93},{lvl: 25, id: 159}],  HideFlags: 2, AttributeModifiers: [{UUIDMost: 4063, UUIDLeast: 721355, Amount: 50, AttributeName: "generic.maxHealth", Operation: 0, Name: "generic.maxHealth"}, {UUIDMost: 20819, UUIDLeast:964349, Amount:200, AttributeName: "generic.attackDamage",Operation: 0, Name:"generic.attackDamage"}]}));
+sword11.build();
+
+//Меч сумеречного зверя
+val twsword = RecipeBuilder.newBuilder("twsword","the_last_forge",1);
+twsword.addEnergyPerTickInput(25000000);
+twsword.addFluidInput(<liquid:lava>*5000);
+twsword.addFluidInput(<liquid:obsidian>*5000);
+twsword.addAspectInput("mortuus",250);
+twsword.addAspectInput("herba",250);
+twsword.addAspectInput("bestia",250);
+twsword.addItemInput(<divinerpg:arcanite_blade>);
+twsword.addItemInput(<divinerpg:halite_blade>);
+twsword.addItemInput(<draconicevolution:wyvern_core>*4);
+twsword.addItemInput(<contenttweaker:halite_ingot>*2);
+twsword.addItemInput(<divinerpg:twilight_demon_statue>*16);
+twsword.addItemInput(<contenttweaker:loot_boss_4>*32);
+twsword.addItemInput(<thermalfoundation:storage_alloy:5>*64);
+twsword.addItemInput(<industrialupgrade:alloydoubleplate:2>*32);
+twsword.addItemOutput(<contenttweaker:sword1>.withTag({ench: [{lvl: 120 as short, id: 16 as short}, {lvl: 20, id: 120}], HideFlags: 2, AttributeModifiers: [{UUIDMost: 4063, UUIDLeast: 721355, Amount: 30, AttributeName: "generic.maxHealth", Operation: 0, Name: "generic.maxHealth"}, {UUIDMost: 964349, Amount: 50, AttributeName: "generic.attackDamage",Operation: 0, Name:"generic.attackDamage"}]}));
+twsword.build();
+
+//Коса властелина
+val lordsword = RecipeBuilder.newBuilder("lordsword","the_last_forge",1);
+lordsword.addEnergyPerTickInput(25000000);
+lordsword.addFluidInput(<liquid:mushroom_stew>*5000);
+lordsword.addFluidInput(<liquid:poison>*5000);
+lordsword.addAspectInput("mortuus",250);
+lordsword.addAspectInput("praecantatio",250);
+lordsword.addAspectInput("alkimia",250);
+lordsword.addItemInput(<contenttweaker:sword9>.withTag({ench: [{lvl: 25, id: 133},{lvl: 50, id: 93}],  HideFlags: 2, AttributeModifiers: [{UUIDMost: 4063, UUIDLeast: 721355, Amount: 450, AttributeName: "generic.maxHealth", Operation: 0, Name: "generic.maxHealth"}, {UUIDMost: 20819, UUIDLeast:964349, Amount:100, AttributeName: "generic.attackDamage",Operation: 0, Name:"generic.attackDamage"}]}));
+lordsword.addItemInput(<draconicevolution:wyvern_core>*8);
+lordsword.addItemInput(<draconicevolution:wyvern_energy_core>*4);
+lordsword.addItemInput(<industrialupgrade:gear:2>*64);
+lordsword.addItemInput(<thermalfoundation:material:293>*64);
+lordsword.addItemInput(<industrialupgrade:alloydoubleplate:2>*32);
+lordsword.addItemInput(<industrialupgrade:alloyplate:8>*32);
+lordsword.addItemInput(<contenttweaker:compressed_redstone_block_x3>*4);
+lordsword.addItemInput(<contenttweaker:compressed_emerald_block_2>*2);
+lordsword.addItemInput(<industrialupgrade:crafting_elements:368>*16);
+lordsword.addItemInput(<contenttweaker:draconium_rod>*64);
+lordsword.addItemInput(<industrialupgrade:stik:16>*64);
+lordsword.addItemInput(<industrialupgrade:stik:12>*64);
+lordsword.addItemOutput(<contenttweaker:sword3>.withTag({ench: [{lvl: 50, id: 11}, {lvl: 50, id: 22}], HideFlags: 2, AttributeModifiers: [{UUIDMost: 4063, UUIDLeast: 721355, Amount: 100, AttributeName: "generic.maxHealth", Operation: 0, Name: "generic.maxHealth"}, {UUIDMost: 20819, UUIDLeast:964349, Amount:100, AttributeName: "generic.attackDamage",Operation: 0, Name:"generic.attackDamage"}]}));
+lordsword.build();
+
+//Меч вулкана
+val vulsword = RecipeBuilder.newBuilder("vulsword","the_last_forge",1);
+vulsword.addEnergyPerTickInput(25000000);
+vulsword.addFluidInput(<liquid:cloud_seed_concentrated>*5000);
+vulsword.addFluidInput(<liquid:fire_water>*5000);
+vulsword.addAspectInput("ignis",250);
+vulsword.addAspectInput("alienis",250);
+vulsword.addAspectInput("infernum",250);
+vulsword.addItemInput(<divinerpg:molten_sword>);
+vulsword.addItemInput(<divinerpg:flaming_fury>);
+vulsword.addItemInput(<divinerpg:inferno_sword>);
+vulsword.addItemInput(<variedcommodities:element_fire>*16);
+vulsword.addItemInput(<contenttweaker:compressed_gold_block_x4>*2);
+vulsword.addItemInput(<galaxyspace:gs_basic:12>*32);
+vulsword.addItemInput(<railcraft:firestone_raw>*64);
+vulsword.addItemOutput(<contenttweaker:sword4>.withTag({ench: [{lvl: 100, id: 20}, {lvl: 50, id: 65}], HideFlags: 2, AttributeModifiers: [{UUIDMost: 4063, UUIDLeast: 721355, Amount: 200, AttributeName: "generic.maxHealth", Operation: 0, Name: "generic.maxHealth"}, {UUIDMost:20819, UUIDLeast:964349, Amount:60, AttributeName: "generic.attackDamage",Operation: 0, Name:"generic.attackDamage"}]}));
+vulsword.build();
+
+//Кислотная катана
+val acidkatana = RecipeBuilder.newBuilder("acidkatana","the_last_forge",1);
+acidkatana.addEnergyPerTickInput(25000000);
+acidkatana.addFluidInput(<liquid:acid>*5000);
+acidkatana.addFluidInput(<liquid:experience>*5000);
+acidkatana.addAspectInput("lux",250);
+acidkatana.addAspectInput("victus",250);
+acidkatana.addAspectInput("herba",250);
+acidkatana.addItemInput(<variedcommodities:katana>.withTag({ench: [{lvl: 25 as short, id: 16 as short},{lvl: 5 as short, id: 72 as short}, {lvl: 15 as short, id: 154 as short}], RepairCost: 3}));
+acidkatana.addItemInput(<contenttweaker:acid_chaotic_ingot>*4);
+acidkatana.addItemInput(<divinerpg:acid>*12);
+acidkatana.addItemInput(<avaritia:resource:4>*8);
+acidkatana.addItemInput(<extrautils2:simpledecorative:2>*16);
+acidkatana.addItemOutput(<contenttweaker:sword5>.withTag({ench: [{lvl: 25, id: 125}, {lvl: 50, id: 124}, {lvl: 25, id: 159}, {lvl: 10, id: 177}], HideFlags: 2, AttributeModifiers: [{UUIDMost: 4063, UUIDLeast: 721355, Amount: 75, AttributeName: "generic.maxHealth", Operation: 0, Name: "generic.maxHealth"}, {UUIDMost:20819, UUIDLeast:964349, Amount:125, AttributeName: "generic.attackDamage",Operation: 0, Name:"generic.attackDamage"},{UUIDMost: 15604, UUIDLeast: 246200, Amount: 5, AttributeName: "generic.movementSpeed", Operation: 2, Name: "generic.maxHealth"}]}));
+acidkatana.build();
+
+//Меч королевской гвардии
+val kvsword = RecipeBuilder.newBuilder("kvsword","the_last_forge",1);
+kvsword.addEnergyPerTickInput(25000000);
+kvsword.addFluidInput(<liquid:gold>*5000);
+kvsword.addFluidInput(<liquid:platinum>*5000);
+kvsword.addAspectInput("motus",250);
+kvsword.addAspectInput("gelum",250);
+kvsword.addAspectInput("vitreus",250);
+kvsword.addItemInput(<minecraft:diamond_sword>);
+kvsword.addItemInput(<avaritia:singularity:10>*12);
+kvsword.addItemInput(<avaritia:singularity:1>*8);
+kvsword.addItemInput(<avaritia:singularity:2>*8);
+kvsword.addItemInput(<avaritia:singularity:11>*4);
+kvsword.addItemInput(<singularities:singularity:27>*4);
+kvsword.addItemOutput(<contenttweaker:sword7>.withTag({ench: [{lvl: 75, id: 189},{lvl: 50, id: 186},{lvl: 25, id: 190},{lvl: 50, id: 191}],  HideFlags: 2, AttributeModifiers: [{UUIDMost: 4063, UUIDLeast: 721355, Amount: 250, AttributeName: "generic.maxHealth", Operation: 0, Name: "generic.maxHealth"}, {UUIDMost: 20819, UUIDLeast:964349, Amount:500, AttributeName: "generic.attackDamage",Operation: 0, Name:"generic.attackDamage"}]}));
+kvsword.build();
+
+//Радиоактивная коса коса
+val sword8scythe = RecipeBuilder.newBuilder("sword8scythe","the_last_forge",1);
+sword8scythe.addEnergyPerTickInput(25000000);
+sword8scythe.addFluidInput(<liquid:cryotheum>*5000);
+sword8scythe.addFluidInput(<liquid:ender>*5000);
+sword8scythe.addAspectInput("alkimia",250);
+sword8scythe.addAspectInput("exanimis",250);
+sword8scythe.addAspectInput("bestia",250);
+sword8scythe.addItemInput(<variedcommodities:emerald_scythe>.withTag({ench: [{lvl: 25 as short, id: 16 as short},{lvl: 1 as short, id: 70 as short}, {lvl: 1 as short, id: 177 as short}, {lvl: 10 as short, id: 85 as short}], RepairCost: 7}));
+sword8scythe.addItemInput(<contenttweaker:tunshilinonim_ingot>*2);
+sword8scythe.addItemInput(<contenttweaker:tinker_alloy>*2);
+sword8scythe.addItemInput(<contenttweaker:evil_cobalt_ingot>*4);
+sword8scythe.addItemInput(<contenttweaker:tungsten_armilite_ingot>*8);
+sword8scythe.addItemInput(<contenttweaker:shadow_enderium_ingot>*8);
+sword8scythe.addItemInput(<contenttweaker:ingot_of_dragon_shadow_steel>*8);
+sword8scythe.addItemInput(<contenttweaker:vethea_steel_ingot>*8);
+sword8scythe.addItemOutput(<contenttweaker:sword8>.withTag({ench: [{lvl: 25, id: 179},{lvl: 25, id: 80},{lvl: 25, id: 96}],  HideFlags: 2, AttributeModifiers: [{UUIDMost: 4063, UUIDLeast: 721355, Amount: 100, AttributeName: "generic.maxHealth", Operation: 0, Name: "generic.maxHealth"}, {UUIDMost: 20819, UUIDLeast:964349, Amount:120, AttributeName: "generic.attackDamage",Operation: 0, Name:"generic.attackDamage"}]}));
+sword8scythe.build();
+
+//Мучительный клинок
+val sword9 = RecipeBuilder.newBuilder("sword9","the_last_forge",1);
+sword9.addEnergyPerTickInput(25000000);
+sword9.addFluidInput(<liquid:cobalt>*5000);
+sword9.addFluidInput(<liquid:ardite>*5000);
+sword9.addAspectInput("exitium",250);
+sword9.addAspectInput("infernum",250);
+sword9.addAspectInput("imperium",250);
+sword9.addItemInput(<thaumcraft:crimson_blade>.withTag({ench: [{lvl: 25 as short, id: 16 as short},{lvl: 5 as short, id: 20 as short}, {lvl: 10 as short, id: 102 as short}, {lvl: 10 as short, id: 75 as short}, {lvl: 5 as short, id: 46 as short}, {lvl: 5 as short, id: 42 as short}, {lvl: 10 as short, id: 86 as short}],  RepairCost:127, display:{Name: "Клинок Боли"}}));
+sword9.addItemInput(<variedcommodities:demonic_scythe>.withTag({ench: [{lvl: 10 as short, id: 129 as short}, {lvl: 10 as short, id: 67 as short}, {lvl: 10 as short, id: 125 as short}], RepairCost: 7}));
+sword9.addItemInput(<draconicevolution:dragon_heart>);
+sword9.addItemInput(<thermalfoundation:storage_alloy>*64);
+sword9.addItemInput(<extrautils2:simpledecorative:1>*64);
+sword9.addItemInput(<thaumictinkerer:kamiresource:3>*32);
+sword9.addItemInput(<thaumadditions:mithminite_block>*4);
+sword9.addItemInput(<thaumadditions:adaminite_block>*8);
+sword9.addItemInput(<enderio:item_alloy_endergy_ingot:3>*32);
+sword9.addItemInput(<divinerpg:mortum_heart>*64);
+sword9.addItemInput(<bigreactors:blockludicrite>*16);
+sword9.addItemInput(<mysticalagriculture:crafting>*8);
+sword9.addItemInput(<contenttweaker:vadrilium_ingot>*64);
+sword9.addItemOutput(<contenttweaker:sword9>.withTag({ench: [{lvl: 25, id: 133},{lvl: 50, id: 93}],  HideFlags: 2, AttributeModifiers: [{UUIDMost: 4063, UUIDLeast: 721355, Amount: 450, AttributeName: "generic.maxHealth", Operation: 0, Name: "generic.maxHealth"}, {UUIDMost: 20819, UUIDLeast:964349, Amount:100, AttributeName: "generic.attackDamage",Operation: 0, Name:"generic.attackDamage"}]}));
+sword9.build();
+
+//Халитовый клинок оверлорда
+val sword10 = RecipeBuilder.newBuilder("sword10","the_last_forge",1);
+sword10.addEnergyPerTickInput(25000000);
+sword10.addFluidInput(<liquid:ender_distillation>*5000);
+sword10.addFluidInput(<liquid:smoldering_tar>*5000);
+sword10.addAspectInput("exitium",250);
+sword10.addAspectInput("infernum",250);
+sword10.addAspectInput("imperium",250);
+sword10.addItemInput(<divinerpg:halite_blade>);
+sword10.addItemInput(<variedcommodities:artifact>*4);
+sword10.addItemInput(<contenttweaker:halite_warrior>);
+sword10.addItemInput(<contenttweaker:loot_boss_1>*32);
+sword10.addItemInput(<contenttweaker:loot_boss_2>*32);
+sword10.addItemInput(<contenttweaker:loot_boss_3>*32);
+sword10.addItemInput(<contenttweaker:loot_boss_4>*32);
+sword10.addItemInput(<contenttweaker:loot_boss_5>*32);
+sword10.addItemInput(<contenttweaker:loot_boss_6>*32);
+sword10.addItemInput(<contenttweaker:loot_boss_7>*32);
+sword10.addItemInput(<divinerpg:vamacheron_statue>);
+sword10.addItemInput(<divinerpg:reyvor_statue>);
+sword10.addItemInput(<divinerpg:densos_statue>);
+sword10.addItemInput(<divinerpg:twilight_demon_statue>);
+sword10.addItemInput(<divinerpg:soul_fiend_statue>);
+sword10.addItemInput(<divinerpg:karot_statue>);
+sword10.addItemOutput(<contenttweaker:sword10>.withTag({ench: [{lvl: 25, id: 101},{lvl: 40, id: 74},{lvl: 10, id: 175},{lvl: 10, id: 78}],  HideFlags: 2, AttributeModifiers: [{UUIDMost: 4063, UUIDLeast: 721355, Amount: 450, AttributeName: "generic.maxHealth", Operation: 0, Name: "generic.maxHealth"}, {UUIDMost: 20819, UUIDLeast:964349, Amount:100, AttributeName: "generic.attackDamage",Operation: 0, Name:"generic.attackDamage"}]}));
+sword10.build();

@@ -1,0 +1,94 @@
+{
+	title: "Большой, ну это не значит медленый",
+	icon: "modularmachinery:super_fast_chip_maker_controller",
+	x: -5.5d,
+	y: -10.0d,
+	dependencies: [
+		"fb5acef0"
+	],
+	tasks: [{
+		uid: "acfb5b4d",
+		type: "item",
+		items: [{
+			item: "modularmachinery:super_fast_chip_maker_controller"
+		}]
+	},
+	{
+		uid: "3ab405d4",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing 1 5"
+		}]
+	},
+	{
+		uid: "0263d563",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockinputbus"
+		}]
+	},
+	{
+		uid: "65d98282",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockoutputbus"
+		}]
+	},
+	{
+		uid: "1ae73064",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockenergyinputhatch"
+		}]
+	},
+	{
+		uid: "7da8f78e",
+		type: "item",
+		items: [{
+			item: "redstonearsenal:storage"
+		}],
+		count: 6L
+	},
+	{
+		uid: "cf6f51a8",
+		type: "item",
+		items: [{
+			item: "galacticraftplanets:asteroids_block 1 7"
+		}],
+		count: 36L
+	},
+	{
+		uid: "82a92573",
+		type: "item",
+		items: [{
+			item: "galaxyspace:machineframes 1 2"
+		}],
+		count: 8L
+	},
+	{
+		uid: "4d945d73",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconium_block"
+		}]
+	},
+	{
+		uid: "9645cdfe",
+		type: "item",
+		items: [{
+			item: "galaxyspace:futureglass 1 6"
+		}],
+		count: 49L
+	}],
+	rewards: [{
+		uid: "eabb0772",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		},
+		count: 2
+	}]
+}

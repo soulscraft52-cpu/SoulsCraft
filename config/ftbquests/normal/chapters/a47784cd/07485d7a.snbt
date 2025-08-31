@@ -1,0 +1,22 @@
+{
+	title: "Ядро Дракона",
+	icon: "draconicevolution:draconic_core",
+	x: -1.0d,
+	y: -1.5d,
+	can_repeat: true,
+	dependencies: [
+		"bda13b94"
+	],
+	tasks: [{
+		uid: "36ef59c0",
+		type: "item",
+		items: [{
+			item: "contenttweaker:coin_tier4"
+		}]
+	}],
+	rewards: [{
+		uid: "de9a7bb2",
+		type: "item",
+		item: "draconicevolution:draconic_core"
+	}]
+}

@@ -1,0 +1,55 @@
+{
+	title: "Хранитель Хаоса",
+	icon: "draconicevolution:chaos_shard",
+	x: -0.5d,
+	y: -5.5d,
+	text: [
+		"Победите самого сильного босса в игре"
+	],
+	dependencies: [
+		"d488a3f4"
+	],
+	tasks: [{
+		uid: "563add7d",
+		type: "kill",
+		entity: "draconicevolution:chaosguardian",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "c72c3b81",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 3,
+		random_bonus: 3
+	},
+	{
+		uid: "3252d6d2",
+		type: "item",
+		item: "draconicevolution:chaos_shard"
+	},
+	{
+		uid: "3158bd1d",
+		type: "item",
+		item: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyVariant: "neon",
+				TrophyColorGreen: 128,
+				TrophyShowsTooltip: 1b,
+				TrophyItem: {
+					id: "draconicevolution:chaos_shard",
+					Count: 1b,
+					Damage: 0s
+				},
+				TrophyColorBlue: 128,
+				TrophyName: "Лорд Геватикус одобряет",
+				TrophyColorRed: 128
+			}
+		}
+	}]
+}

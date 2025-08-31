@@ -1,0 +1,30 @@
+{
+	title: "А можно ещё улучшить?",
+	icon: "industrialupgrade:moremachine1 1 2",
+	x: -10.0d,
+	y: -8.0d,
+	text: [
+		"Вроде бы и можно, а нужно ли?"
+	],
+	dependencies: [
+		"098f6c29"
+	],
+	tasks: [{
+		uid: "85f37f45",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:moremachine1 1 2"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ee711227",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	title: "Обычный сундук",
+	x: -23.0d,
+	y: -4.5d,
+	dependencies: [
+		"fb8e1cac"
+	],
+	tasks: [{
+		uid: "8aea60e4",
+		type: "item",
+		items: [{
+			item: "minecraft:chest"
+		}]
+	}],
+	rewards: [{
+		uid: "34a0f784",
+		type: "item",
+		item: "minecraft:planks",
+		count: 16
+	}]
+}

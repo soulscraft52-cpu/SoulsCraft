@@ -1,0 +1,28 @@
+{
+	title: "Слиточек §6ихориевый",
+	x: -14.0d,
+	y: 2.0d,
+	text: [
+		"Получается ихориевый, получается слиточек."
+	],
+	dependencies: [
+		"f3ad0dd7"
+	],
+	tasks: [{
+		uid: "be9e4a3d",
+		type: "item",
+		items: [{
+			item: "thaumictinkerer:kamiresource 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "e9196738",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

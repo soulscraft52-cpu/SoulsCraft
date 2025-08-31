@@ -1,0 +1,53 @@
+{
+	x: 2.0d,
+	y: -7.0d,
+	text: [
+		"Удача для не дураков лишь удача придет тем кому она не нужна"
+	],
+	dependencies: [
+		"751f8455"
+	],
+	tasks: [{
+		uid: "6ad11286",
+		type: "item",
+		items: [{
+			id: "contenttweaker:sword6",
+			tag: {
+				ench: [{
+					lvl: 25,
+					id: 21
+				}],
+				HideFlags: 2,
+				AttributeModifiers: [{
+					UUIDMost: 4063,
+					UUIDLeast: 721355,
+					Amount: 75,
+					AttributeName: "generic.maxHealth",
+					Operation: 0,
+					Name: "generic.maxHealth"
+				},
+				{
+					UUIDMost: 20819,
+					UUIDLeast: 964349,
+					Amount: 60,
+					AttributeName: "generic.attackDamage",
+					Operation: 0,
+					Name: "generic.attackDamage"
+				}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "543020f7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "6"
+			}
+		},
+		count: 2
+	}]
+}

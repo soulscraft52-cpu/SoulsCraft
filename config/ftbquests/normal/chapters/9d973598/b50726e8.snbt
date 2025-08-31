@@ -1,0 +1,87 @@
+{
+	title: "Теперь эти твари из Эдема",
+	icon: {
+		id: "draconicevolution:mob_soul",
+		tag: {
+			EntityName: "divinerpg:angry_bunny"
+		}
+	},
+	x: -5.5d,
+	y: -8.5d,
+	text: [
+		"И их мы тоже убьём"
+	],
+	dependencies: [
+		"ab98f1cb"
+	],
+	tasks: [{
+		uid: "94d4c187",
+		type: "kill",
+		entity: "divinerpg:bunny",
+		value: 1L
+	},
+	{
+		uid: "47d69b5d",
+		type: "kill",
+		entity: "divinerpg:angry_bunny",
+		value: 1L
+	},
+	{
+		uid: "1f0d2b74",
+		type: "kill",
+		entity: "divinerpg:greenfeet",
+		value: 1L
+	},
+	{
+		uid: "9d0e0b14",
+		type: "kill",
+		entity: "divinerpg:eden_cadillion",
+		value: 1L
+	},
+	{
+		uid: "ede05dbe",
+		type: "kill",
+		entity: "divinerpg:eden_tomo",
+		value: 1L
+	},
+	{
+		uid: "beda7cb9",
+		type: "kill",
+		entity: "divinerpg:madivel",
+		value: 1L
+	},
+	{
+		uid: "d20a5e79",
+		type: "kill",
+		entity: "divinerpg:sun_archer",
+		value: 1L
+	},
+	{
+		uid: "fd062ade",
+		type: "kill",
+		entity: "divinerpg:weak_cori",
+		value: 1L
+	},
+	{
+		uid: "b9a9a4d8",
+		type: "kill",
+		entity: "divinerpg:sunstorm",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "80083979",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	},
+	{
+		uid: "27d3c349",
+		type: "item",
+		item: "divinerpg:eden_chunk",
+		count: 4
+	}]
+}

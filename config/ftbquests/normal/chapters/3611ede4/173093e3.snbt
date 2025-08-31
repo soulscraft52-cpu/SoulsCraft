@@ -1,0 +1,103 @@
+{
+	title: "Том записи исследований",
+	icon: "thaumadditions:knowledge_tome",
+	x: -3.5d,
+	y: -3.5d,
+	text: [
+		"Поделись своими знаниям с окружающими"
+	],
+	dependencies: [
+		"2b7a5d78"
+	],
+	tasks: [{
+		uid: "ea2430d8",
+		type: "item",
+		items: [{
+			item: "thaumadditions:knowledge_tome"
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "e444f7b3",
+		type: "item",
+		item: "thaumcraft:ingot",
+		count: 16
+	},
+	{
+		uid: "26d1b599",
+		type: "item",
+		item: "thaumcraft:scribing_tools"
+	},
+	{
+		uid: "a6b64b6a",
+		type: "item",
+		item: {
+			id: "cfm:present",
+			tag: {
+				Author: "Jack_Vorobey",
+				Present: {
+					Items: [{
+						Slot: 0b,
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "ftbquests:lootcrate",
+						Count: 1b,
+						tag: {
+							type: "random_25_"
+						},
+						Damage: 0s
+					},
+					{
+						Slot: 1b,
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "ftbquests:lootcrate",
+						Count: 1b,
+						tag: {
+							type: "random_50_"
+						},
+						Damage: 0s
+					},
+					{
+						Slot: 2b,
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "ftbquests:lootcrate",
+						Count: 1b,
+						tag: {
+							type: "full_random"
+						},
+						Damage: 0s
+					},
+					{
+						Slot: 3b,
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "minecraft:written_book",
+						Count: 1b,
+						tag: {
+							pages: [
+								"{\"text\":\"Делиться это хорошо.\\nСпасибо. Ты хороший человек.\"}",
+								"{\"text\":\"\"}",
+								"{\"text\":\"\"}",
+								"{\"text\":\"Когда жизнь даёт вам лимоны, сделайте лимонад. Когда жизнь даёт вам лимоны, сделайте лимонад. Когда жизнь даёт вам лимоны, сделайте лимонад. Когда жизнь даёт вам лимоны, сделайте лимонад. Когда жизнь даёт вам лимоны, сделайте лимонад. \"}",
+								"{\"text\":\"CAKE IS A LIE! CAKE IS A LIE! CAKE IS A LIE! CAKE IS A LIE! CAKE IS A LIE! CAKE IS A LIE! CAKE IS A LIE! CAKE IS A LIE! CAKE IS A LIE! CAKE IS A LIE! CAKE IS A LIE! CAKE IS A LIE! CAKE IS A LIE! CAKE IS A LIE! CAKE IS A LIE!\\nCAKE IS A LIE!CAKE IS A LIE!\"}",
+								"{\"text\":\"ПРИНЕСИ МНЕ СЛАВНЫЙ ХРУСТЯЩИЙ КУСОК МЯСА! ПРИНЕСИ МНЕ СЛАВНЫЙ ХРУСТЯЩИЙ КУСОК МЯСА! ПРИНЕСИ МНЕ СЛАВНЫЙ ХРУСТЯЩИЙ КУСОК МЯСА! ПРИНЕСИ МНЕ СЛАВНЫЙ ХРУСТЯЩИЙ КУСОК МЯСА! ПРИНЕСИ МНЕ СЛАВНЫЙ ХРУСТЯЩИЙ КУСОК МЯСА!\"}",
+								"{\"text\":\"P.S. \"}"
+							],
+							author: "Jack_Vorobey",
+							title: "Спасибо!",
+							resolved: 1b
+						},
+						Damage: 0s
+					}]
+				}
+			},
+			Damage: 14s
+		}
+	}]
+}

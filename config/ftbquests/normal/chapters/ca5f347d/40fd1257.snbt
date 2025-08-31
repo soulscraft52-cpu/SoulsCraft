@@ -1,0 +1,65 @@
+{
+	title: "Топор ВИ-ВИ",
+	icon: {
+		ForgeCaps: {
+			Parent: {
+				Size: 9,
+				Items: []
+			}
+		},
+		id: "draconicevolution:wyvern_axe",
+		tag: {
+			Profile_0: {
+				showDigAOE: 0b,
+				showHarvestIndicator: 1b,
+				digSpeed: 100,
+				aoeSafeMode: 0b,
+				digAOE: 0
+			}
+		},
+		Damage: 32767s
+	},
+	x: -5.0d,
+	y: -4.0d,
+	text: [
+		"Я надеюсь он тебе не понадобится"
+	],
+	dependencies: [
+		"501f9d5f"
+	],
+	tasks: [{
+		uid: "901da68a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					Size: 9,
+					Items: []
+				}
+			},
+			id: "draconicevolution:wyvern_axe",
+			tag: {
+				Profile_0: {
+					showDigAOE: 0b,
+					showHarvestIndicator: 1b,
+					digSpeed: 100,
+					aoeSafeMode: 0b,
+					digAOE: 0
+				}
+			},
+			Damage: 32767s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "61f9a597",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

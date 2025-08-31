@@ -1,0 +1,30 @@
+{
+	title: "64k MSSD",
+	x: -1.0d,
+	y: -8.5d,
+	dependencies: [
+		"b61c33a0"
+	],
+	tasks: [{
+		uid: "a1066d22",
+		type: "item",
+		items: [{
+			id: "thaumicenergistics:essentia_cell_64k",
+			tag: {
+				filter: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3d02b6b4",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

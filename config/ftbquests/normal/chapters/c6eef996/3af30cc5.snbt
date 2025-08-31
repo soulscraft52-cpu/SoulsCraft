@@ -1,0 +1,30 @@
+{
+	title: "Завод для лампочек",
+	icon: "forestry:fabricator",
+	x: -12.0d,
+	y: -4.5d,
+	text: [
+		"Теперь у вас есть целый завод для лампочек!",
+		"§3Для работы требует энергию и песок/стекло для жидкого стекла."
+	],
+	dependencies: [
+		"6d4fdd0a"
+	],
+	tasks: [{
+		uid: "2ea3671b",
+		type: "item",
+		items: [{
+			item: "forestry:fabricator"
+		}]
+	}],
+	rewards: [{
+		uid: "bb745c00",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

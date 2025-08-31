@@ -1,0 +1,30 @@
+{
+	title: "Синий огонь",
+	icon: "divinerpg:bluefire_stone",
+	x: -10.0d,
+	y: -0.5d,
+	text: [
+		"Пламя Азулы..."
+	],
+	dependencies: [
+		"c5a4f85c"
+	],
+	tasks: [{
+		uid: "ab4b1cf4",
+		type: "item",
+		items: [{
+			item: "divinerpg:bluefire_stone 8"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "7d0760c8",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	x: -6.5d,
+	y: -4.5d,
+	text: [
+		"После того как понюхал плутоний"
+	],
+	dependencies: [
+		"49c3d4bf",
+		"aa5c13f2"
+	],
+	tasks: [{
+		uid: "877b3403",
+		type: "item",
+		items: [{
+			item: "bigreactors:ingotblutonium"
+		}]
+	}],
+	rewards: [{
+		uid: "7a394c4e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		}
+	}]
+}

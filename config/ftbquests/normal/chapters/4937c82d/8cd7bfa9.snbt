@@ -1,0 +1,30 @@
+{
+	title: "-_- ",
+	x: -3.5d,
+	y: -21.0d,
+	shape: "square",
+	text: [
+		"Зачем он мне?"
+	],
+	dependencies: [
+		"ff4d15a2"
+	],
+	tasks: [{
+		uid: "8ee30957",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockfluidinputhatch 1 7"
+		}]
+	}],
+	rewards: [{
+		uid: "2a11769d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 2
+	}]
+}

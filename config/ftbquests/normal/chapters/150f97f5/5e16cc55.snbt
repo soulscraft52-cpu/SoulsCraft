@@ -1,0 +1,34 @@
+{
+	title: "Землеройка",
+	icon: {
+		id: "projecte:item.pe_dm_shovel",
+		tag: {}
+	},
+	x: -9.5d,
+	y: -2.0d,
+	text: [
+		"Уничтожает землю"
+	],
+	dependencies: [
+		"a037cf8b"
+	],
+	tasks: [{
+		uid: "e741de68",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_dm_shovel",
+			tag: {}
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "b6eb7abb",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		}
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "Кусок Менделевия",
+	icon: "industrialupgrade:radiationresources 1 5",
+	x: -10.5d,
+	y: -3.5d,
+	can_repeat: true,
+	dependencies: [
+		"c215dab4"
+	],
+	tasks: [{
+		uid: "eff7c9c6",
+		type: "item",
+		items: [{
+			item: "contenttweaker:coin_tier3"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "7c355aa6",
+		type: "item",
+		auto: "disabled",
+		item: "industrialupgrade:radiationresources 1 5"
+	}]
+}

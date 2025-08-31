@@ -1,0 +1,28 @@
+{
+	title: "Слиточек Фиолетого Ихория",
+	x: -14.0d,
+	y: 1.0d,
+	text: [
+		"Это элементарно! Просто покрась в §5фиолетовый"
+	],
+	dependencies: [
+		"d4a379a8"
+	],
+	tasks: [{
+		uid: "a31490ce",
+		type: "item",
+		items: [{
+			item: "contenttweaker:dragon_ichor_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "e00dcab4",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

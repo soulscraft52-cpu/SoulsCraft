@@ -1,0 +1,58 @@
+{
+	title: "Темнее тёмной брони",
+	icon: "divinerpg:mortum_chestplate",
+	x: 8.5d,
+	y: -3.5d,
+	text: [
+		"Да и лучше..."
+	],
+	dependencies: [
+		"126fb96e"
+	],
+	tasks: [{
+		uid: "fb4bb688",
+		type: "item",
+		items: [{
+			item: "divinerpg:mortum_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "804b9296",
+		type: "item",
+		items: [{
+			item: "divinerpg:mortum_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e4f909c3",
+		type: "item",
+		items: [{
+			item: "divinerpg:mortum_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1a1e72f9",
+		type: "item",
+		items: [{
+			item: "divinerpg:mortum_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2b589609",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

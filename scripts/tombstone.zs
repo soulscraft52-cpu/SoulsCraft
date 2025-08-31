@@ -1,0 +1,16 @@
+recipes.remove(<tombstone:book_of_disenchantment>);
+recipes.remove(<tombstone:tablet_of_recall>);
+recipes.remove(<tombstone:tablet_of_home>);
+recipes.remove(<tombstone:tablet_of_assistance>);
+recipes.remove(<tombstone:tablet_of_cupidity>);
+recipes.remove(<tombstone:ankh_of_pray>);
+recipes.remove(<tombstone:crafting_ingredient:1>);
+recipes.remove(<tombstone:grave_key>);
+recipes.addShaped(<tombstone:book_of_disenchantment>, [[<tombstone:impregnated_diamond>, <minecraft:dye:4>, <tombstone:impregnated_diamond>],[<minecraft:dye:4>, <minecraft:book>, <minecraft:dye:4>], [<tombstone:impregnated_diamond>, <minecraft:dye:4>, <tombstone:impregnated_diamond>]]);
+recipes.addShaped(<tombstone:tablet_of_recall>, [[<tombstone:crafting_ingredient:3>, <minecraft:dye:15>, <tombstone:crafting_ingredient:3>],[<soulscraft:bloodgold>, <tombstone:crafting_ingredient:1>, <soulscraft:bloodgold>], [<tombstone:crafting_ingredient:3>, <minecraft:dye:15>, <tombstone:crafting_ingredient:3>]]);
+recipes.addShaped(<tombstone:tablet_of_home>, [[<tombstone:crafting_ingredient:3>, <minecraft:red_mushroom>, <tombstone:crafting_ingredient:3>],[<soulscraft:bloodgold>, <tombstone:crafting_ingredient:1>, <soulscraft:bloodgold>], [<tombstone:crafting_ingredient:3>, <minecraft:red_mushroom>, <tombstone:crafting_ingredient:3>]]);
+recipes.addShaped(<tombstone:tablet_of_assistance>, [[<tombstone:crafting_ingredient:3>, <minecraft:gunpowder>, <tombstone:crafting_ingredient:3>],[<soulscraft:bloodgold>, <tombstone:crafting_ingredient:1>, <soulscraft:bloodgold>], [<tombstone:crafting_ingredient:3>, <minecraft:gunpowder>, <tombstone:crafting_ingredient:3>]]);
+recipes.addShaped(<tombstone:tablet_of_cupidity>, [[<tombstone:crafting_ingredient:3>, <minecraft:golden_carrot>, <tombstone:crafting_ingredient:3>],[<soulscraft:bloodgold>, <tombstone:crafting_ingredient:1>, <soulscraft:bloodgold>], [<tombstone:crafting_ingredient:3>, <minecraft:golden_carrot>, <tombstone:crafting_ingredient:3>]]);
+recipes.addShaped(<tombstone:ankh_of_pray>, [[<tombstone:impregnated_diamond>, <minecraft:stick>, <tombstone:impregnated_diamond>],[<minecraft:stick>, <soulscraft:bloodgold>, <minecraft:stick>], [<tombstone:impregnated_diamond>, <minecraft:stick>, <tombstone:impregnated_diamond>]]);
+recipes.addShaped(<tombstone:crafting_ingredient:1>, [[<tombstone:crafting_ingredient:3>, <tombstone:dark_marble:1>, <tombstone:crafting_ingredient:3>],[<tombstone:dark_marble:1>, <tombstone:impregnated_diamond>, <tombstone:dark_marble:1>], [<tombstone:crafting_ingredient:3>, <tombstone:dark_marble:1>, <tombstone:crafting_ingredient:3>]]);
+recipes.addShaped(<tombstone:crafting_ingredient:1>, [[<tombstone:crafting_ingredient:3>, <tombstone:dark_marble>, <tombstone:crafting_ingredient:3>],[<tombstone:dark_marble>, <tombstone:impregnated_diamond>, <tombstone:dark_marble>], [<tombstone:crafting_ingredient:3>, <tombstone:dark_marble>, <tombstone:crafting_ingredient:3>]]);

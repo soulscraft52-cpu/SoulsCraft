@@ -1,0 +1,14 @@
+{
+	x: 14.5d,
+	y: -6.0d,
+	dependencies: [
+		"5aa9b7f9"
+	],
+	tasks: [{
+		uid: "a84f0b40",
+		type: "item",
+		items: [{
+			item: "divinerpg:darven_lump"
+		}]
+	}]
+}

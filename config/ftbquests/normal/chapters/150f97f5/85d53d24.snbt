@@ -1,0 +1,45 @@
+{
+	title: "Пурпурные",
+	icon: "projectex:power_flower 1 5",
+	x: 1.5d,
+	y: -7.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"451d8003"
+	],
+	tasks: [{
+		uid: "169e6202",
+		type: "item",
+		items: [{
+			item: "projectex:collector 1 5"
+		}]
+	},
+	{
+		uid: "6e21da65",
+		type: "item",
+		items: [{
+			item: "projectex:relay 1 5"
+		}]
+	},
+	{
+		uid: "bdbc221d",
+		type: "item",
+		items: [{
+			item: "projectex:power_flower 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "0848189c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 3,
+		random_bonus: 1
+	}]
+}

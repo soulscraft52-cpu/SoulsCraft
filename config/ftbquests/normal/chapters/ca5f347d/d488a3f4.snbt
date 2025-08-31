@@ -1,0 +1,29 @@
+{
+	title: "Ещё одно ядрышко",
+	icon: "draconicevolution:awakened_core",
+	x: -0.5d,
+	y: -2.5d,
+	text: [
+		"Наполните энергией ядро виверны"
+	],
+	dependencies: [
+		"1d8deb34"
+	],
+	tasks: [{
+		uid: "830cf187",
+		type: "item",
+		items: [{
+			item: "draconicevolution:awakened_core"
+		}]
+	}],
+	rewards: [{
+		uid: "922efb4f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

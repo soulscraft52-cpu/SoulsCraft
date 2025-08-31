@@ -1,0 +1,31 @@
+{
+	title: "Спектралочка",
+	icon: "industrialupgrade:machines 1 4",
+	x: 3.0d,
+	y: -2.0d,
+	text: [
+		"Надо продолжать"
+	],
+	dependencies: [
+		"009e10bc"
+	],
+	tasks: [{
+		uid: "cf99d395",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:machines 1 4"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "868547eb",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 2
+	}]
+}

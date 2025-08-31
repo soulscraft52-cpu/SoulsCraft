@@ -1,0 +1,44 @@
+{
+	title: "Чёрный единорог",
+	icon: "divinerpg:vamacheron_crystal",
+	x: 4.5d,
+	y: -10.5d,
+	text: [
+		"Злой чёрный единорог, очень злой чёрный единорог."
+	],
+	dependencies: [
+		"440a6d33"
+	],
+	tasks: [{
+		uid: "27503ded",
+		type: "item",
+		items: [{
+			item: "divinerpg:vamacheron_crystal"
+		}],
+		ignore_damage: true
+	},
+	{
+		uid: "94b0e146",
+		type: "item",
+		items: [{
+			item: "divinerpg:vamacheron_statue"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "e91a7f39",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	},
+	{
+		uid: "6430cc0f",
+		type: "item",
+		team_reward: false,
+		item: "thaumadditions:dna_sample"
+	}]
+}

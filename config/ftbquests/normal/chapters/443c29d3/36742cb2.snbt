@@ -1,0 +1,30 @@
+{
+	title: "Пила для рубки",
+	icon: "notreepunching:saw/bronze",
+	x: -15.0d,
+	y: -8.5d,
+	text: [
+		"Наконец-то можно нормально делать доски!"
+	],
+	dependencies: [
+		"cea31829"
+	],
+	tasks: [{
+		uid: "c484cd23",
+		type: "item",
+		items: [{
+			item: "notreepunching:saw/bronze"
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "393e1ac9",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

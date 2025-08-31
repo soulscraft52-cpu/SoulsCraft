@@ -1,0 +1,33 @@
+{
+	x: -21.0d,
+	y: -17.0d,
+	dependencies: [
+		"eb73ebb5"
+	],
+	tasks: [{
+		uid: "72d13e60",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:barionrotor",
+			tag: {
+				damage: 110592000,
+				hasID: 1b,
+				canupgrade: 1b,
+				maxDamage: 110592000,
+				ID_Item: 23
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "eea1a389",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		}
+	}]
+}

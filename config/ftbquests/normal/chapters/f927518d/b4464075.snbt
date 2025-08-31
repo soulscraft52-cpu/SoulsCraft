@@ -1,0 +1,25 @@
+{
+	x: 0.5d,
+	y: -7.0d,
+	dependencies: [
+		"372b57f7",
+		"ef880a83"
+	],
+	tasks: [{
+		uid: "ef5c43c1",
+		type: "item",
+		items: [{
+			item: "thaumadditions:vis_seeds/victus"
+		}]
+	}],
+	rewards: [{
+		uid: "7abe2dfa",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

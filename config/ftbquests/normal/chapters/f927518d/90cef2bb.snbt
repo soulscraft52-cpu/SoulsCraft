@@ -1,0 +1,31 @@
+{
+	title: "Крестьянские лапти",
+	icon: "thaumadditions:adaminite_boots",
+	x: -16.0d,
+	y: -0.5d,
+	text: [
+		"В них даже ходить больно"
+	],
+	dependencies: [
+		"1fe25187",
+		"e2423969"
+	],
+	tasks: [{
+		uid: "a1b96e85",
+		type: "item",
+		items: [{
+			item: "thaumadditions:adaminite_boots"
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "0903c132",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

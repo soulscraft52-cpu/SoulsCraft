@@ -1,0 +1,29 @@
+{
+	title: "Вся магия в одном слитке",
+	x: 3.0d,
+	y: -14.5d,
+	text: [
+		"Хоть как-то я смогу его автоматизировать"
+	],
+	dependencies: [
+		"3f8968d4"
+	],
+	tasks: [{
+		uid: "28b0482b",
+		type: "item",
+		items: [{
+			item: "contenttweaker:magic_alloy"
+		}]
+	}],
+	rewards: [{
+		uid: "d72318d7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		},
+		count: 2
+	}]
+}

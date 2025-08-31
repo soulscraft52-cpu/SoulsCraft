@@ -1,0 +1,29 @@
+{
+	title: "Вложите сюда диск",
+	icon: "appliedenergistics2:material 1 39",
+	x: -6.0d,
+	y: -3.0d,
+	text: [
+		"Предметный HDD корпус"
+	],
+	dependencies: [
+		"17e65989"
+	],
+	tasks: [{
+		uid: "1af9f1dc",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 39"
+		}]
+	}],
+	rewards: [{
+		uid: "cf289a29",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

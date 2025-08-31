@@ -1,0 +1,37 @@
+{
+	title: "Плотник и паяльник",
+	icon: "forestry:carpenter",
+	x: -19.0d,
+	y: -1.0d,
+	text: [
+		"Тебе это надо и точка"
+	],
+	dependencies: [
+		"6d4fdd0a"
+	],
+	tasks: [{
+		uid: "4d2bd2a5",
+		type: "item",
+		items: [{
+			item: "forestry:carpenter"
+		}]
+	},
+	{
+		uid: "30d8235d",
+		type: "item",
+		items: [{
+			item: "forestry:soldering_iron"
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "7ee7dc18",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

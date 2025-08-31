@@ -1,0 +1,325 @@
+{
+	title: "Редкий",
+	icon: {
+		id: "ftbquests:lootcrate",
+		tag: {
+			type: "3"
+		}
+	},
+	loot_size: 1,
+	rewards: [{
+		item: "thermalexpansion:frame",
+		random_bonus: 2,
+		weight: 30
+	},
+	{
+		item: "thermalexpansion:frame 1 64",
+		random_bonus: 2,
+		weight: 30
+	},
+	{
+		item: "extrautils2:ingredients 1 2",
+		count: 2,
+		random_bonus: 4,
+		weight: 30
+	},
+	{
+		item: {
+			id: "minecraft:diamond_pickaxe",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 52s
+				},
+				{
+					lvl: 3s,
+					id: 34s
+				},
+				{
+					lvl: 1s,
+					id: 70s
+				},
+				{
+					lvl: 5s,
+					id: 32s
+				}],
+				RepairCost: 15,
+				display: {
+					Name: "Smelter"
+				}
+			}
+		},
+		weight: 30
+	},
+	{
+		item: "thermalfoundation:material 1 167",
+		count: 16,
+		random_bonus: 16,
+		weight: 30
+	},
+	{
+		item: "thermalfoundation:material 1 166",
+		count: 16,
+		random_bonus: 16,
+		weight: 30
+	},
+	{
+		item: "thermalfoundation:material 1 165",
+		count: 16,
+		random_bonus: 16,
+		weight: 30
+	},
+	{
+		item: "thermalfoundation:material 1 134",
+		count: 8,
+		random_bonus: 8,
+		weight: 30
+	},
+	{
+		item: "thermalfoundation:upgrade",
+		weight: 30
+	},
+	{
+		item: "railcraft:coke_oven",
+		count: 26,
+		weight: 30
+	},
+	{
+		item: "railcraft:blast_furnace",
+		count: 34,
+		weight: 30
+	},
+	{
+		item: "galacticraftcore:item_basic_moon",
+		count: 8,
+		random_bonus: 8,
+		weight: 30
+	},
+	{
+		item: "enderio:block_solar_panel 1 2",
+		random_bonus: 1,
+		weight: 30
+	},
+	{
+		item: "enderio:block_solar_panel 1 1",
+		count: 2,
+		random_bonus: 2,
+		weight: 30
+	},
+	{
+		item: "divinerpg:realmite_ingot",
+		count: 32,
+		random_bonus: 32,
+		weight: 30
+	},
+	{
+		item: "divinerpg:rupee_ingot",
+		count: 16,
+		random_bonus: 16,
+		weight: 30
+	},
+	{
+		item: "thaumcraft:ingot",
+		count: 16,
+		random_bonus: 16,
+		weight: 30
+	},
+	{
+		item: "buildcraftfactory:tank",
+		count: 4,
+		random_bonus: 4,
+		weight: 30
+	},
+	{
+		item: "minecraft:golden_apple 1 1",
+		count: 8,
+		random_bonus: 4,
+		weight: 30
+	},
+	{
+		item: "thermaldynamics:duct_0 1 4",
+		count: 16,
+		random_bonus: 8,
+		weight: 30
+	},
+	{
+		item: {
+			id: "cyclicmagic:charm_antidote",
+			tag: {}
+		},
+		weight: 30
+	},
+	{
+		item: {
+			id: "cyclicmagic:charm_water",
+			tag: {}
+		},
+		weight: 30
+	},
+	{
+		item: {
+			id: "cyclicmagic:charm_void",
+			tag: {}
+		},
+		weight: 30
+	},
+	{
+		item: {
+			id: "cyclicmagic:charm_boat",
+			tag: {}
+		},
+		weight: 30
+	},
+	{
+		item: {
+			id: "cyclicmagic:charm_fire",
+			tag: {}
+		},
+		weight: 30
+	},
+	{
+		item: {
+			id: "cyclicmagic:charm_speed",
+			tag: {}
+		},
+		weight: 30
+	},
+	{
+		item: {
+			id: "cyclicmagic:charm_wing",
+			tag: {}
+		},
+		weight: 30
+	},
+	{
+		item: "scalinghealth:difficultychanger",
+		random_bonus: 1,
+		weight: 30
+	},
+	{
+		item: {
+			id: "cfm:item_package_signed",
+			tag: {
+				Author: "SoulsCraft",
+				Package: {
+					Items: [{
+						Slot: 0b,
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "enderio:item_basic_capacitor",
+						Count: 4b,
+						Damage: 0s
+					},
+					{
+						Slot: 2b,
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "enderio:item_basic_capacitor",
+						Count: 2b,
+						Damage: 1s
+					},
+					{
+						Slot: 4b,
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "enderio:item_basic_capacitor",
+						Count: 1b,
+						Damage: 2s
+					}]
+				}
+			}
+		},
+		weight: 30
+	},
+	{
+		item: {
+			id: "cfm:item_package_signed",
+			tag: {
+				Author: "SoulsCraft",
+				Package: {
+					Items: [{
+						Slot: 0b,
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "buildcraftsilicon:redstone_chipset",
+						Count: 4b,
+						Damage: 0s
+					},
+					{
+						Slot: 1b,
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "buildcraftsilicon:redstone_chipset",
+						Count: 2b,
+						Damage: 3s
+					},
+					{
+						Slot: 2b,
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "buildcraftsilicon:redstone_chipset",
+						Count: 2b,
+						Damage: 1s
+					},
+					{
+						Slot: 3b,
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "buildcraftsilicon:redstone_chipset",
+						Count: 2b,
+						Damage: 4s
+					},
+					{
+						Slot: 4b,
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "buildcraftsilicon:redstone_chipset",
+						Count: 2b,
+						Damage: 2s
+					}]
+				}
+			}
+		},
+		weight: 30
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "4"
+			}
+		},
+		weight: 15
+	},
+	{
+		item: "soulscraft:bloodgold",
+		count: 24,
+		random_bonus: 8,
+		weight: 30
+	},
+	{
+		item: "soulscraft:evildrop"
+	},
+	{
+		item: "contenttweaker:coin_tier1",
+		weight: 30
+	}],
+	loot_crate: {
+		string_id: "3",
+		item_name: "Rare Crate",
+		color: 1644912,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

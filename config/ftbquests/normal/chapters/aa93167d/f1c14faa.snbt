@@ -1,0 +1,29 @@
+{
+	title: "Хим. завод?",
+	x: -11.0d,
+	y: -3.5d,
+	text: [
+		"Теперь и такое есть. Нужен для производства пластика."
+	],
+	dependencies: [
+		"4f1a4228"
+	],
+	tasks: [{
+		uid: "818da731",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:basemachine2 1 11"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c0923711",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

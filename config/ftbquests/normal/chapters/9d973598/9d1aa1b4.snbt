@@ -1,0 +1,58 @@
+{
+	title: "Аквамен",
+	icon: "divinerpg:aquastrive_chestplate",
+	x: -16.5d,
+	y: 1.0d,
+	text: [
+		"Теперь можно жить под водой..."
+	],
+	dependencies: [
+		"c75a694c"
+	],
+	tasks: [{
+		uid: "377b0546",
+		type: "item",
+		items: [{
+			item: "divinerpg:aquastrive_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e6e64dd3",
+		type: "item",
+		items: [{
+			item: "divinerpg:aquastrive_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b6f4ef39",
+		type: "item",
+		items: [{
+			item: "divinerpg:aquastrive_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9eba574d",
+		type: "item",
+		items: [{
+			item: "divinerpg:aquastrive_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "749c3c18",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

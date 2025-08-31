@@ -1,0 +1,29 @@
+{
+	title: "Вам тоже надоело ждать?",
+	icon: "galacticraftcore:machine2",
+	x: -9.5d,
+	y: -2.0d,
+	text: [
+		"Если вам надоело ждать - сделайте этот компрессор"
+	],
+	dependencies: [
+		"90a36340"
+	],
+	tasks: [{
+		uid: "f0f2d5d1",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:machine2"
+		}]
+	}],
+	rewards: [{
+		uid: "d91d5bea",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

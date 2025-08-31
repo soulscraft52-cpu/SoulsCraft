@@ -1,0 +1,28 @@
+{
+	title: "Основа для планшета",
+	x: 4.0d,
+	y: 5.5d,
+	text: [
+		"Основа заклинаний"
+	],
+	dependencies: [
+		"24782bb6"
+	],
+	tasks: [{
+		uid: "30e1e247",
+		type: "item",
+		items: [{
+			item: "tombstone:crafting_ingredient 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "0f540938",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

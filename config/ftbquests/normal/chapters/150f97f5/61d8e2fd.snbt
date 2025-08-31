@@ -1,0 +1,45 @@
+{
+	title: "Белые",
+	icon: "projectex:power_flower 1 13",
+	x: 9.5d,
+	y: -7.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"3d91fe7e"
+	],
+	tasks: [{
+		uid: "04622d67",
+		type: "item",
+		items: [{
+			item: "projectex:collector 1 13"
+		}]
+	},
+	{
+		uid: "4d8dfed4",
+		type: "item",
+		items: [{
+			item: "projectex:relay 1 13"
+		}]
+	},
+	{
+		uid: "e05f1a3d",
+		type: "item",
+		items: [{
+			item: "projectex:power_flower 1 13"
+		}]
+	}],
+	rewards: [{
+		uid: "09538d12",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 11,
+		random_bonus: 1
+	}]
+}

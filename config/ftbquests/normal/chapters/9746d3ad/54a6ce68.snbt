@@ -1,0 +1,25 @@
+{
+	title: "Серебро да и только",
+	x: -16.5d,
+	y: -4.0d,
+	dependencies: [
+		"6ea08609"
+	],
+	tasks: [{
+		uid: "c12f7c58",
+		type: "item",
+		items: [{
+			item: "enderio:item_capacitor_energetic_silver"
+		}]
+	}],
+	rewards: [{
+		uid: "eec933bd",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

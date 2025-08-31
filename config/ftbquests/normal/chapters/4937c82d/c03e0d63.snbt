@@ -1,0 +1,29 @@
+{
+	title: "Красивый",
+	x: 4.0d,
+	y: -14.5d,
+	text: [
+		"Дорогой"
+	],
+	dependencies: [
+		"3f8968d4"
+	],
+	tasks: [{
+		uid: "44046808",
+		type: "item",
+		items: [{
+			item: "contenttweaker:thermal_alloy"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "36cf34c1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		}
+	}]
+}

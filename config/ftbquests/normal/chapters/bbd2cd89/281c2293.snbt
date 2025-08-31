@@ -1,0 +1,30 @@
+{
+	title: "Уменьшаем количество O2 в атмосфере",
+	icon: "galacticraftcore:collector",
+	x: -12.5d,
+	y: -2.0d,
+	text: [
+		"Собирает O2"
+	],
+	dependencies: [
+		"653ac038"
+	],
+	tasks: [{
+		uid: "0f154fbf",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:collector"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "946934dd",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

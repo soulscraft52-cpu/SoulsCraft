@@ -1,0 +1,112 @@
+{
+	title: "Ресурсовые семена ур.5",
+	x: 5.5d,
+	y: 0.5d,
+	text: [
+		"Ухты, мы сможем фармить ресурсы из ничего, просто выращивая растения! Немыслимо!"
+	],
+	dependencies: [
+		"5a46e373"
+	],
+	tasks: [{
+		uid: "c69e5040",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:diamond_seeds"
+		}]
+	},
+	{
+		uid: "c42507cd",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:emerald_seeds"
+		}]
+	},
+	{
+		uid: "f3b8cdc7",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:tungsten_seeds"
+		}]
+	},
+	{
+		uid: "8280c2f6",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:titanium_seeds"
+		}]
+	},
+	{
+		uid: "0ab82fce",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:uranium_seeds"
+		}]
+	},
+	{
+		uid: "d2625978",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:platinum_seeds"
+		}]
+	},
+	{
+		uid: "0b83e33c",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:enderium_seeds"
+		}]
+	},
+	{
+		uid: "3d508804",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:manyullyn_seeds"
+		}]
+	},
+	{
+		uid: "bd832d40",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:vibrant_alloy_seeds"
+		}]
+	},
+	{
+		uid: "34990212",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:end_steel_seeds"
+		}]
+	},
+	{
+		uid: "6363f9d8",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:desh_seeds"
+		}]
+	},
+	{
+		uid: "ffce16d3",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:draconium_seeds"
+		}]
+	},
+	{
+		uid: "85aa2c50",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:yellorium_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "55998e42",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "6"
+			}
+		}
+	}]
+}

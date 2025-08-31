@@ -1,0 +1,50 @@
+{
+	title: "Часики смеются тик-так",
+	icon: "divinerpg:mysterious_clock",
+	x: -10.0d,
+	y: -6.0d,
+	text: [
+		"Подготовьтесь к битве хорошо. Постройте арену, сделайте нормальную броню и запаситесь стрелами."
+	],
+	dependencies: [
+		"70bac546",
+		"4136cf9c"
+	],
+	tasks: [{
+		uid: "e12e0715",
+		type: "item",
+		items: [{
+			item: "divinerpg:mysterious_clock"
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "f5fad3b1",
+		type: "item",
+		item: "minecraft:arrow",
+		count: 64
+	},
+	{
+		uid: "d059c76c",
+		type: "item",
+		item: {
+			id: "minecraft:potion",
+			tag: {
+				Potion: "cofhcore:strength4"
+			}
+		}
+	},
+	{
+		uid: "f0d15c6c",
+		type: "item",
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 3s,
+					id: 34s
+				}]
+			}
+		}
+	}]
+}

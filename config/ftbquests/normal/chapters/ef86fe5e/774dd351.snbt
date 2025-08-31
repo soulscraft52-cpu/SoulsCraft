@@ -1,0 +1,58 @@
+{
+	title: "Столик для создания всего нужного",
+	icon: "buildcraftsilicon:assembly_table",
+	x: -24.5d,
+	y: -15.5d,
+	text: [
+		"Создайте сборочный стол из Buildcraft",
+		"§3Для запитки лазеров вы можете использовать двигатели из Thermal'a, BuildCraft'a или Extra Utilities 2.",
+		"§cP.S. Если не работает - попробуйте подключить через алюминиевые провода из Galactic'a."
+	],
+	dependencies: [
+		"97058304"
+	],
+	tasks: [{
+		uid: "9f9d0fda",
+		type: "item",
+		items: [{
+			item: "buildcraftsilicon:assembly_table"
+		}]
+	},
+	{
+		uid: "c5acc00c",
+		type: "item",
+		items: [{
+			item: "quarryplus:laserplus"
+		}]
+	}],
+	rewards: [{
+		uid: "c61c7a48",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	},
+	{
+		uid: "e0b9fbb9",
+		type: "item",
+		item: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyVariant: "neon",
+				TrophyColorGreen: 128,
+				TrophyShowsTooltip: 1b,
+				TrophyItem: {
+					id: "buildcraftsilicon:assembly_table",
+					Count: 1b,
+					Damage: 0s
+				},
+				TrophyColorBlue: 128,
+				TrophyName: "Стол для мучений",
+				TrophyColorRed: 128
+			}
+		}
+	}]
+}

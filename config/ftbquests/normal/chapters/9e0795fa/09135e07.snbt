@@ -1,0 +1,52 @@
+{
+	title: "Супер Терминалы которые будут работать где вы захотите",
+	x: -10.0d,
+	y: 1.0d,
+	text: [
+		"Зачем.....?"
+	],
+	dependencies: [
+		"891e862b"
+	],
+	tasks: [{
+		uid: "5ab9bb67",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:wireless_fluid_terminal",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "55a18ae6",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:wireless_crafting_terminal",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "44501001",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:wireless_pattern_terminal",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0ce12b5d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 2
+	}]
+}

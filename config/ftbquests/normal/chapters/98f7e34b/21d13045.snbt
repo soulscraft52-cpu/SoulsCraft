@@ -1,0 +1,18 @@
+{
+	x: 9.5d,
+	y: 4.5d,
+	text: [
+		"коСмОС"
+	],
+	dependencies: [
+		"9f4f32d5"
+	],
+	tasks: [{
+		uid: "2430b5ea",
+		type: "item",
+		items: [{
+			item: "galaxyspace:rocket_tier_6 1 4"
+		}],
+		ignore_nbt: 2b
+	}]
+}

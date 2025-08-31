@@ -1,0 +1,30 @@
+{
+	title: "Редко но можно",
+	x: -2.0d,
+	y: -8.5d,
+	text: [
+		"Прям редко",
+		"А кстати а вы про что?"
+	],
+	dependencies: [
+		"341e3c17"
+	],
+	tasks: [{
+		uid: "3023a079",
+		type: "item",
+		items: [{
+			item: "extrautils2:opinium 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "aae6efa2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		},
+		random_bonus: 2
+	}]
+}

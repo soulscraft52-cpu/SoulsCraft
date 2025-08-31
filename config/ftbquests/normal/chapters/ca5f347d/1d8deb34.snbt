@@ -1,0 +1,30 @@
+{
+	title: "Ержан, вставай, на работу пора...",
+	icon: "draconicevolution:draconic_block",
+	x: -0.5d,
+	y: 0.5d,
+	text: [
+		"Пробудите дракониевые блоки"
+	],
+	dependencies: [
+		"3706b6cf"
+	],
+	tasks: [{
+		uid: "b117a8ab",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconic_block 4"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "06b65094",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

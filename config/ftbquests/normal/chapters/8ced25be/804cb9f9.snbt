@@ -1,0 +1,31 @@
+{
+	title: "It §2stinks!",
+	x: -14.5d,
+	y: -0.5d,
+	text: [
+		"Я бы возле такого не стоял."
+	],
+	dependencies: [
+		"d2c3dcfb"
+	],
+	tasks: [{
+		uid: "ce8c3842",
+		type: "item",
+		items: [{
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_dragonsbreath"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "35f00a93",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

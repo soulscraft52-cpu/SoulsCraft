@@ -1,0 +1,30 @@
+{
+	title: "Как и этому...",
+	icon: "bigreactors:turbinecreativesteamgenerator",
+	x: 3.5d,
+	y: 1.5d,
+	text: [
+		"Я уверен в тебе"
+	],
+	dependencies: [
+		"257f84b3"
+	],
+	tasks: [{
+		uid: "375358d2",
+		type: "item",
+		items: [{
+			item: "bigreactors:turbinecreativesteamgenerator"
+		}]
+	}],
+	rewards: [{
+		uid: "1f965644",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "6"
+			}
+		},
+		count: 16
+	}]
+}

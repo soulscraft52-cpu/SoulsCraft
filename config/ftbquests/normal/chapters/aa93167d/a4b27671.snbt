@@ -1,0 +1,40 @@
+{
+	title: "Лучший мультитул",
+	icon: {
+		id: "industrialupgrade:gravitool",
+		tag: {
+			charge: 300000.0d
+		}
+	},
+	x: -14.0d,
+	y: -0.5d,
+	text: [
+		"Будет полезен всегда"
+	],
+	dependencies: [
+		"2b7a5d78"
+	],
+	tasks: [{
+		uid: "52f6b4a6",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:gravitool",
+			tag: {
+				charge: 300000.0d
+			},
+			Damage: 32767s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b5b6bee3",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

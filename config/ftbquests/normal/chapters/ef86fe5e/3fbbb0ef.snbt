@@ -1,0 +1,58 @@
+{
+	title: "Накопитель",
+	icon: {
+		id: "thermalexpansion:device",
+		tag: {
+			RSControl: 0b,
+			Facing: 3b,
+			Energy: 0,
+			SideCache: [B;
+				0b,
+				1b,
+				0b,
+				0b,
+				0b,
+				0b
+			]
+		}
+	},
+	x: -20.0d,
+	y: -18.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"d4b41fb2"
+	],
+	tasks: [{
+		uid: "2d581b49",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:device",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					0b,
+					1b,
+					0b,
+					0b,
+					0b,
+					0b
+				]
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2dbabb4c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

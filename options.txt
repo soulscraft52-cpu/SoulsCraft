@@ -1,0 +1,234 @@
+version:1343
+invertYMouse:false
+mouseSensitivity:0.3028169
+fov:0.5
+gamma:0.5
+saturation:0.0
+renderDistance:8
+guiScale:3
+particles:0
+bobView:true
+anaglyph3d:false
+maxFps:260
+fboEnable:true
+difficulty:3
+fancyGraphics:false
+ao:0
+renderClouds:false
+resourcePacks:["mat_default2016-1.2.zip"]
+incompatibleResourcePacks:["mat_default2016-1.2.zip"]
+lastServer:
+lang:ru_ru
+chatVisibility:0
+chatColors:true
+chatLinks:true
+chatLinksPrompt:true
+chatOpacity:1.0
+snooperEnabled:false
+fullscreen:false
+enableVsync:false
+useVbo:false
+hideServerAddress:false
+advancedItemTooltips:true
+pauseOnLostFocus:false
+touchscreen:false
+overrideWidth:0
+overrideHeight:0
+heldItemTooltips:true
+chatHeightFocused:1.0
+chatHeightUnfocused:0.44366196
+chatScale:1.0
+chatWidth:1.0
+mipmapLevels:0
+forceUnicodeFont:false
+reducedDebugInfo:false
+useNativeTransport:true
+entityShadows:false
+mainHand:right
+attackIndicator:1
+showSubtitles:false
+realmsNotifications:false
+enableWeakAttacks:false
+autoJump:false
+narrator:0
+tutorialStep:none
+key_key.attack:-100
+key_key.use:-99
+key_key.forward:17
+key_key.left:30
+key_key.back:31
+key_key.right:32
+key_key.jump:57
+key_key.sneak:42
+key_key.sprint:29
+key_key.drop:16
+key_key.inventory:18
+key_key.chat:20
+key_key.playerlist:15
+key_key.pickItem:-98
+key_key.command:53
+key_key.screenshot:60
+key_key.togglePerspective:63
+key_key.smoothCamera:0
+key_key.fullscreen:87
+key_key.spectatorOutlines:0
+key_key.swapHands:33
+key_key.saveToolbarActivator:0
+key_key.loadToolbarActivator:0
+key_key.advancements:38
+key_key.hotbar.1:2
+key_key.hotbar.2:3
+key_key.hotbar.3:4
+key_key.hotbar.4:5
+key_key.hotbar.5:6
+key_key.hotbar.6:7
+key_key.hotbar.7:8
+key_key.hotbar.8:9
+key_key.hotbar.9:10
+key_Change mode key:11
+key_Fly Key:35
+key_BlackList View Key:45
+key_Vertical Key:37
+key_Save move Key:52
+key_BlackList Key:51
+key_Streak Key:47
+key_Armor Key:50
+key_Boots Key:48
+key_Leggings Key:49
+key_Change Caster Focus:33
+key_Misc Caster Toggle:34
+key_ae2stuff.keybinding.adv_wireless_second:29
+key_Галактическая карта:50
+key_Открыть инвентарь космического корабля:33
+key_Переключить режим Очков с сенсорами:37
+key_keybind.baublesinventory:0
+key_keys.clockhud.toggle:51
+key_Scene1 start/pause:0
+key_Scene2 start/pause:0
+key_Scene3 start/pause:0
+key_Scene reset:0
+key_Quest Log:0
+key_pe.key.armor_toggle:0
+key_pe.key.charge:0
+key_pe.key.extra_function:0
+key_pe.key.fire_projectile:0
+key_pe.key.mode:0
+key_key.ftbquests.quests:41
+key_key.xu2.searchforitems:20
+key_key.fart.desc:0
+key_keybind.togglehelmet.name:0
+key_keybind.togglechest.name:0
+key_keybind.togglelegs.name:0
+key_keybind.toggleboots.name:0
+key_keybind.hammercorerenderstack:0
+key_key.moreoverlays.lightoverlay.desc:65
+key_key.moreoverlays.chunkbounds.desc:67
+key_openblocks.keybind.vario_switch:0
+key_openblocks.keybind.vario_vol_up:0
+key_openblocks.keybind.vario_vol_down:0
+key_keybind.railcraft.cart.bed:0
+key_Difficulty Meter - Show:23
+key_Difficulty Meter - Show Always:0
+key_key.dismount:42
+key_key.narrator:48:CONTROL
+key_smoothfont.key.guiOpen:0
+key_key.toggle_focus.desc:0
+key_key.open_wireless_terminal.desc:20:SHIFT
+key_key.open_wireless_crafting_terminal.desc:18:SHIFT
+key_key.open_wireless_pattern_terminal.desc:19:SHIFT
+key_key.open_wireless_fluid_terminal.desc:33:SHIFT
+key_key.open_wireless_interface_terminal.desc:23:SHIFT
+key_key.cofh.multimode:72
+key_key.jei.toggleOverlay:0
+key_key.jei.focusSearch:0
+key_key.jei.toggleCheatMode:20:SHIFT
+key_key.jei.toggleEditMode:0
+key_key.jei.showRecipe:19
+key_key.jei.showUses:19:SHIFT
+key_key.jei.recipeBack:14
+key_key.jei.previousPage:0
+key_key.jei.nextPage:0
+key_key.jei.bookmark:30
+key_key.jei.toggleBookmarkOverlay:0
+key_key.draconicevolution.placeItem:25
+key_key.draconicevolution.toolConfig:46
+key_key.draconicevolution.toolProfileChange:43
+key_key.draconicevolution.armorProfileChange:43:ALT
+key_key.draconicevolution.toggleFlight:0
+key_key.draconicevolution.toggleDislocator:0
+key_key.draconicevolution.cycleDigAOE:0
+key_key.draconicevolution.cycleAttackAOE:0
+key_key.draconicevolution.toggleShields:0
+key_tombstone.message.knowledge_of_death:27
+key_key.toggleLiquids:0
+key_key.toggleVisible:0
+key_key.carry.desc:29
+key_key.keyExtraInvo:0
+key_key.keyWheel:0
+key_key.keyExtraCraftin:0
+key_key.overload:77
+key_key.chaosInjection:76
+key_invtweaks.key.sort:0
+key_key.projectex.focusSearchBar:0
+key_key.trashslot.toggle:20
+key_key.trashslot.delete:46
+key_key.trashslot.deleteAll:46:SHIFT
+key_key.control:29
+key_key.journeymap.zoom_in:78
+key_key.journeymap.zoom_out:74
+key_key.journeymap.minimap_type:0
+key_key.journeymap.minimap_preset:0
+key_key.journeymap.create_waypoint:48
+key_key.journeymap.fullscreen_create_waypoint:48
+key_key.journeymap.fullscreen_chat_position:-99
+key_key.journeymap.map_toggle_alt:36
+key_key.journeymap.fullscreen_waypoints:49
+key_key.journeymap.minimap_toggle_alt:0
+key_key.journeymap.fullscreen_options:24
+key_key.journeymap.fullscreen.north:200
+key_key.journeymap.fullscreen.south:208
+key_key.journeymap.fullscreen.east:205
+key_key.journeymap.fullscreen.west:203
+key_keybind.railcraft.loco.reverse:0
+key_keybind.railcraft.loco.faster:0
+key_keybind.railcraft.loco.slower:0
+key_keybind.railcraft.loco.mode:0
+key_keybind.railcraft.loco.whistle:0
+key_enderio.keybind.inventory:0
+key_enderio.keybind.dsu:0
+key_enderio.keybind.glidertoggle:0
+key_enderio.keybind.soundlocator:0
+key_enderio.keybind.nightvision:0
+key_enderio.keybind.gogglesofrevealing:0
+key_enderio.keybind.stepassist:0
+key_enderio.keybind.speed:0
+key_enderio.keybind.jump:0
+key_enderio.keybind.top:0
+key_enderio.keybind.tnt:0
+key_enderio.keybind.yetawrenchmode:73
+key_enderio.keybind.magnet:0
+key_enderio.keybind.fovreset:0
+key_enderio.keybind.fovunreset:0
+key_enderio.keybind.fovstore:0
+key_enderio.keybind.fovrecall:0
+key_enderio.keybind.fovplus:0
+key_enderio.keybind.fovminus:0
+key_enderio.keybind.fovplusfast:0
+key_enderio.keybind.fovminusfast:0
+soundCategory_master:0.5
+soundCategory_music:0.0
+soundCategory_record:1.0
+soundCategory_weather:0.056338027
+soundCategory_block:0.5070422
+soundCategory_hostile:1.0
+soundCategory_neutral:0.4084507
+soundCategory_player:1.0
+soundCategory_ambient:1.0
+soundCategory_voice:1.0
+modelPart_cape:true
+modelPart_jacket:true
+modelPart_left_sleeve:true
+modelPart_right_sleeve:true
+modelPart_left_pants_leg:true
+modelPart_right_pants_leg:true
+modelPart_hat:true

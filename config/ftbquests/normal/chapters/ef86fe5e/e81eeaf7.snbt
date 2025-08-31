@@ -1,0 +1,29 @@
+{
+	title: "Чуть быстрее",
+	icon: "thermalfoundation:upgrade 1 1",
+	x: -26.0d,
+	y: -14.0d,
+	text: [
+		"Ещё быстрее"
+	],
+	dependencies: [
+		"ce6e0371"
+	],
+	tasks: [{
+		uid: "d5a0fde9",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:upgrade 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "317ce8fc",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

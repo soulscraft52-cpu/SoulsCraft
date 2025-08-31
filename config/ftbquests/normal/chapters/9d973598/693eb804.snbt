@@ -1,0 +1,32 @@
+{
+	title: "Детская игрушка",
+	icon: "divinerpg:snow_globe",
+	x: -18.0d,
+	y: -6.0d,
+	text: [
+		"Которая открывает портал...",
+		"§b§4§aЧтобы открыть портал нажмите ПКМ шаром по рамке портала из снега.",
+		"§eПортал из снега строится, как обычный портал в ад."
+	],
+	dependencies: [
+		"f3ced59b"
+	],
+	tasks: [{
+		uid: "35d669d4",
+		type: "item",
+		items: [{
+			item: "divinerpg:snow_globe"
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "4f53e3d5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

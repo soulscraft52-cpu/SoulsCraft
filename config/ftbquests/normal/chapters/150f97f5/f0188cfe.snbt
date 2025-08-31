@@ -1,0 +1,34 @@
+{
+	title: "Вспахивает землю по площади",
+	icon: {
+		id: "projecte:item.pe_dm_hoe",
+		tag: {}
+	},
+	x: -5.5d,
+	y: -0.5d,
+	text: [
+		"Засеиваем поля"
+	],
+	dependencies: [
+		"a037cf8b"
+	],
+	tasks: [{
+		uid: "1ab46f32",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_dm_hoe",
+			tag: {}
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "9e53f791",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		}
+	}]
+}

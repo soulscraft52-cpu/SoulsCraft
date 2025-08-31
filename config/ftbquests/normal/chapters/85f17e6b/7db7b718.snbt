@@ -1,0 +1,30 @@
+{
+	title: "Финал это конец чего то",
+	x: 6.5d,
+	y: 1.5d,
+	text: [
+		"Но не конец дела"
+	],
+	dependencies: [
+		"5a46e373",
+		"961a7024"
+	],
+	tasks: [{
+		uid: "2c8415bc",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:crafting 1 37"
+		}]
+	}],
+	rewards: [{
+		uid: "957dfeea",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		},
+		random_bonus: 3
+	}]
+}

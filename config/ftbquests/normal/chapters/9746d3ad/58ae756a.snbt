@@ -1,0 +1,30 @@
+{
+	title: "Основной блок кондиционера",
+	icon: "enderio:block_cap_bank 1 1",
+	x: -12.5d,
+	y: -10.0d,
+	text: [
+		"Остужает вас и хранит энергию"
+	],
+	dependencies: [
+		"4303599d"
+	],
+	tasks: [{
+		uid: "407fac64",
+		type: "item",
+		items: [{
+			item: "enderio:block_cap_bank 1 1"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "10e6ead9",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

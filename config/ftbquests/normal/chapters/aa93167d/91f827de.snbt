@@ -1,0 +1,30 @@
+{
+	title: "Крутые роторы для крутых ветряков",
+	x: -21.0d,
+	y: -4.5d,
+	text: [
+		"А как иначе? Для крутых ветряков крутые роторы!"
+	],
+	dependencies: [
+		"c5bd1cf0",
+		"ba3a1a93"
+	],
+	tasks: [{
+		uid: "5addfdae",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:basemachine3 1 17"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "76cd80ee",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

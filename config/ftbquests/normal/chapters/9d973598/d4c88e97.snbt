@@ -1,0 +1,44 @@
+{
+	title: "Теперь ещё злой кролик",
+	icon: "divinerpg:karot_crystal",
+	x: 3.5d,
+	y: -11.5d,
+	text: [
+		"Да почему они настолько злые?"
+	],
+	dependencies: [
+		"440a6d33"
+	],
+	tasks: [{
+		uid: "bf980417",
+		type: "item",
+		items: [{
+			item: "divinerpg:karot_crystal"
+		}],
+		ignore_damage: true
+	},
+	{
+		uid: "1721b305",
+		type: "item",
+		items: [{
+			item: "divinerpg:karot_statue"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "db655047",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	},
+	{
+		uid: "7b1a5dd0",
+		type: "item",
+		team_reward: false,
+		item: "thaumadditions:dna_sample"
+	}]
+}

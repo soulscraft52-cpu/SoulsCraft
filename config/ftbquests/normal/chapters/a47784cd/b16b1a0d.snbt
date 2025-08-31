@@ -1,0 +1,23 @@
+{
+	title: "Гибкий Корпус",
+	icon: "forestry:flexible_casing",
+	x: 2.0d,
+	y: -6.5d,
+	can_repeat: true,
+	dependencies: [
+		"6d4fdd0a"
+	],
+	tasks: [{
+		uid: "728570ca",
+		type: "item",
+		items: [{
+			item: "contenttweaker:coin_tier1"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "944a6514",
+		type: "item",
+		item: "forestry:flexible_casing"
+	}]
+}

@@ -1,0 +1,82 @@
+{
+	title: "Дикие твари",
+	icon: {
+		id: "draconicevolution:mob_soul",
+		tag: {
+			EntityName: "divinerpg:behemoth"
+		},
+		Damage: 1s
+	},
+	x: -2.5d,
+	y: -8.5d,
+	text: [
+		"Работа для ведьмака"
+	],
+	dependencies: [
+		"ece4119a"
+	],
+	tasks: [{
+		uid: "7a25f334",
+		type: "kill",
+		entity: "divinerpg:behemoth",
+		value: 1L
+	},
+	{
+		uid: "7d705af8",
+		type: "kill",
+		entity: "divinerpg:epiphite",
+		value: 1L
+	},
+	{
+		uid: "2f287a10",
+		type: "kill",
+		entity: "divinerpg:mage",
+		value: 1L
+	},
+	{
+		uid: "dc33da87",
+		type: "kill",
+		entity: "divinerpg:verek",
+		value: 1L
+	},
+	{
+		uid: "d59f2ab0",
+		type: "kill",
+		entity: "divinerpg:wildwood_cadillion",
+		value: 1L
+	},
+	{
+		uid: "6d4be042",
+		type: "kill",
+		entity: "divinerpg:wildwood_golem",
+		value: 1L
+	},
+	{
+		uid: "56b0de5d",
+		type: "kill",
+		entity: "divinerpg:wildwood_tomo",
+		value: 1L
+	},
+	{
+		uid: "93df10b7",
+		type: "kill",
+		entity: "divinerpg:termasect",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "c46ec62f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	},
+	{
+		uid: "e8a9df93",
+		type: "item",
+		item: "divinerpg:wildwood_chunk",
+		count: 4
+	}]
+}

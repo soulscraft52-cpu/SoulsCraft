@@ -1,0 +1,49 @@
+{
+	x: 3.5d,
+	y: -10.5d,
+	text: [
+		"Дорогая коса но без неё следующее оружие вы не как не сделаете"
+	],
+	dependencies: [
+		"751f8455"
+	],
+	tasks: [{
+		uid: "f16b9727",
+		type: "item",
+		items: [{
+			id: "variedcommodities:emerald_scythe",
+			tag: {
+				ench: [{
+					lvl: 25s,
+					id: 16s
+				},
+				{
+					lvl: 1s,
+					id: 70s
+				},
+				{
+					lvl: 1s,
+					id: 177s
+				},
+				{
+					lvl: 10s,
+					id: 85s
+				}],
+				RepairCost: 7
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8bff74cc",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "5"
+			}
+		},
+		count: 2
+	}]
+}

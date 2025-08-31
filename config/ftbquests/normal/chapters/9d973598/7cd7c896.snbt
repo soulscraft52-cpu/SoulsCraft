@@ -1,0 +1,212 @@
+{
+	title: "Kill'em all",
+	icon: {
+		id: "draconicevolution:mob_soul",
+		tag: {
+			EntityName: "divinerpg:enthralled_dramcryx"
+		}
+	},
+	x: -13.5d,
+	y: -8.5d,
+	text: [
+		"Убейте всех РПГ мобов из обычного мира, ада и энда."
+	],
+	dependencies: [
+		"70bac546"
+	],
+	tasks: [{
+		uid: "c9bcc9c8",
+		type: "kill",
+		entity: "divinerpg:arid_warrior",
+		value: 1L
+	},
+	{
+		uid: "5f517054",
+		type: "kill",
+		entity: "divinerpg:crab",
+		value: 1L
+	},
+	{
+		uid: "80c0f4c0",
+		type: "kill",
+		entity: "divinerpg:enthralled_dramcryx",
+		value: 1L
+	},
+	{
+		uid: "f707a2a8",
+		type: "kill",
+		entity: "divinerpg:jungle_bat",
+		value: 1L
+	},
+	{
+		uid: "d9099ea9",
+		type: "kill",
+		entity: "divinerpg:king_crab",
+		value: 1L
+	},
+	{
+		uid: "55034adb",
+		type: "kill",
+		entity: "divinerpg:pumpkin_spider",
+		value: 1L
+	},
+	{
+		uid: "c60db8a1",
+		type: "kill",
+		entity: "divinerpg:saguaro_worm",
+		value: 1L
+	},
+	{
+		uid: "b32cb623",
+		type: "kill",
+		entity: "divinerpg:the_grue",
+		value: 1L
+	},
+	{
+		uid: "eb494121",
+		type: "kill",
+		entity: "divinerpg:cave_crawler",
+		value: 1L
+	},
+	{
+		uid: "5f10ea4f",
+		type: "kill",
+		entity: "divinerpg:cyclops",
+		value: 1L
+	},
+	{
+		uid: "0d69d15a",
+		type: "kill",
+		entity: "divinerpg:frost",
+		value: 1L
+	},
+	{
+		uid: "5a5e0dd6",
+		type: "kill",
+		entity: "divinerpg:jungle_dramcryx",
+		value: 1L
+	},
+	{
+		uid: "d876025f",
+		type: "kill",
+		entity: "divinerpg:kobblin",
+		value: 1L
+	},
+	{
+		uid: "b226ad46",
+		type: "kill",
+		entity: "divinerpg:rainbour",
+		value: 1L
+	},
+	{
+		uid: "d2a5d45a",
+		type: "kill",
+		entity: "divinerpg:shark",
+		value: 1L
+	},
+	{
+		uid: "9c3bc12c",
+		type: "kill",
+		entity: "divinerpg:miner",
+		value: 1L
+	},
+	{
+		uid: "0248f228",
+		type: "kill",
+		entity: "divinerpg:caveclops",
+		value: 1L
+	},
+	{
+		uid: "843fe2a6",
+		type: "kill",
+		entity: "divinerpg:desert_crawler",
+		value: 1L
+	},
+	{
+		uid: "0a587600",
+		type: "kill",
+		entity: "divinerpg:glacon",
+		value: 1L
+	},
+	{
+		uid: "6f61ba37",
+		type: "kill",
+		entity: "divinerpg:jungle_spider",
+		value: 1L
+	},
+	{
+		uid: "00cb481e",
+		type: "kill",
+		entity: "divinerpg:liopleurodon",
+		value: 1L
+	},
+	{
+		uid: "2dd3b39f",
+		type: "kill",
+		entity: "divinerpg:rotatick",
+		value: 1L
+	},
+	{
+		uid: "e11f5e82",
+		type: "kill",
+		entity: "divinerpg:the_eye",
+		value: 1L
+	},
+	{
+		uid: "b97732c0",
+		type: "kill",
+		entity: "divinerpg:whale",
+		value: 1L
+	},
+	{
+		uid: "c1be9d44",
+		type: "kill",
+		entity: "divinerpg:hell_spider",
+		value: 1L
+	},
+	{
+		uid: "aa9238da",
+		type: "kill",
+		entity: "divinerpg:scorcher",
+		value: 1L
+	},
+	{
+		uid: "111de910",
+		type: "kill",
+		entity: "divinerpg:wildfire",
+		value: 1L
+	},
+	{
+		uid: "03106e9f",
+		type: "kill",
+		entity: "divinerpg:ender_spider",
+		value: 1L
+	},
+	{
+		uid: "8a90b9c1",
+		type: "kill",
+		entity: "divinerpg:ender_triplets",
+		value: 1L
+	},
+	{
+		uid: "21c12ef2",
+		type: "kill",
+		entity: "divinerpg:ender_watcher",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "2e863138",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	},
+	{
+		uid: "4041474d",
+		type: "item",
+		item: "divinerpg:mysterious_clock"
+	}]
+}

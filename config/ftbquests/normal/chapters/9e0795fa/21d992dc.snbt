@@ -1,0 +1,50 @@
+{
+	title: "Прессы",
+	icon: "appliedenergistics2:material 1 13",
+	x: -13.0d,
+	y: -7.5d,
+	text: [
+		"Можно найти в метеоритах на Земле"
+	],
+	dependencies: [
+		"75097f09"
+	],
+	tasks: [{
+		uid: "1453c337",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 13"
+		}]
+	},
+	{
+		uid: "3765a2ef",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 14"
+		}]
+	},
+	{
+		uid: "a5e91534",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 15"
+		}]
+	},
+	{
+		uid: "48ad0eb3",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 19"
+		}]
+	}],
+	rewards: [{
+		uid: "910e1bda",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

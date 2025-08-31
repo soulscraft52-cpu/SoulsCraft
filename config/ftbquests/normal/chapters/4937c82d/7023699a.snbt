@@ -1,0 +1,29 @@
+{
+	title: "+3 слотов",
+	x: -4.5d,
+	y: -19.0d,
+	text: [
+		"Имеет 9 слотов"
+	],
+	dependencies: [
+		"53dc4648"
+	],
+	tasks: [{
+		uid: "1bdc4766",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockinputbus 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "065b3f07",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		},
+		count: 2
+	}]
+}

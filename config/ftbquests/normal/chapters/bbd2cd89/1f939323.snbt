@@ -1,0 +1,32 @@
+{
+	title: "Провода для всего",
+	icon: "galacticraftcore:aluminum_wire",
+	x: -18.5d,
+	y: 1.0d,
+	text: [
+		"Супер провода.",
+		"§1§f§eПодключаются практически ко всем блокам, которые требуют или поглощают энергию(EU, RF, MJ)."
+	],
+	dependencies: [
+		"cea31829"
+	],
+	tasks: [{
+		uid: "5875bc88",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:aluminum_wire 16"
+		}],
+		count: 16L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "2d7d1b98",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	title: "Пробужденное Ядро",
+	icon: "draconicevolution:awakened_core",
+	x: 1.0d,
+	y: -1.5d,
+	can_repeat: true,
+	dependencies: [
+		"d488a3f4"
+	],
+	tasks: [{
+		uid: "aa24375b",
+		type: "item",
+		items: [{
+			item: "contenttweaker:coin_tier6"
+		}]
+	}],
+	rewards: [{
+		uid: "897bbd22",
+		type: "item",
+		item: "draconicevolution:awakened_core"
+	}]
+}

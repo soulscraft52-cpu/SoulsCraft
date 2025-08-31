@@ -1,0 +1,55 @@
+{
+	title: "Теперь восьмикратка не проблема",
+	icon: {
+		ForgeCaps: {
+			Parent: {
+				Size: 18,
+				Items: []
+			}
+		},
+		id: "draconicevolution:draconic_pick",
+		Damage: 32767s
+	},
+	x: -3.0d,
+	y: -2.5d,
+	text: [
+		"Один из лучших копателей булыжника в 7 королевствах"
+	],
+	dependencies: [
+		"d488a3f4"
+	],
+	tasks: [{
+		uid: "824ebd47",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					Size: 18,
+					Items: []
+				}
+			},
+			id: "draconicevolution:draconic_pick",
+			tag: {
+				DEUpgrades: {
+					digSpeed: 3b,
+					digAOE: 3b,
+					rfCap: 3b
+				},
+				Energy: 256000000
+			},
+			Damage: 32767s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6c1eb514",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		}
+	}]
+}

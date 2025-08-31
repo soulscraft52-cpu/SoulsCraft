@@ -1,0 +1,14 @@
+{
+	x: 12.5d,
+	y: -4.0d,
+	dependencies: [
+		"c02726dc"
+	],
+	tasks: [{
+		uid: "a01e20d7",
+		type: "item",
+		items: [{
+			item: "divinerpg:karos_lump"
+		}]
+	}]
+}

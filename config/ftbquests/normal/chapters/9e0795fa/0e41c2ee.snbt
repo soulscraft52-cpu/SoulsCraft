@@ -1,0 +1,14 @@
+{
+	x: -14.5d,
+	y: 1.0d,
+	dependencies: [
+		"0bd796d4"
+	],
+	tasks: [{
+		uid: "af4095c5",
+		type: "item",
+		items: [{
+			item: "crazyae:improved_molecular_assembler"
+		}]
+	}]
+}

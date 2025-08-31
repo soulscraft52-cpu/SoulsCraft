@@ -1,0 +1,21 @@
+{
+	title: " ",
+	icon: "projecte:item.pe_matter 1 1",
+	description: [
+		"Кси | ProjectE"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "",
+	images: [{
+		x: 14.5d,
+		y: -5.5d,
+		width: 5.0d,
+		height: 5.0d,
+		rotation: 0.0d,
+		image: "ftbquests:textures/gui/isl10.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

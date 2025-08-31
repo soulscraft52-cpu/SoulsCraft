@@ -1,0 +1,28 @@
+{
+	title: "Первый изготовленный иридий",
+	x: -6.0d,
+	y: -1.0d,
+	text: [
+		"Изготовь через молекулярку свой первый иридий"
+	],
+	dependencies: [
+		"7bf10f6e"
+	],
+	tasks: [{
+		uid: "6da7602b",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:crafting_elements 1 275"
+		}]
+	}],
+	rewards: [{
+		uid: "fa8d5016",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

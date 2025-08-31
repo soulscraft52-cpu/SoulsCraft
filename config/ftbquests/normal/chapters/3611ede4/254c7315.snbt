@@ -1,0 +1,30 @@
+{
+	title: "Далой ПРОВОДА",
+	x: -9.5d,
+	y: 2.5d,
+	text: [
+		"Бесконечное перемещение энергии"
+	],
+	dependencies: [
+		"26057c91"
+	],
+	tasks: [{
+		uid: "f9276846",
+		type: "item",
+		items: [{
+			item: "fluxnetworks:fluxplug"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "639b0e4b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		},
+		count: 2
+	}]
+}

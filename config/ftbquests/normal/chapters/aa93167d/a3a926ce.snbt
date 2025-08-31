@@ -1,0 +1,31 @@
+{
+	title: "Больше зелёной энергии",
+	icon: "industrialupgrade:machines",
+	x: -2.0d,
+	y: -2.0d,
+	text: [
+		"Теперь у тебя будет много энергии(нет)"
+	],
+	dependencies: [
+		"77221e29",
+		"7bf10f6e"
+	],
+	tasks: [{
+		uid: "1432d8d5",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:machines"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6b44bae8",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

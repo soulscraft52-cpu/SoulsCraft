@@ -1,0 +1,28 @@
+{
+	title: "+4",
+	x: -5.5d,
+	y: -21.0d,
+	text: [
+		"Имеет 16 слотов"
+	],
+	dependencies: [
+		"83f19cb7"
+	],
+	tasks: [{
+		uid: "86b0f720",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockoutputbus 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "48cce3ff",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		}
+	}]
+}

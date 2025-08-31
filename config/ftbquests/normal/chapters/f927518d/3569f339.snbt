@@ -1,0 +1,31 @@
+{
+	title: "Сапоги-скороходы",
+	icon: "thaumadditions:mithminite_boots",
+	x: -19.5d,
+	y: -0.5d,
+	text: [
+		"Одни из самых лучших на рынке!"
+	],
+	dependencies: [
+		"90cef2bb",
+		"f7b39dc8"
+	],
+	tasks: [{
+		uid: "74d4815b",
+		type: "item",
+		items: [{
+			item: "thaumadditions:mithminite_boots"
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "1fe650de",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

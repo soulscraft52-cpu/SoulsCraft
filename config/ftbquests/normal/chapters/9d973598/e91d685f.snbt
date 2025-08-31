@@ -1,0 +1,58 @@
+{
+	title: "А в такой я бы ходил",
+	icon: "divinerpg:apalachia_chestplate",
+	x: 1.5d,
+	y: -3.5d,
+	text: [
+		"Уж больно красивенькая..."
+	],
+	dependencies: [
+		"73979a10"
+	],
+	tasks: [{
+		uid: "b4c289d0",
+		type: "item",
+		items: [{
+			item: "divinerpg:apalachia_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "23e18b2b",
+		type: "item",
+		items: [{
+			item: "divinerpg:apalachia_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "747127a4",
+		type: "item",
+		items: [{
+			item: "divinerpg:apalachia_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "03171a1a",
+		type: "item",
+		items: [{
+			item: "divinerpg:apalachia_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "669068db",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

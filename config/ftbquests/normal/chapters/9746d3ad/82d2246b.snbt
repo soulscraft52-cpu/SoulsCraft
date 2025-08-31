@@ -1,0 +1,31 @@
+{
+	title: "Очередной дробитель",
+	icon: "enderio:block_simple_sag_mill",
+	x: -12.5d,
+	y: -1.0d,
+	text: [
+		"Зачем его вообще крафтить?"
+	],
+	dependencies: [
+		"cf247961",
+		"8c876b4d"
+	],
+	tasks: [{
+		uid: "ee4eb67b",
+		type: "item",
+		items: [{
+			item: "enderio:block_simple_sag_mill"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7473df1d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

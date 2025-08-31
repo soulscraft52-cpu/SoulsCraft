@@ -1,0 +1,75 @@
+{
+	title: "Убейте зимних существ",
+	icon: {
+		id: "draconicevolution:mob_soul",
+		tag: {
+			EntityName: "divinerpg:fractite"
+		}
+	},
+	x: -18.0d,
+	y: -8.5d,
+	text: [
+		"Они создают новогоднюю магию))"
+	],
+	dependencies: [
+		"693eb804"
+	],
+	tasks: [{
+		uid: "ea595bd6",
+		type: "kill",
+		entity: "divinerpg:alicanto",
+		value: 1L
+	},
+	{
+		uid: "fa7eefce",
+		type: "kill",
+		entity: "divinerpg:fractite",
+		value: 1L
+	},
+	{
+		uid: "5ae27f37",
+		type: "kill",
+		entity: "divinerpg:frost_archer",
+		value: 1L
+	},
+	{
+		uid: "5b43a9fe",
+		type: "kill",
+		entity: "divinerpg:frosty",
+		value: 1L
+	},
+	{
+		uid: "dcd8b272",
+		type: "kill",
+		entity: "divinerpg:glacide",
+		value: 1L
+	},
+	{
+		uid: "befd5d66",
+		type: "kill",
+		entity: "divinerpg:hastreus",
+		value: 1L
+	},
+	{
+		uid: "d28aee39",
+		type: "kill",
+		entity: "divinerpg:rollum",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "5d0e0f44",
+		type: "item",
+		item: "divinerpg:ice_stone",
+		count: 8
+	},
+	{
+		uid: "5822972b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

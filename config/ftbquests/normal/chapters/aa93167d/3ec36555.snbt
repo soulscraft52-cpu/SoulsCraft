@@ -1,0 +1,30 @@
+{
+	title: "Это Бамблби, познакомься",
+	icon: "industrialupgrade:transformer_iu 1 10",
+	x: -9.5d,
+	y: 1.0d,
+	text: [
+		"Ну как это Бамблби может быть не нужен?)"
+	],
+	dependencies: [
+		"909a9c68"
+	],
+	tasks: [{
+		uid: "68cb70d5",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:transformer_iu 1 10"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b0232b97",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

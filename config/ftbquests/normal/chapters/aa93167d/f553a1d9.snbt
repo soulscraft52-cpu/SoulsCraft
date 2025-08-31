@@ -1,0 +1,30 @@
+{
+	title: "Улучшили прокатку",
+	x: -12.0d,
+	y: -7.0d,
+	text: [
+		"Прокатись на улучшенном прокатном станке!"
+	],
+	dependencies: [
+		"bd1c74f1"
+	],
+	tasks: [{
+		uid: "06ad58a3",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:moremachine2 1 1"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ac8a3171",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		},
+		random_bonus: 1
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	title: "Совершенная прокатка!!!",
+	x: -10.0d,
+	y: -7.0d,
+	text: [
+		"Да что за прокатка, задолбали"
+	],
+	dependencies: [
+		"c7b6a651"
+	],
+	tasks: [{
+		uid: "7405a0f8",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:moremachine2 1 3"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1226213b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

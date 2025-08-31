@@ -1,0 +1,82 @@
+{
+	title: "Боссы, боссами, а мобы по расписанию.",
+	icon: {
+		id: "draconicevolution:mob_soul",
+		tag: {
+			EntityName: "divinerpg:samek"
+		},
+		Damage: 1s
+	},
+	x: 5.5d,
+	y: -10.0d,
+	text: [
+		"Их тоже надо убивать."
+	],
+	dependencies: [
+		"440a6d33"
+	],
+	tasks: [{
+		uid: "d9a87897",
+		type: "kill",
+		entity: "divinerpg:advanced_cori",
+		value: 1L
+	},
+	{
+		uid: "76c496f9",
+		type: "kill",
+		entity: "divinerpg:megalith",
+		value: 1L
+	},
+	{
+		uid: "1e7e6c83",
+		type: "kill",
+		entity: "divinerpg:mystic",
+		value: 1L
+	},
+	{
+		uid: "831c36f4",
+		type: "kill",
+		entity: "divinerpg:samek",
+		value: 1L
+	},
+	{
+		uid: "bfe6e880",
+		type: "kill",
+		entity: "divinerpg:skythern_archer",
+		value: 1L
+	},
+	{
+		uid: "d9b49100",
+		type: "kill",
+		entity: "divinerpg:skythern_fiend",
+		value: 1L
+	},
+	{
+		uid: "da27ac6a",
+		type: "kill",
+		entity: "divinerpg:skythern_golem",
+		value: 1L
+	},
+	{
+		uid: "3dbf34c8",
+		type: "kill",
+		entity: "divinerpg:experienced_cori",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "4daf5ced",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	},
+	{
+		uid: "64c0756e",
+		type: "item",
+		item: "divinerpg:skythern_chunk",
+		count: 4
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	x: -12.0d,
+	y: -11.5d,
+	text: [
+		"Поставьте его рядом с реактором. Выводит радиацию из реактора которую можно будет использовать например в обогатителе."
+	],
+	dependencies: [
+		"488d7a6d"
+	],
+	tasks: [{
+		uid: "673f6e54",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:basemachine3",
+			tag: {},
+			Damage: 102s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "aeafa0ba",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		}
+	}]
+}

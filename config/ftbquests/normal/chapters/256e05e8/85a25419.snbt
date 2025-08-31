@@ -1,0 +1,98 @@
+{
+	title: "Графито-водный реактор (Совершенный)",
+	icon: "industrialupgrade:graphite_reactor 1 3",
+	x: -16.5d,
+	y: -8.5d,
+	dependencies: [
+		"7392f5df"
+	],
+	tasks: [{
+		uid: "df853cca",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:graphite_reactor 1 3"
+		}]
+	},
+	{
+		uid: "9b96afde",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:graphite_reactor 1 31"
+		}],
+		count: 8L
+	},
+	{
+		uid: "4856f404",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:graphite_reactor 1 27"
+		}],
+		count: 139L
+	},
+	{
+		uid: "1eb99afe",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:graphite_reactor 1 23"
+		}],
+		count: 16L
+	},
+	{
+		uid: "6a4e35b2",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:graphite_reactor 1 19"
+		}],
+		count: 4L
+	},
+	{
+		uid: "a2bec3be",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:graphite_reactor 1 15"
+		}],
+		count: 36L
+	},
+	{
+		uid: "28f3466b",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:graphite_reactor 1 11"
+		}],
+		count: 4L
+	},
+	{
+		uid: "c26b5009",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:graphite_reactor 1 7"
+		}],
+		count: 9L
+	},
+	{
+		uid: "615b673f",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:graphite_reactor 1 39"
+		}],
+		count: 4L
+	},
+	{
+		uid: "e12e97ec",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:graphite_reactor 1 35"
+		}]
+	}],
+	rewards: [{
+		uid: "cc16910e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 2
+	}]
+}

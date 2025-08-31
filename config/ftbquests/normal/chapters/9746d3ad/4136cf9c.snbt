@@ -1,0 +1,31 @@
+{
+	title: "А вот и энергетический сплав",
+	icon: "enderio:block_simple_alloy_smelter",
+	x: -11.5d,
+	y: -4.0d,
+	text: [
+		"В основном нужно для этого самого сплава и для слиточков тени."
+	],
+	dependencies: [
+		"cf247961",
+		"c4a775f8"
+	],
+	tasks: [{
+		uid: "d27aecf3",
+		type: "item",
+		items: [{
+			item: "enderio:block_simple_alloy_smelter"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "fd55bce7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

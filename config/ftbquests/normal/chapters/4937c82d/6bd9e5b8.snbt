@@ -1,0 +1,28 @@
+{
+	title: "Шлюз для выхода эсенции",
+	x: -0.5d,
+	y: -16.0d,
+	text: [
+		"Может хранить в себе 250 эсенции"
+	],
+	dependencies: [
+		"c83bc188"
+	],
+	tasks: [{
+		uid: "ea392f29",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockaspectprovideroutput"
+		}]
+	}],
+	rewards: [{
+		uid: "29de0bf3",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

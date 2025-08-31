@@ -1,0 +1,25 @@
+{
+	title: "Душа тёрна",
+	icon: "divinerpg:skythern_soul",
+	x: 5.5d,
+	y: -8.5d,
+	text: [
+		"Ура, ещё боссы!"
+	],
+	dependencies: [
+		"4bcc4fd3"
+	],
+	tasks: [{
+		uid: "69fc32fd",
+		type: "item",
+		items: [{
+			item: "divinerpg:skythern_soul"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "8db92a0f",
+		type: "item",
+		item: "thaumadditions:mithrillium_resonator"
+	}]
+}

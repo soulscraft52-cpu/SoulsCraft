@@ -1,0 +1,48 @@
+{
+    "ScriptEnabled": 1b,
+    "ScriptConsole": [
+    ],
+    "Scripts": [
+        {
+            "Script": "var questactive = 0;
+function containerClosed(e) { //Запускается при закрытии сундуков, инвентаря и т.д.
+    var number = 0;
+    var inv = e.player.getInventory();
+    var itemID = \"minecraft:book\"; //Айди предмета
+    var name = \"Записи о сотрудничестве с бандитами\"; //Имя предмета
+    var questID = 67; //Очевидно
+    var need = 1; /*Нужное количество предметов для выдачи квеста,
+    если поставить 0, то квест выдастся без предметов.*/
+    if (questactive == 0) {
+    for (var i = 0; i < 40; i++) {//--------------------------------------------
+        var item = inv.getSlot(i);
+        if (item.getName() == itemID && item.getDisplayName() == name) {
+            number = inv.count(item, 0, 0); // лучше вот это всё не трогать
+        }
+    } // ----------------------------------------------------------------------
+    if (number >= need) {
+        e.player.startQuest(questID); //Стартует квест
+	        questactive = 1
+    }
+}
+}
+
+",
+            "Console": [
+            ],
+            "ScriptList": [
+            ]
+        },
+        {
+            "Script": "function tick(event) {if (event.player.hasReadDialog(215)) {};
+event.player.getStoreddata().put(\"redstonequest\",5);
+};
+",
+            "Console": [
+            ],
+            "ScriptList": [
+            ]
+        }
+    ],
+    "ScriptLanguage": "ECMAScript"
+}

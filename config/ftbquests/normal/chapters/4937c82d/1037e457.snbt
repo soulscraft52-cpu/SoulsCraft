@@ -1,0 +1,53 @@
+{
+	x: 15.5d,
+	y: -8.0d,
+	text: [
+		"Желание всех игроков "
+	],
+	dependencies: [
+		"116747e0"
+	],
+	tasks: [{
+		uid: "991de7f7",
+		type: "item",
+		items: [{
+			id: "thaumictinkerer:ichorium_pick_adv",
+			tag: {
+				ench: [{
+					lvl: 4s,
+					id: 55s
+				},
+				{
+					lvl: 2s,
+					id: 212s
+				},
+				{
+					lvl: 2s,
+					id: 35s
+				},
+				{
+					lvl: 2s,
+					id: 106s
+				}],
+				RepairCost: 31,
+				display: {
+					Name: "Максимальная ихориевая кирка"
+				}
+			}
+		}],
+		consume_items: false,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5f08b2e6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 2
+	}]
+}

@@ -1,0 +1,39 @@
+{
+	title: "Сплав из всех сплавов",
+	x: 5.0d,
+	y: -17.0d,
+	text: [
+		"Красивый сплав",
+		"Розовый"
+	],
+	dependencies: [
+		"80a04eb1",
+		"5c30dd72",
+		"7699f62b",
+		"b421b4b2",
+		"82b26b46",
+		"25bce7aa",
+		"96980d1f",
+		"0cee1b54",
+		"c03e0d63"
+	],
+	tasks: [{
+		uid: "260101cd",
+		type: "item",
+		items: [{
+			item: "contenttweaker:rose_gold_ingot"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "6b617ce7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		},
+		count: 3
+	}]
+}

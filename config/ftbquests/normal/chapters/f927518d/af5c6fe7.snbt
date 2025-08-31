@@ -1,0 +1,24 @@
+{
+	x: -0.5d,
+	y: -4.0d,
+	dependencies: [
+		"6095e708"
+	],
+	tasks: [{
+		uid: "7880e4a0",
+		type: "item",
+		items: [{
+			item: "thaumadditions:vis_seeds/aer"
+		}]
+	}],
+	rewards: [{
+		uid: "a2ced582",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

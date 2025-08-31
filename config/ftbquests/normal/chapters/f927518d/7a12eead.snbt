@@ -1,0 +1,25 @@
+{
+	title: "Терминал для шаблонов",
+	x: -7.0d,
+	y: -9.0d,
+	dependencies: [
+		"5ede7f3d"
+	],
+	tasks: [{
+		uid: "a5243346",
+		type: "item",
+		items: [{
+			item: "thaumicenergistics:arcane_inscriber"
+		}]
+	}],
+	rewards: [{
+		uid: "701027dc",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

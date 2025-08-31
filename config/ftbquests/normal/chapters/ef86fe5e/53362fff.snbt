@@ -1,0 +1,30 @@
+{
+	title: "Ускоряем производство",
+	icon: "quarryplus:laserplus",
+	x: -26.0d,
+	y: -17.0d,
+	text: [
+		"Создайте больше лазеров"
+	],
+	dependencies: [
+		"774dd351"
+	],
+	tasks: [{
+		uid: "9af746cf",
+		type: "item",
+		items: [{
+			item: "quarryplus:laserplus"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "93ecfce0",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

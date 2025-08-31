@@ -1,0 +1,61 @@
+{
+	title: "Вся галактика у Ваших ног",
+	icon: "galaxyspace:rocket_tier_6",
+	x: 0.5d,
+	y: -8.0d,
+	text: [
+		"Сделайте финальную ракету"
+	],
+	dependencies: [
+		"5bd90929",
+		"5fab99cc"
+	],
+	tasks: [{
+		uid: "3db77e5b",
+		type: "item",
+		title: "Скрафти ракету 6 уровня",
+		items: [{
+			item: "galaxyspace:rocket_tier_6"
+		},
+		{
+			item: "galaxyspace:rocket_tier_6 1 1"
+		},
+		{
+			item: "galaxyspace:rocket_tier_6 1 2"
+		},
+		{
+			item: "galaxyspace:rocket_tier_6 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "342511dd",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		},
+		random_bonus: 1
+	},
+	{
+		uid: "c180b19c",
+		type: "item",
+		item: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyVariant: "neon",
+				TrophyColorGreen: 128,
+				TrophyShowsTooltip: 1b,
+				TrophyItem: {
+					id: "galaxyspace:rocket_tier_6",
+					Count: 1b,
+					Damage: 0s
+				},
+				TrophyColorBlue: 128,
+				TrophyName: "Конец космоса",
+				TrophyColorRed: 128
+			}
+		}
+	}]
+}

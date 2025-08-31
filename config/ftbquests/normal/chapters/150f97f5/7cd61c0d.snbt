@@ -1,0 +1,94 @@
+{
+	title: "Мерзкие Букашки",
+	x: -7.5d,
+	y: -8.5d,
+	text: [
+		"Но их многие любят?"
+	],
+	dependencies: [
+		"e77bcac9"
+	],
+	tasks: [{
+		uid: "da048a70",
+		type: "item",
+		items: [{
+			item: "contenttweaker:cockroach"
+		}],
+		count: 64L,
+		consume_items: true
+	},
+	{
+		uid: "18de08be",
+		type: "item",
+		items: [{
+			item: "contenttweaker:cuckold_beetle"
+		}],
+		count: 64L,
+		consume_items: true
+	},
+	{
+		uid: "f13dd544",
+		type: "item",
+		items: [{
+			item: "contenttweaker:scorpion"
+		}],
+		count: 64L,
+		consume_items: true
+	},
+	{
+		uid: "eb5cf522",
+		type: "item",
+		items: [{
+			item: "contenttweaker:stag_beetle"
+		}],
+		count: 64L,
+		consume_items: true
+	},
+	{
+		uid: "e4bc63c6",
+		type: "item",
+		items: [{
+			item: "contenttweaker:tarantula"
+		}],
+		count: 64L,
+		consume_items: true
+	},
+	{
+		uid: "a1b5c848",
+		type: "item",
+		items: [{
+			item: "contenttweaker:salpuga"
+		}],
+		count: 64L,
+		consume_items: true
+	},
+	{
+		uid: "ced87d04",
+		type: "item",
+		items: [{
+			item: "contenttweaker:mantis"
+		}],
+		count: 64L,
+		consume_items: true
+	},
+	{
+		uid: "e0c19361",
+		type: "item",
+		items: [{
+			item: "contenttweaker:centipede"
+		}],
+		count: 64L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "b2a5b9b4",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		},
+		count: 2
+	}]
+}

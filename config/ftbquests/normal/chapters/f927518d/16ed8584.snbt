@@ -1,0 +1,29 @@
+{
+	x: -7.0d,
+	y: 5.0d,
+	text: [
+		"Побегай мне тут ещё."
+	],
+	dependencies: [
+		"f3758cfd"
+	],
+	tasks: [{
+		uid: "723fc88d",
+		type: "item",
+		items: [{
+			item: "thaumictinkerer:kami_legs"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1bf13567",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		}
+	}]
+}

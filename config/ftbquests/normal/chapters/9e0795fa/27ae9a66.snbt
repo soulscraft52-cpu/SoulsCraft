@@ -1,0 +1,14 @@
+{
+	x: -8.0d,
+	y: -5.0d,
+	dependencies: [
+		"17e65989"
+	],
+	tasks: [{
+		uid: "3b9f8200",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:io_port"
+		}]
+	}]
+}

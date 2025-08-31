@@ -1,0 +1,30 @@
+{
+	title: "Отрубаем и сращиваем",
+	icon: "enderio:block_slice_and_splice",
+	x: -7.5d,
+	y: -7.5d,
+	text: [
+		"Берём топор и ножницы и готовим головы мобов"
+	],
+	dependencies: [
+		"55ea927b"
+	],
+	tasks: [{
+		uid: "ef358144",
+		type: "item",
+		items: [{
+			item: "enderio:block_slice_and_splice"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2787fe45",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

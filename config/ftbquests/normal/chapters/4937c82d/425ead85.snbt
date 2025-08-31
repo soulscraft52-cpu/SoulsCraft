@@ -1,0 +1,31 @@
+{
+	x: 9.5d,
+	y: -10.5d,
+	text: [
+		"Страна Кошмаров была и в правду ужасна правда вам повезло если у вас есть череп кошмаров"
+	],
+	dependencies: [
+		"97058304",
+		"38e4e065"
+	],
+	tasks: [{
+		uid: "22d13e75",
+		type: "item",
+		items: [{
+			item: "contenttweaker:skull_of_nightmares"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "017d6609",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		},
+		count: 2
+	}]
+}

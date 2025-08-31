@@ -1,0 +1,29 @@
+{
+	title: "Шлюз для входа предметов",
+	x: -4.5d,
+	y: -18.0d,
+	text: [
+		"Имеет 6 слотов"
+	],
+	dependencies: [
+		"142dc245"
+	],
+	tasks: [{
+		uid: "f6efd40c",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockinputbus 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "d9b56b38",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		},
+		count: 2
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	title: "Супер магнит",
+	icon: "draconicevolution:magnet 1 1",
+	x: 2.5d,
+	y: -5.5d,
+	text: [
+		"Ещё больше сосёт"
+	],
+	dependencies: [
+		"08bcc43a"
+	],
+	tasks: [{
+		uid: "880f5bdf",
+		type: "item",
+		items: [{
+			item: "draconicevolution:magnet 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "12a186ce",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		}
+	}]
+}

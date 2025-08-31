@@ -1,0 +1,32 @@
+{
+	title: "Пустотные слитки",
+	icon: "thaumcraft:ingot 1 1",
+	x: -11.0d,
+	y: -3.5d,
+	text: [
+		"Создаётся из семян пустоты, полученных из разломов"
+	],
+	dependencies: [
+		"e43cdfe0"
+	],
+	tasks: [{
+		uid: "c8ed08bb",
+		type: "item",
+		items: [{
+			item: "thaumcraft:ingot 10 1"
+		}],
+		count: 10L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "07271704",
+		type: "item",
+		team_reward: false,
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

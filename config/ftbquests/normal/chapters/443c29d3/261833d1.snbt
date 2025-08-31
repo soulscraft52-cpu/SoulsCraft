@@ -1,0 +1,28 @@
+{
+	title: "Отображение кол-ва",
+	x: -18.5d,
+	y: -1.0d,
+	text: [
+		"ПКМ по ящику - сделает показ в цифрах, сколько того или иного предмета в ящике."
+	],
+	dependencies: [
+		"8d57081b"
+	],
+	tasks: [{
+		uid: "1047abf9",
+		type: "item",
+		items: [{
+			item: "storagedrawers:quantify_key"
+		}]
+	}],
+	rewards: [{
+		uid: "134ef30f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

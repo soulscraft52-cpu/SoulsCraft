@@ -1,0 +1,32 @@
+{
+	title: "Да ладно?",
+	icon: "minecraft:iron_ingot",
+	x: -16.5d,
+	y: -7.0d,
+	text: [
+		"Первое железо"
+	],
+	dependencies: [
+		"56276dc3"
+	],
+	tasks: [{
+		uid: "eb365e10",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_ingot 8"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "556ca71c",
+		type: "item",
+		item: "minecraft:coal",
+		count: 32
+	},
+	{
+		uid: "83e551f2",
+		type: "item",
+		item: "minecraft:coal 1 1",
+		count: 32
+	}]
+}

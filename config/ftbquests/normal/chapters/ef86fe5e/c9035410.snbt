@@ -1,0 +1,29 @@
+{
+	title: "Магическая пыль",
+	icon: "thermalfoundation:material 1 1028",
+	x: -28.0d,
+	y: -9.5d,
+	text: [
+		"Ууу, магия...."
+	],
+	dependencies: [
+		"f94bad98"
+	],
+	tasks: [{
+		uid: "eae91c50",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 1028"
+		}]
+	}],
+	rewards: [{
+		uid: "d13eb275",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

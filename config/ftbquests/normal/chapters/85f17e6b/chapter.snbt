@@ -1,0 +1,87 @@
+{
+	title: " ",
+	icon: "mysticalagradditions:stuff 1 69",
+	description: [
+		"Ро | Agriculture"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "",
+	images: [{
+		x: -7.5d,
+		y: -3.0d,
+		width: 3.0d,
+		height: 3.0d,
+		rotation: 0.0d,
+		image: "ftbquests:textures/gui/issl1.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -0.5d,
+		y: -3.0d,
+		width: 3.0d,
+		height: 3.0d,
+		rotation: 0.0d,
+		image: "ftbquests:textures/gui/issl2.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 6.5d,
+		y: -3.0d,
+		width: 3.0d,
+		height: 3.0d,
+		rotation: 0.0d,
+		image: "ftbquests:textures/gui/issl3.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -4.0d,
+		y: -3.0d,
+		width: 3.0d,
+		height: 3.0d,
+		rotation: 0.0d,
+		image: "ftbquests:textures/gui/issl4.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 3.0d,
+		y: -3.0d,
+		width: 3.0d,
+		height: 3.0d,
+		rotation: 0.0d,
+		image: "ftbquests:textures/gui/issl5.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 14.0d,
+		y: -2.5d,
+		width: 3.0d,
+		height: 3.0d,
+		rotation: 0.0d,
+		image: "ftbquests:textures/gui/issl6.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 10.0d,
+		y: -3.0d,
+		width: 3.0d,
+		height: 3.0d,
+		rotation: 0.0d,
+		image: "ftbquests:textures/gui/issl7.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

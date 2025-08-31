@@ -1,0 +1,25 @@
+{
+	x: 0.5d,
+	y: -4.0d,
+	dependencies: [
+		"f2097bf5",
+		"ef880a83"
+	],
+	tasks: [{
+		uid: "3d910806",
+		type: "item",
+		items: [{
+			item: "thaumadditions:vis_seeds/metallum"
+		}]
+	}],
+	rewards: [{
+		uid: "1e79150b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

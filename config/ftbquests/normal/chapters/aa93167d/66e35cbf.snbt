@@ -1,0 +1,38 @@
+{
+	title: "Ещё более супер",
+	icon: {
+		id: "industrialupgrade:wiring_storage",
+		tag: {},
+		Damage: 1s
+	},
+	x: 0.5d,
+	y: 2.5d,
+	text: [
+		"Ещё более энергохранилище"
+	],
+	dependencies: [
+		"65df4e95"
+	],
+	tasks: [{
+		uid: "8cec8d5d",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:wiring_storage",
+			tag: {},
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "18774516",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		},
+		count: 2,
+		random_bonus: 1
+	}]
+}

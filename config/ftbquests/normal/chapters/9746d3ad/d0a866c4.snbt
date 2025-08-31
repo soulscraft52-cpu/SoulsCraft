@@ -1,0 +1,30 @@
+{
+	title: "Легальный телепорт",
+	icon: "enderio:block_travel_anchor",
+	x: -16.5d,
+	y: -5.0d,
+	text: [
+		"Телепорт EnderIO, аналог из IC2"
+	],
+	dependencies: [
+		"a51acf38"
+	],
+	tasks: [{
+		uid: "3082798b",
+		type: "item",
+		items: [{
+			item: "enderio:block_travel_anchor 2"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "a46ee0b5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_25_"
+			}
+		}
+	}]
+}

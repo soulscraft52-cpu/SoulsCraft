@@ -1,0 +1,50 @@
+{
+	title: "Большой улей",
+	icon: "forestry:alveary.plain",
+	x: -16.5d,
+	y: 3.0d,
+	text: [
+		"Супер-мега-дупер-улей"
+	],
+	dependencies: [
+		"83ed4681",
+		"61b36b69"
+	],
+	tasks: [{
+		uid: "6b51cb11",
+		type: "item",
+		items: [{
+			item: "forestry:alveary.plain 27"
+		}],
+		count: 27L
+	},
+	{
+		uid: "631c14d9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "slabWood",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any slabWood"
+				}
+			}
+		}],
+		count: 9L
+	}],
+	rewards: [{
+		uid: "1d649ee3",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		}
+	}]
+}

@@ -1,0 +1,70 @@
+{
+	title: "Конец Монстрам из DIVINE RPG",
+	icon: "contenttweaker:divine_core",
+	x: 15.5d,
+	y: -18.0d,
+	text: [
+		"ХВАТИТ ЭТО ТЕРПЕТЬ"
+	],
+	dependencies: [
+		"4bcd859d"
+	],
+	tasks: [{
+		uid: "cf97b5b5",
+		type: "item",
+		items: [{
+			item: "modularmachinery:divine_automated_killer_controller"
+		}]
+	},
+	{
+		uid: "409d36f3",
+		type: "item",
+		items: [{
+			item: "contenttweaker:divine_automated_killer_casing"
+		}],
+		count: 71L
+	},
+	{
+		uid: "7a749171",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockenergyinputhatch 1 4"
+		}],
+		count: 4L
+	},
+	{
+		uid: "1af22cef",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockoutputbus 1 2"
+		}],
+		count: 8L,
+		only_from_crafting: false
+	},
+	{
+		uid: "8af32673",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing 1 5"
+		}]
+	},
+	{
+		uid: "3cb7a524",
+		type: "item",
+		items: [{
+			item: "railcraft:post_metal 1 4"
+		}],
+		count: 19L
+	}],
+	rewards: [{
+		uid: "facf471a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "6"
+			}
+		},
+		count: 16
+	}]
+}

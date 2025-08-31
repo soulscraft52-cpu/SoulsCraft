@@ -1,0 +1,28 @@
+{
+	title: "Авто-Базовое-Слияние",
+	x: -2.0d,
+	y: 2.5d,
+	text: [
+		"&l&4Данный энжектор нужно поставить как обычный энжектор"
+	],
+	dependencies: [
+		"3cc97c0d"
+	],
+	tasks: [{
+		uid: "4bd49d80",
+		type: "item",
+		items: [{
+			item: "packageddraconic:marked_basic_injector"
+		}]
+	}],
+	rewards: [{
+		uid: "a5cab1fa",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_50_"
+			}
+		}
+	}]
+}

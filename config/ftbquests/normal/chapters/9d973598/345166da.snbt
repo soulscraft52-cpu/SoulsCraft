@@ -1,0 +1,58 @@
+{
+	title: "Если достают криперы...",
+	icon: "divinerpg:ender_chestplate",
+	x: -18.0d,
+	y: -0.5d,
+	text: [
+		"Хотя не, фигня какая-то..."
+	],
+	dependencies: [
+		"c75a694c"
+	],
+	tasks: [{
+		uid: "6dcf39b6",
+		type: "item",
+		items: [{
+			item: "divinerpg:ender_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2d8ef38c",
+		type: "item",
+		items: [{
+			item: "divinerpg:ender_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1a70ce94",
+		type: "item",
+		items: [{
+			item: "divinerpg:ender_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9870ab4e",
+		type: "item",
+		items: [{
+			item: "divinerpg:ender_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "475f173c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

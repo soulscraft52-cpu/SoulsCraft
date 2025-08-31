@@ -1,0 +1,25 @@
+{
+	x: 3.5d,
+	y: -5.5d,
+	dependencies: [
+		"d9f549b5",
+		"b4464075"
+	],
+	tasks: [{
+		uid: "5e26a5a1",
+		type: "item",
+		items: [{
+			item: "thaumadditions:vis_seeds/draco"
+		}]
+	}],
+	rewards: [{
+		uid: "b0efe63b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		}
+	}]
+}

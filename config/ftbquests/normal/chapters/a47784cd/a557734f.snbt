@@ -1,0 +1,23 @@
+{
+	title: "Прочный Корпус",
+	icon: "forestry:sturdy_machine",
+	x: -1.0d,
+	y: -6.5d,
+	can_repeat: true,
+	dependencies: [
+		"6d4fdd0a"
+	],
+	tasks: [{
+		uid: "9578513f",
+		type: "item",
+		items: [{
+			item: "contenttweaker:coin_tier1"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "946c1f51",
+		type: "item",
+		item: "forestry:sturdy_machine"
+	}]
+}

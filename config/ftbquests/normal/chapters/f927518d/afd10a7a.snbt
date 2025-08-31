@@ -1,0 +1,25 @@
+{
+	title: "Чтобы Вис хватало на крафты",
+	x: -8.0d,
+	y: -10.0d,
+	dependencies: [
+		"0fe28527"
+	],
+	tasks: [{
+		uid: "c6839e41",
+		type: "item",
+		items: [{
+			item: "thaumicenergistics:upgrade_arcane"
+		}]
+	}],
+	rewards: [{
+		uid: "fd026c9f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

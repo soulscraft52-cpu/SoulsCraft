@@ -1,0 +1,71 @@
+{
+    "DialogShowWheel": 0b,
+    "AvailabilityQuestId": -1,
+    "Options": [
+        {
+            "OptionSlot": 0,
+            "Option": {
+                "DialogCommand": "",
+                "Dialog": 146,
+                "Title": "Надеюсь. Я уже порядком устал.",
+                "DialogColor": 7134223,
+                "OptionType": 1
+            }
+        }
+    ],
+    "AvailabilityScoreboardType": 1,
+    "DialogHideNPC": 0b,
+    "AvailabilityFactionStance": 0,
+    "AvailabilityScoreboard2Value": 1,
+    "DialogId": 144,
+    "AvailabilityQuest": 0,
+    "AvailabilityDialog4": 0,
+    "AvailabilityScoreboardObjective": "",
+    "AvailabilityDialog3": 0,
+    "AvailabilityQuest2": 0,
+    "AvailabilityQuest3": 0,
+    "AvailabilityScoreboard2Objective": "",
+    "AvailabilityQuest4": 0,
+    "ModRev": 18,
+    "DecreaseFaction1Points": 0b,
+    "DialogQuest": -1,
+    "AvailabilityDialog2": 0,
+    "OptionFactions1": -1,
+    "AvailabilityDayTime": 0,
+    "OptionFactions2": -1,
+    "AvailabilityFaction2Id": -1,
+    "OptionFaction1Points": 100,
+    "AvailabilityScoreboardValue": 1,
+    "DialogDisableEsc": 1b,
+    "AvailabilityFaction": 0,
+    "DialogTitle": "1.03.1.1",
+    "AvailabilityDialog": 0,
+    "AvailabilityScoreboard2Type": 1,
+    "AvailabilityFaction2": 0,
+    "AvailabilityFactionId": -1,
+    "AvailabilityFaction2Stance": 0,
+    "DialogCommand": "/give @dp written_book 1 0 {pages:[\"{\\\"text\\\":\\\"\\\\u041a\\\\u0430\\\\u0442\\\\u0430\\\\u043b\\\\u0438\\\\u0437\\\\u0430\\\\u0442\\\\u043e\\\\u0440 \\\\u0434\\\\u043b\\\\u044f \\\\u0440\\\\u0438\\\\u0442\\\\u0443\\\\u0430\\\\u043b\\\\u0430:\\\\n*\\\\u0427\\\\u0430\\\\u0441\\\\u0442\\\\u044c \\\\u0434\\\\u0443\\\\u0448\\\\u0438 \\\\u0410\\\\u0440\\\\u0442\\\\u0443\\\\u0440\\\\u0430\\\\n\\\\u041f\\\\u0440\\\\u0435\\\\u0434\\\\u043c\\\\u0435\\\\u0442\\\\u044b \\\\u043d\\\\u0435\\\\u043e\\\\u0431\\\\u0445\\\\u043e\\\\u0434\\\\u0438\\\\u043c\\\\u044b\\\\u0435 \\\\u0434\\\\u043b\\\\u044f \\\\u0440\\\\u0438\\\\u0442\\\\u0443\\\\u0430\\\\u043b\\\\u0430:\\\\n*\\\\u0412\\\\u0441\\\\u0435 \\\\u0447\\\\u0430\\\\u0441\\\\u0442\\\\u0438 \\\\u042d\\\\u043a\\\\u0441\\\\u043a\\\\u0430\\\\u043b\\\\u0438\\\\u0431\\\\u0443\\\\u0440\\\\u0430\\\\n*2 \\\\u043c\\\\u0438\\\\u0444\\\\u043c\\\\u0438\\\\u043d\\\\u0438\\\\u0442\\\\u043e\\\\u0432\\\\u044b\\\\u0435 \\\\u0442\\\\u043a\\\\u0430\\\\u043d\\\\u0438\\\\n*2 \\\\u0442\\\\u043e\\\\u0442\\\\u0435\\\\u043c\\\\u0430 \\\\u0431\\\\u0435\\\\u0441\\\\u0441\\\\u043c\\\\u0435\\\\u0440\\\\u0442\\\\u0438\\\\u044f\\\\n*4 \\\\u0430\\\\u0434\\\\u0441\\\\u043a\\\\u0438\\\\u0435 \\\\u0437\\\\u0432\\\\u0435\\\\u0437\\\\u0434\\\\u044b\\\"}\"],title:\"Ритуал\",author:\"Джек\",display:{Lore:[\"Сюда Джек записал, как проводить ритуал.\"]}}",
+    "AvailabilityDialogId": -1,
+    "OptionFaction2Points": 100,
+    "DialogText": "Отлично. Тогда провести ритуал тебе не составит труда. Я записал всё что нужно для ритуала.",
+    "AvailabilityQuest4Id": -1,
+    "AvailabilityQuest3Id": -1,
+    "AvailabilityQuest2Id": -1,
+    "AvailabilityDialog2Id": -1,
+    "AvailabilityDialog3Id": -1,
+    "AvailabilityDialog4Id": -1,
+    "AvailabilityMinPlayerLevel": 0,
+    "DecreaseFaction2Points": 0b,
+    "DialogMail": {
+        "Sender": "",
+        "BeenRead": 0b,
+        "Message": {
+        },
+        "MailItems": [
+        ],
+        "MailQuest": -1,
+        "TimePast": 1633896023660L,
+        "Time": 0L,
+        "Subject": ""
+    }
+}

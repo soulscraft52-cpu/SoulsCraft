@@ -1,0 +1,23 @@
+{
+	title: "Пыль Аэротеума",
+	icon: "thermalfoundation:material 1 1026",
+	x: -11.5d,
+	y: -4.5d,
+	can_repeat: true,
+	dependencies: [
+		"a5701b3d"
+	],
+	tasks: [{
+		uid: "213fd406",
+		type: "item",
+		items: [{
+			item: "contenttweaker:coin_tier1"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "96cd3785",
+		type: "item",
+		item: "thermalfoundation:material 1 1026"
+	}]
+}

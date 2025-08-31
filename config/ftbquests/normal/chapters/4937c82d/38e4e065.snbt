@@ -1,0 +1,12 @@
+{
+	title: "Амулеты придующие жизни новые краски",
+	x: 9.5d,
+	y: -9.0d,
+	dependencies: [
+		"a78ec132"
+	],
+	tasks: [{
+		uid: "82a7d9a4",
+		type: "checkmark"
+	}]
+}

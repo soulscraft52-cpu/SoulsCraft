@@ -1,0 +1,76 @@
+{
+	title: "Очередной день ведьмака",
+	icon: {
+		id: "draconicevolution:mob_soul",
+		tag: {
+			EntityName: "divinerpg:apalachia_cadillion"
+		},
+		Damage: 1s
+	},
+	x: 1.5d,
+	y: -8.5d,
+	text: [
+		"Ещё 7 заказов"
+	],
+	dependencies: [
+		"73979a10"
+	],
+	tasks: [{
+		uid: "ee037583",
+		type: "kill",
+		entity: "divinerpg:apalachia_cadillion",
+		value: 1L
+	},
+	{
+		uid: "f1e11c15",
+		type: "kill",
+		entity: "divinerpg:apalachia_golem",
+		value: 1L
+	},
+	{
+		uid: "dfed21a8",
+		type: "kill",
+		entity: "divinerpg:apalachia_tomo",
+		value: 1L
+	},
+	{
+		uid: "333fa02c",
+		type: "kill",
+		entity: "divinerpg:enchanted_archer",
+		value: 1L
+	},
+	{
+		uid: "e1ad454c",
+		type: "kill",
+		entity: "divinerpg:enchanted_warrior",
+		value: 1L
+	},
+	{
+		uid: "50f69b8b",
+		type: "kill",
+		entity: "divinerpg:spellbinder",
+		value: 1L
+	},
+	{
+		uid: "54f4e847",
+		type: "kill",
+		entity: "divinerpg:eternal_archer",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "20bd60fd",
+		type: "item",
+		item: "divinerpg:apalachia_chunk",
+		count: 4
+	},
+	{
+		uid: "b22918b0",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "full_random"
+			}
+		}
+	}]
+}

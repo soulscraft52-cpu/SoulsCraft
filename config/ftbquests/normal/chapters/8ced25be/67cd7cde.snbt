@@ -1,0 +1,29 @@
+{
+	title: "У меня вопрос",
+	x: 0.0d,
+	y: -9.5d,
+	text: [
+		"Все это время ты стремился к этому?",
+		"Тогда у меня вопрос почему не Хаос Ядро или Сплав какой нибудь неужели ты реально признал идеал?"
+	],
+	dependencies: [
+		"be08e9bd"
+	],
+	tasks: [{
+		uid: "0011424c",
+		type: "item",
+		items: [{
+			item: "extrautils2:opinium 1 8"
+		}]
+	}],
+	rewards: [{
+		uid: "388c24ea",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_100_"
+			}
+		}
+	}]
+}
