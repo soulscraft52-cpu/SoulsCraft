@@ -48,3 +48,6 @@ usercache.json
 usernamecache.json
 # === Packwiz и прочее ===
 .packwiz/
+
+git rm -r --cached tv-cache/ journeymap/ local/ logs/ versions/ crafttweaker.log hei_bookmarks.ini servers.dat servers.dat.bak usercache.json usernamecache.json
+ 
