@@ -28,6 +28,7 @@ screenshots/
 *.mrpack
 *.zip
 pack.zip
+launcher_profiles.json
 
 # === Серверные миры ===
 world/
